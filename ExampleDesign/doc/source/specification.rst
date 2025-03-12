@@ -1,4 +1,4 @@
-Specification of the Transimpedance Amplifier
+Specification of the Amazing Design
 ###################################
 
 

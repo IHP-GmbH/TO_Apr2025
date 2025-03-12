@@ -1,7 +1,6 @@
-Validation  of the Transimpedance Amplifier
+Validation  of the Amazing Design
 #################################
 
 
 Document the measurement results here.
 
-Measurement Result will be proveded here after testing the Amplifier.
