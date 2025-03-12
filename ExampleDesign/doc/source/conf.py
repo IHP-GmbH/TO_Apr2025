@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Amazing Design'
+project = 'DC to 40 GHz Transimpedance Amplifier with less then 10 pA/sqrt(Hz) Input Reffered Noise Current'
 copyright = '2024, IHP Open PDK'
-author = 'Amazing Design Authors'
+author = 'Rupok Das'
 
 release = '0.1'
 version = '0.1.0'
