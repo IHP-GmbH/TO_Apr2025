@@ -1,6 +1,6 @@
 <Qucs Schematic 24.4.1>
 <Properties>
-  <View=-3570,-1560,6052,1908,0.353554,497,78>
+  <View=-3190,-1244,3662,1924,0.353554,383,0>
   <Grid=10,10,1>
   <DataSet=TIA.dat>
   <DataDisplay=TIA.dpl>
@@ -67,6 +67,12 @@
   <SPfile choke_3 1 670 -780 -480 -26 0 1 "C:/Users/rupok_nsl/Documents/layout_em_new/output/choke_3_data/choke_3.s2p" 1 "rectangular" 0 "linear" 0 "short" 0 "2" 0>
   <SPfile peaking_TL 1 280 -440 -26 -59 0 0 "C:/Users/rupok_nsl/Documents/layout_em_new/output/peaking_TL_data/peaking_TL_0hz_changed.s2p" 1 "rectangular" 0 "linear" 0 "short" 0 "2" 0>
   <SPfile degenration_TL 1 670 -140 -326 -26 0 1 "C:\Users\rupok_nsl\QucsWorkspace\s2p_files\TL_20_um.s2p" 1 "rectangular" 0 "linear" 0 "short" 0 "2" 0>
+  <GND * 1 950 -820 0 0 0 0>
+  <GND * 1 250 -820 0 0 0 0>
+  <GND * 1 -280 -860 0 0 0 0>
+  <Lib cap_cmim1 1 -280 -880 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "60.0u" 1 "30u" 1>
+  <Lib cap_cmim4 1 250 -840 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "60.0u" 1 "30u" 1>
+  <Lib cap_cmim5 1 950 -840 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "60.0u" 1 "30u" 1>
 </Components>
 <Wires>
   <-1750 -300 -1750 -220 "" 0 0 0 "">
@@ -136,6 +142,9 @@
   <-1750 -480 -1750 -360 "" 0 0 0 "">
   <-1750 -480 -1100 -480 "" 0 0 0 "">
   <-1040 -480 -690 -480 "" 0 0 0 "">
+  <-360 -900 -280 -900 "" 0 0 0 "">
+  <170 -860 250 -860 "" 0 0 0 "">
+  <870 -860 950 -860 "" 0 0 0 "">
 </Wires>
 <Diagrams>
   <Rect -1140 620 240 160 3 #c0c0c0 1 00 1 0 2e+10 1e+11 0 -30 10 30 1 -1 1 1 315 0 225 1 0 0 "" "" "">
