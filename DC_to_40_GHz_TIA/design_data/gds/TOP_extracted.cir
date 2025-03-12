@@ -1,4 +1,4 @@
-* Extracted by KLayout with SG13G2 LVS runset on : 11/03/2025 03:03
+* Extracted by KLayout with SG13G2 LVS runset on : 12/03/2025 02:45
 
 .SUBCKT TOP
 C$1 \$I12 \$1 cap_cmim w=30u l=60u A=1800p P=180u m=2

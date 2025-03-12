@@ -1,18 +1,18 @@
-* Extracted by KLayout with SG13G2 LVS runset on : 10/03/2025 23:27
+* Extracted by KLayout with SG13G2 LVS runset on : 12/03/2025 02:45
 
 .SUBCKT TOP
 C$1 \$I12 \$1 cap_cmim w=30u l=60u A=1800p P=180u m=2
 C$2 \$I7 \$1 cap_cmim w=30u l=60u A=1800p P=180u m=2
 C$5 \$I10 \$1 cap_cmim w=30u l=60u A=1800p P=180u m=2
 R$7 \$I18586 \$I18587 rppd w=2u l=6.5u ps=0 b=0 m=1
-R$8 \$1 \$1 rsil w=4u l=3u ps=0 b=0 m=1
+R$8 \$1 \$I18590 rsil w=4u l=3u ps=0 b=0 m=1
 R$9 \$I18588 \$I10 rsil w=4u l=14.5u ps=0 b=0 m=1
 R$10 \$1 \$I18587 rppd w=3u l=6u ps=0 b=0 m=1
 Q$11 \$I12 \$I18589 \$I18587 \$1 npn13G2 AE=0.063p PE=1.94u AB=31.9135p
 + PB=26.72u AC=31.896634p PC=26.71u NE=5 m=5
 R$16 \$I7 \$I18589 rppd w=8u l=4.5u ps=0 b=0 m=1
-Q$17 \$I18588 \$I18587 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
-+ AC=63.429884p PC=45.21u NE=10 m=10
+Q$17 \$I18588 \$I18587 \$I18590 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p
++ PB=45.22u AC=63.429884p PC=45.21u NE=10 m=10
 Q$27 \$I18589 \$I18586 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
 + AC=63.429884p PC=45.21u NE=10 m=10
 .ENDS TOP
