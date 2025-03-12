@@ -1,6 +1,6 @@
 <Qucs Schematic 24.4.1>
 <Properties>
-  <View=-3190,-1244,3662,1924,0.353554,383,0>
+  <View=-3190,-1310,4200,1921,0.517638,825,0>
   <Grid=10,10,1>
   <DataSet=TIA.dat>
   <DataDisplay=TIA.dpl>
@@ -35,7 +35,6 @@
   <IProbe Pr5 1 -30 -340 -41 -26 0 3>
   <GND * 1 280 -410 0 0 0 0>
   <IProbe Pr6 1 40 -860 -26 16 1 2>
-  <GND * 1 170 -740 0 0 0 0>
   <Vdc V2 1 170 -830 18 -26 0 1 "2.4 V" 1>
   <GND * 1 740 -750 0 0 0 0>
   <GND * 1 30 -740 0 0 0 0>
@@ -73,6 +72,7 @@
   <Lib cap_cmim1 1 -280 -880 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "60.0u" 1 "30u" 1>
   <Lib cap_cmim4 1 250 -840 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "60.0u" 1 "30u" 1>
   <Lib cap_cmim5 1 950 -840 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "60.0u" 1 "30u" 1>
+  <GND * 1 170 -810 0 0 0 0>
 </Components>
 <Wires>
   <-1750 -300 -1750 -220 "" 0 0 0 "">
@@ -107,7 +107,6 @@
   <-30 -650 -30 -610 "" 0 0 0 "">
   <-30 -730 -30 -650 "" 0 0 0 "">
   <70 -860 170 -860 "" 0 0 0 "">
-  <170 -800 170 -740 "" 0 0 0 "">
   <-30 -860 10 -860 "" 0 0 0 "">
   <-30 -860 -30 -790 "" 0 0 0 "">
   <740 -780 740 -750 "" 0 0 0 "">
@@ -145,6 +144,7 @@
   <-360 -900 -280 -900 "" 0 0 0 "">
   <170 -860 250 -860 "" 0 0 0 "">
   <870 -860 950 -860 "" 0 0 0 "">
+  <170 -810 170 -800 "" 0 0 0 "">
 </Wires>
 <Diagrams>
   <Rect -1140 620 240 160 3 #c0c0c0 1 00 1 0 2e+10 1e+11 0 -30 10 30 1 -1 1 1 315 0 225 1 0 0 "" "" "">
