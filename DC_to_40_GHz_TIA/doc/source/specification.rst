@@ -1,13 +1,19 @@
 Specification of the Transimpedance Amplifier
-###################################
+##############################################
 
 .. list-table:: Specification
-   :widths: 25 25 50
+   :widths: 100 25
    :header-rows: 1
 
    * - Specification
      - Value
    * - Bandwidth
      - 0 to 40 GHz
-   * - Transimpedanc
-     - 53.7 dBOhm
+   * - Transimpedance
+     - 53.7 dB :math:`\Omega`
+   * - Gain
+     - 17 dB
+   * - Group Delay Variation
+     - 5 ps
+   * - Phase Deviation from Linear Phase
+     - :math:`\pm` :math:`4^\circ`
