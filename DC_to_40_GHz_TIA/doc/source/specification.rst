@@ -2,7 +2,7 @@ Specification of the Transimpedance Amplifier
 ##############################################
 
 .. list-table:: Specification
-   :widths: 100 25
+   :widths: 150 50
    :header-rows: 1
 
    * - Specification
@@ -17,3 +17,7 @@ Specification of the Transimpedance Amplifier
      - 5 ps
    * - Phase Deviation from Linear Phase
      - ±4°
+   * - Input Reffered Noise Current
+     - 10 pA/√Hz
+   * - Power Cosumption
+     - 10.22 mW

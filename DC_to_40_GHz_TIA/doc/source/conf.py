@@ -1,5 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 
+# Define the master document
+master_doc = 'index'
+
 # -- Project information
 
 project = 'DC to 40 GHz Transimpedance Amplifier with less then 10 pA/sqrt(Hz) Input Reffered Noise Current'

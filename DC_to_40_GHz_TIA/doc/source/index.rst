@@ -6,7 +6,7 @@ Welcome to Transimpedance Amplifier Design using Open Source PDK documentation!
 
 .. toctree::
     :hidden:
-    
+
     specification
     designdata
     validation
