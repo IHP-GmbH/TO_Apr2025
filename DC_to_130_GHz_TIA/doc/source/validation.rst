@@ -11,14 +11,14 @@ The drc results for both minimal and maximal rule files have shown that there is
 
 Minimal DRC Check - 
 
-.. image:: _static/minimal.png
+.. image:: _static/minimal.PNG
     :align: center
     :width: 400
 
 
 Maximal DRC Check - 
 
-.. image:: _static/maximal.png
+.. image:: _static/maximal.PNG
     :align: center
     :width: 400
 
@@ -30,16 +30,10 @@ The LVS result is shown below. The lvs result of cross-reference checking, circu
 
 Top cell cross-reference-
 
-.. image:: _static/lvs.png
+.. image:: _static/lvs.PNG
     :align: center
     :width: 400
 
  
- Circuit Top lvs check -
 
- .. image:: _static/circuitlvs.png
-    :align: center
-    :width: 400
-
-Layout Top lvs check - 
 
