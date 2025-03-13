@@ -8,4 +8,7 @@ Document the measurement results here.
     :align: center
     :alt: IHP Logo Image.
     :width: 800
+    :height: 400
+ 
+
 
