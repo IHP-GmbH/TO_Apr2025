@@ -26,7 +26,7 @@ Maximal DRC Check -
 LVS Check
 -----------------------------
 
-The LVS result is shown below. The lvs result of cross-reference checking, circuit netlist connection and layout netlist connection are all shown below- 
+The LVS result is shown below. The lvs result of cross-reference checking, circuit netlist connection are shown below- 
 
 Top cell cross-reference-
 
@@ -36,4 +36,9 @@ Top cell cross-reference-
 
  
 
+Top cell cross-reference-
+
+.. image:: _static/circuitlvs.PNG
+    :align: center
+    :width: 400
 
