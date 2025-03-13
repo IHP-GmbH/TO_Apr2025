@@ -13,7 +13,6 @@ Minimal DRC Check -
 
 .. image:: _static/minimal.png
     :align: center
-    :alt: IHP Logo Image.
     :width: 400
 
 
@@ -21,7 +20,6 @@ Maximal DRC Check -
 
 .. image:: _static/maximal.png
     :align: center
-    :alt: IHP Logo Image.
     :width: 400
 
 
@@ -34,7 +32,6 @@ Top cell cross-reference-
 
 .. image:: _static/lvs.png
     :align: center
-    :alt: IHP Logo Image.
     :width: 400
 
  
@@ -42,7 +39,6 @@ Top cell cross-reference-
 
  .. image:: _static/circuitlvs.png
     :align: center
-    :alt: IHP Logo Image.
     :width: 400
 
 Layout Top lvs check - 
