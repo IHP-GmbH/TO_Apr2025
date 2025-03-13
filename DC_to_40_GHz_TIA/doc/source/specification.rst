@@ -16,4 +16,4 @@ Specification of the Transimpedance Amplifier
    * - Group Delay Variation
      - 5 ps
    * - Phase Deviation from Linear Phase
-     - :math:`\pm` :math:`4^\circ`
+     - ±4°
