@@ -1,9 +1,9 @@
 <Qucs Schematic 25.1.0>
 <Properties>
-  <View=-580,488,2604,1373,1.56418,1018,0>
+  <View=-82,587,1366,1401,1.09582,0,0>
   <Grid=10,10,1>
-  <DataSet=DC_to_130_GHz_TIA_complete.dat>
-  <DataDisplay=DC_to_130_GHz_TIA_complete.dpl>
+  <DataSet=DC_to_130_GHz_TIA.dat>
+  <DataDisplay=DC_to_130_GHz_TIA.dpl>
   <OpenDisplay=0>
   <Script=DC_to_130_GHz_TIA_complete.m>
   <RunScript=0>
@@ -19,7 +19,6 @@
   <Lib npn13G1 1 470 1130 10 64 0 0 "C:/Users/nsl/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "5" 1>
   <Lib npn13G2 1 810 1050 10 64 0 0 "C:/Users/nsl/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "4" 1>
   <Lib rppd1 1 630 1000 -110 -196 0 0 "C:/Users/nsl/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "15u" 1 "4u" 1 "1" 1>
-  <Lib rppd3 1 480 890 -196 46 0 1 "C:/Users/nsl/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "30u" 1 "6u" 1 "1" 1>
   <Lib cap_cmim2 1 970 720 30 -26 0 0 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "30u" 1 "30u" 1>
   <GND * 1 200 1160 0 0 0 0>
   <Lib cap_cmim1 1 600 720 30 -26 0 0 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "30u" 1 "30u" 1>
@@ -30,7 +29,8 @@
   <SPfile X1 1 200 1130 -26 -53 0 0 "C:/Users/nsl/Desktop/TO_Apr2025/DC_to_130_GHz_TIA/design_data/openEMS/s2p files/INPUT.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X4 1 920 920 -26 -53 0 0 "C:/Users/nsl/Desktop/TO_Apr2025/DC_to_130_GHz_TIA/design_data/openEMS/s2p files/RF_OUT.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X2 1 520 680 -26 -53 0 0 "C:/Users/nsl/Desktop/TO_Apr2025/DC_to_130_GHz_TIA/design_data/openEMS/s2p files/272em.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X3 1 880 680 -26 -53 0 0 "C:/Users/nsl/Desktop/TO_Apr2025/DC_to_130_GHz_TIA/design_data/openEMS/s2p files/250um_straight_em.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <Lib rppd3 1 480 890 -196 46 0 1 "C:/Users/nsl/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "30u" 1 "6.3u" 1 "1" 1>
+  <SPfile X3 1 880 680 -26 -53 0 0 "C:/Users/nsl/Desktop/254em.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
 </Components>
 <Wires>
   <470 1180 470 1310 "VSS" 500 1230 80 "">
