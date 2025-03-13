@@ -7,5 +7,5 @@ Document the measurement results here.
 .. image:: _static/Capture.PNG
     :align: center
     :alt: IHP Logo Image.
-    :width: 400
+    :width: 800
 
