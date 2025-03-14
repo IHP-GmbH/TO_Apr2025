@@ -32,7 +32,7 @@ Top cell cross-reference-
 
 .. image:: _static/lvs.PNG
     :align: center
-    :width: 400
+    :width: 1600
 
  
 
