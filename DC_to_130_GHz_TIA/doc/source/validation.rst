@@ -44,7 +44,7 @@ Circuit TOP lvs check-
 
 
 
-Meaurement result
+Measurement result
 ###############################################
 
 The measured results will be updated once test results are in hand.

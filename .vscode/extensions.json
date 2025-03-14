@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "swyddfa.esbonio"
+        "swyddfa.esbonio",
+        "ms-vscode.makefile-tools",
+        "lextudio.restructuredtext-pack"
     ]
 }
