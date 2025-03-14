@@ -17,7 +17,7 @@ Specification of the Transimpedance Amplifier
      - 5 ps
    * - Phase Deviation from Linear Phase
      - ±4°
-   * - Input Reffered Noise Current
-     - 10 pA/√Hz
+   * - Average Input Reffered Noise Current
+     - 9.5 pA/√Hz
    * - Power Cosumption
      - 10.22 mW
