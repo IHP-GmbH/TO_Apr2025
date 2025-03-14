@@ -9,5 +9,5 @@ The design procedure can be explained with a flow chart -
 
 .. image:: _static/Flowchart.PNG
     :align: center
-    :width: 400
+    :width: 1200
     :height: 1200
