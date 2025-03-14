@@ -1,7 +1,7 @@
 Specification of the Transimpedance Amplifier
 ##############################################
 
-.. list-table:: Specification
+.. list-table:: **Specification**
    :widths: 150 50
    :header-rows: 1
 
