@@ -22,3 +22,10 @@ Design data and design process description
     :align: center
     :alt: Transimpedance Image.
     :width: 800
+
+**Simulated Output Noise Spectral Density:**
+
+.. image:: _static/output_noise.png
+    :align: center
+    :alt: Transimpedance Image.
+    :width: 800
