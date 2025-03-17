@@ -17,11 +17,12 @@ Specification of the Transimpedance Amplifier
      - 5 ps
    * - Phase Deviation from Linear Phase
      - ±4°
-   * - Average Input Reffered Noise Current
+   * - Average Input Reffered Current Noise Density
      - 9.5 pA/√Hz
    * - Power Cosumption
      - 10.22 mW
      
+
 .. list-table:: **DC Voltages**
    :widths: 150 50
    :header-rows: 0
@@ -47,15 +48,15 @@ Specification of the Transimpedance Amplifier
    * - Parameter
      - Value
    * - TL1
-     - 570 um
+     - 570 µm
    * - TL2
-     - 530 um
+     - 530 µm
    * - TL3
-     - 290 um
+     - 290 µm
    * - TL4
-     - 450 um
+     - 450 µm
    * - TL5
-     - 20 um
+     - 20 µm
    * - R\ :sub:`F`
      - 880 Ω
    * - R\ :sub:`C1`
@@ -79,3 +80,5 @@ Specification of the Transimpedance Amplifier
   :align: center
   :alt: Pads Image.
   :width: 800
+
+**Layout Size: 700 µm × 980 µm**
