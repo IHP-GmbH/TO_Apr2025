@@ -30,8 +30,8 @@ The schematic capture of the circuit is shown below -
 
 .. image:: _static/schematic.png
     :align: center
-    :width: 600
-    :height: 600
+    :width: 800
+    :height: 400
 
 
 
