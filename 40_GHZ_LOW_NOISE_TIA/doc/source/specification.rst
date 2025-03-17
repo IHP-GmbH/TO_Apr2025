@@ -35,7 +35,7 @@ Specification of the Transimpedance Amplifier
 
 **Schematic:**
 
-.. image:: _static/schematic.png
+.. image:: _static/schematic.jpg
     :align: center
     :alt: Schematic Image.
     :width: 800
