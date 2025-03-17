@@ -4,7 +4,7 @@
 R$1 VSS VSS ptap1 A=3.6504p P=18.72u
 R$7 OUTPUT VDD2V$1 rppd w=11.5u l=2u ps=0 b=0 m=1
 R$8 VDD2V \$I16 rppd w=15u l=4u ps=0 b=0 m=1
-R$9 INPUT \$I16 rppd w=30u l=6u ps=0 b=0 m=1
+R$9 INPUT \$I16 rppd w=29u l=6.3u ps=0 b=0 m=1
 Q$10 \$I16 INPUT VSS VSS npn13G2 AE=0.063p PE=1.94u AB=31.9135p PB=26.72u
 + AC=31.896634p PC=26.71u NE=5 m=5
 Q$15 OUTPUT \$I16 VSS VSS npn13G2 AE=0.063p PE=1.94u AB=25.605p PB=23.02u

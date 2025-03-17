@@ -22,5 +22,5 @@ Xcap_cmim1 0  VCC2V VEE IHP_PDK_basic_components_cap_cmim l=30U w=30U
 Xcap_cmim2 0  VCC2V VEE IHP_PDK_basic_components_cap_cmim l=30U w=30U
 Xrppd2 0  VCC2V OUTPUT IHP_PDK_basic_components_rppd w=11.5U l=2U m=1
 Xrppd1 0  VCC2V _net0 IHP_PDK_basic_components_rppd w=15U l=4U m=1
-Xrppd3 0  INPUT _net0 IHP_PDK_basic_components_rppd w=30U l=6U m=1
+Xrppd3 0  INPUT _net0 IHP_PDK_basic_components_rppd w=29U l=6.3U m=1
 .END

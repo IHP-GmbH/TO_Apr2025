@@ -40,9 +40,90 @@ The circuit topology is as follows -
 ------------------------
 
 The 1st stage is a resistive feedback common emitter amplifier which primarily gives the transimpedance gain. The feedback resistor RF is responsible for it.
-The 1st stage uses a 5 emitter length npn13G2 HBT. Another resistor in series with a 272 um TL line gives a peaking response.
+The 1st stage uses a 5 emitter length npn13G2 HBT. Another resistor in series with a 272 um TL line gives a peaking response. This stage sets the S21 and TIA dB-Ohm 
+gain.
+
+.. list-table:: Design Data of 1st stage
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Design Data
+     - Value/Parameter
+   * - Emitter Length
+     - 5
+   * - Feedback resistor, RF
+     - 51 Ohm
+   * - Collector resistor, Rc 
+     - 74 Ohm
+   * - Transmission line
+     - 272 um    
+   * - Supply voltage, VCC
+     - 2 V 
+   * - Decoupling capacitor
+     - 1 pF
+
+
+2nd stage
+--------------------------------------
+
+The 2nd stage is a simple common emitter amplifier which further enhances the bandwidth of the S21 & transimpedance gain.
+Here, a 4 emitter length npn13G2 hbt, 254 um TL line and a 53 ohm load resistor have been used.
+
+.. list-table:: Design Data of 2nd stage
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Design Data
+     - Value/Parameter
+   * - Emitter Length
+     - 4
+   * - Collector resistor, Rc 
+     - 53 Ohm
+   * - Transmission line
+     - 254 um    
+   * - Supply voltage, VCC
+     - 2 V 
+   * - Decoupling capacitor
+     - 1 pF
 
 
 
+Layout Design
+----------------------------------------
 
+The complete layout view -
+
+
+.. image:: _static/layout.PNG
+    :align: center
+    :width: 600
+    :height: 600
+
+Pin out view -
+
+.. image:: _static/pin_out.png
+    :align: center
+    :width: 600
+    :height: 600
+
+
+
+.. list-table:: Layout data
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Design Data
+     - Value/Parameter
+   * - Area
+     - 6.8e-07 sq mm ( 760 mm X 900 um)
+   * - RF Signal Pad Dimension
+     - 30 X 57 sq um
+   * - Input Pad to Core TL line
+     - 100    
+   * - Output Pad to Core TL line
+     - 200 um
+
+
+Simulated Result
+###########################################################
 
