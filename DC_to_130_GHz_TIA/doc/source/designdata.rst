@@ -39,7 +39,7 @@ The circuit topology is as follows -
 1st Stage 
 ------------------------
 
-The 1st stage is a resistive feedback common emitter amplifier which primarily gives 
+The 1st stage is a resistive feedback common emitter amplifier which primarily gives the transimpedance gain. The feedback resistor RF is 
 
 
 
