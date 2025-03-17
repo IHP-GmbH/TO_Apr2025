@@ -9,8 +9,8 @@ The design procedure can be explained with a flow chart -
 
 .. image:: _static/flowchart.png
     :align: center
-    :width: 800
-    :height: 600
+    :width: 500
+    :height: 400
 
 Initial Phase
 ----------------------------------------------
