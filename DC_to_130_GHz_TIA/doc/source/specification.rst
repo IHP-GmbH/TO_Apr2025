@@ -2,5 +2,5 @@ Specification of the Amazing Design
 ###################################
 
 
-Provide your specification here. Consider comparison with other stat of an art designs. 
+Provide your specification here. Consider comparison with other state of an art designs. 
 

@@ -9,8 +9,8 @@ The design procedure can be explained with a flow chart -
 
 .. image:: _static/flowchart.png
     :align: center
-    :width: 600
-    :height: 800
+    :width: 800
+    :height: 600
 
 Initial Phase
 ----------------------------------------------
@@ -23,6 +23,7 @@ which would be the highest bandwidth in a SiGe process. Comparison of the other 
 Literature review
 ---------------------------
 
-Please kindly refer to 
+Please kindly refer to the specification specification
+
 
 
