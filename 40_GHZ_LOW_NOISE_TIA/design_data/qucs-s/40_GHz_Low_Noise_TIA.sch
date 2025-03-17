@@ -1,9 +1,9 @@
 <Qucs Schematic 24.4.1>
 <Properties>
-  <View=-3190,-1310,4200,1921,0.517638,825,0>
+  <View=-6747,-3660,7340,4943,0.757873,4314,1948>
   <Grid=10,10,1>
-  <DataSet=TIA.dat>
-  <DataDisplay=TIA.dpl>
+  <DataSet=40_GHz_Low_Noise_TIA.dat>
+  <DataDisplay=40_GHz_Low_Noise_TIA.dpl>
   <OpenDisplay=0>
   <Script=Final1.m>
   <RunScript=0>
@@ -35,13 +35,13 @@
   <IProbe Pr5 1 -30 -340 -41 -26 0 3>
   <GND * 1 280 -410 0 0 0 0>
   <IProbe Pr6 1 40 -860 -26 16 1 2>
-  <Vdc V2 1 170 -830 18 -26 0 1 "2.4 V" 1>
+  <Vdc V2 1 170 -830 18 -26 0 1 "2.1 V" 1>
   <GND * 1 740 -750 0 0 0 0>
   <GND * 1 30 -740 0 0 0 0>
   <GND * 1 740 -110 0 0 0 0>
   <IProbe Pr7 1 -460 -900 -26 16 1 2>
   <GND * 1 -360 -840 0 0 0 0>
-  <Vdc V3 1 -360 -870 18 -26 0 1 "2 V" 1>
+  <Vdc V3 1 -360 -870 18 -26 0 1 "2.1 V" 1>
   <.SP SP1 1 -130 -1130 0 68 0 0 "lin" 1 "1 Hz" 1 "100 GHz" 1 "1001" 1 "yes" 1 "1" 1 "2" 1 "no" 0 "no" 0>
   <Lib npn13G2 1 -30 -560 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "5" 1>
   <Lib npn13G3 1 670 -440 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "10" 1>
@@ -189,7 +189,7 @@
   <Rect -1110 1689 571 321 3 #c0c0c0 1 00 1 0 1e+10 1e+11 0 0 5e-12 5.5e-11 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.grp_dly" #0000ff 0 3 0 0 0>
 	  <Mkr 4e+10 250 -390 3 0 0>
-	  <Mkr 2.29e+10 50 -390 3 0 0>
+	  <Mkr 1.84e+10 50 -390 3 0 0>
   </Rect>
   <Rect -200 1586 781 166 3 #c0c0c0 1 00 1 -1 0.2 1 1 -1 1 1 1 -1 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.s21_phase" #0000ff 0 3 0 0 0>

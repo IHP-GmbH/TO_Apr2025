@@ -28,9 +28,9 @@ Specification of the Transimpedance Amplifier
    :header-rows: 0
 
    * - VCC1
-     - 2 V
+     - 2.1 V
    * - VCC 2
-     - 2.4 V
+     - 2.1 V
    * - VCC 3
      - 1.7 V
 
