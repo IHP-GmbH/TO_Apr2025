@@ -9,8 +9,7 @@ This repository contains the design files for a DC to 40 GHz Transimpedance Ampl
 * Designed using open-source tools
 
 **Repository Contents**
-* Schematic & Layout files
-* Simulation Data & Results
-* Netlists & Configurations
+* design_data: Schematic, Layout, s2p files, drc & lvs results.
+* doc: Details specification & design data.
 
 For in-depth design details, check the doc directory.
