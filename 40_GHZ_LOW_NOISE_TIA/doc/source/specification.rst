@@ -2,7 +2,7 @@ Specification of the Transimpedance Amplifier
 ##############################################
 
 .. list-table:: **Specification**
-   :widths: 600 200
+   :widths: 400 200
    :header-rows: 1
 
    * - Specification
@@ -17,14 +17,14 @@ Specification of the Transimpedance Amplifier
      - 5 ps
    * - Phase Deviation from Linear Phase
      - ±4°
-   * - Average Input Reffered Current Noise Density
+   * - Average Input Referred Current Noise Density
      - 9.5 pA/√Hz
-   * - Power Cosumption
+   * - Power Consumption
      - 10.22 mW
      
 
 .. list-table:: **DC Voltages**
-   :widths: 266 266 266
+   :widths: 200 200 200
    :header-rows: 0
 
    * - VCC1
@@ -42,7 +42,7 @@ Specification of the Transimpedance Amplifier
     :width: 800
 
 .. list-table:: **Components Values**
-   :widths: 300 100 300 100
+   :widths: 200 100 200 100
    :header-rows: 1
 
    * - Parameter
