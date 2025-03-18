@@ -10,9 +10,9 @@ Specification of the Transimpedance Amplifier
    * - Bandwidth
      - 0 to 40 GHz
    * - Transimpedance
-     - 53.7 dBΩ
+     - 55 dBΩ
    * - Gain
-     - 17 dB
+     - 18.8 dB
    * - Group Delay Variation
      - 5 ps
    * - Phase Deviation from Linear Phase
@@ -24,14 +24,14 @@ Specification of the Transimpedance Amplifier
      
 
 .. list-table:: **DC Voltages**
-   :widths: 150 50
+   :widths: 150 150 150
    :header-rows: 0
 
    * - VCC1
+     - VCC2
+     - VCC3
+   * - 2.1 V
      - 2.1 V
-   * - VCC 2
-     - 2.1 V
-   * - VCC 3
      - 1.7 V
 
 **Schematic:**
@@ -42,37 +42,41 @@ Specification of the Transimpedance Amplifier
     :width: 800
 
 .. list-table:: **Components Values**
-   :widths: 150 50
+   :widths: 150 50 150 50
    :header-rows: 1
 
    * - Parameter
      - Value
+     - Parameter
+     - Value
    * - TL1
      - 570 µm
+     - R\ :sub:`E2`
+     - 540 Ω
    * - TL2
      - 530 µm
+     - R\ :sub:`C3`
+     - 30 Ω
    * - TL3
      - 290 µm
+     - R\ :sub:`E3`
+     - 8 Ω
    * - TL4
      - 450 µm
+     - Q\ :sub:`1`
+     - 10×70×900 nm\ :sup:`2`
    * - TL5
      - 20 µm
+     - Q\ :sub:`2`
+     - 5×70×900 nm\ :sup:`2`
    * - R\ :sub:`F`
      - 880 Ω
+     - Q\ :sub:`3`
+     - 10×70×900 nm\ :sup:`2`
    * - R\ :sub:`C1`
      - 155 Ω
-   * - R\ :sub:`E2`
-     - 540 Ω
-   * - R\ :sub:`C3`
-     - 30 Ω
-   * - R\ :sub:`E3`
-     - 8 Ω
-   * - Q\ :sub:`1`
-     - 10×70×900 nm\ :sup:`2`
-   * - Q\ :sub:`2`
-     - 5×70×900 nm\ :sup:`2`
-   * - Q\ :sub:`3`
-     - 10×70×900 nm\ :sup:`2`
+     -
+     -
 
 **Layout:**
 
