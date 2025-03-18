@@ -2,7 +2,7 @@ Specification of the Transimpedance Amplifier
 ##############################################
 
 .. list-table:: **Specification**
-   :widths: 150 50
+   :widths: 600 200
    :header-rows: 1
 
    * - Specification
@@ -24,7 +24,7 @@ Specification of the Transimpedance Amplifier
      
 
 .. list-table:: **DC Voltages**
-   :widths: 150 150 150
+   :widths: 266 266 266
    :header-rows: 0
 
    * - VCC1
@@ -42,7 +42,7 @@ Specification of the Transimpedance Amplifier
     :width: 800
 
 .. list-table:: **Components Values**
-   :widths: 150 50 150 50
+   :widths: 300 100 300 100
    :header-rows: 1
 
    * - Parameter
