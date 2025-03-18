@@ -29,8 +29,8 @@
   <SPfile X1 1 200 1130 -26 -53 0 0 "C:/Users/nsl/Desktop/TO_Apr2025/DC_to_130_GHz_TIA/design_data/openEMS/s2p files/INPUT.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X4 1 920 920 -26 -53 0 0 "C:/Users/nsl/Desktop/TO_Apr2025/DC_to_130_GHz_TIA/design_data/openEMS/s2p files/RF_OUT.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X2 1 520 680 -26 -53 0 0 "C:/Users/nsl/Desktop/TO_Apr2025/DC_to_130_GHz_TIA/design_data/openEMS/s2p files/272em.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <Lib rppd3 1 480 890 -196 46 0 1 "C:/Users/nsl/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "30u" 1 "6.3u" 1 "1" 1>
   <SPfile X3 1 880 680 -26 -53 0 0 "C:/Users/nsl/Desktop/254em.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <Lib rppd3 1 480 890 -196 46 0 1 "C:/Users/nsl/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "29u" 1 "6.3u" 1 "1" 1>
 </Components>
 <Wires>
   <470 1180 470 1310 "VSS" 500 1230 80 "">
