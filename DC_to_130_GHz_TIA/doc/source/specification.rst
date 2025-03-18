@@ -25,3 +25,7 @@ Specification of the DC to 130 GHz Bandwidth transimpedance Amplifier Design
 Comparison with other state of the art designs
 ----------------------------------------------------
 
+.. image:: _static/comparison.PNG
+    :align: center
+    :width: 800
+    :height: 800
