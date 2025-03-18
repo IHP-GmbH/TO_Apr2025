@@ -13,14 +13,14 @@ Minimal DRC Check -
 
 .. image:: _static/minimal.PNG
     :align: center
-    :width: 400
+    :width: 800
 
 
 Maximal DRC Check - 
 
 .. image:: _static/maximal.PNG
     :align: center
-    :width: 400
+    :width: 800
 
 
 LVS Check
@@ -40,7 +40,7 @@ Circuit TOP lvs check-
 
 .. image:: _static/circuitlvs.PNG
     :align: center
-    :width: 400
+    :width: 800
 
 
 Electromagnetic Simulation

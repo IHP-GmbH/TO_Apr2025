@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>design rules: sg13g2_minimal | layout cell: TOP</description>
- <original-file>C:\Users\nsl\Desktop\DC-130 GHz TIA\DC_to_130_TIA_Design_Final.gds</original-file>
+ <original-file>C:\Users\nsl\Desktop\TO_Apr2025\DC_to_130_GHz_TIA\design_data\gds\FMD_QNC_DC_to_130_GHz_TIA_Design.gds</original-file>
  <generator>drc: script='C:/Users/nsl/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc\\sg13g2_minimal.lydrc'</generator>
  <top-cell>TOP</top-cell>
  <tags>
-  <tag>
-   <name>waived</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>red</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>green</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>blue</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>yellow</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>important</name>
-   <description/>
-  </tag>
  </tags>
  <categories>
   <category>
