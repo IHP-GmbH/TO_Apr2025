@@ -1,6 +1,10 @@
 Design data and design process description
 ############################################
 
+Schematic: Qucs-s 24.4.1
+
+Simulator: Ngspice 44.2
+
 
 **Simulated S-parameters:**
 
@@ -20,7 +24,21 @@ Design data and design process description
 
 .. image:: _static/GD_simulated.png
     :align: center
-    :alt: Transimpedance Image.
+    :alt: Group Delay Image.
+    :width: 800
+
+**Simulated Rollet's Condition for stability:**
+
+.. image:: _static/k_factor.png
+    :align: center
+    :alt: K-factor Image.
+    :width: 800
+
+**Simulated Auxiliary Condition and µ-test for stability:**
+
+.. image:: _static/aux_con_mu_test.png
+    :align: center
+    :alt: K-factor Image.
     :width: 800
 
 **Simulated Output Noise Spectral Density:**
