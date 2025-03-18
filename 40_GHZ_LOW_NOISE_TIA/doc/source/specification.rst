@@ -20,7 +20,7 @@ Specification of the Transimpedance Amplifier
    * - Average Input Referred Current Noise Density
      - 9.5 pA/√Hz
    * - Power Consumption
-     - 10.22 mW
+     - 11.67 mW
      
 
 .. list-table:: **DC Voltages**
@@ -86,3 +86,38 @@ Specification of the Transimpedance Amplifier
   :width: 800
 
 **Layout Size: 700 µm × 980 µm**
+
+.. list-table:: **State-of-art comparison:**
+   :widths: 100 100 100 100 100 100
+   :header-rows: 1
+
+   * - Reference
+     - Process
+     - BW (GHz)
+     - Z\ :sub:`T` (dBΩ)
+     - Noise (pA/√Hz)
+     - Power (mW)
+   * - [1]
+     - 130 nm BiCMOS
+     - 75
+     - 54
+     - 10.9
+     - 95
+   * - [2]
+     - 130 nm SiGe BiCMOS
+     - 42
+     - 74
+     - 12.5
+     - 238
+   * - [3]
+     - 90 nm SiGe BiCMOS
+     - 40
+     - 75
+     - 15.1
+     - 264
+   * - This Work
+     - 130 nm SiGe BiCMOS
+     - 40
+     - 55
+     - **9.5**
+     - 11.67
