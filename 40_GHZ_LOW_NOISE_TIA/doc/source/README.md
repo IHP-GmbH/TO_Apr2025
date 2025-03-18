@@ -1,4 +1,4 @@
 **Repository Contents**
-* specification: contains The specification, schematic and different components values of the Amplifier.
-* designdata: contains simulatin results.
-* validation: this doc will be updated after tesing the chip.
+* specification: contains the specification, schematic, and different component values of the amplifier.
+* designdata: contains simulation results.
+* validation: this document will be updated after testing the chip.
