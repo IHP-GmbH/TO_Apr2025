@@ -13,6 +13,9 @@ Simulator: Ngspice 44.2
     :alt: S-parameters Image.
     :width: 800
 
+The input and output matching is better than −10 dB within the
+bandwidth.
+
 **Simulated Transimpedance:**
 
 .. image:: _static/TI_imulated.png
@@ -46,4 +49,11 @@ Simulator: Ngspice 44.2
 .. image:: _static/output_noise.png
     :align: center
     :alt: Transimpedance Image.
+    :width: 800
+
+**Simulated Input-referred 1-dB compression point at 20 GHz:**
+
+.. image:: _static/pin_vs_pout.png
+    :align: center
+    :alt: 1-db Compression Image.
     :width: 800
