@@ -9,8 +9,8 @@ The design procedure can be explained with a flow chart -
 
 .. image:: _static/flowchart.png
     :align: center
-    :width: 400
-    :height: 400
+    :width: 600
+    :height: 600
 
 Design Procedure
 ##############################################
@@ -96,8 +96,8 @@ The complete layout view -
 
 .. image:: _static/layout.PNG
     :align: center
-    :width: 600
-    :height: 600
+    :width: 900
+    :height: 700
 
 Pin out view -
 
