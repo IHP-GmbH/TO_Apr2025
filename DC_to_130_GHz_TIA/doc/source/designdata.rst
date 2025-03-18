@@ -52,7 +52,7 @@ gain.
    * - Emitter Length
      - 5
    * - Feedback resistor, RF
-     - 51 Ohm
+     - 58 Ohm
    * - Collector resistor, Rc 
      - 74 Ohm
    * - Transmission line
@@ -78,7 +78,7 @@ Here, a 4 emitter length npn13G2 hbt, 254 um TL line and a 53 ohm load resistor 
    * - Emitter Length
      - 4
    * - Collector resistor, Rc 
-     - 53 Ohm
+     - 51 Ohm
    * - Transmission line
      - 254 um    
    * - Supply voltage, VCC
@@ -127,3 +127,39 @@ Pin out view -
 Simulated Result
 ###########################################################
 
+S Parameter
+------------------------------------
+
+
+.. image:: _static/S_Parameter.PNG
+    :align: center
+    :width: 1000
+    :height: 400
+
+
+Transimpedance gain
+----------------------------------------------
+
+.. image:: _static/TIA_dB_Ohm.PNG
+    :align: center
+    :width: 1000
+    :height: 400
+
+
+Group Delay
+---------------------------------------------
+
+
+.. image:: _static/grp_delay.PNG
+    :align: center
+    :width: 1000
+    :height: 400
+
+
+S21 Unwrapped Phase
+-------------------------------------
+
+.. image:: _static/s21phase.PNG
+    :align: center
+    :width: 1000
+    :height: 400
