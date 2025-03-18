@@ -10,7 +10,7 @@ The design procedure can be explained with a flow chart -
 .. image:: _static/flowchart.png
     :align: center
     :width: 600
-    :height: 600
+    :height: 800
 
 Design Procedure
 ##############################################
@@ -97,7 +97,7 @@ The complete layout view -
 .. image:: _static/layout.PNG
     :align: center
     :width: 900
-    :height: 700
+    :height: 1200
 
 Pin out view -
 
@@ -160,6 +160,15 @@ S21 Unwrapped Phase
 -------------------------------------
 
 .. image:: _static/s21phase.PNG
+    :align: center
+    :width: 1000
+    :height: 400
+
+Z21 Simulation
+-----------------------------------------
+
+
+.. image:: _static/z21.PNG
     :align: center
     :width: 1000
     :height: 400
