@@ -53,7 +53,7 @@ bandwidth.
 
 **Simulated Input-referred 1-dB compression point at 20 GHz:**
 
-.. image:: _static/pin_vs_pout.png
+.. image:: _static/power_and_THD.png
     :align: center
     :alt: 1-db Compression Image.
     :width: 800
