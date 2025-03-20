@@ -1,0 +1,26 @@
+.SUBCKT TOP
+
+QQ1 \net2 \net1 GND GND npn13G2 AE=0.063p PE=1.94u AB=25.605p PB=23.02u
++ AC=25.589984p PC=23.01u NE=4 m=4
+QQ2 \net4 \net3 GND GND npn13G2 AE=0.063p PE=1.94u AB=25.605p PB=23.02u
++ AC=25.589984p PC=23.01u NE=4 m=4
+QQ3 \net6 \net5 GND GND npn13G2 AE=0.063p PE=1.94u AB=12.988p PB=15.62u
++ AC=12.976684p PC=15.61u NE=2 m=2
+QQ4 \net8 \net7 GND GND npn13G2 AE=0.063p PE=1.94u AB=12.988p PB=15.62u
++ AC=12.976684p PC=15.61u NE=2 m=2
+
+RRC1 \net2 VCC rsil w=7.5u l=5u ps=0 b=0 m=1
+RRC2 \net4 VCC rsil w=7.5u l=5u ps=0 b=0 m=1
+RRC3 \net6 VCC rsil w=7.5u l=5u ps=0 b=0 m=1
+RRC4 \net8 VCC rsil w=7.5u l=5.5u ps=0 b=0 m=1
+
+RRB1 \net1 VBB1 rhigh w=1.9u l=6u ps=0 b=0 m=1
+RRB2 \net3 VBB1 rhigh w=1.9u l=5u ps=0 b=0 m=1
+RRB3 \net5 VBB1 rhigh w=1.9u l=6u ps=0 b=0 m=1
+RRB4 \net7 VBB2 rhigh w=2u l=6u ps=0 b=0 m=1
+
+CCC1 VCC GND cap_cmim w=20u l=25u A=500p P=90u m=8
+CCB1 VBB1 GND cap_cmim w=20u l=25u A=500p P=90u m=6
+CCB2 VBB2 GND cap_cmim w=20u l=25u A=500p P=90u m=4
+
+.ENDS TOP

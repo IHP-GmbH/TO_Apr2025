@@ -1,0 +1,23 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 20/03/2025 00:37
+
+.SUBCKT TOP
+C$1 \$I3 \$1 cap_cmim w=20u l=25u A=500p P=90u m=8
+C$2 \$1.VBB1 \$1 cap_cmim w=20u l=25u A=500p P=90u m=6
+C$9 \$1.VBB2 \$1 cap_cmim w=20u l=25u A=500p P=90u m=4
+R$19 \$I24742 \$1.VBB2 rhigh w=2u l=6u ps=0 b=0 m=1
+R$20 \$I24743 \$I3 rsil w=7.5u l=5.5u ps=0 b=0 m=1
+Q$21 \$I24743 \$I24742 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=12.988p PB=15.62u
++ AC=12.976684p PC=15.61u NE=2 m=2
+Q$23 \$I24741 \$I24740 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=12.988p PB=15.62u
++ AC=12.976684p PC=15.61u NE=2 m=2
+R$25 \$I24739 \$1.VBB1 rhigh w=1.9u l=5u ps=0 b=0 m=1
+R$26 \$I24741 \$I3 rsil w=7.5u l=5u ps=0 b=0 m=1
+R$27 \$I24738 \$I3 rsil w=7.5u l=5u ps=0 b=0 m=1
+R$28 \$I24736 \$I3 rsil w=7.5u l=5u ps=0 b=0 m=1
+Q$29 \$I24738 \$I24739 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=25.605p PB=23.02u
++ AC=25.589984p PC=23.01u NE=4 m=4
+Q$33 \$I24736 \$I24737 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=25.605p PB=23.02u
++ AC=25.589984p PC=23.01u NE=4 m=4
+R$37 \$I24740 \$1.VBB1 rhigh w=1.9u l=6u ps=0 b=0 m=1
+R$38 \$I24737 \$1.VBB1 rhigh w=1.9u l=6u ps=0 b=0 m=1
+.ENDS TOP
