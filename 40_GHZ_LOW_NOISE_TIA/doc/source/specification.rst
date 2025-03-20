@@ -18,7 +18,7 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
    * - Phase Deviation from Linear Phase
      - ±4°
    * - Average Input Referred Current Noise Density
-     - 9.5 pA/√Hz
+     - 9 pA/√Hz
    * - Power Consumption
      - 11.67 mW
      
@@ -119,5 +119,5 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
      - 130 nm SiGe BiCMOS
      - 40
      - 55
-     - **9.5**
+     - **9**
      - 11.67
