@@ -1,6 +1,6 @@
 # DC to 40 GHz Transimpedance Amplifier (TIA) Design
 
-This repository contains the design files for a DC to 40 GHz Transimpedance Amplifier (TIA) optimized for low input-referred current noise density. The final design achieves ~9.5 pA/√Hz, which is a strong result for a single-ended architecture.
+This repository contains the design files for a DC to 40 GHz Single Ended Transimpedance Amplifier (TIA) optimized for low input-referred current noise density. The final design achieves ~9.5 pA/√Hz, which is a strong result for a single-ended architecture.
 
 **Features**
 * Bandwidth: DC to 40 GHz

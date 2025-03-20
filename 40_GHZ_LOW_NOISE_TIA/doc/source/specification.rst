@@ -1,5 +1,5 @@
-Specification of the Transimpedance Amplifier
-##############################################
+A Low-Noise Single Ended TIA With 40-GHz Bandwidth
+###################################################
 
 .. list-table:: **Specification**
    :widths: 400 200
