@@ -51,7 +51,7 @@ bandwidth.
     :alt: Transimpedance Image.
     :width: 800
 
-**Simulated Input-referred 1-dB compression point at 20 GHz:**
+**Simulated Input-referred 1-dB compression point & THD at 20 GHz:**
 
 .. image:: _static/power_and_THD.png
     :align: center
