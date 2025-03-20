@@ -97,19 +97,19 @@ Specification of the Transimpedance Amplifier
      - Z\ :sub:`T` (dBΩ)
      - Noise (pA/√Hz)
      - Power (mW)
-   * - [1]
+   * - `[1] <https://ieeexplore.ieee.org/abstract/document/8194885>`_
      - 130 nm BiCMOS
      - 75
      - 54
      - 10.9
      - 95
-   * - [2]
+   * - `[2] <https://ieeexplore.ieee.org/abstract/document/10659112>`_
      - 130 nm SiGe BiCMOS
      - 42
      - 74
      - 12.5
      - 238
-   * - [3]
+   * - `[3] <https://ieeexplore.ieee.org/abstract/document/10665896>`_
      - 90 nm SiGe BiCMOS
      - 40
      - 75
