@@ -67,7 +67,7 @@ gain.
 --------------------------------------
 
 The 2nd stage is a simple common emitter amplifier which further enhances the bandwidth of the S21 & transimpedance gain.
-Here, a 4 emitter length npn13G2 hbt, 254 um TL line and a 53 ohm load resistor have been used.
+Here, a 4 emitter length npn13G2 hbt, 254 um TL line and a 51 ohm load resistor have been used.
 
 .. list-table:: Design Data of 2nd stage
    :widths: 40 40
@@ -118,6 +118,10 @@ Pin out view -
      - 6.8e-07 sq mm ( 760 mm X 900 um)
    * - RF Signal Pad Dimension
      - 30 X 57 sq um
+   * - GND/VEE Pad Dimension
+     - 50 um X 50 um
+   * - Pad Pitch
+     - 75 um
    * - Input Pad to Core TL line
      - 100    
    * - Output Pad to Core TL line
