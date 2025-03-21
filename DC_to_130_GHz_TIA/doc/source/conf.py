@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Amazing Design'
+project = 'DC to 130 GHz Bandwidth Transimpedance Amplifier'
 copyright = '2024, IHP Open PDK'
-author = 'Amazing Design Authors'
+author = 'Sultan Mohammad Ikram'
 
 release = '0.1'
 version = '0.1.0'
