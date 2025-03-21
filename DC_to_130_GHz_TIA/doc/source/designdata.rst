@@ -96,7 +96,7 @@ The complete layout view -
 
 .. image:: _static/layout.PNG
     :align: center
-    :width: 900
+    :width: 1200
     :height: 1200
 
 Pin out view -
