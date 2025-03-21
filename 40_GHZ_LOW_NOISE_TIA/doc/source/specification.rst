@@ -14,7 +14,7 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
    * - Gain
      - 18.8 dB
    * - Group Delay Variation
-     - 5 ps
+     - ±2.5 ps
    * - Phase Deviation from Linear Phase
      - ±4°
    * - Average Input Referred Current Noise Density
