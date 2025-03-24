@@ -49,7 +49,7 @@ Electromagnetic Simulation
 All transmission lines, ground signal ground pads and critical path of connections have been subject to em simulation from gds file generating a s2p 
 file. This file is used in schematic for verifying the results.
 
-.. image:: _static/openEMS.PNG
+.. image:: _static/openems.PNG
     :align: center
     :width: 1600
 
