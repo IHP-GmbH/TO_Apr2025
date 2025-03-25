@@ -1,9 +1,9 @@
 <Qucs Schematic 24.4.1>
 <Properties>
-  <View=-1656,-3475,7938,1917,0.919712,1579,2752>
+  <View=-109,-1090,3583,980,0.440903,41,21>
   <Grid=10,10,1>
-  <DataSet=Final circuit.dat>
-  <DataDisplay=Final circuit.dpl>
+  <DataSet=160GHz_LNA(MAIN).dat>
+  <DataDisplay=160GHz_LNA(MAIN).dpl>
   <OpenDisplay=0>
   <Script=Bandwidth extension.m>
   <RunScript=0>
@@ -67,7 +67,6 @@
   <Vdc V3 1 1350 -230 18 -26 0 1 "1.35V" 1>
   <SPfile X2 1 1270 -220 -165 -26 0 1 "C:/S2P files/Choke.s2p" 1 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X10 1 1270 250 -158 -26 0 1 "C:/S2P files/Dgen.s2p" 1 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <Lib rhigh10 1 1220 -30 -88 -26 0 2 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "1.9u" 1 "6u" 1 "1" 1>
   <GND * 1 1130 90 0 0 0 0>
   <Lib cap_rfcmim11 1 1060 30 -16 -98 0 1 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "5.2u" 1 "2.4u" 1>
   <GND * 1 1440 20 0 0 0 0>
@@ -135,6 +134,7 @@
   <.SP SP1 1 770 600 0 68 0 0 "lin" 1 "140 GHz" 1 "190 GHz" 1 "101" 1 "yes" 0 "1" 0 "2" 0 "no" 0 "no" 0>
   <NutmegEq NutmegEq3 1 1050 610 -31 16 0 0 "SP1" 1 "num=(1/4)*(abs(v(y_2_1)-v(y_1_2))*abs(v(y_2_1)-v(y_1_2)))" 1 "den=real(v(y_1_1))*real(v(y_2_2))-real(v(y_2_1))*real(v(y_1_2))" 1 "Gmax=num/den" 1 "Fmax=sqrt(mag(Gmax))*frequency" 1>
   <NutmegEq NutmegEq2 1 1410 590 -31 16 0 0 "SP1" 1 "s11_db=db(v(s_1_1))" 1 "s12_db=db(v(s_1_2))" 1 "s21_db=db(v(s_2_1))" 1 "s22_db=db(v(s_2_2))" 1 "s11_mag=mag(v(s_1_1))" 1 "s11_conj=conj(v(s_1_1))" 1 "s12_mag=mag(v(s_1_2))" 1 "s21_mag=mag(v(s_2_1))" 1 "s22_mag=mag(v(s_2_2))" 1 "delta=v(s_1_1)*v(s_2_2)-v(s_1_2)*v(s_2_2)" 1 "delta_mag=mag(delta)" 1 "kf=(1-s11_mag*s11_mag-s22_mag*s22_mag+delta_mag*delta_mag)/(2*s12_mag*s21_mag)" 1 "mu=(1-s11_mag*s11_mag)/(mag(v(s_2_2)-delta*s11_conj)+s12_mag*s21_mag)" 1>
+  <Lib rhigh10 1 1220 -30 -88 -26 0 2 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "1.9u" 1 "5u" 1 "1" 1>
 </Components>
 <Wires>
   <2270 -80 2340 -80 "" 0 0 0 "">

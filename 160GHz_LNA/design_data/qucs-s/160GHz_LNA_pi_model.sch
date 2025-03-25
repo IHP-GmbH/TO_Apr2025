@@ -1,9 +1,9 @@
 <Qucs Schematic 24.4.1>
 <Properties>
-  <View=-653,-1129,5809,2592,0.681428,685,465>
+  <View=-840,-1207,6935,3061,0.542124,1202,605>
   <Grid=10,10,1>
-  <DataSet=Bias_change_Vcc change_pi_model.dat>
-  <DataDisplay=Bias_change_Vcc change_pi_model.dpl>
+  <DataSet=160GHz_LNA_pi_model.dat>
+  <DataDisplay=160GHz_LNA_pi_model.dpl>
   <OpenDisplay=0>
   <Script=Bandwidth extension.m>
   <RunScript=0>
@@ -143,7 +143,6 @@
   <Lib rhigh5 1 790 130 50 -26 0 0 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "1.9u" 1 "6u" 1 "1" 1>
   <Vdc V1 1 870 -40 18 -26 0 1 "1.35V" 1>
   <Lib rsil5 1 960 70 50 -26 0 0 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "7.5u" 1 "5u" 1 "1" 1>
-  <Lib rhigh6 1 1600 70 50 -26 0 0 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "1.9u" 1 "6u" 1 "1" 1>
   <Vdc V3 1 1680 -100 18 -26 0 1 "1.35V" 1>
   <Lib cap_rfcmim13 1 2100 110 -16 -98 0 1 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "7.6u" 1 "2.5u" 1>
   <Lib rhigh7 1 2250 10 50 -26 0 0 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "1.9u" 1 "6u" 1 "1" 1>
@@ -178,7 +177,6 @@
   <Lib cap_cmim2 1 790 -160 -45 -85 0 3 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "25u" 1 "20u" 1>
   <GND * 1 770 -160 0 0 0 3>
   <GND * 1 750 -250 0 0 0 3>
-  <INCLSCR INCLSCR3 1 1070 -530 -60 16 0 0 ".LIB C:\Users\nsl\QucsWorkspace\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerHBT.lib hbt_typ\n.LIB C:\Users\nsl\QucsWorkspace\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerRES.lib res_typ\n.LIB C:\Users\nsl\QucsWorkspace\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerCAP.lib cap_typ\n.control\npre_osdi C:\Users\nsl\QucsWorkspace\IHP-Open-PDK\ihp-sg13g2\libs.tech\verilog-a\r3_cmc\r3_cmc.osdi\n.endc" 1 "" 0 "" 0>
   <Lib cap_cmim3 1 640 -140 -45 -85 0 3 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "25u" 1 "20u" 1>
   <Lib cap_cmim4 1 650 -50 -45 -85 0 3 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "25u" 1 "20u" 1>
   <GND * 1 630 -50 0 0 0 3>
@@ -207,6 +205,8 @@
   <Lib cap_cmim12 1 2020 -160 -45 -85 0 3 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "25u" 1 "20u" 1>
   <GND * 1 2000 -160 0 0 0 3>
   <GND * 1 1980 -250 0 0 0 3>
+  <INCLSCR INCLSCR3 1 1050 -600 -60 16 0 0 ".LIB C:\Users\nsl\QucsWorkspace\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerHBT.lib hbt_typ\n.LIB C:\Users\nsl\QucsWorkspace\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerRES.lib res_typ\n.LIB C:\Users\nsl\QucsWorkspace\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerCAP.lib cap_typ\n.control\npre_osdi C:\Users\nsl\QucsWorkspace\IHP-Open-PDK\ihp-sg13g2\libs.tech\verilog-a\r3_cmc\r3_cmc.osdi\n.endc" 1 "" 0 "" 0>
+  <Lib rhigh6 1 1600 70 50 -26 0 0 "C:/Users/nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "1.9u" 1 "5u" 1 "1" 1>
 </Components>
 <Wires>
   <870 -10 870 20 "" 0 0 0 "">
@@ -452,7 +452,7 @@
   </Rect>
   <Rect 1910 956 548 196 3 #c0c0c0 1 00 1 3e+10 2e+10 3e+11 1 3.07388 5 18.383 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.nfmin" #0000ff 0 3 0 0 0>
-	  <Mkr 1.595e+11 306 -156 3 0 0>
+	  <Mkr 1.6e+11 306 -156 3 0 0>
 	  <Mkr 1.43e+11 35 -236 3 0 0>
 	  <Mkr 1.8e+11 579 -292 3 0 0>
   </Rect>
@@ -467,7 +467,7 @@
   <Rect 1906 1185 563 165 3 #c0c0c0 1 00 1 -1 0.2 1 1 -1 1 1 1 -1 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.nf" #ff0000 0 3 0 0 0>
 	  <Mkr 1.8e+11 556 -196 3 0 0>
-	  <Mkr 1.595e+11 170 -132 3 0 0>
+	  <Mkr 1.6e+11 170 -132 3 0 0>
 	  <Mkr 1.445e+11 36 -149 3 0 0>
   </Rect>
   <Rect 2630 1322 705 222 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">

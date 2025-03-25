@@ -15,16 +15,16 @@ A 160 GHz Low Noise Amplifier with 27-GHz Bandwidth
      - 146 GHz to 173 GHz
    * - Noise Figure at 160 GHz
      - 5.77 dB
-   * - Peak Gain at 158 GHz
-     - 12.4 dB
+   * - Peak Gain at 157 GHz
+     - 12.5 dB
    * - Topology
      - Common Emitter (Cascade)
    * - Input Referred 1dB compression point at 160 GHz
-     - -11.3 dBm
+     - -11.4 dBm
    * - Output Referred 1dB compression point at 160 GHz
      - -0.12 dBm
    * - Power Consumption
-     - 15.76 mW
+     - 15.94 mW
 
  
 **Schematic:**
@@ -127,8 +127,8 @@ A 160 GHz Low Noise Amplifier with 27-GHz Bandwidth
      - 4471.307 Ω
    * - R\ :sub:`b2`
      - rhigh
-     - 1.9×6 um\ :sup:`2`
-     - 4471.307 Ω   
+     - 1.9×5 um\ :sup:`2`
+     - 3740.125 Ω   
    * - R\ :sub:`b3`
      - rhigh
      - 1.9×6 um\ :sup:`2`
