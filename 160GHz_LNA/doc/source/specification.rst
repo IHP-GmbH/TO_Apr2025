@@ -137,3 +137,24 @@ A 160 GHz Low Noise Amplifier with 27-GHz Bandwidth
      - rhigh
      - 2×6 um\ :sup:`2`
      - 4243.265 Ω       
+
+  .. list-table:: **Transmission Line Values**
+   :widths: 200 100 
+   :header-rows: 1
+
+   * - Parameter
+     - Length
+   * - Choke
+     - 175 um
+   * - Dgen
+     - 89 um
+   * - Dgen_final_stage
+     - 55 um
+   * - 1st_TL
+     - 103 um 
+   * - 2nd_TL
+     - 130 um    
+   * - 3rd_TL
+     - 130 um 
+   * - 4th_TL
+     - 106 um      
