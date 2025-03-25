@@ -97,4 +97,43 @@ A 160 GHz Low Noise Amplifier with 27-GHz Bandwidth
      - 750 fF      
 
 *N.B:-All Decap values are same (Decap1=Decap2=Decap3=Decap4=Decap5=Decap6=Decap7=Decap8)*
-     -
+  .. list-table:: **Resistor Values**
+   :widths: 200 100 200 100
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Size 
+     - Value
+   * - R\ :sub:`c1`
+     - rsil
+     - 7.5×5 um\ :sup:`2`
+     - 5.86 Ω
+   * - R\ :sub:`c2`
+     - rsil
+     - 7.5×5 um\ :sup:`2`
+     - 5.86 Ω
+   * - R\ :sub:`c3`
+     - rsil
+     - 7.5×5 um\ :sup:`2`
+     - 5.86 Ω
+   * - R\ :sub:`c4`
+     - rsil
+     - 7.5×5.5 um\ :sup:`2`
+     - 6.33 Ω
+   * - R\ :sub:`b1`
+     - rhigh
+     - 1.9×6 um\ :sup:`2`
+     - 4471.307 Ω
+   * - R\ :sub:`b2`
+     - rhigh
+     - 1.9×6 um\ :sup:`2`
+     - 4471.307 Ω   
+   * - R\ :sub:`b3`
+     - rhigh
+     - 1.9×6 um\ :sup:`2`
+     - 4471.307 Ω   
+   * - R\ :sub:`b4`
+     - rhigh
+     - 2×6 um\ :sup:`2`
+     - 4243.265 Ω       
