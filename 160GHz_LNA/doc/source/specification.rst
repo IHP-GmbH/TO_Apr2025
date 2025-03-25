@@ -26,11 +26,24 @@ A 160 GHz Low Noise Amplifier with 27-GHz Bandwidth
    * - Power Consumption
      - 15.76 mW
 
-  **Schematic:**
+ 
+**Schematic:**
 
-.. image:: _static/schematic.jpg
+.. image:: _static/schematic.png
     :align: center
     :alt: Schematic Image.
     :width: 800
 
+
+
+.. list-table:: **DC Voltages**
+   :widths: 200 200 200
+   :header-rows: 1
+
+   * - VCC
+     - VBB1
+     - VBB2
+   * - 1.35 V
+     - 0.9 V
+     - 0.93 V
 
