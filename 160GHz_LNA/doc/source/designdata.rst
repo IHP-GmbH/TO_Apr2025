@@ -1,6 +1,7 @@
 Design data and design process description
 ############################################
 
+Schematic: Qucs-s 24.4.1
 
-Document the design process here and comment on the design data. 
+Simulator: Ngspice 44
 
