@@ -12,7 +12,8 @@ Simulator: Ngspice 44
     :alt: S-parameters Image.
     :width: 800
 
-NFmin and NF both are less than 6 dB
+The Noise Figure (NF) is close to the Minimum Noise Figure (NFmin).
+
 
 **Simulated S-parameters:**
 
@@ -21,7 +22,9 @@ NFmin and NF both are less than 6 dB
     :alt: S-parameters Image.
     :width: 800
 
-**Simulated 1-dB compression point:**
+The input and output matching exhibit return losses better than −10 dB.
+
+**Simulated 1-dB compression point at 160 GHz:**
 
 .. image:: _static/Compression.png
     :align: center
