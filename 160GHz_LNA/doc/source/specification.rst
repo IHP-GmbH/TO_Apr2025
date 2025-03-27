@@ -157,4 +157,9 @@ A 160 GHz Low Noise Amplifier with 27-GHz Bandwidth
    * - 3rd_TL
      - 130 um 
    * - 4th_TL
-     - 106 um      
+     - 106 um 
+
+  .. image:: _static/Layout.png
+    :align: center
+    :alt: Schematic Image.
+    :width: 800   
