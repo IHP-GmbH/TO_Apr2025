@@ -158,8 +158,49 @@ A 160 GHz Low Noise Amplifier with 27-GHz Bandwidth
      - 130 um 
    * - 4th_TL
      - 106 um 
+     
+    
+  **Layout:**
 
   .. image:: _static/Layout.png
     :align: center
     :alt: Schematic Image.
-    :width: 800   
+    :width: 800 
+
+  .. list-table:: **State-of-art comparison:**
+   :widths: 100 100 100 100 100 100 
+   :header-rows: 1
+
+   * - Reference
+     - Technology
+     - Frequency (GHz)
+     - Gain (dB)
+     - Noise Figure (dB)
+     - Input-Referred P\ :sub:`1dB` (dBm)
+   * - `[1] <https://ieeexplore.ieee.org/abstract/document/8923164>`_
+     - 130 nm BiCMOS
+     - 180 
+     - 19
+     - 7.1
+     - -30 
+   * - `[2] <https://ieeexplore.ieee.org/abstract/document/7576648>`_
+     - 130 nm SiGe BiCMOS
+     - 158
+     - 24.1
+     - 8.2
+     - -25.9
+   * - `[3] <https://ieeexplore.ieee.org/abstract/document/10734357>`_
+     - 130 nm SiGe BiCMOS
+     - 160.5
+     - 15.6
+     - 9.8
+     - N/A
+   * - This Work
+     - 130 nm SiGe BiCMOS
+     - 160
+     - 12.3 (peak:12.5)
+     - **5.77**
+     - -11.4 
+        
+
+
