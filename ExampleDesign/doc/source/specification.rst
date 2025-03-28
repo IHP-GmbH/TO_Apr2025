@@ -10,3 +10,11 @@ To characterize circuits at both conventional and cryogenic temperatures, a chip
 
 Chip Pinout
 ###########
+
+Mixer Up-Converter with Cross-Coupled Oscillator:
+
+-	IFP and IFN: Differential input pair
+-	RFP and RFN: Differential output pair
+-	VDC: Power supply terminal
+-	IDC: Bias current terminal
+- GND: Ground terminal
