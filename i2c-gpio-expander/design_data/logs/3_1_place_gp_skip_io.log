@@ -1,0 +1,73 @@
+OpenROAD v2.0-18663-g4a7c6dd8f 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+global_placement -skip_io -density 0.75 -pad_left 0 -pad_right 0
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.480  3.780 ) um
+[INFO GPL-0004] CoreBBox: ( 425.280 427.140 ) ( 631.200 627.480 ) um
+[INFO GPL-0006] NumInstances:              1105
+[INFO GPL-0007] NumPlaceInstances:         1105
+[INFO GPL-0008] NumFixedInstances:            0
+[INFO GPL-0009] NumDummyInstances:            0
+[INFO GPL-0010] NumNets:                   1336
+[INFO GPL-0011] NumPins:                   4213
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 1050.000 1050.000 ) um
+[INFO GPL-0013] CoreBBox: ( 425.280 427.140 ) ( 631.200 627.480 ) um
+[INFO GPL-0016] CoreArea:             41254.013 um^2
+[INFO GPL-0017] NonPlaceInstsArea:        0.000 um^2
+[INFO GPL-0018] PlaceInstsArea:       18203.875 um^2
+[INFO GPL-0019] Util:                    44.126 %
+[INFO GPL-0020] StdInstsArea:         18203.875 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[INFO GPL-0031] FillerInit:NumGCells:      1936
+[INFO GPL-0032] FillerInit:NumGNets:       1336
+[INFO GPL-0033] FillerInit:NumGPins:       4213
+[INFO GPL-0023] TargetDensity:            0.750
+[INFO GPL-0024] AvrgPlaceInstArea:       16.474 um^2
+[INFO GPL-0025] IdealBinArea:            21.965 um^2
+[INFO GPL-0026] IdealBinCnt:               1878
+[INFO GPL-0027] TotalBinArea:         41254.013 um^2
+[INFO GPL-0028] BinCnt:        32     32
+[INFO GPL-0029] BinSize: (  6.435  6.261 )
+[INFO GPL-0030] NumBins: 1024
+[NesterovSolve] Iter:    1 overflow: 0.917 HPWL: 18053445
+[NesterovSolve] Iter:   10 overflow: 0.808 HPWL: 22006057
+[NesterovSolve] Iter:   20 overflow: 0.787 HPWL: 22040180
+[NesterovSolve] Iter:   30 overflow: 0.780 HPWL: 21734504
+[NesterovSolve] Iter:   40 overflow: 0.778 HPWL: 21643350
+[NesterovSolve] Iter:   50 overflow: 0.784 HPWL: 21268634
+[NesterovSolve] Iter:   60 overflow: 0.790 HPWL: 20919790
+[NesterovSolve] Iter:   70 overflow: 0.796 HPWL: 20657010
+[NesterovSolve] Iter:   80 overflow: 0.801 HPWL: 20582734
+[NesterovSolve] Iter:   90 overflow: 0.805 HPWL: 20589520
+[NesterovSolve] Iter:  100 overflow: 0.802 HPWL: 20635640
+[NesterovSolve] Iter:  110 overflow: 0.797 HPWL: 20698024
+[NesterovSolve] Iter:  120 overflow: 0.792 HPWL: 20795113
+[NesterovSolve] Iter:  130 overflow: 0.787 HPWL: 20944254
+[NesterovSolve] Iter:  140 overflow: 0.778 HPWL: 21102345
+[NesterovSolve] Iter:  150 overflow: 0.768 HPWL: 21322855
+[NesterovSolve] Iter:  160 overflow: 0.764 HPWL: 21482487
+[NesterovSolve] Iter:  170 overflow: 0.747 HPWL: 21643457
+[NesterovSolve] Iter:  180 overflow: 0.730 HPWL: 21872351
+[NesterovSolve] Iter:  190 overflow: 0.703 HPWL: 22228482
+[NesterovSolve] Iter:  200 overflow: 0.682 HPWL: 22506252
+[NesterovSolve] Iter:  210 overflow: 0.650 HPWL: 22899329
+[NesterovSolve] Iter:  220 overflow: 0.616 HPWL: 23217193
+[NesterovSolve] Iter:  230 overflow: 0.583 HPWL: 23856345
+[NesterovSolve] Iter:  240 overflow: 0.547 HPWL: 24505220
+[NesterovSolve] Iter:  250 overflow: 0.504 HPWL: 25207865
+[NesterovSolve] Iter:  260 overflow: 0.454 HPWL: 25899161
+[NesterovSolve] Iter:  270 overflow: 0.406 HPWL: 26597893
+[NesterovSolve] Iter:  280 overflow: 0.349 HPWL: 27073324
+[NesterovSolve] Iter:  290 overflow: 0.305 HPWL: 27475312
+[NesterovSolve] Iter:  300 overflow: 0.266 HPWL: 27780829
+[NesterovSolve] Iter:  310 overflow: 0.239 HPWL: 28003109
+[NesterovSolve] Iter:  320 overflow: 0.209 HPWL: 28216216
+[NesterovSolve] Iter:  330 overflow: 0.183 HPWL: 28431930
+[NesterovSolve] Iter:  340 overflow: 0.154 HPWL: 28556061
+[NesterovSolve] Iter:  350 overflow: 0.128 HPWL: 28618463
+[NesterovSolve] Iter:  360 overflow: 0.107 HPWL: 28689304
+[NesterovSolve] Finished with Overflow: 0.099904
+Elapsed time: 0:00.48[h:]min:sec. CPU time: user 4.99 sys 0.02 (1045%). Peak memory: 110592KB.

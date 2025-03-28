@@ -1,0 +1,35 @@
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+[INFO] Reporting cells prior to loading DEF ...
+[INFO] Reading DEF ...
+[INFO] Clearing cells...
+[INFO] Merging GDS/OAS files...
+	/home/daniel/work/aesc/i2c-gpio-expander/pdks/IHP-Open-PDK//ihp-sg13g2/libs.ref/sg13g2_stdcell/gds/sg13g2_stdcell.gds
+	/home/daniel/work/aesc/i2c-gpio-expander/pdks/IHP-Open-PDK//ihp-sg13g2/libs.ref/sg13g2_io/gds/sg13g2_io.gds
+	/home/daniel/work/aesc/i2c-gpio-expander/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/gds/bondpad_70x70.gds
+[INFO] Copying toplevel cell 'SG13G2Top'
+[INFO] Checking for missing cell from GDS/OAS...
+[INFO] All LEF cells have matching GDS/OAS cells
+[INFO] Checking for orphan cell in the final layout...
+[INFO] No orphan cells
+[INFO] Reading seal GDS/OAS file...
+	/home/daniel/work/aesc/i2c-gpio-expander/build//I2cGpioExpander/SG13G2/zibal//macros/sealring/sealring.gds.gz
+[INFO] Merging 'sealring_top' as child of 'SG13G2Top'
+[INFO] Writing out GDS/OAS '/home/daniel/work/aesc/i2c-gpio-expander/build//I2cGpioExpander/SG13G2/orfs//results/ihp-sg13g2/SG13G2Top/base/6_1_merged.gds'
+Elapsed time: 0:01.92[h:]min:sec. CPU time: user 1.71 sys 0.20 (99%). Peak memory: 486352KB.

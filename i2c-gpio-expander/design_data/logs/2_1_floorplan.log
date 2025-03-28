@@ -1,0 +1,61 @@
+OpenROAD v2.0-18663-g4a7c6dd8f 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/i2c-gpio-expander/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/lef/sg13g2_tech.lef, created 19 layers, 300 vias
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/i2c-gpio-expander/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/lef/sg13g2_stdcell.lef, created 78 library cells
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/i2c-gpio-expander/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_io/lef/sg13g2_io.lef, created 22 library cells
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/i2c-gpio-expander/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/bondpad_70x70.lef, created 1 library cells
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+Warning: There are 2 input ports missing set_input_delay.
+Warning: There are 5 output ports missing set_output_delay.
+Warning: There are 6 unconstrained endpoints.
+number instances in verilog is 1121
+[INFO IFP-0001] Added 53 rows of 429 site CoreSite.
+[INFO PAD-0116] Creating terminal for io_address_0_PAD on TopMetal2 at (910.000um, 490.000um) - (980.000um, 560.000um)
+[INFO PAD-0116] Creating terminal for io_address_1_PAD on TopMetal2 at (910.000um, 572.000um) - (980.000um, 642.000um)
+[INFO PAD-0116] Creating terminal for io_address_2_PAD on TopMetal2 at (910.000um, 654.000um) - (980.000um, 724.000um)
+[INFO PAD-0116] Creating terminal for io_clock_PAD on TopMetal2 at (326.000um, 70.000um) - (396.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_gpio_0_PAD on TopMetal2 at (326.000um, 910.000um) - (396.000um, 980.000um)
+[INFO PAD-0116] Creating terminal for io_gpio_1_PAD on TopMetal2 at (408.000um, 910.000um) - (478.000um, 980.000um)
+[INFO PAD-0116] Creating terminal for io_gpio_2_PAD on TopMetal2 at (490.000um, 910.000um) - (560.000um, 980.000um)
+[INFO PAD-0116] Creating terminal for io_gpio_3_PAD on TopMetal2 at (572.000um, 910.000um) - (642.000um, 980.000um)
+[INFO PAD-0116] Creating terminal for io_gpio_4_PAD on TopMetal2 at (654.000um, 910.000um) - (724.000um, 980.000um)
+[INFO PAD-0116] Creating terminal for io_gpio_5_PAD on TopMetal2 at (70.000um, 326.000um) - (140.000um, 396.000um)
+[INFO PAD-0116] Creating terminal for io_gpio_6_PAD on TopMetal2 at (70.000um, 408.000um) - (140.000um, 478.000um)
+[INFO PAD-0116] Creating terminal for io_gpio_7_PAD on TopMetal2 at (70.000um, 490.000um) - (140.000um, 560.000um)
+[INFO PAD-0116] Creating terminal for io_i2c_interrupt_PAD on TopMetal2 at (654.000um, 70.000um) - (724.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_i2c_scl_PAD on TopMetal2 at (490.000um, 70.000um) - (560.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_i2c_sda_PAD on TopMetal2 at (572.000um, 70.000um) - (642.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_reset_PAD on TopMetal2 at (408.000um, 70.000um) - (478.000um, 140.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.vdd_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vdd_RING on TopMetal2 at (910.000um, 326.000um) - (980.000um, 396.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.vss_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vss_RING on TopMetal2 at (910.000um, 408.000um) - (980.000um, 478.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.iovss_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (70.000um, 572.000um) - (140.000um, 642.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.iovdd_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (70.000um, 654.000um) - (140.000um, 724.000um)
+repair_timing -verbose -setup_margin 0 -repair_tns 100 -match_cell_footprint
+[WARNING RSZ-0021] no estimated parasitics. Using wire load models.
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0033] No hold violations found.
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1uA
+ power 1pW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 18204 u^2 44% utilization.
+Elapsed time: 0:00.55[h:]min:sec. CPU time: user 0.50 sys 0.05 (99%). Peak memory: 114264KB.

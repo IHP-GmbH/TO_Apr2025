@@ -1,0 +1,95 @@
+OpenROAD v2.0-18663-g4a7c6dd8f 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is sg13g2_buf_1.
+[INFO CTS-0051] Sink buffer is sg13g2_buf_2.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sg13g2_buf_1
+                    sg13g2_buf_2
+[INFO CTS-0049] Characterization buffer is sg13g2_buf_2.
+[INFO CTS-0007] Net "clock" found for clock "clk_core".
+[INFO CTS-0010]  Clock net "clock" has 200 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 2 buffer(s) types.
+[INFO CTS-0200] 0 placement blockages have been identified.
+[INFO CTS-0201] 0 placed hard macros will be treated like blockages.
+[INFO CTS-0027] Generating H-Tree topology for net clock.
+[INFO CTS-0028]  Total number of sinks: 200.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 8 and with maximum cluster diameter of 50.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 18900  dbu (18 um).
+[INFO CTS-0023]  Original sink region: [(428083, 432937), (587923, 621937)].
+[INFO CTS-0024]  Normalized sink region: [(22.6499, 22.9067), (31.107, 32.9067)].
+[INFO CTS-0025]     Width:  8.4571.
+[INFO CTS-0026]     Height: 10.0000.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 100
+    Sub-region size: 8.4571 X 5.0000
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 50
+    Sub-region size: 4.2286 X 5.0000
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 25
+    Sub-region size: 4.2286 X 2.5000
+[INFO CTS-0034]     Segment length (rounded): 1.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 13
+    Sub-region size: 2.1143 X 2.5000
+[INFO CTS-0034]     Segment length (rounded): 1.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 7
+    Sub-region size: 2.1143 X 1.2500
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 8.
+[INFO CTS-0035]  Number of sinks covered: 200.
+[INFO CTS-0018]     Created 49 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 49 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:24, 7:8..
+[INFO CTS-0017]     Max level of the clock tree: 5.
+[INFO CTS-0098] Clock net "clock"
+[INFO CTS-0099]  Sinks 208
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 475.70 um
+[INFO CTS-0102]  Path depth 3 - 3
+[INFO CTS-0207]  Leaf load cells 8
+[INFO RSZ-0058] Using max wire length 23868um.
+Placement Analysis
+---------------------------------
+total displacement        536.4 u
+average displacement        0.4 u
+max displacement           15.4 u
+original HPWL           35080.7 u
+legalized HPWL          36033.3 u
+delta HPWL                    3 %
+
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           36033.3 u
+legalized HPWL          36033.3 u
+delta HPWL                    0 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 20270 u^2 49% utilization.
+Elapsed time: 0:02.88[h:]min:sec. CPU time: user 2.77 sys 0.11 (99%). Peak memory: 468344KB.

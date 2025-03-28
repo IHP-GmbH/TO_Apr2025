@@ -1,0 +1,66 @@
+OpenROAD v2.0-18663-g4a7c6dd8f 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/daniel/work/aesc/i2c-gpio-expander/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation SG13G2Top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 6024 rc segments
+[INFO RCX-0439] Coupling Cap extraction SG13G2Top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 5% of 9726 wires extracted
+[INFO RCX-0442] 50% of 9726 wires extracted
+[INFO RCX-0442] 64% of 9726 wires extracted
+[INFO RCX-0442] 100% of 9726 wires extracted
+[INFO RCX-0045] Extract 1649 nets, 7464 rsegs, 7464 caps, 10716 ccs
+[INFO RCX-0443] 1643 nets finished
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Supply voltage   : 1.20e+00 V
+Worstcase voltage: 1.20e+00 V
+Average voltage  : 1.20e+00 V
+Average IR drop  : 4.32e-06 V
+Worstcase IR drop: 1.39e-05 V
+Percentage drop  : 0.00 %
+######################################
+[INFO PSM-0040] All shapes on net VSS are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VSS
+Corner           : default
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 7.99e-06 V
+Average voltage  : 3.33e-06 V
+Average IR drop  : 3.33e-06 V
+Worstcase IR drop: 7.99e-06 V
+Percentage drop  : 0.00 %
+######################################
+Cell type report:                       Count       Area
+  Input pad                                 5   72000.00
+  Output pad                                1   14400.00
+  Input/output pad                         10  144000.00
+  Power pad                                 4   57600.00
+  Pad spacer                               28  136800.00
+  Cover                                    20   98000.00
+  Buffer                                   93     691.29
+  Clock buffer                             49     384.65
+  Timing Repair Buffer                     60     435.46
+  Inverter                                 36     195.96
+  Clock inverter                            8      43.55
+  Sequential cell                         200    9434.88
+  Multi-Input combinational cell          974    9084.70
+  Total                                  1488  543070.48
+Report metrics stage 6, finish...
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 20270 u^2 49% utilization.
+[WARNING GUI-0076] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Elapsed time: 0:03.07[h:]min:sec. CPU time: user 3.05 sys 0.11 (102%). Peak memory: 303276KB.
