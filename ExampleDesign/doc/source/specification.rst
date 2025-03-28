@@ -18,3 +18,15 @@ Mixer Up-Converter with Cross-Coupled Oscillator:
 -	VDC: Power supply terminal
 -	IDC: Bias current terminal
 - GND: Ground terminal
+
+
+Cross-Coupled Oscillator:
+
+-	LOP and LON: Differential output pair
+-	VDC: Power supply terminal
+-	IDC: Bias current terminal
+- GND: Ground terminal
+
+
+
+
