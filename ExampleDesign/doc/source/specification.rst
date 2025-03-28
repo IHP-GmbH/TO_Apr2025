@@ -7,3 +7,6 @@ To characterize circuits at both conventional and cryogenic temperatures, a chip
 
 -	Mixer Up-Converter with Cross-Coupled Oscillator
 -	Cross-Coupled Oscillator
+
+Chip Pinout
+###########
