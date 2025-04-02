@@ -8,31 +8,27 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
    * - Specification
      - Value
    * - Bandwidth
-     - 0 to 40 GHz
+     - 0 to 97 GHz
    * - Transimpedance
-     - 55 dBΩ
+     - 59.2 dBΩ
    * - Gain
-     - 18.8 dB
+     - 22.1 dB
    * - Group Delay Variation
-     - ±2.5 ps
-   * - Phase Deviation from Linear Phase
-     - ±4°
+     - ±4 ps
    * - Average Input Referred Current Noise Density
-     - 9 pA/√Hz
+     - 17 pA/√Hz
    * - Power Consumption
      - 11.67 mW
      
 
 .. list-table:: **DC Voltages**
-   :widths: 200 200 200
+   :widths: 200 200
    :header-rows: 0
 
    * - VCC1
      - VCC2
-     - VCC3
-   * - 2.1 V
-     - 2.1 V
-     - 1.7 V
+   * - 3.3 V
+     - 3.3 V
 
 **Schematic:**
 

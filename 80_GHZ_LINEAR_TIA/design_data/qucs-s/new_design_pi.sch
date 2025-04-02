@@ -1,6 +1,6 @@
-<Qucs Schematic 25.1.0>
+<Qucs Schematic 24.3.0>
 <Properties>
-  <View=-6962,-3612,8959,4398,0.214359,997,614>
+  <View=-3074,-2483,5636,2662,0.256235,383,233>
   <Grid=10,10,1>
   <DataSet=new_design_pi.dat>
   <DataDisplay=new_design_pi.dpl>
@@ -38,13 +38,13 @@
   <IProbe Pr6 1 -620 -390 16 -26 0 1>
   <Lib npn13G3 1 430 -610 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "5" 1>
   <Lib npn13G4 1 430 -1020 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "2" 1>
-  <.SP SP1 1 -510 -1930 0 68 0 0 "lin" 1 "1 Hz" 1 "100 GHz" 1 "1001" 1 "yes" 1 "1" 1 "2" 1 "no" 0 "no" 0>
+  <.SP SP1 1 -510 -1930 0 62 0 0 "lin" 1 "1 Hz" 1 "100 GHz" 1 "1001" 1 "yes" 1 "1" 1 "2" 1 "no" 0 "no" 0>
   <GND * 1 -460 -30 0 0 0 0>
   <Lib npn13G5 1 -460 -40 -140 10 0 3 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
   <GND * 0 -620 -790 0 0 0 0>
   <Vdc V2 0 -620 -820 18 -26 0 1 "2.37 V" 1>
-  <.TR TR1 1 -720 -1930 0 68 0 0 "lin" 1 "0" 1 "3 ns" 1 "10001" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
-  <.FOURIER FOUR1 1 -920 -1960 0 68 0 0 "TR1" 1 "10" 1 "3 GHz" 1 "V(OUTPUT)" 1>
+  <.TR TR1 1 -720 -1930 0 62 0 0 "lin" 1 "0" 1 "3 ns" 1 "10001" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
+  <.FOURIER FOUR1 1 -920 -1960 0 62 0 0 "TR1" 1 "10" 1 "3 GHz" 1 "V(OUTPUT)" 1>
   <GND * 1 -1120 -940 0 0 1 2>
   <GND * 1 -1120 -670 0 0 1 2>
   <GND * 1 -960 -690 0 0 0 0>
@@ -414,6 +414,7 @@
 	<"ngspice/ac.grp_dly" #0000ff 0 3 0 0 0>
 	  <Mkr 4.01e+10 250 -390 3 0 0>
 	  <Mkr 1.5e+09 50 -390 3 0 0>
+	  <Mkr 9.22e+10 570 -280 3 0 0>
   </Rect>
   <Rect -250 1926 781 166 3 #c0c0c0 1 00 1 -1 0.2 1 1 -1 1 1 1 -1 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.s21_phase" #0000ff 0 3 0 0 0>
@@ -425,8 +426,8 @@
 	<"ngspice/ac.ti_db" #0000ff 0 3 0 0 0>
 	  <Mkr 2e+08 -69 -368 3 0 0>
 	  <Mkr 1.64e+10 106 -362 3 0 0>
-	  <Mkr 5.03e+10 245 -349 3 0 0>
-	  <Mkr 8.27e+10 443 -377 3 0 0>
+	  <Mkr 4.72e+10 245 -349 3 0 0>
+	  <Mkr 9.7e+10 443 -377 3 0 0>
   </Rect>
   <Rect 70 700 240 160 3 #c0c0c0 1 01 1 0 2e+10 1e+11 1 nan 1 1e+11 1 -1 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.kf" #0000ff 0 3 0 0 0>
