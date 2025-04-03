@@ -18,7 +18,7 @@ bandwidth.
 
 **Simulated Transimpedance:**
 
-.. image:: _static/TI_imulated.png
+.. image:: _static/TI_simulated.png
     :align: center
     :alt: Transimpedance Image.
     :width: 800
