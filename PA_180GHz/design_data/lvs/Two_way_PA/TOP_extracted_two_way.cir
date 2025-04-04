@@ -1,0 +1,32 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 04/04/2025 05:55
+
+.SUBCKT TOP
+R$1 \$1.VBB1 \$I72 rsil w=2u l=11u ps=0 b=0 m=1
+R$2 \$1.VBB1 \$I79 rsil w=2u l=11u ps=0 b=0 m=1
+R$3 \$1.VBB1 \$I74 rsil w=2u l=11u ps=0 b=0 m=1
+R$4 \$1.VBB1 \$I81 rsil w=2u l=11u ps=0 b=0 m=1
+C$5 \$1.VCC2 \$1 cap_cmim w=10.5u l=15u A=157.5p P=51u m=2
+C$6 \$1.VCC1 \$1 cap_cmim w=10.5u l=15u A=157.5p P=51u m=4
+C$9 \$1.VCC1$1 \$1 cap_cmim w=10.5u l=15u A=157.5p P=51u m=4
+C$10 \$1.VCC2$1 \$1 cap_cmim w=10.5u l=15u A=157.5p P=51u m=2
+Q$17 \$I77 \$I76 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=20 m=20
+Q$37 \$I84 \$I83 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=20 m=20
+R$57 \$I83 \$I76 rsil w=2u l=24u ps=0 b=0 m=1
+R$59 \$I77 \$1.VCC2 rppd w=35u l=0.5u ps=0 b=0 m=1
+R$60 \$I75 \$1.VCC1 rppd w=35u l=0.5u ps=0 b=0 m=1
+R$61 \$I73 \$1.VCC1 rppd w=35u l=0.5u ps=0 b=0 m=1
+R$62 \$I82 \$1.VCC1$1 rppd w=35u l=0.5u ps=0 b=0 m=1
+R$63 \$I84 \$1.VCC2$1 rppd w=35u l=0.5u ps=0 b=0 m=1
+R$64 \$I80 \$1.VCC1$1 rppd w=35u l=0.5u ps=0 b=0 m=1
+R$65 \$1 \$1 rsil w=2.04u l=28u ps=0 b=0 m=2
+Q$67 \$I82 \$I81 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=50.839p PB=37.82u
++ AC=50.816584p PC=37.81u NE=16 m=16
+Q$83 \$I75 \$I74 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=50.839p PB=37.82u
++ AC=50.816584p PC=37.81u NE=16 m=16
+Q$99 \$I80 \$I79 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=50.839p PB=37.82u
++ AC=50.816584p PC=37.81u NE=16 m=16
+Q$115 \$I73 \$I72 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=50.839p PB=37.82u
++ AC=50.816584p PC=37.81u NE=16 m=16
+.ENDS TOP
