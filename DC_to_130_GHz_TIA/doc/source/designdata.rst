@@ -97,7 +97,7 @@ The complete layout view -
 .. image:: _static/layout.PNG
     :align: center
     :width: 1200
-    :height: 1200
+    :height: 600
 
 Pin out view -
 
@@ -189,12 +189,12 @@ the bandwidth.
 .. image:: _static/160_layout.png
     :align: center
     :width: 1200
-    :height: 1000
+    :height: 400
 
 
-    The pin-out of the design 
+The pin-out of the design 
 
-    .. image:: _static/2nd_pinout.png
+.. image:: _static/2nd_pinout.png
     :align: center
     :width: 600
     :height: 600
