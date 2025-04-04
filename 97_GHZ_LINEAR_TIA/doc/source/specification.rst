@@ -46,27 +46,27 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
      - Parameter
      - Value
    * - TL1
-     - 570 µm
+     - 240 µm
      - R\ :sub:`E3`
      - 540 Ω
    * - TL2
-     - 530 µm
+     - 175 µm
      - R\ :sub:`C4`
      - 30 Ω
    * - TL3
-     - 290 µm
+     - 75 µm
      - R\ :sub:`E4`
      - 8 Ω
    * - TL4
-     - 450 µm
+     - 85 µm
      - Q\ :sub:`11`
      - 10×70×900 nm\ :sup:`2`
    * - TL5
-     - 20 µm
+     - 75 µm
      - Q\ :sub:`12`
      - 2×70×900 nm\ :sup:`2`
    * - TL6
-     - 20 µm
+     - 265 µm
      - Q\ :sub:`21`
      - 5×70×900 nm\ :sup:`2`
    * - TL7
@@ -74,7 +74,7 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
      - Q\ :sub:`31`
      - 5×70×900 nm\ :sup:`2`
    * - TL8
-     - 20 µm
+     - 110 µm
      - Q\ :sub:`32`
      - 2×70×900 nm\ :sup:`2`
    * - R\ :sub:`B`
