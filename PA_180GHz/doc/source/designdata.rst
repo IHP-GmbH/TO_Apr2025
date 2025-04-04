@@ -1,7 +1,8 @@
 Design data and design process description
 ############################################
 
-
+The Two-Way Power Amplifier
+############################################
 The design procedure can be explained with a flow chart -
 
 .. image:: _static/flowchart_two_way.png
@@ -165,3 +166,143 @@ The pad layout was designed to ensure robust and organized connectivity to power
   - VCC2 (1.8V)
 
 The RF pads are **hexagonal** and placed mid-height for symmetric probe access in a GSG (Ground-Signal-Ground) configuration. All power and bias pads are **square** and colored according to standard convention: red for RF, yellow for VCC, blue for bias, and pink for ground. The pad pitch and spacing are designed to be compatible with high-frequency wafer probes.
+
+The Four-Way Power Amplifier
+##############################################
+
+The design procedure can be explained with a flow chart -
+
+.. image:: _static/flowchart_four_way.png
+    :align: center
+    :width: 600
+    :height: 800
+
+Design Procedure
+##############################################
+
+The Four-Way Power Amplifier was designed as a **scaled-up version** of the Two-Way PA, targeting a higher **Psat of 23 dBm at 180 GHz**, and aiming to outperform the current state-of-the-art designs in SiGe BiCMOS processes.
+
+Building upon the validated performance of the **three-stage common emitter unit cell** (17 dBm Psat) and the **Two-Way Wilkinson-combined amplifier** (20 dBm), the Four-Way PA was realized by integrating **four identical unit cells**, fed and merged using a **hierarchical Wilkinson power splitter/combiner**.
+
+The Wilkinson network consists of:
+- Three combining stages
+- Designed for **1:4 power splitting at input** and **4:1 combining at output**
+- EM-simulated for minimal insertion loss and optimal phase alignment
+
+The design process involved:
+1. Replicating the **unit cell design** (with matching networks)
+2. Expanding the combiner architecture to handle 4-way signal routing
+3. Ensuring **equal path lengths and load symmetry**
+4. Performing **layout-level EM simulations** to minimize parasitic effects and optimize combining efficiency
+
+Theoretically, each doubling of unit cells provides a **+3 dB boost** in Psat. With four units, the output power adds up to **23 dBm**, effectively surpassing the 18.1 dBm reported in state-of-the-art 4-way cascode-based designs. The CE-based approach offers **simpler implementation, compact area**, and strong performance at G-band.
+
+The Four-Way PA layout integrates:
+- Input Wilkinson splitter
+- Four unit cells in parallel
+- Output Wilkinson combiner
+- Decoupled power/bias routing for each branch
+
+Circuit Design
+----------------------------------------------
+
+The schematic of the Four-Way Power Amplifier is shown below:
+
+.. image:: _static/Four_way_PA_Schematic.PNG
+    :align: center
+    :width: 1000
+    :height: 700
+
+The circuit architecture consists of **four identical three-stage Common Emitter (CE) amplifier chains**, combined using a **hierarchical Wilkinson power network**. This design extends the validated Two-Way PA schematic, doubling the number of unit cells to achieve higher output power while maintaining layout symmetry and electrical balance.
+
+Each CE amplifier chain includes:
+- Three single-ended stages with **inter-stage matching using transmission lines and MIM capacitors**
+- Separate bias paths for each stage: **VBB1 (0.97 V)** and **VBB2 (0.94 V)**
+- Power rails: **VCC1 (1.7 V)** and **VCC2 (1.8 V)** delivered to each amplifier in a distributed manner
+
+The input and output networks use a **3-level Wilkinson structure** that supports:
+- **1:4 power splitting at input** — ensuring all unit cells receive equal signal magnitude and phase
+- **4:1 combining at output** — allowing coherent power addition at the load
+
+Each Wilkinson stage was designed at **180 GHz with 50-ohm characteristic impedance**, and all splitters/combiners were validated with **EM simulation** to account for parasitic coupling, insertion loss, and layout-specific mismatches.
+
+This modular circuit strategy improves scalability and simplifies design reuse while allowing for:
+- **~6 dB cumulative gain** increase from 4-way combination (assuming ideal conditions)
+- A projected **Psat of ~23 dBm**, which significantly exceeds the current state-of-the-art SiGe BiCMOS designs in the same frequency band
+
+Layout Design
+----------------------------------------
+
+The layout of the Four-Way Power Amplifier is shown below:
+
+.. image:: _static/Four_way_PA_layout_view.PNG
+    :align: center
+    :width: 1000
+    :height: 1000
+
+The layout extends the structure of the Two-Way PA by incorporating:
+
+- **Four unit cells**, arranged symmetrically for phase and gain balance
+- A **multi-level Wilkinson splitter/combiner** network placed centrally
+- Wide routing for high-current RF paths and power supply distribution
+- Consistent spacing for thermal dissipation and parasitic minimization.
+
+Simulated Results
+###########################################################
+
+S-Parameters
+------------------------------------
+
+.. image:: _static/s_param_four_way.png
+    :align: center
+    :width: 1000
+    :height: 500
+
+The S-parameter simulation confirms the amplifier’s performance near the target frequency of **180 GHz**:
+
+- **S21 (Gain)**: ~6.3 dB at 180 GHz, consistent with expected combiner insertion loss
+- **S11, S22**: ~–30 dB indicating strong input/output matching
+- **S12**: ~–35 dB, ensuring high isolation
+
+The small-signal gain is slightly lower than the Two-Way PA due to additional combiner levels but remains well within design targets. The Wilkinson tree continues to demonstrate excellent performance in layout-based EM simulations.
+
+Stability Parameters
+----------------------------------------
+
+.. image:: _static/stability_param_four_way.png
+    :align: center
+    :width: 900
+    :height: 800
+
+Stability analysis indicates:
+
+- **|Δ| < 1** across the entire band
+- **K-Factor = 14.21** and **μ = 15.10** at 180 GHz
+
+The amplifier remains **unconditionally stable** through 300 GHz. Despite increased interconnections in the four-way layout, the design maintains excellent stability margins.
+
+Large Signal Estimation (Theoretical)
+----------------------------------------
+
+Due to simulation limitations in Qucs-S (lack of transient solver for S-parameter-interconnected large signal paths), the full Four-Way amplifier could not be simulated directly for **Gain Compression** and **Psat**.
+
+However, the theoretical estimate based on the unit cell result (17 dBm Psat) follows:
+
+- Two-way PA: **+3 dB → 20 dBm**
+- Four-way PA: **+3 dB more → 23 dBm**
+
+Thus, the expected **Psat = 23 dBm**, which **surpasses the 18.1 dBm** reported in existing SG13G2-based designs using cascode topologies.
+
+Pad Layout
+----------------------------------------
+
+.. image:: _static/Corrected_four_way_pad_layout.png
+    :align: center
+    :width: 1000
+    :height: 500
+
+The Four-Way Power Amplifier uses a **pad layout nearly identical to the Two-Way PA**, with only minor adjustments made to accommodate the extended signal routing and additional bias control.
+
+- **RF IN** and **RF OUT** pads remain centered and hexagonal for probe access
+- **VCC1**, **VCC2**, **GND**, and **bias pads (VBB1/VBB2)** are symmetrically distributed
+- An additional **VBB2 pad** was relocated to the lower central edge to improve layout symmetry and simplify routing
