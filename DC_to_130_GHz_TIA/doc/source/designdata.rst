@@ -176,3 +176,26 @@ Z21 Simulation
     :align: center
     :width: 1000
     :height: 400
+
+
+Design of a Second 3-Stage amplifier
+##############################################
+
+A 2nd amplifier has been designed with similar specs but this time the amplifier has 3 stages.
+As mentioned earlier, this also satisfies the condition to be a state of the art design as it exceeds bandwidth of 130 GHz.
+The design has 3 stages with the primary stage giving the transimpedance gain and the rest of the stages are for extending
+the bandwidth.
+
+.. image:: _static/160_layout.png
+    :align: center
+    :width: 1200
+    :height: 1000
+
+
+    The pin-out of the design 
+
+    .. image:: _static/2nd_pinout.png
+    :align: center
+    :width: 600
+    :height: 600
+
