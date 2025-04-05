@@ -1,6 +1,8 @@
 Design data and design process description
 ############################################
 
+The design process is deeply detailled in the tutorial here :
+`https://analog-course.readthedocs.io <https://analog-course.readthedocs.io>`_.
 
-Document the design process here and comment on the design data. 
+
 

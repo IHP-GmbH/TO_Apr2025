@@ -8,8 +8,8 @@ Welcome to a LNA 2.45GHz Open Source PDK documentation!
     :hidden:
     
     specification
-    custom_components
     designdata
+    custom_components
     validation
 
 
@@ -18,3 +18,8 @@ This tutorial is made by engineer student at INPG Phelma and will be used by upc
 
 The tutorial can be found here : `https://analog-course.readthedocs.io <https://analog-course.readthedocs.io>`_.
 
+
+.. image:: _static/layout.png
+    :align: center
+    :alt: Layout Image.
+    :width: 600
