@@ -1,0 +1,30 @@
+** sch_path: /home/user/Documents/silicon/schematics/lna_xscem.sch
+.subckt TOP VOUT VIN VSS VDD V_POL diode_pol common_mode in_dc_block cm_source sd_mos tank_out
+*.PININFO VOUT:O VIN:I VSS:B VDD:B V_POL:B diode_pol:B common_mode:B in_dc_block:B cm_source:B
+*+ sd_mos:B tank_out:B
+CC1 in_dc_block VIN cap_cmim w=57.74e-6 l=57.74e-6 m=2
+MMn2 cm_source common_mode sd_mos VSS sg13_lv_nmos l=0.13u w=45.0u ng=45 m=1
+CCi cm_source common_mode cap_cmim w=20.53e-6 l=20.53e-6 m=1
+MMn1 sd_mos VDD tank_out VSS sg13_lv_nmos l=0.13u w=45.0u ng=45 m=1
+MM3 diode_pol diode_pol VSS VSS sg13_lv_nmos l=0.13u w=5.0u ng=5 m=1
+RRrf common_mode diode_pol rhigh w=10e-6 l=36.62e-6 m=1 b=0
+RR_pol diode_pol V_POL rppd w=10e-6 l=21.3e-6 m=1 b=0
+CCout_1 VOUT tank_out cap_cmim w=29.44e-6 l=29.44e-6 m=1
+CCout_2 VOUT VSS cap_cmim w=44.72e-6 l=44.72e-6 m=1
+CC_dec0 VDD VSS cap_cmim w=57.74e-6 l=57.74e-6 m=11
+CC_dec1 VDD VSS cap_cmim w=57.74e-6 l=30e-6 m=2
+CC_dec2 VDD VSS cap_cmim w=57.74e-6 l=35e-6 m=1
+CC_dec3 VDD VSS cap_cmim w=30e-6 l=57.74e-6 m=2
+CCrng0 VDD VSS cap_cmim w=30e-6 l=80e-6 m=1
+MMn3 VSS VSS VSS VSS sg13_lv_nmos l=0.13u w=180u ng=180 m=1
+LLi in_dc_block common_mode VSS simple_inductor w=4.6e-6 s=4.1e-6 d=167.7e-6 nr_r=1
+LLl tank_out VDD VSS simple_inductor w=4.3e-6 s=4e-6 d=176.3e-6 nr_r=1
+LLs1 cm_source VSS VSS simple_inductor w=5e-6 s=2.1e-6 d=113.2e-6 nr_r=1
+DD2 VDD V_POL VSS diodevss_2kv m=1
+DD3 VDD V_POL VSS diodevdd_2kv m=1
+DD4 VDD VOUT VSS diodevdd_2kv m=1
+DD5 VDD VOUT VSS diodevss_2kv m=1
+DD6 VDD VIN VSS diodevdd_2kv m=1
+DD7 VDD VIN VSS diodevss_2kv m=1
+.ends
+.end
