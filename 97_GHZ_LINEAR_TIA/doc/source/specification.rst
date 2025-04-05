@@ -83,7 +83,7 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
      - 10×70×900 nm\ :sup:`2`
    * - R\ :sub:`F`
      - 897 Ω
-     - Q\ :sub:`3`
+     - Q\ :sub:`42`
      - 4×70×900 nm\ :sup:`42`
    * - R\ :sub:`C1`
      - 78 Ω
