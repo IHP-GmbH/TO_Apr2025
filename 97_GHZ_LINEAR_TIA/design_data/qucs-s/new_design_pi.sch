@@ -1,6 +1,6 @@
 <Qucs Schematic 24.3.0>
 <Properties>
-  <View=-3074,-2483,5636,2662,0.256235,383,233>
+  <View=-1863,-1983,2966,2252,0.755423,83,1190>
   <Grid=10,10,1>
   <DataSet=new_design_pi.dat>
   <DataDisplay=new_design_pi.dpl>
@@ -20,13 +20,12 @@
   <GND * 1 -1680 -250 0 0 0 0>
   <GND * 1 40 -90 0 0 0 0>
   <GND * 1 -310 -400 0 0 0 0>
-  <IProbe vin1 1 -1470 -510 -26 16 0 0>
-  <Pac P1 1 -1680 -360 18 -26 0 1 "1" 1 "50 Ohm" 1 "-24 dBm" 1 "3 GHz" 0 "26.85" 0 "true" 0>
+  <IProbe vin 1 -1470 -510 -26 16 0 0>
+  <Pac P1 1 -1680 -360 18 -26 0 1 "1" 1 "50 Ohm" 1 "-23.48 dBm" 1 "3 GHz" 0 "26.85" 0 "true" 0>
   <GND * 1 -310 -770 0 0 0 0>
   <VProbe Pr2 1 -580 -1070 -53 -31 1 2>
   <GND * 1 -590 -1050 0 0 0 0>
   <GND * 1 170 -870 0 0 0 0>
-  <Lib npn13G1 1 40 -950 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "5" 1>
   <GND * 1 -20 -1010 0 0 0 0>
   <VProbe Pr3 1 -10 -1030 -53 -31 1 2>
   <GND * 1 560 -530 0 0 0 0>
@@ -34,22 +33,15 @@
   <GND * 1 540 -960 0 0 0 0>
   <GND * 1 300 -700 0 0 0 0>
   <VProbe Pr5 1 310 -720 -53 -31 1 2>
-  <Lib npn13G2 1 -470 -510 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "10" 1>
   <IProbe Pr6 1 -620 -390 16 -26 0 1>
-  <Lib npn13G3 1 430 -610 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "5" 1>
-  <Lib npn13G4 1 430 -1020 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "2" 1>
   <.SP SP1 1 -510 -1930 0 62 0 0 "lin" 1 "1 Hz" 1 "100 GHz" 1 "1001" 1 "yes" 1 "1" 1 "2" 1 "no" 0 "no" 0>
   <GND * 1 -460 -30 0 0 0 0>
-  <Lib npn13G5 1 -460 -40 -140 10 0 3 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
   <GND * 0 -620 -790 0 0 0 0>
   <Vdc V2 0 -620 -820 18 -26 0 1 "2.37 V" 1>
   <.TR TR1 1 -720 -1930 0 62 0 0 "lin" 1 "0" 1 "3 ns" 1 "10001" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
-  <.FOURIER FOUR1 1 -920 -1960 0 62 0 0 "TR1" 1 "10" 1 "3 GHz" 1 "V(OUTPUT)" 1>
   <GND * 1 -1120 -940 0 0 1 2>
   <GND * 1 -1120 -670 0 0 1 2>
   <GND * 1 -960 -690 0 0 0 0>
-  <Lib npn13G7 1 -960 -1050 30 100 1 2 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
-  <Lib npn13G8 1 -960 -780 30 100 1 2 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
   <IProbe Pr7 1 -1040 -1300 -26 16 0 0>
   <GND * 1 -1140 -1240 0 0 1 2>
   <Vdc V3 1 -1140 -1270 -60 -26 1 1 "3.3 V" 1>
@@ -65,41 +57,21 @@
   <GND * 1 1150 -870 0 0 1 2>
   <GND * 1 1150 -600 0 0 1 2>
   <GND * 1 1310 -620 0 0 0 0>
-  <Lib npn13G10 1 1310 -980 30 100 1 2 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
-  <Lib npn13G11 1 1310 -710 30 100 1 2 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
   <IProbe Pr10 1 1230 -1230 -26 16 0 0>
   <GND * 1 1130 -1170 0 0 1 2>
   <Vdc V6 1 1130 -1200 -60 -26 1 1 "3.3 V" 1>
   <VProbe Pr11 1 1420 -1120 37 -31 0 0>
   <GND * 1 1430 -1100 0 0 1 2>
-  <INCLSCR INCLSCR1 1 -60 -1840 -60 16 0 0 ".LIB C:\Users\rupok_nsl\Desktop\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerHBT.lib hbt_typ\n.LIB C:\Users\rupok_nsl\Desktop\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerCAP.lib cap_typ\n.LIB C:\Users\rupok_nsl\Desktop\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\models\cornerRES.lib res_typ\n.control\npre_osdi C:\Users\rupok_nsl\Desktop\IHP-Open-PDK\ihp-sg13g2\libs.tech\ngspice\osdi\r3_cmc.osdi\n.endc" 1 "" 0 "" 0>
-  <Lib rhigh1 1 -960 -900 50 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
-  <Lib rhigh2 1 -830 -780 -26 -114 0 1 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
-  <Lib rhigh3 1 -890 -1050 -26 -114 0 1 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
   <VProbe Pr12 1 -820 -1200 37 -31 0 0>
   <GND * 1 -810 -1180 0 0 1 2>
-  <Lib rhigh4 1 -960 -1220 50 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2.94u" 1 "1" 1>
-  <Lib cap_cmim1 1 -700 -830 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "30 u" 1 "30 u" 1>
-  <Lib rhigh5 1 1380 -710 -26 -114 0 1 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
-  <Lib rhigh6 1 1380 -980 -26 -114 0 1 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
-  <Lib rhigh7 1 1310 -870 -79 -26 0 2 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
-  <Lib rhigh8 1 1310 -1150 50 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "1.94u" 1 "1" 1>
-  <Lib cap_cmim2 1 1530 -910 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "30 u" 1 "30 u" 1>
   <GND * 1 1530 -890 0 0 0 0>
-  <Lib rppd1 1 -460 -30 -110 -196 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "4 u" 1 "13.3 u" 1 "1" 1>
-  <Lib npn13G12 1 1740 -440 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "10" 1>
-  <Lib rhigh9 1 40 -420 50 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "8u" 1 "8.2u" 1 "1" 1>
-  <Lib rppd2 1 590 -70 -110 -196 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "4 u" 1 "2.9 u" 1 "1" 1>
-  <DCBlock C2 1 -1310 -510 -26 21 0 0 "5 uF" 0>
   <L L5 1 -1050 -510 -26 10 0 0 "65.304 pH" 1 "" 0>
   <GND * 1 -1120 -350 0 0 0 0>
   <GND * 1 -860 -350 0 0 0 0>
-  <Lib rppd4 1 -310 -980 -110 -196 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "8.5u" 1 "2u" 1 "1" 1>
   <IProbe Pr1 1 -370 -1480 -26 16 1 2>
   <IProbe Pr13 1 -70 -1480 -26 16 0 0>
   <GND * 1 -230 -1540 0 -16 1 0>
   <Vdc V7 1 -230 -1510 18 -26 1 3 "3.3 V" 1>
-  <Lib cap_cmim3 1 -230 -1440 30 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "30 u" 1 "30 u" 1>
   <L L4 1 -470 -1320 10 -26 1 3 "61.312 pH" 1 "" 0>
   <GND * 1 -680 -1290 0 0 0 3>
   <GND * 1 -680 -1420 0 0 0 3>
@@ -117,7 +89,6 @@
   <C C6 1 -860 -390 17 -26 0 1 "15.029 fF" 1 "" 0 "neutral" 0>
   <R R5 1 -1120 -440 15 -26 0 1 "14.556 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <R R6 1 -860 -440 15 -26 0 1 "40.257 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
-  <DCBlock C11 1 2650 -1060 -26 21 0 0 "1 uF" 0>
   <L L3 1 2280 -1060 -26 10 0 0 "25.094 pH" 1 "" 0>
   <GND * 1 2440 -940 0 0 0 0>
   <R R3 1 2380 -1060 -26 15 0 0 "0.329 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
@@ -154,8 +125,6 @@
   <C C17 1 250 -1360 -26 17 0 0 "6.385 fF" 1 "" 0 "neutral" 0>
   <R R21 1 340 -1360 -26 15 0 0 "446.702 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <GND * 1 -620 -640 0 0 0 2>
-  <Lib rhigh10 1 -620 -600 50 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "4u" 1 "9.9u" 1 "1" 1>
-  <Lib npn13G6 1 -470 -880 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "2" 1>
   <R R7 1 -470 -1390 15 -26 0 1 "0.964 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <C C8 1 -650 -1290 -26 17 0 0 "11.336 fF" 1 "" 0 "neutral" 0>
   <R R9 1 -560 -1290 -26 15 0 0 "0.478 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
@@ -170,14 +139,45 @@
   <C C19 1 1670 -20 -26 17 0 0 "2.314 fF" 1 "" 0 "neutral" 0>
   <GND * 1 1550 -170 0 0 0 3>
   <GND * 1 1550 -20 0 0 0 3>
-  <Lib rsil2 1 1740 -290 50 -26 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "18u" 1 "30u" 1 "1" 1>
-  <Lib npn13G9 1 1740 -980 10 100 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "4" 1>
-  <Lib rppd3 1 1900 -960 -110 -196 0 0 "C:/Users/rupok_nsl/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "20.6u" 1 "2.1u" 1 "1" 1>
   <R R13 1 1740 -1440 15 -26 0 1 "1.152 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <C C12 1 1560 -1340 -26 17 0 0 "18.649 fF" 1 "" 0 "neutral" 0>
   <R R14 1 1650 -1340 -26 15 0 0 "2.956 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <C C13 1 1560 -1470 -26 17 0 0 "18.558 fF" 1 "" 0 "neutral" 0>
   <R R15 1 1650 -1470 -26 15 0 0 "4.009 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
+  <INCLSCR INCLSCR1 1 -90 -1920 -60 16 0 0 ".LIB /home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/ngspice/models/cornerHBT.lib hbt_typ\n.LIB /home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/ngspice/models/cornerRES.lib res_typ\n.LIB /home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/ngspice/models/cornerCAP.lib cap_typ\n.control\npre_osdi /home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/verilog-a/r3_cmc/r3_cmc.osdi\n.endc" 1 "" 0 "" 0>
+  <Lib rhigh4 1 -960 -1220 50 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2.94u" 1 "1" 1>
+  <Lib rhigh3 1 -890 -1050 -26 -114 0 1 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
+  <Lib rhigh1 1 -960 -900 50 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
+  <Lib rhigh2 1 -830 -780 -26 -114 0 1 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
+  <Lib cap_cmim1 1 -700 -830 30 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "30 u" 1 "30 u" 1>
+  <Lib cap_cmim3 1 -230 -1440 30 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "30 u" 1 "30 u" 1>
+  <Lib rppd4 1 -310 -980 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "8.5u" 1 "2u" 1 "1" 1>
+  <Lib rhigh10 1 -620 -600 50 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "4u" 1 "9.9u" 1 "1" 1>
+  <Lib rppd1 1 -460 -30 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "4 u" 1 "13.3 u" 1 "1" 1>
+  <Lib rhigh9 1 40 -420 50 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "8u" 1 "8.2u" 1 "1" 1>
+  <Lib rppd2 1 590 -70 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "4 u" 1 "2.9 u" 1 "1" 1>
+  <Lib rhigh8 1 1310 -1150 50 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "1.94u" 1 "1" 1>
+  <Lib rhigh6 1 1380 -980 -26 -114 0 1 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
+  <Lib rhigh7 1 1310 -870 -79 -26 0 2 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
+  <Lib rhigh5 1 1380 -710 -26 -114 0 1 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rhigh" 0 "3u" 1 "2u" 1 "1" 1>
+  <Lib cap_cmim2 1 1530 -910 30 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "cap_cmim" 0 "30 u" 1 "30 u" 1>
+  <Lib rppd3 1 1900 -960 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "20.6u" 1 "2.1u" 1 "1" 1>
+  <Lib rsil2 1 1740 -290 50 -26 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "18u" 1 "30u" 1 "1" 1>
+  <Lib npn13G7 1 -960 -1050 30 100 1 2 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
+  <Lib npn13G8 1 -960 -780 30 100 1 2 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
+  <Lib npn13G2 1 -470 -510 10 100 0 0 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "10" 1>
+  <Lib npn13G5 1 -460 -40 -140 10 0 3 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
+  <Lib npn13G6 1 -470 -880 10 100 0 0 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "2" 1>
+  <Lib npn13G1 1 40 -950 10 100 0 0 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "5" 1>
+  <Lib npn13G4 1 430 -1020 10 100 0 0 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "2" 1>
+  <Lib npn13G3 1 430 -610 10 100 0 0 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "5" 1>
+  <Lib npn13G10 1 1310 -980 30 100 1 2 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
+  <Lib npn13G11 1 1310 -710 30 100 1 2 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "1" 1>
+  <Lib npn13G9 1 1740 -980 10 100 0 0 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "4" 1>
+  <Lib npn13G12 1 1740 -440 10 100 0 0 "/home/rf/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_nonlinear_components" 0 "npn13G2" 0 "10" 1>
+  <C C20 1 -1310 -510 -26 17 0 0 "5 uF" 1 "" 0 "neutral" 0>
+  <C C21 1 2650 -1060 -26 17 0 0 "5 uF" 1 "" 0 "neutral" 0>
+  <.FOURIER FOUR1 1 -1040 -1940 0 62 0 0 "TR1" 1 "10" 1 "3 GHz" 1 "V(OUTPUT), V(INPUT), I(VVIN)" 1>
 </Components>
 <Wires>
   <-460 -510 -310 -510 "" 0 0 0 "">
@@ -396,19 +396,19 @@
   </Rect>
   <Smith -190 1190 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.s_1_1" #0000ff 0 3 0 0 0>
-	  <Mkr 4.01e+10 -99 -287 9 0 0>
+	  <Mkr 4.01e+10/0/0 -99 -287 9 0 0>
   </Smith>
   <Smith 140 1180 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.s_1_2" #0000ff 0 3 0 0 0>
-	  <Mkr 4.01e+10 -12 -275 9 0 0>
+	  <Mkr 4.01e+10/0/0 -12 -275 9 0 0>
   </Smith>
   <Smith -200 1510 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.s_2_1" #0000ff 0 3 0 0 0>
-	  <Mkr 4.01e+10 -95 -273 9 0 0>
+	  <Mkr 4.01e+10/0/0 -95 -273 9 0 0>
   </Smith>
   <Smith 150 1510 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.s_2_2" #0000ff 0 3 0 0 0>
-	  <Mkr 4.01e+10 -16 -270 9 0 0>
+	  <Mkr 4.01e+10/0/0 -16 -270 9 0 0>
   </Smith>
   <Rect -1160 2029 571 321 3 #c0c0c0 1 00 1 0 1e+10 1e+11 0 0 5e-12 5.5e-11 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.grp_dly" #0000ff 0 3 0 0 0>
@@ -452,19 +452,30 @@
   <Rect 930 720 240 160 3 #c0c0c0 1 00 1 0 2e-10 1e-09 1 -0.00331489 0.002 0.004 1 -1 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/tran.i(vvin)" #0000ff 0 3 0 0 0>
   </Rect>
-  <Rect -1070 -30 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
-	<"ngspice/magnitude(v(output))" #0000ff 0 3 0 0 0>
-	  <Mkr 1.8e+10 77 -217 3 0 0>
+  <Rect -1470 -150 240 160 3 #c0c0c0 1 00 1 -1 0.5 1 1 -1 1 1 1 -1 1 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/tran.i(vvin)" #0000ff 0 3 0 0 0>
+	  <Mkr 2.06135e-09 225 -191 3 0 0>
+	  <Mkr 2.23565e-09 239 -89 3 0 0>
   </Rect>
-  <Rect -1470 50 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+  <Rect -1470 180 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/tran.v(output)" #0000ff 0 3 0 0 0>
+	  <Mkr 4.34184e-10 95 -207 3 0 0>
+	  <Mkr 5.96746e-10 58 47 3 0 0>
   </Rect>
-  <Rect -1470 -150 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
-	<"ngspice/tran.i(vvin1)" #0000ff 0 3 0 0 0>
+  <Rect -1010 -30 240 160 3 #c0c0c0 1 00 1 0 5e+09 2.7e+10 1 -0.00274163 0.02 0.0290737 1 -1 1 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/magnitude(i(vvin))" #0000ff 0 3 0 0 0>
+	  <Mkr 3e+09 87 -227 3 0 0>
   </Rect>
-  <Tab -1160 212 230 132 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
+  <Tab -1160 140 297 50 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/thd_%(i(vvin))" #0000ff 0 3 0 0 0>
+  </Tab>
+  <Tab -1160 224 297 54 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/thd_%(v(output))" #0000ff 0 3 1 0 0>
   </Tab>
+  <Rect -730 310 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/magnitude(v(output))" #0000ff 0 3 0 0 0>
+	  <Mkr 3e+09 47 -237 4 0 0>
+  </Rect>
 </Diagrams>
 <Paintings>
   <Rectangle -1280 430 800 590 #000000 2 1 #c0c0c0 1 0>
