@@ -1,0 +1,26 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/lvs/parts/pad_diode_7.sch
+.subckt pad_diode_7 VDD IN OUT VSS VBAIS_IN VBIAS_OUT IBIAS_IN
+*.PININFO VDD:B IN:I OUT:O VSS:B VBAIS_IN:B VBIAS_OUT:B IBIAS_IN:B
+X1 VDD bondpad
+X3 OUT bondpad
+X4 VSS bondpad
+D1 VDD VDD VSS diodevdd_2kv
+D4 VDD VDD VSS diodevss_2kv
+X2 IN bondpad
+D2 VDD IN VSS diodevdd_2kv
+D3 VDD IN VSS diodevss_2kv
+D5 VDD OUT VSS diodevdd_2kv
+D6 VDD OUT VSS diodevss_2kv
+D7 VDD VSS VSS diodevdd_2kv
+D8 VDD VSS VSS diodevss_2kv
+X6 IBIAS_IN bondpad
+D11 VDD IBIAS_IN VSS diodevdd_2kv
+D12 VDD IBIAS_IN VSS diodevss_2kv
+X7 VBAIS_IN bondpad
+D13 VDD VBAIS_IN VSS diodevdd_2kv
+D14 VDD VBAIS_IN VSS diodevss_2kv
+X8 VBIAS_OUT bondpad
+D15 VDD VBIAS_OUT VSS diodevdd_2kv
+D16 VDD VBIAS_OUT VSS diodevss_2kv
+.ends
+.end

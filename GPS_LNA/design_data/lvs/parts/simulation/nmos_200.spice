@@ -1,0 +1,6 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/lvs/parts/nmos_200.sch
+.subckt nmos_200 S B D G
+*.PININFO S:B B:B D:B G:B
+M2 D G S B rfnmos l=0.36u w=200.0u ng=200
+.ends
+.end

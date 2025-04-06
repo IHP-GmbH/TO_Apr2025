@@ -1,0 +1,6 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 05:24
+
+.SUBCKT NPN_60
+Q$1 \$3 \$5 \$4 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=60 m=60
+.ENDS NPN_60

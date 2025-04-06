@@ -1,0 +1,14 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 01:54
+
+.SUBCKT lna_nmos_base_lvs
+C$1 \$I14 \$6 \$1 rfcmim w=55u l=60u A=3300p P=230u m=1 wfeed=5u
+M$2 \$I15 \$4 \$10 \$1 rfnmos L=0.36u W=200u AS=120.565p AD=120.565p PS=442.13u
++ PD=442.13u
+M$202 \$I15 \$3 \$5 \$1 rfnmos L=0.36u W=200u AS=120.565p AD=120.565p
++ PS=442.13u PD=442.13u
+M$402 \$I1423 \$I1423 \$1 \$1 rfnmos L=0.36u W=10u AS=2.055p AD=2.055p
++ PS=15.11u PD=15.11u
+R$412 \$9 \$I14 rsil w=0.5u l=2.4u ps=0 b=0 m=1
+R$413 \$I1423 \$4 rppd w=0.5u l=1.8u ps=0 b=0 m=1
+R$414 \$6 \$I1423 rppd w=0.5u l=3.6u ps=0 b=0 m=1
+.ENDS lna_nmos_base_lvs

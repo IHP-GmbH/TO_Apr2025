@@ -1,0 +1,28 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 04/04/2025 13:09
+
+.SUBCKT lna_npn_pad_lvs
+C$1 \$I3 \$7 \$1 rfcmim w=55u l=60u A=3300p P=230u m=1 wfeed=5u
+M$2 \$I32 \$I32 \$1 \$1 rfnmos L=0.36u W=10u AS=2.055p AD=2.055p PS=15.11u
++ PD=15.11u
+R$12 \$I3 \$10 rsil w=0.5u l=2.4u ps=0 b=0 m=1
+R$13 \$7 \$I32 rppd w=0.5u l=3.6u ps=0 b=0 m=1
+R$14 \$I32 \$6 rppd w=0.5u l=1.8u ps=0 b=0 m=1
+D$15 \$6 \$1 \$3 diodevss_2kv m=1
+D$16 \$6 \$1 \$1 diodevss_2kv m=1
+D$17 \$6 \$1 \$6 diodevss_2kv m=1
+D$18 \$6 \$1 \$10 diodevss_2kv m=1
+D$19 \$6 \$1 \$7 diodevss_2kv m=1
+D$20 \$6 \$1 \$2 diodevss_2kv m=1
+D$21 \$6 \$1 \$4 diodevss_2kv m=1
+D$22 \$1 \$6 \$3 diodevdd_2kv m=1
+D$23 \$1 \$6 \$1 diodevdd_2kv m=1
+D$24 \$1 \$6 \$6 diodevdd_2kv m=1
+D$25 \$1 \$6 \$10 diodevdd_2kv m=1
+D$26 \$1 \$6 \$7 diodevdd_2kv m=1
+D$27 \$1 \$6 \$2 diodevdd_2kv m=1
+D$28 \$1 \$6 \$4 diodevdd_2kv m=1
+Q$29 \$2 \$6 \$I33 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=60 m=60
+Q$49 \$I33 \$4 \$3 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=60 m=60
+.ENDS lna_npn_pad_lvs

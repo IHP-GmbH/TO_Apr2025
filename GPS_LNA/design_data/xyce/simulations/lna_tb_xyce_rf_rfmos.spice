@@ -1,0 +1,52 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/xschem/lna_tb_xyce_rf_rfmos.sch
+**.subckt lna_tb_xyce_rf_rfmos
+VDD VDD GND 1.5
+vin vin GND dc 1.5 ac 1
+XR2 net3 net1 rppd w=0.5e-6 l=3.6e-6 m=1 b=0
+XR1 net1 VDD rppd w=0.5e-6 l=1.8e-6 m=1 b=0
+XR3 net2 vin rsil w=0.5e-6 l=2.4e-6 m=1 b=0
+L1 VDD vout 26.83n
+L2 net6 GND 2.36n
+L3 net3 net5 39n
+XC1 net2 net3 GND cap_rfcmim w=60.0e-6 l=55.0e-6 wfeed=5.0e-6
+XC2 net2 net3 GND cap_rfcmim w=60.0e-6 l=55.0e-6 wfeed=5.0e-6
+XM3 net1 net1 GND GND sg13_lv_nmos w=10.0u l=0.36u ng=5 m=1 rfmode=1
+XX1 VDD bondpad size=100u shape=0 padtype=0
+XX3 vout bondpad size=100u shape=0 padtype=0
+XX4 GND bondpad size=100u shape=0 padtype=0
+XD1 VDD VDD GND diodevdd_2kv
+XD4 VDD VDD GND diodevss_2kv
+XX2 vin bondpad size=100u shape=0 padtype=0
+XD2 VDD vin GND diodevdd_2kv
+XD3 VDD vin GND diodevss_2kv
+XD5 VDD vout GND diodevdd_2kv
+XD6 VDD vout GND diodevss_2kv
+XD7 VDD GND GND diodevdd_2kv
+XD8 VDD GND GND diodevss_2kv
+XM2 vout VDD net4 GND sg13_lv_nmos w=200.0u l=0.36u ng=200 m=1 rfmode=1
+XM1 net4 net5 net6 GND sg13_lv_nmos w=200.0u l=0.36u ng=200 m=1 rfmode=1
+**** begin user architecture code
+
+
+*.control
+.OPTIONS OUTPUT PRINTHEADER=false PRINTFOOTER=false
+.preprocess replaceground true
+.option temp=27
+
+.ac dec 1001 800meg 3000meg
+.print ac format=raw file=lna_tb_xyce_rf_rfmos.raw V(Vout)
+
+
+
+.lib /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/cornerHBT.lib hbt_typ
+.lib /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/cornerMOSlv.lib mos_tt
+.lib /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/resistors.lib res_typ
+.lib /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/cornerCAP.lib cap_typ
+.include /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/sg13g2_bondpad.lib
+.include /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/sg13g2_esd.lib
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.GLOBAL VDD
+.end

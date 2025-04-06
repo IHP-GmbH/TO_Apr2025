@@ -1,0 +1,11 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/lvs/parts/npn_60.sch
+.subckt npn_60 S E C B
+*.PININFO S:B E:B C:B B:B
+Q1 C B E S npn13G2 le=900e-9 we=70.0n m=10
+Q2 C B E S npn13G2 le=900e-9 we=70.0n m=10
+Q3 C B E S npn13G2 le=900e-9 we=70.0n m=10
+Q4 C B E S npn13G2 le=900e-9 we=70.0n m=10
+Q5 C B E S npn13G2 le=900e-9 we=70.0n m=10
+Q6 C B E S npn13G2 le=900e-9 we=70.0n m=10
+.ends
+.end

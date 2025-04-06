@@ -1,0 +1,12 @@
+** sch_path: /home/noritsuna/LNA/202504/lvs/lna_nmos_base_lvs.sch
+.subckt lna_nmos_base_lvs VDD IN OUT VSS VBIAS_IN VBIAS_OUT IBIAS_IN
+*.PININFO VDD:B IN:I OUT:O VSS:B VBIAS_IN:B VBIAS_OUT:B IBIAS_IN:B
+R2 VBIAS_OUT net1 rppd w=0.5e-6 l=3.6e-6 m=1 b=0
+R1 net1 VDD rppd w=0.5e-6 l=1.8e-6 m=1 b=0
+R3 net2 IN rsil w=0.5e-6 l=2.4e-6 m=1 b=0
+C1 net2 VBIAS_OUT VSS rfcmim w=60.0e-6 l=55.0e-6 wfeed=5.0e-6
+M3 net1 net1 VSS VSS rfnmos l=0.36u w=10.0u ng=5
+M2 net3 VBIAS_IN IBIAS_IN VSS rfnmos l=0.36u w=200.0u ng=200
+M1 OUT VDD net3 VSS rfnmos l=0.36u w=200.0u ng=200
+.ends
+.end

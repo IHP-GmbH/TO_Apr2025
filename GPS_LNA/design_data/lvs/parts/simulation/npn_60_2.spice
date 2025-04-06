@@ -1,0 +1,17 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/lvs/parts/npn_60_2.sch
+.subckt npn_60_2 VSS VIN OUT VDD VBIAS_IN
+*.PININFO VSS:B VIN:B OUT:O VDD:B VBIAS_IN:B
+Q1 OUT VDD net1 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q2 OUT VDD net1 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q3 OUT VDD net1 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q4 OUT VDD net1 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q5 OUT VDD net1 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q6 OUT VDD net1 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q7 net1 VIN VBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q8 net1 VIN VBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q9 net1 VIN VBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q10 net1 VIN VBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q11 net1 VIN VBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q12 net1 VIN VBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+.ends
+.end

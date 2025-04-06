@@ -1,0 +1,18 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 05:28
+
+.SUBCKT PAD_DIODE_7
+D$1 \$2 \$1 \$I13 diodevss_2kv m=1
+D$2 \$2 \$1 \$1 diodevss_2kv m=1
+D$3 \$2 \$1 \$2 diodevss_2kv m=1
+D$4 \$2 \$1 \$6 diodevss_2kv m=1
+D$5 \$2 \$1 \$I16 diodevss_2kv m=1
+D$6 \$2 \$1 \$I15 diodevss_2kv m=1
+D$7 \$2 \$1 \$I14 diodevss_2kv m=1
+D$8 \$1 \$2 \$I13 diodevdd_2kv m=1
+D$9 \$1 \$2 \$1 diodevdd_2kv m=1
+D$10 \$1 \$2 \$2 diodevdd_2kv m=1
+D$11 \$1 \$2 \$6 diodevdd_2kv m=1
+D$12 \$1 \$2 \$I16 diodevdd_2kv m=1
+D$13 \$1 \$2 \$I15 diodevdd_2kv m=1
+D$14 \$1 \$2 \$I14 diodevdd_2kv m=1
+.ENDS PAD_DIODE_7

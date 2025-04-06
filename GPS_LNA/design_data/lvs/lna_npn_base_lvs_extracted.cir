@@ -1,0 +1,14 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 02:00
+
+.SUBCKT lna_npn_base_lvs
+C$1 \$I3 \$7 \$1 rfcmim w=55u l=60u A=3300p P=230u m=1 wfeed=5u
+M$2 \$I25 \$I25 \$1 \$1 rfnmos L=0.36u W=10u AS=2.055p AD=2.055p PS=15.11u
++ PD=15.11u
+Q$12 \$2 \$6 \$I14 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=60 m=60
+Q$22 \$I14 \$4 \$3 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=60 m=60
+R$132 \$10 \$I3 rsil w=0.5u l=2.4u ps=0 b=0 m=1
+R$133 \$I25 \$6 rppd w=0.5u l=1.8u ps=0 b=0 m=1
+R$134 \$7 \$I25 rppd w=0.5u l=3.6u ps=0 b=0 m=1
+.ENDS lna_npn_base_lvs

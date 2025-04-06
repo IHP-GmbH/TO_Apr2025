@@ -1,0 +1,8 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/lvs/parts/vbias.sch
+.subckt vbias VDD VSS VBIAS_OUT
+*.PININFO VDD:B VSS:B VBIAS_OUT:B
+R2 VBIAS_OUT net1 rppd w=0.5e-6 l=3.6e-6 m=1 b=0
+R1 net1 VDD rppd w=0.5e-6 l=1.8e-6 m=1 b=0
+M3 net1 net1 VSS VSS rfnmos l=0.36u w=10.0u ng=5
+.ends
+.end

@@ -1,0 +1,7 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 05:30
+
+.SUBCKT VBIAS
+M$1 \$5 \$5 \$1 \$1 rfnmos L=0.36u W=10u AS=2.055p AD=2.055p PS=15.11u PD=15.11u
+R$11 \$3 \$5 rppd w=0.5u l=3.6u ps=0 b=0 m=1
+R$12 \$5 \$4 rppd w=0.5u l=1.8u ps=0 b=0 m=1
+.ENDS VBIAS

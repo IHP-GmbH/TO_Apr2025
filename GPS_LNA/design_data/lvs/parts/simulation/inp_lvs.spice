@@ -1,0 +1,7 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/lvs/parts/inp_lvs.sch
+.subckt inp_lvs IN VSS VBIAS_OUT
+*.PININFO IN:I VSS:B VBIAS_OUT:B
+R3 net1 IN rsil w=0.5e-6 l=2.4e-6 m=1 b=0
+C1 net1 VBIAS_OUT VSS rfcmim w=60.0e-6 l=55.0e-6 wfeed=5.0e-6
+.ends
+.end
