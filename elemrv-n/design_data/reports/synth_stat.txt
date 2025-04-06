@@ -1,0 +1,256 @@
+
+25. Printing statistics.
+
+=== BufferCC ===
+
+   Number of wires:                 29
+   Number of wire bits:             43
+   Number of public wires:          12
+   Number of public wire bits:      26
+   Number of ports:                  4
+   Number of port bits:             18
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 17
+     sg13g2_dfrbp_1                 16
+     sg13g2_tiehi                    1
+
+   Chip area for module '\BufferCC': 762.048000
+     of which used for sequential elements: 754.790400 (99.05%)
+
+=== BufferCC_2 ===
+
+   Number of wires:                 14
+   Number of wire bits:             18
+   Number of public wires:           7
+   Number of public wire bits:      11
+   Number of ports:                  4
+   Number of port bits:              8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     sg13g2_dfrbp_1                  6
+     sg13g2_tiehi                    1
+
+   Chip area for module '\BufferCC_2': 290.304000
+     of which used for sequential elements: 283.046400 (97.50%)
+
+=== BufferCC_3 ===
+
+   Number of wires:                105
+   Number of wire bits:            143
+   Number of public wires:          44
+   Number of public wire bits:      82
+   Number of ports:                  4
+   Number of port bits:             42
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 61
+     sg13g2_dfrbp_1                 60
+     sg13g2_tiehi                    1
+
+   Chip area for module '\BufferCC_3': 2837.721600
+     of which used for sequential elements: 2830.464000 (99.74%)
+
+=== BufferCC_4 ===
+
+   Number of wires:                  8
+   Number of wire bits:              8
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of ports:                  4
+   Number of port bits:              4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     sg13g2_dfrbp_1                  2
+     sg13g2_tiehi                    1
+
+   Chip area for module '\BufferCC_4': 101.606400
+     of which used for sequential elements: 94.348800 (92.86%)
+
+=== BufferCC_6 ===
+
+   Number of wires:                 10
+   Number of wire bits:             10
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of ports:                  4
+   Number of port bits:              4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     sg13g2_and2_1                   2
+     sg13g2_dfrbp_1                  2
+     sg13g2_tiehi                    1
+
+   Chip area for module '\BufferCC_6': 119.750400
+     of which used for sequential elements: 94.348800 (78.79%)
+
+=== SG13G2Top ===
+
+   Number of wires:             132127
+   Number of wire bits:         132127
+   Number of public wires:       11638
+   Number of public wire bits:   11638
+   Number of ports:                 48
+   Number of port bits:             48
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             121033
+     BufferCC                        1
+     BufferCC_2                      1
+     BufferCC_3                      1
+     BufferCC_4                      2
+     BufferCC_6                      2
+     RM_IHPSG13_1P_1024x8_c2_bm_bist      1
+     RM_IHPSG13_1P_512x32_c2_bm_bist      1
+     sg13g2_IOPadIn                  5
+     sg13g2_IOPadInOut30mA           9
+     sg13g2_IOPadInOut4mA           24
+     sg13g2_IOPadOut30mA             1
+     sg13g2_IOPadOut4mA              6
+     sg13g2_a21o_1                 427
+     sg13g2_a21o_2                  12
+     sg13g2_a21oi_1               3687
+     sg13g2_a21oi_2                 48
+     sg13g2_a221oi_1               425
+     sg13g2_a22oi_1               1219
+     sg13g2_and2_1                 919
+     sg13g2_and2_2                   3
+     sg13g2_and3_1                   1
+     sg13g2_and3_2                 156
+     sg13g2_and4_1                  68
+     sg13g2_and4_2                   1
+     sg13g2_buf_1                56285
+     sg13g2_buf_16                  63
+     sg13g2_buf_2                 3835
+     sg13g2_buf_4                 3300
+     sg13g2_buf_8                 2404
+     sg13g2_dfrbp_1              10987
+     sg13g2_dlygate4sd1_1           24
+     sg13g2_inv_1                 1176
+     sg13g2_inv_2                   53
+     sg13g2_inv_4                    5
+     sg13g2_mux2_1                5657
+     sg13g2_mux2_2                   3
+     sg13g2_mux4_1                2070
+     sg13g2_nand2_1               8047
+     sg13g2_nand2_2                 69
+     sg13g2_nand2b_1              1088
+     sg13g2_nand2b_2                 7
+     sg13g2_nand3_1               1486
+     sg13g2_nand3b_1               127
+     sg13g2_nand4_1                517
+     sg13g2_nor2_1                3789
+     sg13g2_nor2_2                  31
+     sg13g2_nor2b_1                946
+     sg13g2_nor2b_2                 10
+     sg13g2_nor3_1                 682
+     sg13g2_nor3_2                  18
+     sg13g2_nor4_1                 187
+     sg13g2_nor4_2                   9
+     sg13g2_o21ai_1               6494
+     sg13g2_or2_1                  457
+     sg13g2_or2_2                    3
+     sg13g2_or3_1                  106
+     sg13g2_or4_1                   29
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1               2920
+     sg13g2_xor2_1                1127
+
+   Area for cell type \BufferCC is unknown!
+   Area for cell type \BufferCC_2 is unknown!
+   Area for cell type \BufferCC_3 is unknown!
+   Area for cell type \BufferCC_4 is unknown!
+   Area for cell type \BufferCC_6 is unknown!
+
+   Chip area for module '\SG13G2Top': 2364177.774600
+     of which used for sequential elements: 518305.132800 (21.92%)
+
+=== design hierarchy ===
+
+   SG13G2Top                         1
+     BufferCC                        1
+     BufferCC_2                      1
+     BufferCC_3                      1
+     BufferCC_4                      2
+     BufferCC_6                      2
+
+   Number of wires:             132311
+   Number of wire bits:         132367
+   Number of public wires:       11721
+   Number of public wire bits:   11777
+   Number of ports:                 76
+   Number of port bits:            132
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             121127
+     RM_IHPSG13_1P_1024x8_c2_bm_bist      1
+     RM_IHPSG13_1P_512x32_c2_bm_bist      1
+     sg13g2_IOPadIn                  5
+     sg13g2_IOPadInOut30mA           9
+     sg13g2_IOPadInOut4mA           24
+     sg13g2_IOPadOut30mA             1
+     sg13g2_IOPadOut4mA              6
+     sg13g2_a21o_1                 427
+     sg13g2_a21o_2                  12
+     sg13g2_a21oi_1               3687
+     sg13g2_a21oi_2                 48
+     sg13g2_a221oi_1               425
+     sg13g2_a22oi_1               1219
+     sg13g2_and2_1                 923
+     sg13g2_and2_2                   3
+     sg13g2_and3_1                   1
+     sg13g2_and3_2                 156
+     sg13g2_and4_1                  68
+     sg13g2_and4_2                   1
+     sg13g2_buf_1                56285
+     sg13g2_buf_16                  63
+     sg13g2_buf_2                 3835
+     sg13g2_buf_4                 3300
+     sg13g2_buf_8                 2404
+     sg13g2_dfrbp_1              11077
+     sg13g2_dlygate4sd1_1           24
+     sg13g2_inv_1                 1176
+     sg13g2_inv_2                   53
+     sg13g2_inv_4                    5
+     sg13g2_mux2_1                5657
+     sg13g2_mux2_2                   3
+     sg13g2_mux4_1                2070
+     sg13g2_nand2_1               8047
+     sg13g2_nand2_2                 69
+     sg13g2_nand2b_1              1088
+     sg13g2_nand2b_2                 7
+     sg13g2_nand3_1               1486
+     sg13g2_nand3b_1               127
+     sg13g2_nand4_1                517
+     sg13g2_nor2_1                3789
+     sg13g2_nor2_2                  31
+     sg13g2_nor2b_1                946
+     sg13g2_nor2b_2                 10
+     sg13g2_nor3_1                 682
+     sg13g2_nor3_2                  18
+     sg13g2_nor4_1                 187
+     sg13g2_nor4_2                   9
+     sg13g2_o21ai_1               6494
+     sg13g2_or2_1                  457
+     sg13g2_or2_2                    3
+     sg13g2_or3_1                  106
+     sg13g2_or4_1                   29
+     sg13g2_tiehi                    8
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1               2920
+     sg13g2_xor2_1                1127
+
+   Chip area for top module '\SG13G2Top': 2368510.561800
+     of which used for sequential elements: 94.348800 (0.00%)
+

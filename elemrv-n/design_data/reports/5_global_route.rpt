@@ -1,0 +1,1789 @@
+
+==========================================================================
+global route report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+global route report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+global route report_worst_slack
+--------------------------------------------------------------------------
+worst slack 42.54
+
+==========================================================================
+global route report_clock_skew
+--------------------------------------------------------------------------
+Clock clk_core
+   0.78 source latency soc.system_core_cpu.decode_to_execute_RS2[6]$_DFFE_PN_/CLK ^
+  -0.66 target latency soc.system_core_cpu.decode_to_execute_RS2[16]$_DFFE_PN_/CLK ^
+   0.15 clock uncertainty
+   0.00 CRPR
+--------------
+   0.27 setup skew
+
+Clock clk_jtag
+   0.12 source latency soc.jtagBridge_1.jtag_readArea_full_shifter[32]$_DFFE_PP_/CLK ^
+  -0.11 target latency soc.jtagBridge_1.jtag_readArea_full_shifter[31]$_DFFE_PP_/CLK ^
+   0.15 clock uncertainty
+   0.00 CRPR
+--------------
+   0.15 setup skew
+
+
+==========================================================================
+global route report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: soc.system_core_cpu.execute_to_memory_MUL_LL[12]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.memory_to_writeBack_MUL_LOW[12]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     6    0.23    0.39    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_clock_p2c (net)
+                  0.30    0.02    0.02 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     4    0.11    0.08    0.19    0.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.08    0.00    0.22 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     2    0.14    0.05    0.11    0.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_2_3_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.05    0.00    0.33 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     8    0.23    0.07    0.11    0.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_3_6_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.07    0.00    0.45 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     4    0.05    0.03    0.09    0.54 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_6_51_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.03    0.00    0.54 ^ clkbuf_8_205__f_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     8    0.16    0.09    0.12    0.66 ^ clkbuf_8_205__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_8_205__leaf_sg13g2_IOPad_io_clock_p2c (net)
+                  0.09    0.00    0.67 ^ soc.system_core_cpu.execute_to_memory_MUL_LL[12]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     2    0.02    0.06    0.26    0.92 v soc.system_core_cpu.execute_to_memory_MUL_LL[12]$_DFFE_PP_/Q (sg13g2_dfrbp_1)
+                                         soc.system_core_cpu._zz_memory_MUL_LOW_1[12] (net)
+                  0.06    0.00    0.92 v soc.system_core_cpu.memory_to_writeBack_MUL_LOW[12]$_DFF_P_/D (sg13g2_dfrbp_1)
+                                  0.92   data arrival time
+
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     6    0.23    0.39    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_clock_p2c (net)
+                  0.30    0.02    0.02 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     4    0.11    0.08    0.19    0.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.08    0.00    0.22 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     2    0.14    0.05    0.11    0.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_2_3_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.05    0.00    0.33 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     8    0.23    0.07    0.11    0.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_3_6_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.07    0.00    0.45 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     4    0.05    0.03    0.09    0.54 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_6_51_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.03    0.00    0.54 ^ clkbuf_8_206__f_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     7    0.16    0.09    0.12    0.67 ^ clkbuf_8_206__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_8_206__leaf_sg13g2_IOPad_io_clock_p2c (net)
+                  0.09    0.00    0.67 ^ clkbuf_leaf_1204_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     7    0.03    0.02    0.10    0.77 ^ clkbuf_leaf_1204_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_leaf_1204_sg13g2_IOPad_io_clock_p2c (net)
+                  0.02    0.00    0.77 ^ soc.system_core_cpu.memory_to_writeBack_MUL_LOW[12]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+                          0.15    0.92   clock uncertainty
+                          0.00    0.92   clock reconvergence pessimism
+                         -0.04    0.87   library hold time
+                                  0.87   data required time
+-----------------------------------------------------------------------------
+                                  0.87   data required time
+                                 -0.92   data arrival time
+-----------------------------------------------------------------------------
+                                  0.05   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_jtag (rise edge)
+                          0.00    0.00   clock source latency
+   235    0.73    1.21    0.00    0.00 ^ sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_jtag_tck_p2c (net)
+                  0.94    0.12    0.12 ^ soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.02    0.38    0.49 v soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_/Q (sg13g2_dfrbp_1)
+                                         soc.jtagBridge_1.jtag_idcodeArea_shifter[31] (net)
+                  0.02    0.00    0.49 v _215982_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.07    0.56 v _215982_/X (sg13g2_buf_1)
+                                         _027127_ (net)
+                  0.03    0.00    0.56 v _215987_/A (sg13g2_nand2_1)
+     1    0.00    0.02    0.03    0.59 ^ _215987_/Y (sg13g2_nand2_1)
+                                         _027131_ (net)
+                  0.02    0.00    0.59 ^ _215988_/A2 (sg13g2_a21oi_1)
+     1    0.00    0.02    0.05    0.64 v _215988_/Y (sg13g2_a21oi_1)
+                                         _001510_ (net)
+                  0.02    0.00    0.64 v soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_/D (sg13g2_dfrbp_1)
+                                  0.64   data arrival time
+
+                          0.00    0.00   clock clk_jtag (rise edge)
+                          0.00    0.00   clock source latency
+   235    0.73    1.21    0.00    0.00 ^ sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_jtag_tck_p2c (net)
+                  0.94    0.12    0.12 ^ soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_/CLK (sg13g2_dfrbp_1)
+                          0.15    0.27   clock uncertainty
+                          0.00    0.27   clock reconvergence pessimism
+                          0.11    0.37   library hold time
+                                  0.37   data required time
+-----------------------------------------------------------------------------
+                                  0.37   data required time
+                                 -0.64   data arrival time
+-----------------------------------------------------------------------------
+                                  0.27   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     6    0.23    0.39    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_clock_p2c (net)
+                  0.30    0.02    0.02 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     4    0.11    0.08    0.19    0.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.08    0.00    0.22 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     2    0.14    0.05    0.11    0.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_2_3_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.05    0.00    0.33 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     8    0.23    0.07    0.11    0.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_3_6_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.07    0.00    0.45 ^ clkbuf_6_54_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     4    0.07    0.03    0.09    0.54 ^ clkbuf_6_54_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_6_54_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.03    0.00    0.54 ^ clkbuf_8_219__f_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     8    0.17    0.10    0.13    0.67 ^ clkbuf_8_219__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_8_219__leaf_sg13g2_IOPad_io_clock_p2c (net)
+                  0.10    0.00    0.67 ^ clkbuf_leaf_1059_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     7    0.03    0.03    0.10    0.77 ^ clkbuf_leaf_1059_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_leaf_1059_sg13g2_IOPad_io_clock_p2c (net)
+                  0.03    0.00    0.77 ^ soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.03    0.21    0.98 ^ soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_/Q (sg13g2_dfrbp_1)
+                                         soc.system_core_cpu.execute_RS2[5] (net)
+                  0.03    0.00    0.98 ^ _129654_/A (sg13g2_buf_1)
+     2    0.01    0.06    0.09    1.07 ^ _129654_/X (sg13g2_buf_1)
+                                         _048645_ (net)
+                  0.06    0.00    1.07 ^ _129655_/A (sg13g2_buf_1)
+     3    0.01    0.06    0.10    1.17 ^ _129655_/X (sg13g2_buf_1)
+                                         _048646_ (net)
+                  0.06    0.00    1.17 ^ _129656_/A (sg13g2_buf_1)
+     3    0.01    0.04    0.09    1.26 ^ _129656_/X (sg13g2_buf_1)
+                                         _048647_ (net)
+                  0.04    0.00    1.26 ^ _129657_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.09    1.34 ^ _129657_/X (sg13g2_buf_1)
+                                         _048648_ (net)
+                  0.05    0.00    1.34 ^ _129658_/A (sg13g2_buf_1)
+     3    0.02    0.07    0.11    1.45 ^ _129658_/X (sg13g2_buf_1)
+                                         _048649_ (net)
+                  0.07    0.00    1.45 ^ _129659_/A (sg13g2_buf_1)
+     3    0.05    0.19    0.20    1.65 ^ _129659_/X (sg13g2_buf_1)
+                                         _048650_ (net)
+                  0.19    0.00    1.65 ^ _129660_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.14    1.79 ^ _129660_/X (sg13g2_buf_1)
+                                         _048651_ (net)
+                  0.05    0.00    1.79 ^ _129661_/A (sg13g2_buf_1)
+     3    0.02    0.10    0.13    1.92 ^ _129661_/X (sg13g2_buf_1)
+                                         _048652_ (net)
+                  0.10    0.00    1.92 ^ _129662_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.11    2.04 ^ _129662_/X (sg13g2_buf_1)
+                                         _048653_ (net)
+                  0.05    0.00    2.04 ^ _129663_/A (sg13g2_buf_1)
+     3    0.04    0.15    0.16    2.20 ^ _129663_/X (sg13g2_buf_1)
+                                         _048654_ (net)
+                  0.15    0.00    2.20 ^ _129664_/A (sg13g2_buf_1)
+     3    0.02    0.07    0.14    2.34 ^ _129664_/X (sg13g2_buf_1)
+                                         _048655_ (net)
+                  0.07    0.00    2.34 ^ _129665_/A (sg13g2_buf_1)
+     3    0.01    0.06    0.11    2.45 ^ _129665_/X (sg13g2_buf_1)
+                                         _048656_ (net)
+                  0.06    0.00    2.45 ^ _129666_/A (sg13g2_buf_1)
+     3    0.04    0.18    0.19    2.64 ^ _129666_/X (sg13g2_buf_1)
+                                         _048657_ (net)
+                  0.18    0.00    2.64 ^ _183211_/A (sg13g2_buf_1)
+     3    0.01    0.06    0.14    2.78 ^ _183211_/X (sg13g2_buf_1)
+                                         _095994_ (net)
+                  0.06    0.00    2.78 ^ _183212_/A (sg13g2_nand2_1)
+     1    0.00    0.04    0.05    2.83 v _183212_/Y (sg13g2_nand2_1)
+                                         _095995_ (net)
+                  0.04    0.00    2.83 v _183213_/A (sg13g2_buf_1)
+    10    0.06    0.18    0.19    3.02 v _183213_/X (sg13g2_buf_1)
+                                         _095996_ (net)
+                  0.18    0.00    3.02 v _183214_/C (sg13g2_or3_1)
+     1    0.01    0.07    0.21    3.23 v _183214_/X (sg13g2_or3_1)
+                                         _095997_ (net)
+                  0.07    0.00    3.23 v _183215_/A (sg13g2_buf_1)
+     1    0.00    0.02    0.08    3.31 v _183215_/X (sg13g2_buf_1)
+                                         _095998_ (net)
+                  0.02    0.00    3.31 v _183216_/B1 (sg13g2_o21ai_1)
+     1    0.00    0.08    0.04    3.35 ^ _183216_/Y (sg13g2_o21ai_1)
+                                         _095999_ (net)
+                  0.08    0.00    3.35 ^ _183217_/A (sg13g2_buf_1)
+     2    0.01    0.04    0.10    3.44 ^ _183217_/X (sg13g2_buf_1)
+                                         _096000_ (net)
+                  0.04    0.00    3.44 ^ _183220_/A (sg13g2_xnor2_1)
+     1    0.00    0.07    0.09    3.54 ^ _183220_/Y (sg13g2_xnor2_1)
+                                         _096003_ (net)
+                  0.07    0.00    3.54 ^ _183221_/A (sg13g2_buf_1)
+     1    0.01    0.04    0.09    3.62 ^ _183221_/X (sg13g2_buf_1)
+                                         _096004_ (net)
+                  0.04    0.00    3.62 ^ _183222_/B (sg13g2_xnor2_1)
+     1    0.00    0.07    0.09    3.71 ^ _183222_/Y (sg13g2_xnor2_1)
+                                         _096005_ (net)
+                  0.07    0.00    3.71 ^ _183223_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.08    3.79 ^ _183223_/X (sg13g2_buf_1)
+                                         _096006_ (net)
+                  0.03    0.00    3.79 ^ _183224_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.08    3.88 ^ _183224_/X (sg13g2_buf_1)
+                                         _096007_ (net)
+                  0.05    0.00    3.88 ^ _183225_/A (sg13g2_buf_1)
+     3    0.02    0.08    0.11    3.98 ^ _183225_/X (sg13g2_buf_1)
+                                         _096008_ (net)
+                  0.08    0.00    3.99 ^ _183287_/A (sg13g2_xor2_1)
+     1    0.00    0.06    0.12    4.10 ^ _183287_/X (sg13g2_xor2_1)
+                                         _096070_ (net)
+                  0.06    0.00    4.10 ^ _183288_/A (sg13g2_buf_1)
+     3    0.01    0.07    0.11    4.21 ^ _183288_/X (sg13g2_buf_1)
+                                         _096071_ (net)
+                  0.07    0.00    4.21 ^ _183344_/A (sg13g2_xnor2_1)
+     1    0.00    0.05    0.10    4.31 ^ _183344_/Y (sg13g2_xnor2_1)
+                                         _096127_ (net)
+                  0.05    0.00    4.31 ^ _183345_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.09    4.40 ^ _183345_/X (sg13g2_buf_1)
+                                         _096128_ (net)
+                  0.05    0.00    4.40 ^ _183692_/A1 (sg13g2_a22oi_1)
+     1    0.00    0.06    0.08    4.48 v _183692_/Y (sg13g2_a22oi_1)
+                                         _096475_ (net)
+                  0.06    0.00    4.48 v _183693_/A (sg13g2_buf_1)
+     1    0.00    0.03    0.08    4.56 v _183693_/X (sg13g2_buf_1)
+                                         _096476_ (net)
+                  0.03    0.00    4.56 v _183695_/A (sg13g2_nor2_1)
+     1    0.00    0.04    0.05    4.61 ^ _183695_/Y (sg13g2_nor2_1)
+                                         _096478_ (net)
+                  0.04    0.00    4.61 ^ _183696_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.09    4.70 ^ _183696_/X (sg13g2_buf_1)
+                                         _096479_ (net)
+                  0.05    0.00    4.70 ^ _183840_/A1 (sg13g2_a21o_1)
+     1    0.00    0.03    0.11    4.81 ^ _183840_/X (sg13g2_a21o_1)
+                                         _096622_ (net)
+                  0.03    0.00    4.81 ^ _183841_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.08    4.89 ^ _183841_/X (sg13g2_buf_1)
+                                         _096623_ (net)
+                  0.05    0.00    4.89 ^ _183973_/A1 (sg13g2_a21oi_1)
+     1    0.00    0.05    0.06    4.95 v _183973_/Y (sg13g2_a21oi_1)
+                                         _096754_ (net)
+                  0.05    0.00    4.95 v _183974_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.08    5.03 v _183974_/X (sg13g2_buf_1)
+                                         _096755_ (net)
+                  0.03    0.00    5.03 v _184327_/A (sg13g2_or2_1)
+     1    0.00    0.03    0.10    5.13 v _184327_/X (sg13g2_or2_1)
+                                         _097106_ (net)
+                  0.03    0.00    5.13 v _184328_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.09    5.22 v _184328_/X (sg13g2_buf_1)
+                                         _097107_ (net)
+                  0.05    0.00    5.22 v _185290_/A1 (sg13g2_a21o_1)
+     1    0.00    0.03    0.11    5.33 v _185290_/X (sg13g2_a21o_1)
+                                         _098064_ (net)
+                  0.03    0.00    5.33 v _185291_/A (sg13g2_buf_1)
+     1    0.02    0.08    0.12    5.44 v _185291_/X (sg13g2_buf_1)
+                                         _098065_ (net)
+                  0.08    0.00    5.44 v _185295_/B1 (sg13g2_a221oi_1)
+     1    0.04    0.57    0.48    5.93 ^ _185295_/Y (sg13g2_a221oi_1)
+                                         _098069_ (net)
+                  0.57    0.00    5.93 ^ _185296_/A (sg13g2_buf_1)
+     3    0.02    0.08    0.21    6.14 ^ _185296_/X (sg13g2_buf_1)
+                                         _098070_ (net)
+                  0.08    0.00    6.14 ^ _185656_/A (sg13g2_nand2_1)
+     1    0.00    0.05    0.06    6.20 v _185656_/Y (sg13g2_nand2_1)
+                                         _098427_ (net)
+                  0.05    0.00    6.20 v _185657_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.08    6.28 v _185657_/X (sg13g2_buf_1)
+                                         _098428_ (net)
+                  0.03    0.00    6.28 v _185844_/A1 (sg13g2_o21ai_1)
+     1    0.00    0.06    0.08    6.36 ^ _185844_/Y (sg13g2_o21ai_1)
+                                         _098614_ (net)
+                  0.06    0.00    6.36 ^ _185845_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.10    6.46 ^ _185845_/X (sg13g2_buf_1)
+                                         _098615_ (net)
+                  0.05    0.00    6.46 ^ _186028_/A1 (sg13g2_o21ai_1)
+     1    0.00    0.05    0.07    6.54 v _186028_/Y (sg13g2_o21ai_1)
+                                         _098797_ (net)
+                  0.05    0.00    6.54 v _186029_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.10    6.64 v _186029_/X (sg13g2_buf_1)
+                                         _098798_ (net)
+                  0.05    0.00    6.64 v _186457_/A (sg13g2_nor3_1)
+     1    0.00    0.07    0.10    6.74 ^ _186457_/Y (sg13g2_nor3_1)
+                                         _099224_ (net)
+                  0.07    0.00    6.74 ^ _186458_/A (sg13g2_buf_1)
+     2    0.01    0.04    0.09    6.83 ^ _186458_/X (sg13g2_buf_1)
+                                         _099225_ (net)
+                  0.04    0.00    6.83 ^ _186629_/B2 (sg13g2_a221oi_1)
+     1    0.00    0.07    0.07    6.90 v _186629_/Y (sg13g2_a221oi_1)
+                                         _099394_ (net)
+                  0.07    0.00    6.90 v _186630_/A (sg13g2_buf_1)
+     2    0.01    0.04    0.10    7.00 v _186630_/X (sg13g2_buf_1)
+                                         _099395_ (net)
+                  0.04    0.00    7.00 v _186782_/A1 (sg13g2_a21oi_1)
+     1    0.01    0.09    0.09    7.10 ^ _186782_/Y (sg13g2_a21oi_1)
+                                         _099546_ (net)
+                  0.09    0.00    7.10 ^ _186783_/A (sg13g2_buf_1)
+     2    0.01    0.04    0.10    7.20 ^ _186783_/X (sg13g2_buf_1)
+                                         _099547_ (net)
+                  0.04    0.00    7.20 ^ _186915_/A1 (sg13g2_a21o_1)
+     1    0.00    0.03    0.10    7.29 ^ _186915_/X (sg13g2_a21o_1)
+                                         _099678_ (net)
+                  0.03    0.00    7.29 ^ _186916_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.08    7.37 ^ _186916_/X (sg13g2_buf_1)
+                                         _099679_ (net)
+                  0.05    0.00    7.37 ^ _187295_/B2 (sg13g2_a221oi_1)
+     1    0.00    0.07    0.07    7.44 v _187295_/Y (sg13g2_a221oi_1)
+                                         _100055_ (net)
+                  0.07    0.00    7.44 v _187296_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.10    7.54 v _187296_/X (sg13g2_buf_1)
+                                         _100056_ (net)
+                  0.05    0.00    7.54 v _187449_/A1 (sg13g2_o21ai_1)
+     1    0.00    0.06    0.09    7.63 ^ _187449_/Y (sg13g2_o21ai_1)
+                                         _100207_ (net)
+                  0.06    0.00    7.63 ^ _187450_/A (sg13g2_buf_1)
+     1    0.01    0.03    0.08    7.71 ^ _187450_/X (sg13g2_buf_1)
+                                         _100208_ (net)
+                  0.03    0.00    7.71 ^ _187451_/B (sg13g2_xnor2_1)
+     1    0.00    0.05    0.06    7.78 v _187451_/Y (sg13g2_xnor2_1)
+                                         _100209_ (net)
+                  0.05    0.00    7.78 v _187455_/A2 (sg13g2_o21ai_1)
+     1    0.01    0.09    0.10    7.88 ^ _187455_/Y (sg13g2_o21ai_1)
+                                         _100213_ (net)
+                  0.09    0.00    7.88 ^ _187456_/A (sg13g2_buf_1)
+     1    0.00    0.03    0.09    7.97 ^ _187456_/X (sg13g2_buf_1)
+                                         _008255_ (net)
+                  0.03    0.00    7.97 ^ soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_/D (sg13g2_dfrbp_1)
+                                  7.97   data arrival time
+
+                         50.00   50.00   clock clk_core (rise edge)
+                          0.00   50.00   clock source latency
+     6    0.23    0.39    0.00   50.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_clock_p2c (net)
+                  0.30    0.02   50.02 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     4    0.11    0.08    0.19   50.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.08    0.00   50.22 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     2    0.14    0.05    0.11   50.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_2_3_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.05    0.00   50.33 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     8    0.23    0.07    0.11   50.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_3_6_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.07    0.00   50.45 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     4    0.05    0.03    0.09   50.54 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_6_51_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.03    0.00   50.54 ^ clkbuf_8_207__f_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     8    0.17    0.10    0.13   50.67 ^ clkbuf_8_207__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_8_207__leaf_sg13g2_IOPad_io_clock_p2c (net)
+                  0.10    0.00   50.67 ^ clkbuf_leaf_1124_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     8    0.03    0.02    0.10   50.77 ^ clkbuf_leaf_1124_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_leaf_1124_sg13g2_IOPad_io_clock_p2c (net)
+                  0.02    0.00   50.77 ^ soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+                         -0.15   50.62   clock uncertainty
+                          0.00   50.62   clock reconvergence pessimism
+                         -0.11   50.51   library setup time
+                                 50.51   data required time
+-----------------------------------------------------------------------------
+                                 50.51   data required time
+                                 -7.97   data arrival time
+-----------------------------------------------------------------------------
+                                 42.54   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_
+          (rising edge-triggered flip-flop clocked by clk_jtag')
+Path Group: clk_jtag
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_jtag (rise edge)
+                          0.00    0.00   clock source latency
+   235    0.73    1.21    0.00    0.00 ^ sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_jtag_tck_p2c (net)
+                  0.94    0.11    0.11 ^ soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.03    0.38    0.49 v soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_/Q (sg13g2_dfrbp_1)
+                                         soc.jtagBridge_1.jtag_tap_fsm_state[1] (net)
+                  0.03    0.00    0.49 v _123203_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.07    0.57 v _123203_/X (sg13g2_buf_1)
+                                         _042380_ (net)
+                  0.03    0.00    0.57 v _123204_/A (sg13g2_inv_1)
+     1    0.00    0.02    0.03    0.59 ^ _123204_/Y (sg13g2_inv_1)
+                                         _042381_ (net)
+                  0.02    0.00    0.59 ^ _123205_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.08    0.67 ^ _123205_/X (sg13g2_buf_1)
+                                         _042382_ (net)
+                  0.05    0.00    0.67 ^ _142858_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.09    0.76 ^ _142858_/X (sg13g2_buf_1)
+                                         _061049_ (net)
+                  0.05    0.00    0.76 ^ _142869_/A (sg13g2_buf_1)
+     3    0.01    0.07    0.10    0.86 ^ _142869_/X (sg13g2_buf_1)
+                                         _061059_ (net)
+                  0.07    0.00    0.86 ^ _142870_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.10    0.96 ^ _142870_/X (sg13g2_buf_1)
+                                         _061060_ (net)
+                  0.05    0.00    0.96 ^ _228877_/A (sg13g2_buf_1)
+     3    0.01    0.07    0.11    1.07 ^ _228877_/X (sg13g2_buf_1)
+                                         _038311_ (net)
+                  0.07    0.00    1.07 ^ _228931_/A (sg13g2_nor2_1)
+     1    0.00    0.03    0.05    1.11 v _228931_/Y (sg13g2_nor2_1)
+                                         _038361_ (net)
+                  0.03    0.00    1.11 v _228943_/A2 (sg13g2_o21ai_1)
+     4    0.18    1.77    1.30    2.41 ^ _228943_/Y (sg13g2_o21ai_1)
+                                         _038373_ (net)
+                  1.77    0.02    2.43 ^ _228944_/A (sg13g2_buf_1)
+     1    0.00    0.06    0.26    2.69 ^ _228944_/X (sg13g2_buf_1)
+                                         soc.jtagBridge_1.jtag_tap_tdoUnbufferd (net)
+                  0.06    0.00    2.69 ^ soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_/D (sg13g2_dfrbp_1)
+                                  2.69   data arrival time
+
+                         50.00   50.00   clock clk_jtag' (rise edge)
+                          0.00   50.00   clock source latency
+   235    0.71    1.00    0.00   50.00 v sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_jtag_tck_p2c (net)
+                  0.75    0.03   50.03 v _141591_/A (sg13g2_buf_1)
+     1    0.00    0.05    0.19   50.22 v _141591_/X (sg13g2_buf_1)
+                                         _059911_ (net)
+                  0.05    0.00   50.22 v _141592__1/A (sg13g2_inv_1)
+     1    0.00    0.03    0.04   50.26 ^ _141592__1/Y (sg13g2_inv_1)
+                                         net10779 (net)
+                  0.03    0.00   50.26 ^ soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_/CLK (sg13g2_dfrbp_1)
+                         -0.15   50.11   clock uncertainty
+                          0.00   50.11   clock reconvergence pessimism
+                         -0.12   49.99   library setup time
+                                 49.99   data required time
+-----------------------------------------------------------------------------
+                                 49.99   data required time
+                                 -2.69   data arrival time
+-----------------------------------------------------------------------------
+                                 47.30   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     6    0.23    0.39    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_clock_p2c (net)
+                  0.30    0.02    0.02 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     4    0.11    0.08    0.19    0.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.08    0.00    0.22 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     2    0.14    0.05    0.11    0.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_2_3_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.05    0.00    0.33 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     8    0.23    0.07    0.11    0.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_3_6_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.07    0.00    0.45 ^ clkbuf_6_54_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     4    0.07    0.03    0.09    0.54 ^ clkbuf_6_54_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_6_54_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.03    0.00    0.54 ^ clkbuf_8_219__f_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     8    0.17    0.10    0.13    0.67 ^ clkbuf_8_219__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_8_219__leaf_sg13g2_IOPad_io_clock_p2c (net)
+                  0.10    0.00    0.67 ^ clkbuf_leaf_1059_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     7    0.03    0.03    0.10    0.77 ^ clkbuf_leaf_1059_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_leaf_1059_sg13g2_IOPad_io_clock_p2c (net)
+                  0.03    0.00    0.77 ^ soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.03    0.21    0.98 ^ soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_/Q (sg13g2_dfrbp_1)
+                                         soc.system_core_cpu.execute_RS2[5] (net)
+                  0.03    0.00    0.98 ^ _129654_/A (sg13g2_buf_1)
+     2    0.01    0.06    0.09    1.07 ^ _129654_/X (sg13g2_buf_1)
+                                         _048645_ (net)
+                  0.06    0.00    1.07 ^ _129655_/A (sg13g2_buf_1)
+     3    0.01    0.06    0.10    1.17 ^ _129655_/X (sg13g2_buf_1)
+                                         _048646_ (net)
+                  0.06    0.00    1.17 ^ _129656_/A (sg13g2_buf_1)
+     3    0.01    0.04    0.09    1.26 ^ _129656_/X (sg13g2_buf_1)
+                                         _048647_ (net)
+                  0.04    0.00    1.26 ^ _129657_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.09    1.34 ^ _129657_/X (sg13g2_buf_1)
+                                         _048648_ (net)
+                  0.05    0.00    1.34 ^ _129658_/A (sg13g2_buf_1)
+     3    0.02    0.07    0.11    1.45 ^ _129658_/X (sg13g2_buf_1)
+                                         _048649_ (net)
+                  0.07    0.00    1.45 ^ _129659_/A (sg13g2_buf_1)
+     3    0.05    0.19    0.20    1.65 ^ _129659_/X (sg13g2_buf_1)
+                                         _048650_ (net)
+                  0.19    0.00    1.65 ^ _129660_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.14    1.79 ^ _129660_/X (sg13g2_buf_1)
+                                         _048651_ (net)
+                  0.05    0.00    1.79 ^ _129661_/A (sg13g2_buf_1)
+     3    0.02    0.10    0.13    1.92 ^ _129661_/X (sg13g2_buf_1)
+                                         _048652_ (net)
+                  0.10    0.00    1.92 ^ _129662_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.11    2.04 ^ _129662_/X (sg13g2_buf_1)
+                                         _048653_ (net)
+                  0.05    0.00    2.04 ^ _129663_/A (sg13g2_buf_1)
+     3    0.04    0.15    0.16    2.20 ^ _129663_/X (sg13g2_buf_1)
+                                         _048654_ (net)
+                  0.15    0.00    2.20 ^ _129664_/A (sg13g2_buf_1)
+     3    0.02    0.07    0.14    2.34 ^ _129664_/X (sg13g2_buf_1)
+                                         _048655_ (net)
+                  0.07    0.00    2.34 ^ _129665_/A (sg13g2_buf_1)
+     3    0.01    0.06    0.11    2.45 ^ _129665_/X (sg13g2_buf_1)
+                                         _048656_ (net)
+                  0.06    0.00    2.45 ^ _129666_/A (sg13g2_buf_1)
+     3    0.04    0.18    0.19    2.64 ^ _129666_/X (sg13g2_buf_1)
+                                         _048657_ (net)
+                  0.18    0.00    2.64 ^ _183211_/A (sg13g2_buf_1)
+     3    0.01    0.06    0.14    2.78 ^ _183211_/X (sg13g2_buf_1)
+                                         _095994_ (net)
+                  0.06    0.00    2.78 ^ _183212_/A (sg13g2_nand2_1)
+     1    0.00    0.04    0.05    2.83 v _183212_/Y (sg13g2_nand2_1)
+                                         _095995_ (net)
+                  0.04    0.00    2.83 v _183213_/A (sg13g2_buf_1)
+    10    0.06    0.18    0.19    3.02 v _183213_/X (sg13g2_buf_1)
+                                         _095996_ (net)
+                  0.18    0.00    3.02 v _183214_/C (sg13g2_or3_1)
+     1    0.01    0.07    0.21    3.23 v _183214_/X (sg13g2_or3_1)
+                                         _095997_ (net)
+                  0.07    0.00    3.23 v _183215_/A (sg13g2_buf_1)
+     1    0.00    0.02    0.08    3.31 v _183215_/X (sg13g2_buf_1)
+                                         _095998_ (net)
+                  0.02    0.00    3.31 v _183216_/B1 (sg13g2_o21ai_1)
+     1    0.00    0.08    0.04    3.35 ^ _183216_/Y (sg13g2_o21ai_1)
+                                         _095999_ (net)
+                  0.08    0.00    3.35 ^ _183217_/A (sg13g2_buf_1)
+     2    0.01    0.04    0.10    3.44 ^ _183217_/X (sg13g2_buf_1)
+                                         _096000_ (net)
+                  0.04    0.00    3.44 ^ _183220_/A (sg13g2_xnor2_1)
+     1    0.00    0.07    0.09    3.54 ^ _183220_/Y (sg13g2_xnor2_1)
+                                         _096003_ (net)
+                  0.07    0.00    3.54 ^ _183221_/A (sg13g2_buf_1)
+     1    0.01    0.04    0.09    3.62 ^ _183221_/X (sg13g2_buf_1)
+                                         _096004_ (net)
+                  0.04    0.00    3.62 ^ _183222_/B (sg13g2_xnor2_1)
+     1    0.00    0.07    0.09    3.71 ^ _183222_/Y (sg13g2_xnor2_1)
+                                         _096005_ (net)
+                  0.07    0.00    3.71 ^ _183223_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.08    3.79 ^ _183223_/X (sg13g2_buf_1)
+                                         _096006_ (net)
+                  0.03    0.00    3.79 ^ _183224_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.08    3.88 ^ _183224_/X (sg13g2_buf_1)
+                                         _096007_ (net)
+                  0.05    0.00    3.88 ^ _183225_/A (sg13g2_buf_1)
+     3    0.02    0.08    0.11    3.98 ^ _183225_/X (sg13g2_buf_1)
+                                         _096008_ (net)
+                  0.08    0.00    3.99 ^ _183287_/A (sg13g2_xor2_1)
+     1    0.00    0.06    0.12    4.10 ^ _183287_/X (sg13g2_xor2_1)
+                                         _096070_ (net)
+                  0.06    0.00    4.10 ^ _183288_/A (sg13g2_buf_1)
+     3    0.01    0.07    0.11    4.21 ^ _183288_/X (sg13g2_buf_1)
+                                         _096071_ (net)
+                  0.07    0.00    4.21 ^ _183344_/A (sg13g2_xnor2_1)
+     1    0.00    0.05    0.10    4.31 ^ _183344_/Y (sg13g2_xnor2_1)
+                                         _096127_ (net)
+                  0.05    0.00    4.31 ^ _183345_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.09    4.40 ^ _183345_/X (sg13g2_buf_1)
+                                         _096128_ (net)
+                  0.05    0.00    4.40 ^ _183692_/A1 (sg13g2_a22oi_1)
+     1    0.00    0.06    0.08    4.48 v _183692_/Y (sg13g2_a22oi_1)
+                                         _096475_ (net)
+                  0.06    0.00    4.48 v _183693_/A (sg13g2_buf_1)
+     1    0.00    0.03    0.08    4.56 v _183693_/X (sg13g2_buf_1)
+                                         _096476_ (net)
+                  0.03    0.00    4.56 v _183695_/A (sg13g2_nor2_1)
+     1    0.00    0.04    0.05    4.61 ^ _183695_/Y (sg13g2_nor2_1)
+                                         _096478_ (net)
+                  0.04    0.00    4.61 ^ _183696_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.09    4.70 ^ _183696_/X (sg13g2_buf_1)
+                                         _096479_ (net)
+                  0.05    0.00    4.70 ^ _183840_/A1 (sg13g2_a21o_1)
+     1    0.00    0.03    0.11    4.81 ^ _183840_/X (sg13g2_a21o_1)
+                                         _096622_ (net)
+                  0.03    0.00    4.81 ^ _183841_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.08    4.89 ^ _183841_/X (sg13g2_buf_1)
+                                         _096623_ (net)
+                  0.05    0.00    4.89 ^ _183973_/A1 (sg13g2_a21oi_1)
+     1    0.00    0.05    0.06    4.95 v _183973_/Y (sg13g2_a21oi_1)
+                                         _096754_ (net)
+                  0.05    0.00    4.95 v _183974_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.08    5.03 v _183974_/X (sg13g2_buf_1)
+                                         _096755_ (net)
+                  0.03    0.00    5.03 v _184327_/A (sg13g2_or2_1)
+     1    0.00    0.03    0.10    5.13 v _184327_/X (sg13g2_or2_1)
+                                         _097106_ (net)
+                  0.03    0.00    5.13 v _184328_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.09    5.22 v _184328_/X (sg13g2_buf_1)
+                                         _097107_ (net)
+                  0.05    0.00    5.22 v _185290_/A1 (sg13g2_a21o_1)
+     1    0.00    0.03    0.11    5.33 v _185290_/X (sg13g2_a21o_1)
+                                         _098064_ (net)
+                  0.03    0.00    5.33 v _185291_/A (sg13g2_buf_1)
+     1    0.02    0.08    0.12    5.44 v _185291_/X (sg13g2_buf_1)
+                                         _098065_ (net)
+                  0.08    0.00    5.44 v _185295_/B1 (sg13g2_a221oi_1)
+     1    0.04    0.57    0.48    5.93 ^ _185295_/Y (sg13g2_a221oi_1)
+                                         _098069_ (net)
+                  0.57    0.00    5.93 ^ _185296_/A (sg13g2_buf_1)
+     3    0.02    0.08    0.21    6.14 ^ _185296_/X (sg13g2_buf_1)
+                                         _098070_ (net)
+                  0.08    0.00    6.14 ^ _185656_/A (sg13g2_nand2_1)
+     1    0.00    0.05    0.06    6.20 v _185656_/Y (sg13g2_nand2_1)
+                                         _098427_ (net)
+                  0.05    0.00    6.20 v _185657_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.08    6.28 v _185657_/X (sg13g2_buf_1)
+                                         _098428_ (net)
+                  0.03    0.00    6.28 v _185844_/A1 (sg13g2_o21ai_1)
+     1    0.00    0.06    0.08    6.36 ^ _185844_/Y (sg13g2_o21ai_1)
+                                         _098614_ (net)
+                  0.06    0.00    6.36 ^ _185845_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.10    6.46 ^ _185845_/X (sg13g2_buf_1)
+                                         _098615_ (net)
+                  0.05    0.00    6.46 ^ _186028_/A1 (sg13g2_o21ai_1)
+     1    0.00    0.05    0.07    6.54 v _186028_/Y (sg13g2_o21ai_1)
+                                         _098797_ (net)
+                  0.05    0.00    6.54 v _186029_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.10    6.64 v _186029_/X (sg13g2_buf_1)
+                                         _098798_ (net)
+                  0.05    0.00    6.64 v _186457_/A (sg13g2_nor3_1)
+     1    0.00    0.07    0.10    6.74 ^ _186457_/Y (sg13g2_nor3_1)
+                                         _099224_ (net)
+                  0.07    0.00    6.74 ^ _186458_/A (sg13g2_buf_1)
+     2    0.01    0.04    0.09    6.83 ^ _186458_/X (sg13g2_buf_1)
+                                         _099225_ (net)
+                  0.04    0.00    6.83 ^ _186629_/B2 (sg13g2_a221oi_1)
+     1    0.00    0.07    0.07    6.90 v _186629_/Y (sg13g2_a221oi_1)
+                                         _099394_ (net)
+                  0.07    0.00    6.90 v _186630_/A (sg13g2_buf_1)
+     2    0.01    0.04    0.10    7.00 v _186630_/X (sg13g2_buf_1)
+                                         _099395_ (net)
+                  0.04    0.00    7.00 v _186782_/A1 (sg13g2_a21oi_1)
+     1    0.01    0.09    0.09    7.10 ^ _186782_/Y (sg13g2_a21oi_1)
+                                         _099546_ (net)
+                  0.09    0.00    7.10 ^ _186783_/A (sg13g2_buf_1)
+     2    0.01    0.04    0.10    7.20 ^ _186783_/X (sg13g2_buf_1)
+                                         _099547_ (net)
+                  0.04    0.00    7.20 ^ _186915_/A1 (sg13g2_a21o_1)
+     1    0.00    0.03    0.10    7.29 ^ _186915_/X (sg13g2_a21o_1)
+                                         _099678_ (net)
+                  0.03    0.00    7.29 ^ _186916_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.08    7.37 ^ _186916_/X (sg13g2_buf_1)
+                                         _099679_ (net)
+                  0.05    0.00    7.37 ^ _187295_/B2 (sg13g2_a221oi_1)
+     1    0.00    0.07    0.07    7.44 v _187295_/Y (sg13g2_a221oi_1)
+                                         _100055_ (net)
+                  0.07    0.00    7.44 v _187296_/A (sg13g2_buf_1)
+     2    0.01    0.05    0.10    7.54 v _187296_/X (sg13g2_buf_1)
+                                         _100056_ (net)
+                  0.05    0.00    7.54 v _187449_/A1 (sg13g2_o21ai_1)
+     1    0.00    0.06    0.09    7.63 ^ _187449_/Y (sg13g2_o21ai_1)
+                                         _100207_ (net)
+                  0.06    0.00    7.63 ^ _187450_/A (sg13g2_buf_1)
+     1    0.01    0.03    0.08    7.71 ^ _187450_/X (sg13g2_buf_1)
+                                         _100208_ (net)
+                  0.03    0.00    7.71 ^ _187451_/B (sg13g2_xnor2_1)
+     1    0.00    0.05    0.06    7.78 v _187451_/Y (sg13g2_xnor2_1)
+                                         _100209_ (net)
+                  0.05    0.00    7.78 v _187455_/A2 (sg13g2_o21ai_1)
+     1    0.01    0.09    0.10    7.88 ^ _187455_/Y (sg13g2_o21ai_1)
+                                         _100213_ (net)
+                  0.09    0.00    7.88 ^ _187456_/A (sg13g2_buf_1)
+     1    0.00    0.03    0.09    7.97 ^ _187456_/X (sg13g2_buf_1)
+                                         _008255_ (net)
+                  0.03    0.00    7.97 ^ soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_/D (sg13g2_dfrbp_1)
+                                  7.97   data arrival time
+
+                         50.00   50.00   clock clk_core (rise edge)
+                          0.00   50.00   clock source latency
+     6    0.23    0.39    0.00   50.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_clock_p2c (net)
+                  0.30    0.02   50.02 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     4    0.11    0.08    0.19   50.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.08    0.00   50.22 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     2    0.14    0.05    0.11   50.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_2_3_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.05    0.00   50.33 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     8    0.23    0.07    0.11   50.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_3_6_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.07    0.00   50.45 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     4    0.05    0.03    0.09   50.54 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_6_51_0_sg13g2_IOPad_io_clock_p2c (net)
+                  0.03    0.00   50.54 ^ clkbuf_8_207__f_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_8)
+     8    0.17    0.10    0.13   50.67 ^ clkbuf_8_207__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+                                         clknet_8_207__leaf_sg13g2_IOPad_io_clock_p2c (net)
+                  0.10    0.00   50.67 ^ clkbuf_leaf_1124_sg13g2_IOPad_io_clock_p2c/A (sg13g2_buf_16)
+     8    0.03    0.02    0.10   50.77 ^ clkbuf_leaf_1124_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+                                         clknet_leaf_1124_sg13g2_IOPad_io_clock_p2c (net)
+                  0.02    0.00   50.77 ^ soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+                         -0.15   50.62   clock uncertainty
+                          0.00   50.62   clock reconvergence pessimism
+                         -0.11   50.51   library setup time
+                                 50.51   data required time
+-----------------------------------------------------------------------------
+                                 50.51   data required time
+                                 -7.97   data arrival time
+-----------------------------------------------------------------------------
+                                 42.54   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_
+          (rising edge-triggered flip-flop clocked by clk_jtag')
+Path Group: clk_jtag
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_jtag (rise edge)
+                          0.00    0.00   clock source latency
+   235    0.73    1.21    0.00    0.00 ^ sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_jtag_tck_p2c (net)
+                  0.94    0.11    0.11 ^ soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.03    0.38    0.49 v soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_/Q (sg13g2_dfrbp_1)
+                                         soc.jtagBridge_1.jtag_tap_fsm_state[1] (net)
+                  0.03    0.00    0.49 v _123203_/A (sg13g2_buf_1)
+     2    0.01    0.03    0.07    0.57 v _123203_/X (sg13g2_buf_1)
+                                         _042380_ (net)
+                  0.03    0.00    0.57 v _123204_/A (sg13g2_inv_1)
+     1    0.00    0.02    0.03    0.59 ^ _123204_/Y (sg13g2_inv_1)
+                                         _042381_ (net)
+                  0.02    0.00    0.59 ^ _123205_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.08    0.67 ^ _123205_/X (sg13g2_buf_1)
+                                         _042382_ (net)
+                  0.05    0.00    0.67 ^ _142858_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.09    0.76 ^ _142858_/X (sg13g2_buf_1)
+                                         _061049_ (net)
+                  0.05    0.00    0.76 ^ _142869_/A (sg13g2_buf_1)
+     3    0.01    0.07    0.10    0.86 ^ _142869_/X (sg13g2_buf_1)
+                                         _061059_ (net)
+                  0.07    0.00    0.86 ^ _142870_/A (sg13g2_buf_1)
+     3    0.01    0.05    0.10    0.96 ^ _142870_/X (sg13g2_buf_1)
+                                         _061060_ (net)
+                  0.05    0.00    0.96 ^ _228877_/A (sg13g2_buf_1)
+     3    0.01    0.07    0.11    1.07 ^ _228877_/X (sg13g2_buf_1)
+                                         _038311_ (net)
+                  0.07    0.00    1.07 ^ _228931_/A (sg13g2_nor2_1)
+     1    0.00    0.03    0.05    1.11 v _228931_/Y (sg13g2_nor2_1)
+                                         _038361_ (net)
+                  0.03    0.00    1.11 v _228943_/A2 (sg13g2_o21ai_1)
+     4    0.18    1.77    1.30    2.41 ^ _228943_/Y (sg13g2_o21ai_1)
+                                         _038373_ (net)
+                  1.77    0.02    2.43 ^ _228944_/A (sg13g2_buf_1)
+     1    0.00    0.06    0.26    2.69 ^ _228944_/X (sg13g2_buf_1)
+                                         soc.jtagBridge_1.jtag_tap_tdoUnbufferd (net)
+                  0.06    0.00    2.69 ^ soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_/D (sg13g2_dfrbp_1)
+                                  2.69   data arrival time
+
+                         50.00   50.00   clock clk_jtag' (rise edge)
+                          0.00   50.00   clock source latency
+   235    0.71    1.00    0.00   50.00 v sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPad_io_jtag_tck_p2c (net)
+                  0.75    0.03   50.03 v _141591_/A (sg13g2_buf_1)
+     1    0.00    0.05    0.19   50.22 v _141591_/X (sg13g2_buf_1)
+                                         _059911_ (net)
+                  0.05    0.00   50.22 v _141592__1/A (sg13g2_inv_1)
+     1    0.00    0.03    0.04   50.26 ^ _141592__1/Y (sg13g2_inv_1)
+                                         net10779 (net)
+                  0.03    0.00   50.26 ^ soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_/CLK (sg13g2_dfrbp_1)
+                         -0.15   50.11   clock uncertainty
+                          0.00   50.11   clock reconvergence pessimism
+                         -0.12   49.99   library setup time
+                                 49.99   data required time
+-----------------------------------------------------------------------------
+                                 49.99   data required time
+                                 -2.69   data arrival time
+-----------------------------------------------------------------------------
+                                 47.30   slack (MET)
+
+
+
+==========================================================================
+global route report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+sg13g2_IOPad_io_pins_10/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_17/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_8/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_9/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_1/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_7/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_0/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_12/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_13/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_14/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_11/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_19/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_spi_dq_0/pad            1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_15/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_16/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_18/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_2/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_3/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_4/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_5/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_pins_6/pad              1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_reset/pad      1.20    4.68   -3.48 (VIOLATED)
+sg13g2_IOPad_io_jtag_tdo/pad            1.20    4.68   -3.48 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_cs_0/pad       1.20    4.68   -3.48 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_cs_1/pad       1.20    4.68   -3.48 (VIOLATED)
+sg13g2_IOPad_io_spi_sck/pad             1.20    4.68   -3.48 (VIOLATED)
+sg13g2_IOPad_io_spi_cs_0/pad            1.20    4.68   -3.48 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_rwds/pad       1.20    2.07   -0.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_0/pad       1.20    2.04   -0.84 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_1/pad       1.20    2.04   -0.84 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_7/pad       1.20    2.04   -0.84 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_6/pad       1.20    2.04   -0.84 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_2/pad       1.20    2.04   -0.84 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_5/pad       1.20    2.04   -0.84 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_3/pad       1.20    2.04   -0.84 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_4/pad       1.20    2.04   -0.84 (VIOLATED)
+io_pins_17_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_10_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_9_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_8_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_1_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_7_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_0_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_12_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_13_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_14_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_11_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_19_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_spi_dq_0_PAD                         3.00    3.69   -0.69 (VIOLATED)
+io_pins_18_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_15_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_16_PAD                          3.00    3.69   -0.69 (VIOLATED)
+io_pins_2_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_5_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_3_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_4_PAD                           3.00    3.69   -0.69 (VIOLATED)
+io_pins_6_PAD                           3.00    3.69   -0.69 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_ADDR[2]    0.48    1.00   -0.53 (VIOLATED)
+io_hyperbus_reset_PAD                   3.00    3.51   -0.51 (VIOLATED)
+io_jtag_tdo_PAD                         3.00    3.51   -0.51 (VIOLATED)
+io_hyperbus_cs_1_PAD                    3.00    3.51   -0.51 (VIOLATED)
+io_hyperbus_cs_0_PAD                    3.00    3.51   -0.51 (VIOLATED)
+io_spi_sck_PAD                          3.00    3.51   -0.51 (VIOLATED)
+io_spi_cs_0_PAD                         3.00    3.51   -0.51 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_ADDR[4]    0.48    0.87   -0.40 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_ADDR[1]    0.48    0.78   -0.31 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_REN    0.48    0.78   -0.30 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_MEN    0.48    0.57   -0.09 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_ck/pad         1.20    1.24   -0.04 (VIOLATED)
+sg13g2_IOPad_io_jtag_tck/p2c            1.20    1.21   -0.01 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+sg13g2_IOPad_io_jtag_tck/p2c              8    235   -227 (VIOLATED)
+fanout508/X                               8    117   -109 (VIOLATED)
+_121479_/X                                8     97    -89 (VIOLATED)
+_121427_/X                                8     85    -77 (VIOLATED)
+_226401_/X                                8     76    -68 (VIOLATED)
+_217549_/X                                8     71    -63 (VIOLATED)
+_220165_/X                                8     68    -60 (VIOLATED)
+_121352_/X                                8     66    -58 (VIOLATED)
+_121453_/X                                8     66    -58 (VIOLATED)
+_226486_/X                                8     59    -51 (VIOLATED)
+_122975_/X                                8     58    -50 (VIOLATED)
+_226609_/X                                8     58    -50 (VIOLATED)
+_120995_/X                                8     55    -47 (VIOLATED)
+_122525_/X                                8     55    -47 (VIOLATED)
+_140119_/X                                8     55    -47 (VIOLATED)
+_149668_/X                                8     55    -47 (VIOLATED)
+_143457_/X                                8     54    -46 (VIOLATED)
+_121108_/X                                8     53    -45 (VIOLATED)
+_122366_/X                                8     53    -45 (VIOLATED)
+_143449_/X                                8     53    -45 (VIOLATED)
+_142143_/X                                8     51    -43 (VIOLATED)
+_121356_/X                                8     49    -41 (VIOLATED)
+_217977_/X                                8     49    -41 (VIOLATED)
+_120992_/X                                8     48    -40 (VIOLATED)
+_170350_/X                                8     48    -40 (VIOLATED)
+_182831_/X                                8     48    -40 (VIOLATED)
+_217860_/X                                8     48    -40 (VIOLATED)
+_219513_/X                                8     48    -40 (VIOLATED)
+_223441_/X                                8     48    -40 (VIOLATED)
+_121107_/X                                8     47    -39 (VIOLATED)
+_143439_/X                                8     47    -39 (VIOLATED)
+_178464_/X                                8     47    -39 (VIOLATED)
+_129794_/X                                8     46    -38 (VIOLATED)
+_140121_/X                                8     46    -38 (VIOLATED)
+_219009_/X                                8     45    -37 (VIOLATED)
+_220637_/X                                8     45    -37 (VIOLATED)
+_223513_/X                                8     45    -37 (VIOLATED)
+_226302_/X                                8     45    -37 (VIOLATED)
+_120600_/X                                8     44    -36 (VIOLATED)
+_143384_/X                                8     44    -36 (VIOLATED)
+_182826_/X                                8     44    -36 (VIOLATED)
+_142076_/X                                8     43    -35 (VIOLATED)
+_222258_/X                                8     42    -34 (VIOLATED)
+_142080_/X                                8     41    -33 (VIOLATED)
+_142107_/X                                8     40    -32 (VIOLATED)
+_215825_/X                                8     40    -32 (VIOLATED)
+_217697_/X                                8     40    -32 (VIOLATED)
+_122508_/X                                8     39    -31 (VIOLATED)
+_142072_/X                                8     39    -31 (VIOLATED)
+_142085_/X                                8     39    -31 (VIOLATED)
+_150270_/X                                8     39    -31 (VIOLATED)
+_143368_/X                                8     38    -30 (VIOLATED)
+_186910_/X                                8     38    -30 (VIOLATED)
+_143844_/X                                8     37    -29 (VIOLATED)
+_129822_/X                                8     36    -28 (VIOLATED)
+_142059_/X                                8     36    -28 (VIOLATED)
+_143230_/X                                8     36    -28 (VIOLATED)
+_149548_/X                                8     36    -28 (VIOLATED)
+_163733_/X                                8     36    -28 (VIOLATED)
+_142139_/X                                8     35    -27 (VIOLATED)
+_122527_/X                                8     34    -26 (VIOLATED)
+_142089_/X                                8     34    -26 (VIOLATED)
+_152987_/X                                8     34    -26 (VIOLATED)
+_168071_/X                                8     34    -26 (VIOLATED)
+_178901_/X                                8     34    -26 (VIOLATED)
+_158334_/X                                8     33    -25 (VIOLATED)
+_164385_/X                                8     33    -25 (VIOLATED)
+_168849_/X                                8     33    -25 (VIOLATED)
+_143409_/X                                8     32    -24 (VIOLATED)
+_143458_/X                                8     32    -24 (VIOLATED)
+_143835_/X                                8     32    -24 (VIOLATED)
+_169044_/X                                8     32    -24 (VIOLATED)
+_121123_/X                                8     31    -23 (VIOLATED)
+_142063_/X                                8     31    -23 (VIOLATED)
+_143202_/X                                8     31    -23 (VIOLATED)
+_145219_/X                                8     31    -23 (VIOLATED)
+_152325_/X                                8     31    -23 (VIOLATED)
+_177678_/X                                8     31    -23 (VIOLATED)
+_120631_/X                                8     30    -22 (VIOLATED)
+_145165_/X                                8     30    -22 (VIOLATED)
+_149101_/X                                8     30    -22 (VIOLATED)
+_120495_/X                                8     29    -21 (VIOLATED)
+_142133_/X                                8     29    -21 (VIOLATED)
+_143210_/X                                8     29    -21 (VIOLATED)
+_143267_/X                                8     29    -21 (VIOLATED)
+_167206_/X                                8     29    -21 (VIOLATED)
+_218973_/X                                8     29    -21 (VIOLATED)
+_219993_/X                                8     29    -21 (VIOLATED)
+_120890_/X                                8     28    -20 (VIOLATED)
+_126846_/X                                8     28    -20 (VIOLATED)
+_149790_/X                                8     28    -20 (VIOLATED)
+_203858_/X                                8     28    -20 (VIOLATED)
+soc.system_core_cpu.execute_to_memory_MUL_LL[3]$_DFFE_PP_/Q      8     28    -20 (VIOLATED)
+_141993_/X                                8     27    -19 (VIOLATED)
+_143221_/X                                8     27    -19 (VIOLATED)
+_143285_/X                                8     27    -19 (VIOLATED)
+_149872_/X                                8     27    -19 (VIOLATED)
+_151855_/X                                8     27    -19 (VIOLATED)
+_167329_/X                                8     27    -19 (VIOLATED)
+_206510_/X                                8     27    -19 (VIOLATED)
+_217964_/X                                8     27    -19 (VIOLATED)
+_219731_/X                                8     27    -19 (VIOLATED)
+_131353_/X                                8     26    -18 (VIOLATED)
+_142052_/X                                8     26    -18 (VIOLATED)
+_143448_/X                                8     26    -18 (VIOLATED)
+_145199_/X                                8     26    -18 (VIOLATED)
+_148674_/X                                8     26    -18 (VIOLATED)
+_149466_/X                                8     26    -18 (VIOLATED)
+_160806_/X                                8     26    -18 (VIOLATED)
+_163613_/X                                8     26    -18 (VIOLATED)
+_167906_/X                                8     26    -18 (VIOLATED)
+_168587_/X                                8     26    -18 (VIOLATED)
+_169158_/X                                8     26    -18 (VIOLATED)
+_178227_/X                                8     26    -18 (VIOLATED)
+_218293_/X                                8     26    -18 (VIOLATED)
+_222898_/X                                8     26    -18 (VIOLATED)
+soc.system_core_cpu.execute_to_memory_MUL_LL[8]$_DFFE_PP_/Q      8     26    -18 (VIOLATED)
+soc.system_core_cpu.execute_to_memory_MUL_LL[9]$_DFFE_PP_/Q      8     26    -18 (VIOLATED)
+_120490_/X                                8     25    -17 (VIOLATED)
+_143250_/X                                8     25    -17 (VIOLATED)
+_121121_/X                                8     24    -16 (VIOLATED)
+_143428_/X                                8     24    -16 (VIOLATED)
+_143438_/X                                8     24    -16 (VIOLATED)
+_148627_/X                                8     24    -16 (VIOLATED)
+_206739_/X                                8     24    -16 (VIOLATED)
+_227566_/X                                8     24    -16 (VIOLATED)
+sg13g2_IOPad_io_pins_19/p2c               8     24    -16 (VIOLATED)
+_142067_/X                                8     23    -15 (VIOLATED)
+_150288_/X                                8     23    -15 (VIOLATED)
+_169609_/X                                8     23    -15 (VIOLATED)
+_226101_/X                                8     23    -15 (VIOLATED)
+_120713_/X                                8     22    -14 (VIOLATED)
+_120813_/X                                8     22    -14 (VIOLATED)
+_131237_/X                                8     22    -14 (VIOLATED)
+_143467_/X                                8     22    -14 (VIOLATED)
+_144874_/X                                8     22    -14 (VIOLATED)
+_148635_/X                                8     22    -14 (VIOLATED)
+_167338_/X                                8     22    -14 (VIOLATED)
+_167908_/X                                8     22    -14 (VIOLATED)
+_195231_/X                                8     22    -14 (VIOLATED)
+_213950_/X                                8     22    -14 (VIOLATED)
+soc.system_core_cpu.execute_to_memory_MUL_LL[6]$_DFFE_PP_/Q      8     22    -14 (VIOLATED)
+_129376_/X                                8     21    -13 (VIOLATED)
+_151716_/X                                8     21    -13 (VIOLATED)
+_152038_/X                                8     21    -13 (VIOLATED)
+_164303_/X                                8     21    -13 (VIOLATED)
+_167353_/X                                8     21    -13 (VIOLATED)
+_168480_/X                                8     21    -13 (VIOLATED)
+_169303_/X                                8     21    -13 (VIOLATED)
+_216406_/X                                8     21    -13 (VIOLATED)
+_219444_/X                                8     21    -13 (VIOLATED)
+soc.soc_system_apbBridge_io_axi_arbiter_io_output_w_rData_data[16]$_DFFE_PN_/Q      8     21    -13 (VIOLATED)
+_143200_/X                                8     20    -12 (VIOLATED)
+_154343_/X                                8     20    -12 (VIOLATED)
+_156065_/X                                8     20    -12 (VIOLATED)
+_167744_/X                                8     20    -12 (VIOLATED)
+_212240_/X                                8     20    -12 (VIOLATED)
+_120893_/X                                8     19    -11 (VIOLATED)
+_121355_/X                                8     19    -11 (VIOLATED)
+_152018_/X                                8     19    -11 (VIOLATED)
+_198801_/X                                8     19    -11 (VIOLATED)
+_218990_/X                                8     19    -11 (VIOLATED)
+_222748_/X                                8     19    -11 (VIOLATED)
+_121428_/X                                8     18    -10 (VIOLATED)
+_143276_/X                                8     18    -10 (VIOLATED)
+_143777_/X                                8     18    -10 (VIOLATED)
+_150280_/X                                8     18    -10 (VIOLATED)
+_152030_/X                                8     18    -10 (VIOLATED)
+_158328_/X                                8     18    -10 (VIOLATED)
+_167337_/X                                8     18    -10 (VIOLATED)
+_167582_/X                                8     18    -10 (VIOLATED)
+_167890_/X                                8     18    -10 (VIOLATED)
+_168283_/X                                8     18    -10 (VIOLATED)
+_211764_/X                                8     18    -10 (VIOLATED)
+_218814_/X                                8     18    -10 (VIOLATED)
+_143125_/X                                8     17     -9 (VIOLATED)
+_143420_/X                                8     17     -9 (VIOLATED)
+_148621_/X                                8     17     -9 (VIOLATED)
+_150275_/X                                8     17     -9 (VIOLATED)
+_151259_/X                                8     17     -9 (VIOLATED)
+_159696_/X                                8     17     -9 (VIOLATED)
+_164382_/X                                8     17     -9 (VIOLATED)
+_167496_/X                                8     17     -9 (VIOLATED)
+_169889_/X                                8     17     -9 (VIOLATED)
+_169982_/X                                8     17     -9 (VIOLATED)
+_210917_/X                                8     17     -9 (VIOLATED)
+_220207_/X                                8     17     -9 (VIOLATED)
+_225779_/X                                8     17     -9 (VIOLATED)
+soc.system_hyperbus_phy.reset_value$_SDFFE_PN1P_/Q      8     16     -8 (VIOLATED)
+_120598_/X                                8     16     -8 (VIOLATED)
+_123261_/X                                8     16     -8 (VIOLATED)
+_138315_/X                                8     16     -8 (VIOLATED)
+_143446_/X                                8     16     -8 (VIOLATED)
+_148027_/Y                                8     16     -8 (VIOLATED)
+_167676_/X                                8     16     -8 (VIOLATED)
+_209554_/X                                8     16     -8 (VIOLATED)
+_218870_/X                                8     16     -8 (VIOLATED)
+_218931_/X                                8     16     -8 (VIOLATED)
+_226391_/Y                                8     16     -8 (VIOLATED)
+_228383_/Y                                8     16     -8 (VIOLATED)
+sg13g2_IOPad_io_pins_5/p2c                8     16     -8 (VIOLATED)
+_123618_/X                                8     15     -7 (VIOLATED)
+_130183_/X                                8     15     -7 (VIOLATED)
+_130563_/X                                8     15     -7 (VIOLATED)
+_150246_/X                                8     15     -7 (VIOLATED)
+_151349_/X                                8     15     -7 (VIOLATED)
+_151732_/X                                8     15     -7 (VIOLATED)
+_151851_/X                                8     15     -7 (VIOLATED)
+_158144_/X                                8     15     -7 (VIOLATED)
+_167182_/X                                8     15     -7 (VIOLATED)
+_167335_/X                                8     15     -7 (VIOLATED)
+_167935_/X                                8     15     -7 (VIOLATED)
+_169446_/X                                8     15     -7 (VIOLATED)
+_169789_/X                                8     15     -7 (VIOLATED)
+_169872_/X                                8     15     -7 (VIOLATED)
+_195077_/X                                8     15     -7 (VIOLATED)
+_140131_/X                                8     14     -6 (VIOLATED)
+_143212_/X                                8     14     -6 (VIOLATED)
+_143241_/X                                8     14     -6 (VIOLATED)
+_148083_/X                                8     14     -6 (VIOLATED)
+_167468_/X                                8     14     -6 (VIOLATED)
+_212330_/X                                8     14     -6 (VIOLATED)
+_217920_/X                                8     14     -6 (VIOLATED)
+_226370_/X                                8     14     -6 (VIOLATED)
+_229442_/X                                8     14     -6 (VIOLATED)
+_229751_/X                                8     14     -6 (VIOLATED)
+soc.soc_system_apbBridge_io_axi_arbiter_io_output_w_rData_data[12]$_DFFE_PN_/Q      8     14     -6 (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[25]$_DFF_P_/Q      8     14     -6 (VIOLATED)
+_121630_/X                                8     13     -5 (VIOLATED)
+_131140_/X                                8     13     -5 (VIOLATED)
+_143184_/X                                8     13     -5 (VIOLATED)
+_143382_/X                                8     13     -5 (VIOLATED)
+_145032_/X                                8     13     -5 (VIOLATED)
+_148094_/X                                8     13     -5 (VIOLATED)
+_154294_/X                                8     13     -5 (VIOLATED)
+_158914_/X                                8     13     -5 (VIOLATED)
+_164304_/X                                8     13     -5 (VIOLATED)
+_164341_/X                                8     13     -5 (VIOLATED)
+_166619_/X                                8     13     -5 (VIOLATED)
+_168083_/X                                8     13     -5 (VIOLATED)
+_198836_/X                                8     13     -5 (VIOLATED)
+_206642_/X                                8     13     -5 (VIOLATED)
+_206886_/X                                8     13     -5 (VIOLATED)
+_218231_/X                                8     13     -5 (VIOLATED)
+_227209_/X                                8     13     -5 (VIOLATED)
+_230407_/Y                                8     13     -5 (VIOLATED)
+_230474_/Y                                8     13     -5 (VIOLATED)
+_120492_/X                                8     12     -4 (VIOLATED)
+_120501_/X                                8     12     -4 (VIOLATED)
+_127860_/X                                8     12     -4 (VIOLATED)
+_131168_/X                                8     12     -4 (VIOLATED)
+_132453_/X                                8     12     -4 (VIOLATED)
+_138290_/Y                                8     12     -4 (VIOLATED)
+_143408_/X                                8     12     -4 (VIOLATED)
+_143591_/X                                8     12     -4 (VIOLATED)
+_145232_/X                                8     12     -4 (VIOLATED)
+_148550_/X                                8     12     -4 (VIOLATED)
+_148561_/X                                8     12     -4 (VIOLATED)
+_148710_/X                                8     12     -4 (VIOLATED)
+_150262_/X                                8     12     -4 (VIOLATED)
+_151235_/X                                8     12     -4 (VIOLATED)
+_151269_/X                                8     12     -4 (VIOLATED)
+_151871_/X                                8     12     -4 (VIOLATED)
+_157672_/X                                8     12     -4 (VIOLATED)
+_159269_/X                                8     12     -4 (VIOLATED)
+_163466_/X                                8     12     -4 (VIOLATED)
+_164312_/X                                8     12     -4 (VIOLATED)
+_166635_/X                                8     12     -4 (VIOLATED)
+_166661_/X                                8     12     -4 (VIOLATED)
+_166663_/X                                8     12     -4 (VIOLATED)
+_167142_/X                                8     12     -4 (VIOLATED)
+_167499_/X                                8     12     -4 (VIOLATED)
+_167502_/X                                8     12     -4 (VIOLATED)
+_167506_/X                                8     12     -4 (VIOLATED)
+_167529_/X                                8     12     -4 (VIOLATED)
+_167617_/X                                8     12     -4 (VIOLATED)
+_167725_/X                                8     12     -4 (VIOLATED)
+_167733_/X                                8     12     -4 (VIOLATED)
+_167780_/X                                8     12     -4 (VIOLATED)
+_167845_/X                                8     12     -4 (VIOLATED)
+_167923_/X                                8     12     -4 (VIOLATED)
+_167931_/X                                8     12     -4 (VIOLATED)
+_167981_/X                                8     12     -4 (VIOLATED)
+_168049_/X                                8     12     -4 (VIOLATED)
+_168180_/X                                8     12     -4 (VIOLATED)
+_168248_/X                                8     12     -4 (VIOLATED)
+_168547_/X                                8     12     -4 (VIOLATED)
+_169256_/X                                8     12     -4 (VIOLATED)
+_169332_/X                                8     12     -4 (VIOLATED)
+_169349_/X                                8     12     -4 (VIOLATED)
+_180894_/X                                8     12     -4 (VIOLATED)
+_181266_/X                                8     12     -4 (VIOLATED)
+_189971_/X                                8     12     -4 (VIOLATED)
+_196150_/X                                8     12     -4 (VIOLATED)
+_206812_/X                                8     12     -4 (VIOLATED)
+_209538_/X                                8     12     -4 (VIOLATED)
+_218225_/X                                8     12     -4 (VIOLATED)
+_218348_/X                                8     12     -4 (VIOLATED)
+_218366_/X                                8     12     -4 (VIOLATED)
+_218470_/X                                8     12     -4 (VIOLATED)
+_218922_/X                                8     12     -4 (VIOLATED)
+_219318_/X                                8     12     -4 (VIOLATED)
+_219764_/Y                                8     12     -4 (VIOLATED)
+_219874_/X                                8     12     -4 (VIOLATED)
+_219926_/Y                                8     12     -4 (VIOLATED)
+_224461_/X                                8     12     -4 (VIOLATED)
+_228413_/X                                8     12     -4 (VIOLATED)
+soc.soc_system_apbBridge_io_axi_arbiter_io_output_w_rData_data[13]$_DFFE_PN_/Q      8     12     -4 (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[1]$_DFF_P_/Q      8     12     -4 (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[32]$_DFF_P_/Q      8     12     -4 (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[46]$_DFF_P_/Q      8     12     -4 (VIOLATED)
+soc.peripherals_pinmuxCtrl._zz_io_bus_PRDATA_15$_SDFFE_PN0P_/Q      8     11     -3 (VIOLATED)
+_122507_/X                                8     11     -3 (VIOLATED)
+_142093_/X                                8     11     -3 (VIOLATED)
+_143167_/X                                8     11     -3 (VIOLATED)
+_167394_/X                                8     11     -3 (VIOLATED)
+_206772_/X                                8     11     -3 (VIOLATED)
+_219916_/Y                                8     11     -3 (VIOLATED)
+_222693_/X                                8     11     -3 (VIOLATED)
+_222896_/X                                8     11     -3 (VIOLATED)
+_230392_/Y                                8     11     -3 (VIOLATED)
+_121853_/X                                8     10     -2 (VIOLATED)
+_124144_/X                                8     10     -2 (VIOLATED)
+_125746_/X                                8     10     -2 (VIOLATED)
+_143333_/X                                8     10     -2 (VIOLATED)
+_149596_/X                                8     10     -2 (VIOLATED)
+_160190_/X                                8     10     -2 (VIOLATED)
+_164301_/X                                8     10     -2 (VIOLATED)
+_164343_/X                                8     10     -2 (VIOLATED)
+_168151_/Y                                8     10     -2 (VIOLATED)
+_168354_/X                                8     10     -2 (VIOLATED)
+_173097_/X                                8     10     -2 (VIOLATED)
+_183213_/X                                8     10     -2 (VIOLATED)
+_183828_/Y                                8     10     -2 (VIOLATED)
+_196322_/Y                                8     10     -2 (VIOLATED)
+_196700_/Y                                8     10     -2 (VIOLATED)
+_206790_/X                                8     10     -2 (VIOLATED)
+_206834_/X                                8     10     -2 (VIOLATED)
+_206882_/X                                8     10     -2 (VIOLATED)
+_206906_/X                                8     10     -2 (VIOLATED)
+_210897_/X                                8     10     -2 (VIOLATED)
+_229282_/X                                8     10     -2 (VIOLATED)
+_229858_/X                                8     10     -2 (VIOLATED)
+_230418_/Y                                8     10     -2 (VIOLATED)
+_230456_/Y                                8     10     -2 (VIOLATED)
+_230462_/Y                                8     10     -2 (VIOLATED)
+soc.peripherals_gpio0Ctrl.ctrl.io_gpio_pins_read_buffercc/buffers_2[9]$_DFF_P_/Q      8     10     -2 (VIOLATED)
+soc.soc_system_apbBridge_io_axi_arbiter_io_output_w_rData_data[3]$_DFFE_PN_/Q      8     10     -2 (VIOLATED)
+soc.system_core_cpu.decode_to_execute_RS2[28]$_DFFE_PN_/Q      8     10     -2 (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[10]$_DFF_P_/Q      8     10     -2 (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[15]$_DFF_P_/Q      8     10     -2 (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[19]$_DFF_P_/Q      8     10     -2 (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[24]$_DFF_P_/Q      8     10     -2 (VIOLATED)
+_121924_/X                                8      9        (VIOLATED)
+_125908_/X                                8      9        (VIOLATED)
+_127105_/X                                8      9        (VIOLATED)
+_128074_/X                                8      9        (VIOLATED)
+_142112_/X                                8      9        (VIOLATED)
+_142120_/X                                8      9        (VIOLATED)
+_143400_/X                                8      9        (VIOLATED)
+_144432_/X                                8      9        (VIOLATED)
+_145456_/X                                8      9        (VIOLATED)
+_152040_/X                                8      9        (VIOLATED)
+_152327_/X                                8      9        (VIOLATED)
+_157383_/X                                8      9        (VIOLATED)
+_158077_/X                                8      9        (VIOLATED)
+_160087_/X                                8      9        (VIOLATED)
+_167265_/X                                8      9        (VIOLATED)
+_167975_/X                                8      9        (VIOLATED)
+_167979_/X                                8      9        (VIOLATED)
+_168082_/X                                8      9        (VIOLATED)
+_169253_/X                                8      9        (VIOLATED)
+_169463_/X                                8      9        (VIOLATED)
+_206786_/X                                8      9        (VIOLATED)
+_206801_/X                                8      9        (VIOLATED)
+_206805_/X                                8      9        (VIOLATED)
+_211844_/X                                8      9        (VIOLATED)
+_216246_/X                                8      9        (VIOLATED)
+_218821_/X                                8      9        (VIOLATED)
+_219947_/X                                8      9        (VIOLATED)
+_222732_/X                                8      9        (VIOLATED)
+_230382_/X                                8      9        (VIOLATED)
+soc.system_core_cpu.memory_to_writeBack_MUL_LOW[17]$_DFF_P_/Q      8      9        (VIOLATED)
+soc.system_hyperbus_phy.fsm_stateReg[5]$_DFF_P_/Q      8      8     -0 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+io_hyperbus_dq_0_PAD                    0.50    5.37   -4.87 (VIOLATED)
+io_hyperbus_dq_1_PAD                    0.50    5.37   -4.87 (VIOLATED)
+io_hyperbus_dq_2_PAD                    0.50    5.37   -4.87 (VIOLATED)
+io_hyperbus_dq_3_PAD                    0.50    5.37   -4.87 (VIOLATED)
+io_hyperbus_dq_4_PAD                    0.50    5.37   -4.87 (VIOLATED)
+io_hyperbus_dq_5_PAD                    0.50    5.37   -4.87 (VIOLATED)
+io_hyperbus_dq_6_PAD                    0.50    5.37   -4.87 (VIOLATED)
+io_hyperbus_dq_7_PAD                    0.50    5.37   -4.87 (VIOLATED)
+io_hyperbus_rwds_PAD                    0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_0/pad       0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_1/pad       0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_2/pad       0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_3/pad       0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_4/pad       0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_5/pad       0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_6/pad       0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_dq_7/pad       0.50    5.37   -4.87 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_rwds/pad       0.50    5.37   -4.87 (VIOLATED)
+io_clock_PAD                            0.50    5.24   -4.74 (VIOLATED)
+io_jtag_tck_PAD                         0.50    5.24   -4.74 (VIOLATED)
+io_jtag_tdi_PAD                         0.50    5.24   -4.74 (VIOLATED)
+io_jtag_tms_PAD                         0.50    5.24   -4.74 (VIOLATED)
+io_reset_PAD                            0.50    5.24   -4.74 (VIOLATED)
+io_pins_0_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_10_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_11_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_12_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_13_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_14_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_15_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_16_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_17_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_18_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_19_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_pins_1_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_2_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_3_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_4_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_5_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_6_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_7_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_8_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_pins_9_PAD                           0.50    5.21   -4.71 (VIOLATED)
+io_spi_dq_0_PAD                         0.50    5.21   -4.71 (VIOLATED)
+io_spi_dq_1_PAD                         0.50    5.21   -4.71 (VIOLATED)
+io_spi_dq_2_PAD                         0.50    5.21   -4.71 (VIOLATED)
+io_spi_dq_3_PAD                         0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_0/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_1/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_10/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_11/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_12/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_13/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_14/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_15/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_16/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_17/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_18/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_19/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_2/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_3/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_4/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_5/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_6/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_7/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_8/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_pins_9/pad              0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_spi_dq_0/pad            0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_spi_dq_1/pad            0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_spi_dq_2/pad            0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_spi_dq_3/pad            0.50    5.21   -4.71 (VIOLATED)
+io_forFutureUse_0_PAD                   0.50    5.00   -4.50 (VIOLATED)
+io_forFutureUse_1_PAD                   0.50    5.00   -4.50 (VIOLATED)
+io_forFutureUse_2_PAD                   0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_ck_PAD                      0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_cs_0_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_cs_1_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_reset_PAD                   0.50    5.00   -4.50 (VIOLATED)
+io_jtag_tdo_PAD                         0.50    5.00   -4.50 (VIOLATED)
+io_spi_cs_0_PAD                         0.50    5.00   -4.50 (VIOLATED)
+io_spi_sck_PAD                          0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_ck/pad         0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_cs_0/pad       0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_cs_1/pad       0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_hyperbus_reset/pad      0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_jtag_tdo/pad            0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_spi_cs_0/pad            0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_spi_sck/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_jtag_tck/p2c            0.50    0.73   -0.23 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[2]    0.00    0.09   -0.09 (VIOLATED)
+_121479_/X                              0.30    0.38   -0.08 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[0]    0.00    0.07   -0.07 (VIOLATED)
+_121352_/X                              0.30    0.33   -0.03 (VIOLATED)
+_120992_/X                              0.30    0.33   -0.03 (VIOLATED)
+_121427_/X                              0.30    0.33   -0.03 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[6]    0.00    0.02   -0.02 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[13]    0.00    0.02   -0.02 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[15]    0.00    0.02   -0.02 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[14]    0.00    0.02   -0.02 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[3]    0.00    0.02   -0.02 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[16]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[7]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[19]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[18]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[17]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[12]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[11]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[22]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[25]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[24]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[27]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[20]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[21]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[8]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[9]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[10]    0.00    0.01   -0.01 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[4]    0.00    0.00   -0.00 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[5]    0.00    0.00   -0.00 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[26]    0.00    0.00   -0.00 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_DOUT[4]    0.00    0.00   -0.00 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[23]    0.00    0.00   -0.00 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_DOUT[6]    0.00    0.00   -0.00 (VIOLATED)
+soc.peripherals_aesCtrl.ctrl.ram/A_DOUT[1]    0.00    0.00   -0.00 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_DOUT[1]    0.00    0.00   -0.00 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_DOUT[5]    0.00    0.00   -0.00 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_DOUT[7]    0.00    0.00   -0.00 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_DOUT[3]    0.00    0.00   -0.00 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_DOUT[0]    0.00    0.00   -0.00 (VIOLATED)
+soc.system_onChipCtrl.engine_ram/A_DOUT[2]    0.00    0.00   -0.00 (VIOLATED)
+
+
+==========================================================================
+global route max_slew_check_slack
+--------------------------------------------------------------------------
+-3.7176218032836914
+
+==========================================================================
+global route max_slew_check_limit
+--------------------------------------------------------------------------
+1.2000000476837158
+
+==========================================================================
+global route max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-3.0980
+
+==========================================================================
+global route max_fanout_check_slack
+--------------------------------------------------------------------------
+-227.0
+
+==========================================================================
+global route max_fanout_check_limit
+--------------------------------------------------------------------------
+8.0
+
+==========================================================================
+global route max_fanout_check_slack_limit
+--------------------------------------------------------------------------
+-28.3750
+
+==========================================================================
+global route max_capacitance_check_slack
+--------------------------------------------------------------------------
+-4.874009132385254
+
+==========================================================================
+global route max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.5
+
+==========================================================================
+global route max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-9.7480
+
+==========================================================================
+global route max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 70
+
+==========================================================================
+global route max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 384
+
+==========================================================================
+global route max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 129
+
+==========================================================================
+global route setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+global route hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+global route report_checks -path_delay max reg to reg
+--------------------------------------------------------------------------
+Startpoint: soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.22    0.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+   0.11    0.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.12    0.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.10    0.54 ^ clkbuf_6_54_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.13    0.67 ^ clkbuf_8_219__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+   0.10    0.77 ^ clkbuf_leaf_1059_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.00    0.77 ^ soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_/CLK (sg13g2_dfrbp_1)
+   0.21    0.98 ^ soc.system_core_cpu.decode_to_execute_RS2[5]$_DFFE_PN_/Q (sg13g2_dfrbp_1)
+   0.09    1.07 ^ _129654_/X (sg13g2_buf_1)
+   0.10    1.17 ^ _129655_/X (sg13g2_buf_1)
+   0.09    1.26 ^ _129656_/X (sg13g2_buf_1)
+   0.09    1.34 ^ _129657_/X (sg13g2_buf_1)
+   0.11    1.45 ^ _129658_/X (sg13g2_buf_1)
+   0.20    1.65 ^ _129659_/X (sg13g2_buf_1)
+   0.14    1.79 ^ _129660_/X (sg13g2_buf_1)
+   0.13    1.92 ^ _129661_/X (sg13g2_buf_1)
+   0.11    2.04 ^ _129662_/X (sg13g2_buf_1)
+   0.16    2.20 ^ _129663_/X (sg13g2_buf_1)
+   0.14    2.34 ^ _129664_/X (sg13g2_buf_1)
+   0.11    2.45 ^ _129665_/X (sg13g2_buf_1)
+   0.19    2.64 ^ _129666_/X (sg13g2_buf_1)
+   0.14    2.78 ^ _183211_/X (sg13g2_buf_1)
+   0.05    2.83 v _183212_/Y (sg13g2_nand2_1)
+   0.19    3.02 v _183213_/X (sg13g2_buf_1)
+   0.21    3.23 v _183214_/X (sg13g2_or3_1)
+   0.08    3.31 v _183215_/X (sg13g2_buf_1)
+   0.04    3.35 ^ _183216_/Y (sg13g2_o21ai_1)
+   0.10    3.44 ^ _183217_/X (sg13g2_buf_1)
+   0.09    3.54 ^ _183220_/Y (sg13g2_xnor2_1)
+   0.09    3.62 ^ _183221_/X (sg13g2_buf_1)
+   0.09    3.71 ^ _183222_/Y (sg13g2_xnor2_1)
+   0.08    3.79 ^ _183223_/X (sg13g2_buf_1)
+   0.08    3.88 ^ _183224_/X (sg13g2_buf_1)
+   0.11    3.98 ^ _183225_/X (sg13g2_buf_1)
+   0.12    4.10 ^ _183287_/X (sg13g2_xor2_1)
+   0.11    4.21 ^ _183288_/X (sg13g2_buf_1)
+   0.10    4.31 ^ _183344_/Y (sg13g2_xnor2_1)
+   0.09    4.40 ^ _183345_/X (sg13g2_buf_1)
+   0.08    4.48 v _183692_/Y (sg13g2_a22oi_1)
+   0.08    4.56 v _183693_/X (sg13g2_buf_1)
+   0.05    4.61 ^ _183695_/Y (sg13g2_nor2_1)
+   0.09    4.70 ^ _183696_/X (sg13g2_buf_1)
+   0.11    4.81 ^ _183840_/X (sg13g2_a21o_1)
+   0.08    4.89 ^ _183841_/X (sg13g2_buf_1)
+   0.06    4.95 v _183973_/Y (sg13g2_a21oi_1)
+   0.08    5.03 v _183974_/X (sg13g2_buf_1)
+   0.10    5.13 v _184327_/X (sg13g2_or2_1)
+   0.09    5.22 v _184328_/X (sg13g2_buf_1)
+   0.11    5.33 v _185290_/X (sg13g2_a21o_1)
+   0.12    5.44 v _185291_/X (sg13g2_buf_1)
+   0.48    5.93 ^ _185295_/Y (sg13g2_a221oi_1)
+   0.21    6.14 ^ _185296_/X (sg13g2_buf_1)
+   0.06    6.20 v _185656_/Y (sg13g2_nand2_1)
+   0.08    6.28 v _185657_/X (sg13g2_buf_1)
+   0.08    6.36 ^ _185844_/Y (sg13g2_o21ai_1)
+   0.10    6.46 ^ _185845_/X (sg13g2_buf_1)
+   0.07    6.54 v _186028_/Y (sg13g2_o21ai_1)
+   0.10    6.64 v _186029_/X (sg13g2_buf_1)
+   0.10    6.74 ^ _186457_/Y (sg13g2_nor3_1)
+   0.09    6.83 ^ _186458_/X (sg13g2_buf_1)
+   0.07    6.90 v _186629_/Y (sg13g2_a221oi_1)
+   0.10    7.00 v _186630_/X (sg13g2_buf_1)
+   0.09    7.10 ^ _186782_/Y (sg13g2_a21oi_1)
+   0.10    7.20 ^ _186783_/X (sg13g2_buf_1)
+   0.10    7.29 ^ _186915_/X (sg13g2_a21o_1)
+   0.08    7.37 ^ _186916_/X (sg13g2_buf_1)
+   0.07    7.44 v _187295_/Y (sg13g2_a221oi_1)
+   0.10    7.54 v _187296_/X (sg13g2_buf_1)
+   0.09    7.63 ^ _187449_/Y (sg13g2_o21ai_1)
+   0.08    7.71 ^ _187450_/X (sg13g2_buf_1)
+   0.06    7.78 v _187451_/Y (sg13g2_xnor2_1)
+   0.10    7.88 ^ _187455_/Y (sg13g2_o21ai_1)
+   0.09    7.97 ^ _187456_/X (sg13g2_buf_1)
+   0.00    7.97 ^ soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_/D (sg13g2_dfrbp_1)
+           7.97   data arrival time
+
+  50.00   50.00   clock clk_core (rise edge)
+   0.00   50.00   clock source latency
+   0.00   50.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.22   50.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+   0.11   50.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.12   50.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.09   50.54 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.13   50.67 ^ clkbuf_8_207__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+   0.10   50.77 ^ clkbuf_leaf_1124_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.00   50.77 ^ soc.system_core_cpu.execute_to_memory_MUL_HL[33]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+  -0.15   50.62   clock uncertainty
+   0.00   50.62   clock reconvergence pessimism
+  -0.11   50.51   library setup time
+          50.51   data required time
+---------------------------------------------------------
+          50.51   data required time
+          -7.97   data arrival time
+---------------------------------------------------------
+          42.54   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_
+          (rising edge-triggered flip-flop clocked by clk_jtag')
+Path Group: clk_jtag
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_jtag (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+   0.11    0.11 ^ soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+   0.38    0.49 v soc.jtagBridge_1.jtag_tap_fsm_state[1]$_DFF_P_/Q (sg13g2_dfrbp_1)
+   0.07    0.57 v _123203_/X (sg13g2_buf_1)
+   0.03    0.59 ^ _123204_/Y (sg13g2_inv_1)
+   0.08    0.67 ^ _123205_/X (sg13g2_buf_1)
+   0.09    0.76 ^ _142858_/X (sg13g2_buf_1)
+   0.10    0.86 ^ _142869_/X (sg13g2_buf_1)
+   0.10    0.96 ^ _142870_/X (sg13g2_buf_1)
+   0.11    1.07 ^ _228877_/X (sg13g2_buf_1)
+   0.05    1.11 v _228931_/Y (sg13g2_nor2_1)
+   1.30    2.41 ^ _228943_/Y (sg13g2_o21ai_1)
+   0.28    2.69 ^ _228944_/X (sg13g2_buf_1)
+   0.00    2.69 ^ soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_/D (sg13g2_dfrbp_1)
+           2.69   data arrival time
+
+  50.00   50.00   clock clk_jtag' (rise edge)
+   0.00   50.00   clock source latency
+   0.00   50.00 v sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+   0.22   50.22 v _141591_/X (sg13g2_buf_1)
+   0.04   50.26 ^ _141592__1/Y (sg13g2_inv_1)
+   0.00   50.26 ^ soc.jtagBridge_1.jtag_tap_tdoUnbufferd_regNext$_DFF_N_/CLK (sg13g2_dfrbp_1)
+  -0.15   50.11   clock uncertainty
+   0.00   50.11   clock reconvergence pessimism
+  -0.12   49.99   library setup time
+          49.99   data required time
+---------------------------------------------------------
+          49.99   data required time
+          -2.69   data arrival time
+---------------------------------------------------------
+          47.30   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -path_delay min reg to reg
+--------------------------------------------------------------------------
+Startpoint: soc.system_core_cpu.execute_to_memory_MUL_LL[12]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.memory_to_writeBack_MUL_LOW[12]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.22    0.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+   0.11    0.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.12    0.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.09    0.54 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.12    0.66 ^ clkbuf_8_205__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+   0.00    0.67 ^ soc.system_core_cpu.execute_to_memory_MUL_LL[12]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+   0.26    0.92 v soc.system_core_cpu.execute_to_memory_MUL_LL[12]$_DFFE_PP_/Q (sg13g2_dfrbp_1)
+   0.00    0.92 v soc.system_core_cpu.memory_to_writeBack_MUL_LOW[12]$_DFF_P_/D (sg13g2_dfrbp_1)
+           0.92   data arrival time
+
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.22    0.22 ^ clkbuf_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+   0.11    0.33 ^ clkbuf_2_3_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.12    0.45 ^ clkbuf_3_6_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.09    0.54 ^ clkbuf_6_51_0_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.12    0.67 ^ clkbuf_8_206__f_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_8)
+   0.10    0.77 ^ clkbuf_leaf_1204_sg13g2_IOPad_io_clock_p2c/X (sg13g2_buf_16)
+   0.00    0.77 ^ soc.system_core_cpu.memory_to_writeBack_MUL_LOW[12]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+   0.15    0.92   clock uncertainty
+   0.00    0.92   clock reconvergence pessimism
+  -0.04    0.87   library hold time
+           0.87   data required time
+---------------------------------------------------------
+           0.87   data required time
+          -0.92   data arrival time
+---------------------------------------------------------
+           0.05   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_
+          (rising edge-triggered flip-flop clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_jtag (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+   0.12    0.12 ^ soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_/CLK (sg13g2_dfrbp_1)
+   0.38    0.49 v soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_/Q (sg13g2_dfrbp_1)
+   0.07    0.56 v _215982_/X (sg13g2_buf_1)
+   0.03    0.59 ^ _215987_/Y (sg13g2_nand2_1)
+   0.05    0.64 v _215988_/Y (sg13g2_a21oi_1)
+   0.00    0.64 v soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_/D (sg13g2_dfrbp_1)
+           0.64   data arrival time
+
+   0.00    0.00   clock clk_jtag (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_jtag_tck/p2c (sg13g2_IOPadIn)
+   0.12    0.12 ^ soc.jtagBridge_1.jtag_idcodeArea_shifter[31]$_SDFFE_PP0P_/CLK (sg13g2_dfrbp_1)
+   0.15    0.27   clock uncertainty
+   0.00    0.27   clock reconvergence pessimism
+   0.11    0.37   library hold time
+           0.37   data required time
+---------------------------------------------------------
+           0.37   data required time
+          -0.64   data arrival time
+---------------------------------------------------------
+           0.27   slack (MET)
+
+
+
+==========================================================================
+global route critical path target clock latency max path
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+global route critical path target clock latency min path
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+global route critical path source clock latency min path
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+global route critical path delay
+--------------------------------------------------------------------------
+7.9703
+
+==========================================================================
+global route critical path slack
+--------------------------------------------------------------------------
+42.5403
+
+==========================================================================
+global route slack div critical path delay
+--------------------------------------------------------------------------
+533.735242
+
+==========================================================================
+global route report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             3.19e-03   1.57e-04   5.18e-06   3.36e-03  23.0%
+Combinational          5.26e-03   4.91e-03   1.42e-05   1.02e-02  69.9%
+Clock                  3.29e-04   1.42e-04   3.20e-06   4.74e-04   3.3%
+Macro                  3.18e-05   0.00e+00   2.97e-07   3.21e-05   0.2%
+Pad                    4.92e-05   4.84e-04   9.58e-08   5.33e-04   3.7%
+----------------------------------------------------------------
+Total                  8.87e-03   5.69e-03   2.30e-05   1.46e-02 100.0%
+                          60.8%      39.0%       0.2%

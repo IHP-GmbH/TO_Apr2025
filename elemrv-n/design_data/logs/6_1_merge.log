@@ -1,0 +1,46 @@
+Warning: No mapping for purpose 'BLOCKAGE' - layer is ignored (line=284376, cell=, file=6_final.def)
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+[INFO] Reporting cells prior to loading DEF ...
+[INFO] Reading DEF ...
+[INFO] Clearing cells...
+[INFO] Merging GDS/OAS files...
+	/home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK//ihp-sg13g2/libs.ref/sg13g2_stdcell/gds/sg13g2_stdcell.gds
+	/home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK//ihp-sg13g2/libs.ref/sg13g2_io/gds/sg13g2_io.gds
+	/home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK//ihp-sg13g2/libs.ref/sg13g2_sram/gds/RM_IHPSG13_1P_512x32_c2_bm_bist.gds
+	/home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK//ihp-sg13g2/libs.ref/sg13g2_sram/gds/RM_IHPSG13_1P_1024x8_c2_bm_bist.gds
+	/home/daniel/work/aesc/ElemRV/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/gds/bondpad_70x70.gds
+[INFO] Copying toplevel cell 'SG13G2Top'
+[INFO] Checking for missing cell from GDS/OAS...
+[INFO] Found GDS_ALLOW_EMPTY variable.
+[WARNING] LEF Cell 'RM_IHPSG13_1P_BITKIT_16x2_EDGE_TB' ignored. Matches GDS_ALLOW_EMPTY.
+[WARNING] LEF Cell 'RM_IHPSG13_1P_BITKIT_16x2_TAP' ignored. Matches GDS_ALLOW_EMPTY.
+[WARNING] LEF Cell 'RM_IHPSG13_1P_BITKIT_16x2_CORNER' ignored. Matches GDS_ALLOW_EMPTY.
+[WARNING] LEF Cell 'RM_IHPSG13_1P_BITKIT_16x2_LE_con_corner' ignored. Matches GDS_ALLOW_EMPTY.
+[WARNING] LEF Cell 'RM_IHPSG13_1P_BITKIT_16x2_POWER_ramtap' ignored. Matches GDS_ALLOW_EMPTY.
+[WARNING] LEF Cell 'RM_IHPSG13_1P_BITKIT_16x2_TAP_LR' ignored. Matches GDS_ALLOW_EMPTY.
+[WARNING] LEF Cell 'RM_IHPSG13_1P_BITKIT_16x2_LE_con_tap_lr' ignored. Matches GDS_ALLOW_EMPTY.
+[WARNING] LEF Cell 'RM_IHPSG13_1P_BITKIT_16x2_LE_con_edge_lr' ignored. Matches GDS_ALLOW_EMPTY.
+[INFO] Checking for orphan cell in the final layout...
+[INFO] No orphan cells
+[INFO] Reading seal GDS/OAS file...
+	/home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/zibal//macros/sealring/sealring.gds.gz
+[INFO] Merging 'sealring_top' as child of 'SG13G2Top'
+[INFO] Writing out GDS/OAS '/home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//results/ihp-sg13g2/SG13G2Top/base/6_1_merged.gds'
+Elapsed time: 0:09.43[h:]min:sec. CPU time: user 8.88 sys 0.55 (99%). Peak memory: 1410928KB.

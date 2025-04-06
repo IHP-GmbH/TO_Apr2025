@@ -1,0 +1,111 @@
+OpenROAD v2.0-18663-g4a7c6dd8f 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/lef/sg13g2_tech.lef, created 19 layers, 300 vias
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/lef/sg13g2_stdcell.lef, created 78 library cells
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_io/lef/sg13g2_io.lef, created 22 library cells
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_sram/lef/RM_IHPSG13_1P_512x32_c2_bm_bist.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/ElemRV/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_sram/lef/RM_IHPSG13_1P_1024x8_c2_bm_bist.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/daniel/work/aesc/ElemRV/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/bondpad_70x70.lef, created 1 library cells
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+Warning: There are 48 input ports missing set_input_delay.
+Warning: There are 48 output ports missing set_output_delay.
+Warning: There are 213 unconstrained endpoints.
+number instances in verilog is 121127
+[INFO IFP-0001] Added 457 rows of 3607 site CoreSite.
+[INFO PAD-0116] Creating terminal for io_clock_PAD on TopMetal2 at (1873.000um, 70.000um) - (1943.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_ck_PAD on TopMetal2 at (2382.000um, 1872.000um) - (2452.000um, 1942.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_cs_0_PAD on TopMetal2 at (1756.000um, 2381.000um) - (1826.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_cs_1_PAD on TopMetal2 at (1873.000um, 2381.000um) - (1943.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_0_PAD on TopMetal2 at (579.000um, 2381.000um) - (649.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_1_PAD on TopMetal2 at (697.000um, 2381.000um) - (767.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_2_PAD on TopMetal2 at (814.000um, 2381.000um) - (884.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_3_PAD on TopMetal2 at (932.000um, 2381.000um) - (1002.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_4_PAD on TopMetal2 at (1050.000um, 2381.000um) - (1120.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_5_PAD on TopMetal2 at (1167.000um, 2381.000um) - (1237.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_6_PAD on TopMetal2 at (1285.000um, 2381.000um) - (1355.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_7_PAD on TopMetal2 at (1403.000um, 2381.000um) - (1473.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_reset_PAD on TopMetal2 at (1520.000um, 2381.000um) - (1590.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_rwds_PAD on TopMetal2 at (1638.000um, 2381.000um) - (1708.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for io_jtag_tck_PAD on TopMetal2 at (70.000um, 932.000um) - (140.000um, 1002.000um)
+[INFO PAD-0116] Creating terminal for io_jtag_tdi_PAD on TopMetal2 at (70.000um, 697.000um) - (140.000um, 767.000um)
+[INFO PAD-0116] Creating terminal for io_jtag_tdo_PAD on TopMetal2 at (70.000um, 814.000um) - (140.000um, 884.000um)
+[INFO PAD-0116] Creating terminal for io_jtag_tms_PAD on TopMetal2 at (70.000um, 579.000um) - (140.000um, 649.000um)
+[INFO PAD-0116] Creating terminal for io_pins_0_PAD on TopMetal2 at (70.000um, 1284.000um) - (140.000um, 1354.000um)
+[INFO PAD-0116] Creating terminal for io_pins_1_PAD on TopMetal2 at (70.000um, 1402.000um) - (140.000um, 1472.000um)
+[INFO PAD-0116] Creating terminal for io_pins_10_PAD on TopMetal2 at (579.000um, 70.000um) - (649.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_11_PAD on TopMetal2 at (697.000um, 70.000um) - (767.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_12_PAD on TopMetal2 at (814.000um, 70.000um) - (884.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_13_PAD on TopMetal2 at (932.000um, 70.000um) - (1002.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_14_PAD on TopMetal2 at (1050.000um, 70.000um) - (1120.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_15_PAD on TopMetal2 at (1167.000um, 70.000um) - (1237.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_16_PAD on TopMetal2 at (1285.000um, 70.000um) - (1355.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_17_PAD on TopMetal2 at (1403.000um, 70.000um) - (1473.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_18_PAD on TopMetal2 at (1520.000um, 70.000um) - (1590.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_19_PAD on TopMetal2 at (1638.000um, 70.000um) - (1708.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_pins_2_PAD on TopMetal2 at (70.000um, 1520.000um) - (140.000um, 1590.000um)
+[INFO PAD-0116] Creating terminal for io_pins_3_PAD on TopMetal2 at (70.000um, 1637.000um) - (140.000um, 1707.000um)
+[INFO PAD-0116] Creating terminal for io_pins_4_PAD on TopMetal2 at (70.000um, 1755.000um) - (140.000um, 1825.000um)
+[INFO PAD-0116] Creating terminal for io_pins_5_PAD on TopMetal2 at (70.000um, 1872.000um) - (140.000um, 1942.000um)
+[INFO PAD-0116] Creating terminal for io_pins_6_PAD on TopMetal2 at (2382.000um, 1284.000um) - (2452.000um, 1354.000um)
+[INFO PAD-0116] Creating terminal for io_pins_7_PAD on TopMetal2 at (2382.000um, 1402.000um) - (2452.000um, 1472.000um)
+[INFO PAD-0116] Creating terminal for io_pins_8_PAD on TopMetal2 at (2382.000um, 1520.000um) - (2452.000um, 1590.000um)
+[INFO PAD-0116] Creating terminal for io_pins_9_PAD on TopMetal2 at (2382.000um, 1637.000um) - (2452.000um, 1707.000um)
+[INFO PAD-0116] Creating terminal for io_reset_PAD on TopMetal2 at (1756.000um, 70.000um) - (1826.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for io_spi_cs_0_PAD on TopMetal2 at (2382.000um, 579.000um) - (2452.000um, 649.000um)
+[INFO PAD-0116] Creating terminal for io_spi_dq_0_PAD on TopMetal2 at (2382.000um, 1167.000um) - (2452.000um, 1237.000um)
+[INFO PAD-0116] Creating terminal for io_spi_dq_1_PAD on TopMetal2 at (2382.000um, 1049.000um) - (2452.000um, 1119.000um)
+[INFO PAD-0116] Creating terminal for io_spi_dq_2_PAD on TopMetal2 at (2382.000um, 932.000um) - (2452.000um, 1002.000um)
+[INFO PAD-0116] Creating terminal for io_spi_dq_3_PAD on TopMetal2 at (2382.000um, 814.000um) - (2452.000um, 884.000um)
+[INFO PAD-0116] Creating terminal for io_spi_sck_PAD on TopMetal2 at (2382.000um, 697.000um) - (2452.000um, 767.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.iovdd_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (344.000um, 70.000um) - (414.000um, 140.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.iovss_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (461.000um, 70.000um) - (531.000um, 140.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.vss_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vss_RING on TopMetal2 at (1991.000um, 70.000um) - (2061.000um, 140.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.vdd_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vdd_RING on TopMetal2 at (2109.000um, 70.000um) - (2179.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (2382.000um, 344.000um) - (2452.000um, 414.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (2382.000um, 461.000um) - (2452.000um, 531.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vss_RING on TopMetal2 at (2382.000um, 1990.000um) - (2452.000um, 2060.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vdd_RING on TopMetal2 at (2382.000um, 2107.000um) - (2452.000um, 2177.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vdd_RING on TopMetal2 at (344.000um, 2381.000um) - (414.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vss_RING on TopMetal2 at (461.000um, 2381.000um) - (531.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (1991.000um, 2381.000um) - (2061.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (2109.000um, 2381.000um) - (2179.000um, 2451.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vdd_RING on TopMetal2 at (70.000um, 344.000um) - (140.000um, 414.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vss_RING on TopMetal2 at (70.000um, 461.000um) - (140.000um, 531.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (70.000um, 1990.000um) - (140.000um, 2060.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (70.000um, 2107.000um) - (140.000um, 2177.000um)
+repair_timing -verbose -setup_margin 0 -repair_tns 100
+[WARNING RSZ-0021] no estimated parasitics. Using wire load models.
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0046] Found 48 endpoints with hold violations.
+Iteration | Resized | Buffers | Cloned Gates |   WNS   |   TNS   | Endpoint
+---------------------------------------------------------------------------
+        0 |       0 |       0 |            0 |  -0.541 | -18.959 | soc.peripherals_aesCtrl.ctrl.ram/A_ADDR[1]
+    final |       0 |      92 |            0 |   0.012 |   0.000 | soc.peripherals_aesCtrl.ctrl.ram/A_WEN
+---------------------------------------------------------------------------
+[INFO RSZ-0032] Inserted 92 hold buffers.
+Took 6 seconds: repair_timing -verbose -setup_margin 0 -repair_tns 100
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1uA
+ power 1pW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 1722059 u^2 58% utilization.
+Elapsed time: 0:46.65[h:]min:sec. CPU time: user 46.47 sys 0.18 (100%). Peak memory: 567312KB.

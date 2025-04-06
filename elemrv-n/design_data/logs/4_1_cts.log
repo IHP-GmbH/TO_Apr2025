@@ -1,0 +1,121 @@
+OpenROAD v2.0-18663-g4a7c6dd8f 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is sg13g2_buf_8.
+[INFO CTS-0051] Sink buffer is sg13g2_buf_16.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sg13g2_buf_8
+                    sg13g2_buf_16
+[INFO CTS-0049] Characterization buffer is sg13g2_buf_16.
+[INFO CTS-0007] Net "sg13g2_IOPad_io_clock_p2c" found for clock "clk_core".
+[INFO CTS-0010]  Clock net "sg13g2_IOPad_io_clock_p2c" has 10997 sinks.
+[INFO CTS-0007] Net "sg13g2_IOPad_io_jtag_tck_p2c" found for clock "clk_jtag".
+[WARNING CTS-0105] Net "sg13g2_IOPad_io_jtag_tck_p2c" already has clock buffer _141591_. Skipping...
+[WARNING CTS-0105] Net "_059911_" already has clock buffer _141591_. Skipping...
+[WARNING CTS-0041] Net "net10779" has 1 sinks. Skipping...
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 2 buffer(s) types.
+[INFO CTS-0200] 2 placement blockages have been identified.
+[INFO CTS-0027] Generating H-Tree topology for net sg13g2_IOPad_io_clock_p2c.
+[INFO CTS-0028]  Total number of sinks: 10997.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 8 and with maximum cluster diameter of 50.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 18900  dbu (18 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 8 and clustering diameter of 50.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 1789.
+[INFO CTS-0024]  Normalized sink region: [(21.6181, 23.8666), (111.295, 111.9)].
+[INFO CTS-0025]     Width:  89.6772.
+[INFO CTS-0026]     Height: 88.0333.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 895
+    Sub-region size: 44.8386 X 88.0333
+[INFO CTS-0034]     Segment length (rounded): 22.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 448
+    Sub-region size: 44.8386 X 44.0167
+[INFO CTS-0034]     Segment length (rounded): 22.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 224
+    Sub-region size: 22.4193 X 44.0167
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 4
+    Direction: Vertical
+    Sinks per sub-region: 112
+    Sub-region size: 22.4193 X 22.0083
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 5
+    Direction: Horizontal
+    Sinks per sub-region: 56
+    Sub-region size: 11.2097 X 22.0083
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 6
+    Direction: Vertical
+    Sinks per sub-region: 28
+    Sub-region size: 11.2097 X 11.0042
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 7
+    Direction: Horizontal
+    Sinks per sub-region: 14
+    Sub-region size: 5.6048 X 11.0042
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 8
+    Direction: Vertical
+    Sinks per sub-region: 7
+    Sub-region size: 5.6048 X 5.5021
+[INFO CTS-0034]     Segment length (rounded): 2.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 8.
+[INFO CTS-0035]  Number of sinks covered: 1789.
+[INFO CTS-0018]     Created 2074 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 5.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 6.
+[INFO CTS-0015]     Created 2074 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 2:62, 3:76, 4:155, 5:227, 6:310, 7:565, 8:602..
+[INFO CTS-0017]     Max level of the clock tree: 8.
+[INFO CTS-0098] Clock net "sg13g2_IOPad_io_clock_p2c"
+[INFO CTS-0099]  Sinks 12141
+[INFO CTS-0100]  Leaf buffers 1741
+[INFO CTS-0101]  Average sink wire length 2989.37 um
+[INFO CTS-0102]  Path depth 5 - 6
+[INFO CTS-0207]  Leaf load cells 1144
+[INFO RSZ-0058] Using max wire length 23868um.
+Placement Analysis
+---------------------------------
+total displacement      98094.9 u
+average displacement        0.7 u
+max displacement           17.2 u
+original HPWL         3825759.3 u
+legalized HPWL        3979928.3 u
+delta HPWL                    4 %
+
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0046] Found 41 endpoints with hold violations.
+Iteration | Resized | Buffers | Cloned Gates |   WNS   |   TNS   | Endpoint
+---------------------------------------------------------------------------
+        0 |       0 |       0 |            0 |  -0.341 | -12.041 | soc.peripherals_aesCtrl.ctrl.ram/A_DIN[0]
+    final |       0 |      41 |            0 |   0.001 |   0.000 | soc.system_core_cpu.memory_to_writeBack_MUL_LOW\[12\]$_DFF_P_/D
+---------------------------------------------------------------------------
+[INFO RSZ-0032] Inserted 41 hold buffers.
+Placement Analysis
+---------------------------------
+total displacement        931.8 u
+average displacement        0.0 u
+max displacement           15.2 u
+original HPWL         3980073.4 u
+legalized HPWL        3980775.4 u
+delta HPWL                    0 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 1832679 u^2 61% utilization.
+Elapsed time: 1:14.76[h:]min:sec. CPU time: user 74.36 sys 0.39 (99%). Peak memory: 1217768KB.
