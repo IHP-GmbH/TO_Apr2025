@@ -1,6 +1,6 @@
 # Voltage-Controlled Oscillator
 -------------------------------
 ## Voltage vs. Time Plot
-![VCO plot](image/waveform.png)
+![VCO plot](images/waveform.png)
 
 
