@@ -1,0 +1,7 @@
+OpenROAD v2.0-19149-g9ef9c213c 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+[INFO PDN-0001] Inserting grid: grid
+Elapsed time: 0:00.36[h:]min:sec. CPU time: user 0.27 sys 0.07 (95%). Peak memory: 113276KB.

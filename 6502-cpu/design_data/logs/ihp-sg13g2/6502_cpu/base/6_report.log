@@ -1,0 +1,70 @@
+OpenROAD v2.0-19149-g9ef9c213c 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation cpu_top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 23787 rc segments
+[INFO RCX-0439] Coupling Cap extraction cpu_top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 51% of 44468 wires extracted
+[INFO RCX-0442] 76% of 44468 wires extracted
+[INFO RCX-0442] 99% of 44468 wires extracted
+[INFO RCX-0045] Extract 4059 nets, 27772 rsegs, 27772 caps, 45761 ccs
+[INFO RCX-0443] 4055 nets finished
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Supply voltage   : 1.20e+00 V
+Worstcase voltage: 1.20e+00 V
+Average voltage  : 1.20e+00 V
+Average IR drop  : 7.54e-07 V
+Worstcase IR drop: 1.79e-06 V
+Percentage drop  : 0.00 %
+######################################
+[INFO PSM-0040] All shapes on net VSS are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VSS
+Corner           : default
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 1.99e-06 V
+Average voltage  : 6.56e-07 V
+Average IR drop  : 6.56e-07 V
+Worstcase IR drop: 1.99e-06 V
+Percentage drop  : 0.00 %
+######################################
+Cell type report:                       Count       Area
+  Input pad                                 2   28800.00
+  Output pad                               17  244800.00
+  Input/output pad                          8  115200.00
+  Power pad                                 8  115200.00
+  Pad spacer                              103  190800.00
+  Fill cell                              5493   47549.98
+  Cover                                    35  171500.00
+  Antenna cell                             78     424.57
+  Buffer                                  504    3723.15
+  Clock buffer                             21     341.11
+  Timing Repair Buffer                    287    2082.93
+  Inverter                                118     667.70
+  Clock inverter                            4      21.77
+  Sequential cell                         108    5094.84
+  Multi-Input combinational cell         2872   28491.52
+  Total                                  9658  954697.57
+Report metrics stage 6, finish...
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 40848 u^2 46% utilization.
+[WARNING GUI-0076] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-daniel'
+MESA: error: Failed to query drm device.
+libGL error: glx: failed to create dri3 screen
+libGL error: failed to load driver: iris
+Elapsed time: 0:08.10[h:]min:sec. CPU time: user 7.68 sys 0.24 (97%). Peak memory: 368460KB.

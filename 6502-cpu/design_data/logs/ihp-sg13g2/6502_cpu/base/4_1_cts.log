@@ -1,0 +1,90 @@
+OpenROAD v2.0-19149-g9ef9c213c 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is sg13g2_buf_4.
+[INFO CTS-0051] Sink buffer is sg13g2_buf_8.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sg13g2_buf_4
+                    sg13g2_buf_8
+[INFO CTS-0049] Characterization buffer is sg13g2_buf_8.
+[INFO CTS-0007] Net "clk_phy" found for clock "clk".
+[INFO CTS-0010]  Clock net "clk_phy" has 108 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 2 buffer(s) types.
+[INFO CTS-0200] 0 placement blockages have been identified.
+[INFO CTS-0201] 0 placed hard macros will be treated like blockages.
+[INFO CTS-0027] Generating H-Tree topology for net clk_phy.
+[INFO CTS-0028]  Total number of sinks: 108.
+[INFO CTS-0029]  Sinks will be clustered in groups of up to 8 and with maximum cluster diameter of 50.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 18900  dbu (18 um).
+[INFO CTS-0023]  Original sink region: [(544243, 402442), (1381843, 474517)].
+[INFO CTS-0024]  Normalized sink region: [(28.7959, 21.2932), (73.1134, 25.1067)].
+[INFO CTS-0025]     Width:  44.3175.
+[INFO CTS-0026]     Height: 3.8135.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 54
+    Sub-region size: 22.1587 X 3.8135
+[INFO CTS-0034]     Segment length (rounded): 11.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 27
+    Sub-region size: 22.1587 X 1.9067
+[INFO CTS-0034]     Segment length (rounded): 1.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 14
+    Sub-region size: 11.0794 X 1.9067
+[INFO CTS-0034]     Segment length (rounded): 5.
+ Level 4
+    Direction: Vertical
+    Sinks per sub-region: 7
+    Sub-region size: 11.0794 X 0.9534
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 8.
+[INFO CTS-0035]  Number of sinks covered: 108.
+[INFO CTS-0018]     Created 21 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 21 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:4, 7:12..
+[INFO CTS-0017]     Max level of the clock tree: 4.
+[INFO CTS-0098] Clock net "clk_phy"
+[INFO CTS-0099]  Sinks 112
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 962.03 um
+[INFO CTS-0102]  Path depth 3 - 3
+[INFO CTS-0207]  Leaf load cells 4
+[INFO RSZ-0058] Using max wire length 23868um.
+Placement Analysis
+---------------------------------
+total displacement        240.6 u
+average displacement        0.1 u
+max displacement           24.6 u
+original HPWL          213142.9 u
+legalized HPWL         214986.9 u
+delta HPWL                    1 %
+
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          214986.9 u
+legalized HPWL         214986.9 u
+delta HPWL                    0 %
+
+Report metrics stage 4, cts final...
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 40423 u^2 46% utilization.
+Elapsed time: 0:04.37[h:]min:sec. CPU time: user 4.07 sys 0.27 (99%). Peak memory: 473112KB.

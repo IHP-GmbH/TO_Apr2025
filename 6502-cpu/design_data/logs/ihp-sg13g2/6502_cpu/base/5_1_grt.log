@@ -1,0 +1,625 @@
+OpenROAD v2.0-19149-g9ef9c213c 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+[INFO DRT-0149] Reading tech and libs.
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer Cont
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer Via1
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer Via1
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer Via2
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer Via3
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer Via4
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer TopVia1
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer TopVia1
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer TopVia2
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer TopVia2
+
+Units:                1000
+Number of layers:     15
+Number of macros:     101
+Number of vias:       320
+Number of viarulegen: 6
+
+[INFO DRT-0150] Reading design.
+
+Design:                   cpu_top
+Die area:                 ( 0 0 ) ( 1970000 880000 )
+Number of track patterns: 14
+Number of DEF vias:       0
+Number of components:     4087
+Number of terminals:      27
+Number of snets:          33
+Number of nets:           4028
+
+[INFO DRT-0167] List of default vias:
+  Layer Via2
+    default via: Via2_YX_so
+  Layer Via3
+    default via: Via3_YX_so
+  Layer Via4
+    default via: Via4_YX_so
+  Layer TopVia1
+    default via: TopVia1EWNS
+  Layer TopVia2
+    default via: TopVia2EWNS
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 235.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete GatPoly.
+[INFO DRT-0024]   Complete Cont.
+[INFO DRT-0024]   Complete Metal1.
+[INFO DRT-0024]   Complete Via1.
+[INFO DRT-0024]   Complete Metal2.
+[INFO DRT-0024]   Complete Via2.
+[INFO DRT-0024]   Complete Metal3.
+[INFO DRT-0024]   Complete Via3.
+[INFO DRT-0024]   Complete Metal4.
+[INFO DRT-0024]   Complete Via4.
+[INFO DRT-0024]   Complete Metal5.
+[INFO DRT-0024]   Complete TopVia1.
+[INFO DRT-0024]   Complete TopMetal1.
+[INFO DRT-0024]   Complete TopVia2.
+[INFO DRT-0024]   Complete TopMetal2.
+[INFO DRT-0033] GatPoly shape region query size = 0.
+[INFO DRT-0033] Cont shape region query size = 0.
+[INFO DRT-0033] Metal1 shape region query size = 73353.
+[INFO DRT-0033] Via1 shape region query size = 2596.
+[INFO DRT-0033] Metal2 shape region query size = 1454.
+[INFO DRT-0033] Via2 shape region query size = 2272.
+[INFO DRT-0033] Metal3 shape region query size = 2016.
+[INFO DRT-0033] Via3 shape region query size = 2134.
+[INFO DRT-0033] Metal4 shape region query size = 1973.
+[INFO DRT-0033] Via4 shape region query size = 2134.
+[INFO DRT-0033] Metal5 shape region query size = 1749.
+[INFO DRT-0033] TopVia1 shape region query size = 1082.
+[INFO DRT-0033] TopMetal1 shape region query size = 1468.
+[INFO DRT-0033] TopVia2 shape region query size = 3718.
+[INFO DRT-0033] TopMetal2 shape region query size = 1170.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0078]   Complete 617 pins.
+[INFO DRT-0081]   Complete 62 unique inst patterns.
+[INFO DRT-0084]   Complete 1935 groups.
+#scanned instances     = 4087
+#unique  instances     = 147
+#stdCellGenAp          = 2588
+#stdCellValidPlanarAp  = 32
+#stdCellValidViaAp     = 1781
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 13265
+#instTermValidViaApCnt = 0
+#macroGenAp            = 4638
+#macroValidPlanarAp    = 241
+#macroValidViaAp       = 69
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:01:55, elapsed time = 00:00:20, memory = 125.50 (MB), peak = 125.38 (MB)
+global_route -congestion_report_file ./reports/ihp-sg13g2/6502_cpu/base/congestion.rpt -congestion_iterations 30 -congestion_report_iter_step 5 -verbose
+[INFO GRT-0020] Min routing layer: Metal2
+[INFO GRT-0021] Max routing layer: Metal5
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer Metal1  Track-Pitch = 0.4800  line-2-Via Pitch: 0.3650
+[INFO GRT-0088] Layer Metal2  Track-Pitch = 0.4200  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal3  Track-Pitch = 0.4800  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal4  Track-Pitch = 0.4200  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal5  Track-Pitch = 3.4800  line-2-Via Pitch: 0.4100
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 692
+[INFO GRT-0019] Found 22 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 9
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+Metal1     Vertical            0             0          0.00%
+Metal2     Horizontal     569588        263152          53.80%
+Metal3     Vertical       498423        228519          54.15%
+Metal4     Horizontal     569588        265033          53.47%
+Metal5     Vertical        66432         16528          75.12%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 21966
+[INFO GRT-0198] Via related Steiner nodes: 453
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 27818
+[INFO GRT-0112] Final usage 3D: 115055
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+Metal1               0             0            0.00%             0 /  0 /  0
+Metal2          263152         15899            6.04%             0 /  0 /  0
+Metal3          228519          5745            2.51%             0 /  0 /  0
+Metal4          265033          9949            3.75%             0 /  0 /  0
+Metal5           16528             8            0.05%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           773232         31601            4.09%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 298591 um
+[INFO GRT-0014] Routed nets: 3985
+Perform buffer insertion and gate resizing...
+repair_design -verbose
+[INFO RSZ-0058] Using max wire length 23868um.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |      4067
+       10 |     +0.0% |       0 |       0 |             0 |      4057
+       20 |     +0.0% |       0 |       0 |             0 |      4047
+       30 |     +0.0% |       0 |       0 |             0 |      4037
+       40 |     +0.0% |       0 |       0 |             0 |      4027
+       50 |     +0.0% |       0 |       0 |             0 |      4017
+       60 |     +0.0% |       0 |       0 |             0 |      4007
+       70 |     +0.0% |       0 |       0 |             0 |      3997
+       80 |     +0.0% |       0 |       0 |             0 |      3987
+       90 |     +0.0% |       0 |       0 |             0 |      3977
+      100 |     +0.0% |       0 |       0 |             0 |      3967
+      110 |     +0.0% |       0 |       0 |             0 |      3957
+      120 |     +0.0% |       0 |       0 |             0 |      3947
+      130 |     +0.0% |       0 |       0 |             0 |      3937
+      140 |     +0.0% |       0 |       0 |             0 |      3927
+      150 |     +0.0% |       0 |       0 |             0 |      3917
+      160 |     +0.0% |       0 |       0 |             0 |      3907
+      170 |     +0.0% |       0 |       0 |             0 |      3897
+      180 |     +0.0% |       0 |       0 |             0 |      3887
+      190 |     +0.0% |       0 |       0 |             0 |      3877
+      200 |     +0.0% |       0 |       0 |             0 |      3867
+      210 |     +0.0% |       0 |       0 |             0 |      3857
+      220 |     +0.0% |       0 |       0 |             0 |      3847
+      230 |     +0.0% |       0 |       0 |             0 |      3837
+      240 |     +0.0% |       0 |       0 |             0 |      3827
+      250 |     +0.0% |       0 |       0 |             0 |      3817
+      260 |     +0.0% |       0 |       0 |             0 |      3807
+      270 |     +0.0% |       0 |       0 |             0 |      3797
+      280 |     +0.0% |       0 |       0 |             0 |      3787
+      290 |     +0.0% |       0 |       0 |             0 |      3777
+      300 |     +0.0% |       0 |       0 |             0 |      3767
+      310 |     +0.0% |       0 |       0 |             0 |      3757
+      320 |     +0.0% |       0 |       0 |             0 |      3747
+      330 |     +0.0% |       0 |       0 |             0 |      3737
+      340 |     +0.0% |       0 |       0 |             0 |      3727
+      350 |     +0.0% |       0 |       0 |             0 |      3717
+      360 |     +0.0% |       0 |       0 |             0 |      3707
+      370 |     +0.0% |       0 |       0 |             0 |      3697
+      380 |     +0.0% |       0 |       0 |             0 |      3687
+      390 |     +0.0% |       0 |       0 |             0 |      3677
+      400 |     +0.0% |       0 |       0 |             0 |      3667
+      410 |     +0.0% |       0 |       0 |             0 |      3657
+      420 |     +0.0% |       0 |       0 |             0 |      3647
+      430 |     +0.0% |       0 |       0 |             0 |      3637
+      440 |     +0.0% |       0 |       0 |             0 |      3627
+      450 |     +0.0% |       0 |       0 |             0 |      3617
+      460 |     +0.0% |       0 |       0 |             0 |      3607
+      470 |     +0.0% |       0 |       0 |             0 |      3597
+      480 |     +0.0% |       0 |       0 |             0 |      3587
+      490 |     +0.0% |       0 |       0 |             0 |      3577
+      500 |     +0.0% |       0 |       0 |             0 |      3567
+      510 |     +0.0% |       0 |       0 |             0 |      3557
+      520 |     +0.0% |       0 |       0 |             0 |      3547
+      530 |     +0.0% |       0 |       0 |             0 |      3537
+      540 |     +0.0% |       0 |       0 |             0 |      3527
+      550 |     +0.0% |       0 |       0 |             0 |      3517
+      560 |     +0.0% |       0 |       0 |             0 |      3507
+      570 |     +0.0% |       0 |       0 |             0 |      3497
+      580 |     +0.0% |       0 |       0 |             0 |      3487
+      590 |     +0.0% |       0 |       0 |             0 |      3477
+      600 |     +0.0% |       0 |       0 |             0 |      3467
+      610 |     +0.0% |       0 |       0 |             0 |      3457
+      620 |     +0.0% |       0 |       0 |             0 |      3447
+      630 |     +0.0% |       0 |       0 |             0 |      3437
+      640 |     +0.0% |       0 |       0 |             0 |      3427
+      650 |     +0.0% |       0 |       0 |             0 |      3417
+      660 |     +0.0% |       0 |       0 |             0 |      3407
+      670 |     +0.0% |       0 |       0 |             0 |      3397
+      680 |     +0.0% |       0 |       0 |             0 |      3387
+      690 |     +0.0% |       0 |       0 |             0 |      3377
+      700 |     +0.0% |       0 |       0 |             0 |      3367
+      710 |     +0.0% |       0 |       0 |             0 |      3357
+      720 |     +0.0% |       0 |       0 |             0 |      3347
+      730 |     +0.0% |       0 |       0 |             0 |      3337
+      740 |     +0.0% |       0 |       0 |             0 |      3327
+      750 |     +0.0% |       0 |       0 |             0 |      3317
+      760 |     +0.0% |       0 |       0 |             0 |      3307
+      770 |     +0.0% |       0 |       0 |             0 |      3297
+      780 |     +0.0% |       0 |       0 |             0 |      3287
+      790 |     +0.0% |       0 |       0 |             0 |      3277
+      800 |     +0.0% |       0 |       0 |             0 |      3267
+      810 |     +0.0% |       0 |       0 |             0 |      3257
+      820 |     +0.0% |       0 |       0 |             0 |      3247
+      830 |     +0.0% |       0 |       0 |             0 |      3237
+      840 |     +0.0% |       0 |       0 |             0 |      3227
+      850 |     +0.0% |       0 |       0 |             0 |      3217
+      860 |     +0.0% |       0 |       0 |             0 |      3207
+      870 |     +0.0% |       0 |       0 |             0 |      3197
+      880 |     +0.0% |       0 |       0 |             0 |      3187
+      890 |     +0.0% |       0 |       0 |             0 |      3177
+      900 |     +0.0% |       0 |       0 |             0 |      3167
+      910 |     +0.0% |       0 |       0 |             0 |      3157
+      920 |     +0.0% |       0 |       0 |             0 |      3147
+      930 |     +0.0% |       0 |       0 |             0 |      3137
+      940 |     +0.0% |       0 |       0 |             0 |      3127
+      950 |     +0.0% |       0 |       0 |             0 |      3117
+      960 |     +0.0% |       0 |       0 |             0 |      3107
+      970 |     +0.0% |       0 |       0 |             0 |      3097
+      980 |     +0.0% |       0 |       0 |             0 |      3087
+      990 |     +0.0% |       0 |       0 |             0 |      3077
+     1000 |     +0.0% |       0 |       0 |             0 |      3067
+     1010 |     +0.0% |       0 |       0 |             0 |      3057
+     1020 |     +0.0% |       0 |       0 |             0 |      3047
+     1030 |     +0.0% |       0 |       0 |             0 |      3037
+     1040 |     +0.0% |       0 |       0 |             0 |      3027
+     1050 |     +0.0% |       0 |       0 |             0 |      3017
+     1060 |     +0.0% |       0 |       0 |             0 |      3007
+     1070 |     +0.0% |       0 |       0 |             0 |      2997
+     1080 |     +0.0% |       0 |       0 |             0 |      2987
+     1090 |     +0.0% |       0 |       0 |             0 |      2977
+     1100 |     +0.0% |       0 |       0 |             0 |      2967
+     1110 |     +0.0% |       0 |       0 |             0 |      2957
+     1120 |     +0.0% |       0 |       0 |             0 |      2947
+     1130 |     +0.0% |       0 |       0 |             0 |      2937
+     1140 |     +0.0% |       0 |       0 |             0 |      2927
+     1150 |     +0.0% |       0 |       0 |             0 |      2917
+     1160 |     +0.0% |       0 |       0 |             0 |      2907
+     1170 |     +0.0% |       0 |       0 |             0 |      2897
+     1180 |     +0.0% |       0 |       0 |             0 |      2887
+     1190 |     +0.0% |       0 |       0 |             0 |      2877
+     1200 |     +0.0% |       0 |       0 |             0 |      2867
+     1210 |     +0.0% |       0 |       0 |             0 |      2857
+     1220 |     +0.0% |       0 |       0 |             0 |      2847
+     1230 |     +0.0% |       0 |       0 |             0 |      2837
+     1240 |     +0.0% |       0 |       0 |             0 |      2827
+     1250 |     +0.0% |       0 |       0 |             0 |      2817
+     1260 |     +0.0% |       0 |       0 |             0 |      2807
+     1270 |     +0.0% |       0 |       0 |             0 |      2797
+     1280 |     +0.0% |       0 |       0 |             0 |      2787
+     1290 |     +0.0% |       0 |       0 |             0 |      2777
+     1300 |     +0.0% |       0 |       0 |             0 |      2767
+     1310 |     +0.0% |       0 |       0 |             0 |      2757
+     1320 |     +0.0% |       0 |       0 |             0 |      2747
+     1330 |     +0.0% |       0 |       0 |             0 |      2737
+     1340 |     +0.0% |       0 |       0 |             0 |      2727
+     1350 |     +0.0% |       0 |       0 |             0 |      2717
+     1360 |     +0.0% |       0 |       0 |             0 |      2707
+     1370 |     +0.0% |       0 |       0 |             0 |      2697
+     1380 |     +0.0% |       0 |       0 |             0 |      2687
+     1390 |     +0.0% |       0 |       0 |             0 |      2677
+     1400 |     +0.0% |       0 |       0 |             0 |      2667
+     1410 |     +0.0% |       0 |       0 |             0 |      2657
+     1420 |     +0.0% |       0 |       0 |             0 |      2647
+     1430 |     +0.0% |       0 |       0 |             0 |      2637
+     1440 |     +0.0% |       0 |       0 |             0 |      2627
+     1450 |     +0.0% |       0 |       0 |             0 |      2617
+     1460 |     +0.0% |       0 |       0 |             0 |      2607
+     1470 |     +0.0% |       0 |       0 |             0 |      2597
+     1480 |     +0.0% |       0 |       0 |             0 |      2587
+     1490 |     +0.0% |       0 |       0 |             0 |      2577
+     1500 |     +0.0% |       0 |       0 |             0 |      2567
+     1510 |     +0.0% |       0 |       0 |             0 |      2557
+     1520 |     +0.0% |       0 |       0 |             0 |      2547
+     1530 |     +0.0% |       0 |       0 |             0 |      2537
+     1540 |     +0.0% |       0 |       0 |             0 |      2527
+     1550 |     +0.0% |       0 |       0 |             0 |      2517
+     1560 |     +0.0% |       0 |       0 |             0 |      2507
+     1570 |     +0.0% |       0 |       0 |             0 |      2497
+     1580 |     +0.0% |       0 |       0 |             0 |      2487
+     1590 |     +0.0% |       0 |       0 |             0 |      2477
+     1600 |     +0.0% |       0 |       0 |             0 |      2467
+     1610 |     +0.0% |       0 |       0 |             0 |      2457
+     1620 |     +0.0% |       0 |       0 |             0 |      2447
+     1630 |     +0.0% |       0 |       0 |             0 |      2437
+     1640 |     +0.0% |       0 |       0 |             0 |      2427
+     1650 |     +0.0% |       0 |       0 |             0 |      2417
+     1660 |     +0.0% |       0 |       0 |             0 |      2407
+     1670 |     +0.0% |       0 |       0 |             0 |      2397
+     1680 |     +0.0% |       0 |       0 |             0 |      2387
+     1690 |     +0.0% |       0 |       0 |             0 |      2377
+     1700 |     +0.0% |       0 |       0 |             0 |      2367
+     1710 |     +0.0% |       0 |       0 |             0 |      2357
+     1720 |     +0.0% |       0 |       0 |             0 |      2347
+     1730 |     +0.0% |       0 |       0 |             0 |      2337
+     1740 |     +0.0% |       0 |       0 |             0 |      2327
+     1750 |     +0.0% |       0 |       0 |             0 |      2317
+     1760 |     +0.0% |       0 |       0 |             0 |      2307
+     1770 |     +0.0% |       0 |       0 |             0 |      2297
+     1780 |     +0.0% |       0 |       0 |             0 |      2287
+     1790 |     +0.0% |       0 |       0 |             0 |      2277
+     1800 |     +0.0% |       0 |       0 |             0 |      2267
+     1810 |     +0.0% |       0 |       0 |             0 |      2257
+     1820 |     +0.0% |       0 |       0 |             0 |      2247
+     1830 |     +0.0% |       0 |       0 |             0 |      2237
+     1840 |     +0.0% |       0 |       0 |             0 |      2227
+     1850 |     +0.0% |       0 |       0 |             0 |      2217
+     1860 |     +0.0% |       0 |       0 |             0 |      2207
+     1870 |     +0.0% |       0 |       0 |             0 |      2197
+     1880 |     +0.0% |       0 |       0 |             0 |      2187
+     1890 |     +0.0% |       0 |       0 |             0 |      2177
+     1900 |     +0.0% |       0 |       0 |             0 |      2167
+     1910 |     +0.0% |       0 |       0 |             0 |      2157
+     1920 |     +0.0% |       0 |       0 |             0 |      2147
+     1930 |     +0.0% |       0 |       0 |             0 |      2137
+     1940 |     +0.0% |       0 |       0 |             0 |      2127
+     1950 |     +0.0% |       0 |       0 |             0 |      2117
+     1960 |     +0.0% |       0 |       0 |             0 |      2107
+     1970 |     +0.0% |       0 |       0 |             0 |      2097
+     1980 |     +0.0% |       0 |       0 |             0 |      2087
+     1990 |     +0.0% |       0 |       0 |             0 |      2077
+     2000 |     +0.0% |       0 |       0 |             0 |      2067
+     2010 |     +0.0% |       0 |       0 |             0 |      2057
+     2020 |     +0.0% |       0 |       0 |             0 |      2047
+     2030 |     +0.0% |       0 |       0 |             0 |      2037
+     2040 |     +0.0% |       0 |       0 |             0 |      2027
+     2050 |     +0.0% |       0 |       0 |             0 |      2017
+     2060 |     +0.0% |       0 |       0 |             0 |      2007
+     2070 |     +0.0% |       0 |       0 |             0 |      1997
+     2080 |     +0.0% |       0 |       0 |             0 |      1987
+     2090 |     +0.0% |       0 |       0 |             0 |      1977
+     2100 |     +0.0% |       0 |       0 |             0 |      1967
+     2110 |     +0.0% |       0 |       0 |             0 |      1957
+     2120 |     +0.0% |       0 |       0 |             0 |      1947
+     2130 |     +0.0% |       0 |       0 |             0 |      1937
+     2140 |     +0.0% |       0 |       0 |             0 |      1927
+     2150 |     +0.0% |       0 |       0 |             0 |      1917
+     2160 |     +0.0% |       0 |       0 |             0 |      1907
+     2170 |     +0.0% |       0 |       0 |             0 |      1897
+     2180 |     +0.0% |       0 |       0 |             0 |      1887
+     2190 |     +0.0% |       0 |       0 |             0 |      1877
+     2200 |     +0.0% |       0 |       0 |             0 |      1867
+     2210 |     +0.0% |       0 |       0 |             0 |      1857
+     2220 |     +0.0% |       0 |       0 |             0 |      1847
+     2230 |     +0.0% |       0 |       0 |             0 |      1837
+     2240 |     +0.0% |       0 |       0 |             0 |      1827
+     2250 |     +0.0% |       0 |       0 |             0 |      1817
+     2260 |     +0.0% |       0 |       0 |             0 |      1807
+     2270 |     +0.0% |       0 |       0 |             0 |      1797
+     2280 |     +0.0% |       0 |       0 |             0 |      1787
+     2290 |     +0.0% |       0 |       0 |             0 |      1777
+     2300 |     +0.0% |       0 |       0 |             0 |      1767
+     2310 |     +0.0% |       0 |       0 |             0 |      1757
+     2320 |     +0.0% |       0 |       0 |             0 |      1747
+     2330 |     +0.0% |       0 |       0 |             0 |      1737
+     2340 |     +0.0% |       0 |       0 |             0 |      1727
+     2350 |     +0.0% |       0 |       0 |             0 |      1717
+     2360 |     +0.0% |       0 |       0 |             0 |      1707
+     2370 |     +0.0% |       0 |       0 |             0 |      1697
+     2380 |     +0.0% |       0 |       0 |             0 |      1687
+     2390 |     +0.0% |       0 |       0 |             0 |      1677
+     2400 |     +0.0% |       0 |       0 |             0 |      1667
+     2410 |     +0.0% |       0 |       0 |             0 |      1657
+     2420 |     +0.0% |       0 |       0 |             0 |      1647
+     2430 |     +0.0% |       0 |       0 |             0 |      1637
+     2440 |     +0.0% |       0 |       0 |             0 |      1627
+     2450 |     +0.0% |       0 |       0 |             0 |      1617
+     2460 |     +0.0% |       0 |       0 |             0 |      1607
+     2470 |     +0.0% |       0 |       0 |             0 |      1597
+     2480 |     +0.0% |       0 |       0 |             0 |      1587
+     2490 |     +0.0% |       0 |       0 |             0 |      1577
+     2500 |     +0.0% |       0 |       0 |             0 |      1567
+     2510 |     +0.0% |       0 |       0 |             0 |      1557
+     2520 |     +0.0% |       0 |       0 |             0 |      1547
+     2530 |     +0.0% |       0 |       0 |             0 |      1537
+     2540 |     +0.0% |       0 |       0 |             0 |      1527
+     2550 |     +0.0% |       0 |       0 |             0 |      1517
+     2560 |     +0.0% |       0 |       0 |             0 |      1507
+     2570 |     +0.0% |       0 |       0 |             0 |      1497
+     2580 |     +0.0% |       0 |       0 |             0 |      1487
+     2590 |     +0.0% |       0 |       0 |             0 |      1477
+     2600 |     +0.0% |       0 |       0 |             0 |      1467
+     2610 |     +0.0% |       0 |       0 |             0 |      1457
+     2620 |     +0.0% |       0 |       0 |             0 |      1447
+     2630 |     +0.0% |       0 |       0 |             0 |      1437
+     2640 |     +0.0% |       0 |       0 |             0 |      1427
+     2650 |     +0.0% |       0 |       0 |             0 |      1417
+     2660 |     +0.0% |       0 |       0 |             0 |      1407
+     2670 |     +0.0% |       0 |       0 |             0 |      1397
+     2680 |     +0.0% |       0 |       0 |             0 |      1387
+     2690 |     +0.0% |       0 |       0 |             0 |      1377
+     2700 |     +0.0% |       0 |       0 |             0 |      1367
+     2710 |     +0.0% |       0 |       0 |             0 |      1357
+     2720 |     +0.0% |       0 |       0 |             0 |      1347
+     2730 |     +0.0% |       0 |       0 |             0 |      1337
+     2740 |     +0.0% |       0 |       0 |             0 |      1327
+     2750 |     +0.0% |       0 |       0 |             0 |      1317
+     2760 |     +0.0% |       0 |       0 |             0 |      1307
+     2770 |     +0.0% |       0 |       0 |             0 |      1297
+     2780 |     +0.0% |       0 |       0 |             0 |      1287
+     2790 |     +0.0% |       0 |       0 |             0 |      1277
+     2800 |     +0.0% |       0 |       0 |             0 |      1267
+     2810 |     +0.0% |       0 |       0 |             0 |      1257
+     2820 |     +0.0% |       0 |       0 |             0 |      1247
+     2830 |     +0.0% |       0 |       0 |             0 |      1237
+     2840 |     +0.0% |       0 |       0 |             0 |      1227
+     2850 |     +0.0% |       0 |       0 |             0 |      1217
+     2860 |     +0.0% |       0 |       0 |             0 |      1207
+     2870 |     +0.0% |       0 |       0 |             0 |      1197
+     2880 |     +0.0% |       0 |       0 |             0 |      1187
+     2890 |     +0.0% |       0 |       0 |             0 |      1177
+     2900 |     +0.0% |       0 |       0 |             0 |      1167
+     2910 |     +0.0% |       0 |       0 |             0 |      1157
+     2920 |     +0.0% |       0 |       0 |             0 |      1147
+     2930 |     +0.0% |       0 |       0 |             0 |      1137
+     2940 |     +0.0% |       0 |       0 |             0 |      1127
+     2950 |     +0.0% |       0 |       0 |             0 |      1117
+     2960 |     +0.0% |       0 |       0 |             0 |      1107
+     2970 |     +0.0% |       0 |       0 |             0 |      1097
+     2980 |     +0.0% |       0 |       0 |             0 |      1087
+     2990 |     +0.0% |       0 |       0 |             0 |      1077
+     3000 |     +0.0% |       0 |       0 |             0 |      1067
+     3010 |     +0.0% |       0 |       0 |             0 |      1057
+     3020 |     +0.0% |       0 |       0 |             0 |      1047
+     3030 |     +0.0% |       0 |       0 |             0 |      1037
+     3040 |     +0.0% |       0 |       0 |             0 |      1027
+     3050 |     +0.0% |       0 |       0 |             0 |      1017
+     3060 |     +0.0% |       0 |       0 |             0 |      1007
+     3070 |     +0.0% |       0 |       0 |             0 |       997
+     3080 |     +0.0% |       0 |       0 |             0 |       987
+     3090 |     +0.0% |       0 |       0 |             0 |       977
+     3100 |     +0.0% |       0 |       0 |             0 |       967
+     3110 |     +0.0% |       0 |       0 |             0 |       957
+     3120 |     +0.0% |       0 |       0 |             0 |       947
+     3130 |     +0.0% |       0 |       0 |             0 |       937
+     3140 |     +0.0% |       0 |       0 |             0 |       927
+     3150 |     +0.0% |       0 |       0 |             0 |       917
+     3160 |     +0.0% |       0 |       0 |             0 |       907
+     3170 |     +0.0% |       0 |       0 |             0 |       897
+     3180 |     +0.0% |       0 |       0 |             0 |       887
+     3190 |     +0.0% |       0 |       0 |             0 |       877
+     3200 |     +0.0% |       0 |       0 |             0 |       867
+     3210 |     +0.0% |       0 |       0 |             0 |       857
+     3220 |     +0.0% |       0 |       0 |             0 |       847
+     3230 |     +0.0% |       0 |       0 |             0 |       837
+     3240 |     +0.0% |       0 |       0 |             0 |       827
+     3250 |     +0.0% |       0 |       0 |             0 |       817
+     3260 |     +0.0% |       0 |       0 |             0 |       807
+     3270 |     +0.0% |       0 |       0 |             0 |       797
+     3280 |     +0.0% |       0 |       0 |             0 |       787
+     3290 |     +0.0% |       0 |       0 |             0 |       777
+     3300 |     +0.0% |       0 |       0 |             0 |       767
+     3310 |     +0.0% |       0 |       0 |             0 |       757
+     3320 |     +0.0% |       0 |       0 |             0 |       747
+     3330 |     +0.0% |       0 |       0 |             0 |       737
+     3340 |     +0.0% |       0 |       0 |             0 |       727
+     3350 |     +0.0% |       0 |       0 |             0 |       717
+     3360 |     +0.0% |       0 |       0 |             0 |       707
+     3370 |     +0.0% |       0 |       0 |             0 |       697
+     3380 |     +0.0% |       0 |       0 |             0 |       687
+     3390 |     +0.0% |       0 |       0 |             0 |       677
+     3400 |     +0.0% |       0 |       0 |             0 |       667
+     3410 |     +0.0% |       0 |       0 |             0 |       657
+     3420 |     +0.0% |       0 |       0 |             0 |       647
+     3430 |     +0.0% |       0 |       0 |             0 |       637
+     3440 |     +0.0% |       0 |       0 |             0 |       627
+     3450 |     +0.0% |       0 |       0 |             0 |       617
+     3460 |     +0.0% |       0 |       0 |             0 |       607
+     3470 |     +0.0% |       0 |       0 |             0 |       597
+     3480 |     +0.0% |       0 |       0 |             0 |       587
+     3490 |     +0.0% |       0 |       0 |             0 |       577
+     3500 |     +0.0% |       0 |       0 |             0 |       567
+     3510 |     +0.0% |       0 |       0 |             0 |       557
+     3520 |     +0.0% |       0 |       0 |             0 |       547
+     3530 |     +0.0% |       0 |       0 |             0 |       537
+     3540 |     +0.0% |       0 |       0 |             0 |       527
+     3550 |     +0.0% |       0 |       0 |             0 |       517
+     3560 |     +0.0% |       0 |       0 |             0 |       507
+     3570 |     +0.0% |       0 |       0 |             0 |       497
+     3580 |     +0.0% |       0 |       0 |             0 |       487
+     3590 |     +0.0% |       0 |       0 |             0 |       477
+     3600 |     +0.0% |       0 |       0 |             0 |       467
+     3610 |     +0.0% |       0 |       0 |             0 |       457
+     3620 |     +0.0% |       0 |       0 |             0 |       447
+     3630 |     +0.0% |       0 |       0 |             0 |       437
+     3640 |     +0.0% |       0 |       0 |             0 |       427
+     3650 |     +0.0% |       0 |       0 |             0 |       417
+     3660 |     +0.0% |       0 |       0 |             0 |       407
+     3670 |     +0.0% |       0 |       0 |             0 |       397
+     3680 |     +0.0% |       0 |       0 |             0 |       387
+     3690 |     +0.0% |       0 |       0 |             0 |       377
+     3700 |     +0.0% |       0 |       0 |             0 |       367
+     3710 |     +0.0% |       0 |       0 |             0 |       357
+     3720 |     +0.0% |       0 |       0 |             0 |       347
+     3730 |     +0.0% |       0 |       0 |             0 |       337
+     3740 |     +0.0% |       0 |       0 |             0 |       327
+     3750 |     +0.0% |       0 |       0 |             0 |       317
+     3760 |     +0.0% |       0 |       0 |             0 |       307
+     3770 |     +0.0% |       0 |       0 |             0 |       297
+     3780 |     +0.0% |       0 |       0 |             0 |       287
+     3790 |     +0.0% |       0 |       0 |             0 |       277
+     3800 |     +0.0% |       0 |       0 |             0 |       267
+     3810 |     +0.0% |       0 |       0 |             0 |       257
+     3820 |     +0.0% |       0 |       0 |             0 |       247
+     3830 |     +0.0% |       0 |       0 |             0 |       237
+     3840 |     +0.0% |       0 |       0 |             0 |       227
+     3850 |     +0.0% |       0 |       0 |             0 |       217
+     3860 |     +0.0% |       0 |       0 |             0 |       207
+     3870 |     +0.0% |       0 |       0 |             0 |       197
+     3880 |     +0.0% |       0 |       0 |             0 |       187
+     3890 |     +0.0% |       0 |       0 |             0 |       177
+     3900 |     +0.0% |       0 |       0 |             0 |       167
+     3910 |     +0.0% |       0 |       0 |             0 |       157
+     3920 |     +0.0% |       0 |       0 |             0 |       147
+     3930 |     +0.0% |       0 |       0 |             0 |       137
+     3940 |     +0.0% |       0 |       0 |             0 |       127
+     3950 |     +0.0% |       0 |       0 |             0 |       117
+     3960 |     +0.0% |       0 |       0 |             0 |       107
+     3970 |     +0.0% |       0 |       0 |             0 |        97
+     3980 |     +0.0% |       0 |       0 |             0 |        87
+     3990 |     +0.0% |       0 |       0 |             0 |        77
+     4000 |     +0.0% |       0 |       0 |             0 |        67
+     4010 |     +0.0% |       0 |       0 |             0 |        57
+     4020 |     +0.0% |       0 |       0 |             0 |        47
+     4030 |     +0.0% |       0 |       0 |             0 |        37
+     4040 |     +0.0% |       0 |       0 |             0 |        27
+     4050 |     +0.0% |       0 |       0 |             0 |        17
+     4060 |     +0.0% |       0 |       0 |             0 |         7
+    final |     +0.0% |       0 |       0 |             0 |         0
+---------------------------------------------------------------------
+global_route -start_incremental
+detailed_placement
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          214986.9 u
+legalized HPWL         214986.9 u
+delta HPWL                    0 %
+
+global_route -end_incremental -congestion_report_file ./reports/ihp-sg13g2/6502_cpu/base/congestion_post_repair_design.rpt
+Repair setup and hold violations...
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0033] No hold violations found.
+global_route -start_incremental
+detailed_placement
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          214986.9 u
+legalized HPWL         214986.9 u
+delta HPWL                    0 %
+
+global_route -end_incremental -congestion_report_file ./reports/ihp-sg13g2/6502_cpu/base/congestion_post_repair_timing.rpt
+global_route -start_incremental
+global_route -end_incremental -congestion_report_file ./reports/ihp-sg13g2/6502_cpu/base/congestion_post_recover_power.rpt
+Repair antennas...
+[INFO GRT-0012] Found 16 antenna violations.
+[INFO GRT-0302] Inserted 2 jumpers for 2 nets.
+[INFO GRT-0012] Found 14 antenna violations.
+[INFO GRT-0015] Inserted 17 diodes.
+[INFO GRT-0012] Found 13 antenna violations.
+[INFO GRT-0302] Inserted 0 jumpers for 0 nets.
+[INFO GRT-0012] Found 13 antenna violations.
+[INFO GRT-0015] Inserted 16 diodes.
+[INFO GRT-0012] Found 13 antenna violations.
+[INFO GRT-0302] Inserted 1 jumpers for 1 nets.
+[INFO GRT-0012] Found 12 antenna violations.
+[INFO GRT-0015] Inserted 15 diodes.
+[INFO GRT-0012] Found 12 antenna violations.
+[INFO GRT-0302] Inserted 0 jumpers for 0 nets.
+[INFO GRT-0012] Found 12 antenna violations.
+[INFO GRT-0015] Inserted 15 diodes.
+[INFO GRT-0012] Found 12 antenna violations.
+[INFO GRT-0302] Inserted 0 jumpers for 0 nets.
+[INFO GRT-0012] Found 12 antenna violations.
+[INFO GRT-0015] Inserted 15 diodes.
+[INFO ANT-0002] Found 12 net violations.
+[INFO ANT-0001] Found 13 pin violations.
+Estimate parasitics...
+Report metrics stage 5, global route...
+
+==========================================================================
+global route report_design_area
+--------------------------------------------------------------------------
+Design area 40848 u^2 46% utilization.
+[INFO FLW-0007] clock clk period 20.833300
+[INFO FLW-0008] Clock clk period 10.180
+[INFO FLW-0009] Clock clk slack 10.117
+[INFO FLW-0011] Path endpoint path count 378
+Elapsed time: 0:27.34[h:]min:sec. CPU time: user 133.96 sys 0.66 (492%). Peak memory: 515324KB.

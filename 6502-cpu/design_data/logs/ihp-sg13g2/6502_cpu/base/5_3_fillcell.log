@@ -1,0 +1,8 @@
+OpenROAD v2.0-19149-g9ef9c213c 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+filler_placement "sg13g2_fill_1 sg13g2_fill_2 sg13g2_decap_4 sg13g2_decap_8"
+[INFO DPL-0001] Placed 5493 filler instances.
+Elapsed time: 0:00.31[h:]min:sec. CPU time: user 0.25 sys 0.06 (98%). Peak memory: 126164KB.
