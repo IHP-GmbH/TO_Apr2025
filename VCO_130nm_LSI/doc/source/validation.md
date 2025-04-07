@@ -1,4 +1,5 @@
 # Voltage-Controlled Oscillator
+-------------------------------
 ## VCO's Schematic
 ![VCO schematic](images/VCO.png)
 
