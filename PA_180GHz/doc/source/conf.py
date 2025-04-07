@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Amazing Design'
-copyright = '2024, IHP Open PDK'
-author = 'Amazing Design Authors'
+project = 'Two G band Power Amplifiers with 20 and 23 dBm Psat respectively at 180 GHz'
+copyright = '2025, IHP Open PDK'
+author = 'Md. Shafin Hossain'
 
 release = '0.1'
 version = '0.1.0'
