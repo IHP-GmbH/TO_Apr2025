@@ -1,8 +1,6 @@
 # Voltage-Controlled Oscillator
 -------------------------------
-## VCO's Schematic
-![VCO schematic](images/VCO.png)
+## Voltage vs. Time Plot
+![VCO plot](image/waveform.jpeg)
 
-## VCO's Inverter
-![VCO inverter](images/inv_VCO.png)
 
