@@ -1,11 +1,11 @@
 <Qucs Schematic 24.3.0>
 <Properties>
-  <View=-3796,-2324,5286,2786,0.112532,0,0>
+  <View=-5338,-3135,5964,2941,0.145973,61,0>
   <Grid=10,10,1>
-  <DataSet=two_way_PA_final.dat>
-  <DataDisplay=two_way_PA_final.dpl>
+  <DataSet=target_gain.dat>
+  <DataDisplay=target_gain.dpl>
   <OpenDisplay=0>
-  <Script=two_way_PA_final.m>
+  <Script=target_gain.m>
   <RunScript=0>
   <showFrame=0>
   <FrameText0=Title>
@@ -16,6 +16,9 @@
 <Symbol>
 </Symbol>
 <Components>
+  <.AC AC1 0 -2550 -50 0 37 0 0 "lin" 1 "1 GHz" 1 "300 GHz" 1 "200" 1 "no" 0>
+  <.TR TR1 0 -2140 -80 0 62 0 0 "lin" 1 "100 ps" 1 "378 ps" 1 "557" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
+  <.FOURIER FOUR1 0 -1880 -70 0 62 0 0 "TR1" 1 "10" 1 "180 GHz" 1 "out" 1>
   <INCLSCR INCLSCR1 1 -1220 -1520 -60 16 0 0 ".LIB /home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/ngspice/models/cornerHBT.lib hbt_typ\n.LIB /home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/ngspice/models/cornerRES.lib res_typ\n.LIB /home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/ngspice/models/cornerCAP.lib cap_typ\n.control\npre_osdi /home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/verilog-a/r3_cmc/r3_cmc.osdi\n.endc" 1 "" 0 "" 0>
   <GND * 1 -1050 -60 0 0 0 0>
   <GND * 1 -840 -120 0 0 0 0>
@@ -74,9 +77,6 @@
   <SPfile X47 5 100 -1110 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X48 5 530 -1370 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <GND * 1 560 -1370 0 0 0 1>
-  <Lib rsil13 5 100 -1000 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
-  <Lib rsil14 5 530 -1290 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "1.81u" 0 "1" 0>
-  <Lib rsil15 5 -310 -890 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
   <Vdc V18 1 410 -660 18 -26 0 1 ".94 V" 1>
   <Lib rsil16 5 -430 -660 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11u" 0 "1" 1>
   <Lib rsil17 5 -20 -740 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
@@ -138,9 +138,6 @@
   <SPfile X57 5 220 -150 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X58 5 650 -410 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <GND * 1 680 -410 0 0 0 1>
-  <Lib rsil19 5 220 -40 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
-  <Lib rsil20 5 650 -330 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "1.81u" 0 "1" 0>
-  <Lib rsil21 5 -190 70 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
   <Vdc V24 1 530 300 18 -26 0 1 ".94 V" 1>
   <Lib rsil22 5 -310 300 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11u" 0 "1" 1>
   <Lib rsil23 5 100 220 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
@@ -161,12 +158,18 @@
   <Lib cap_rfcmim21 5 700 -270 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.8 u" 0 "5.2 u" 0>
   <Lib cap_rfcmim24 5 -410 240 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.2 u" 0 "4.6 u" 0>
   <Lib cap_rfcmim18 5 -530 -720 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.2 u" 0 "4.6 u" 0>
-  <SPfile X50 5 -580 -640 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_46_um/TL_46_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X60 5 -460 320 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_46_um/TL_46_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X49 5 700 -990 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_75_um/TL_75_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X59 5 820 -30 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_75_um/TL_75_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <GND * 1 -960 -180 0 0 0 0>
   <SPfile X63 5 -960 -210 -26 -18 0 0 "/home/rf/shafins_layouts/output/input_pad_data/input_pad.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <Lib rppd1 1 -150 -720 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd2 1 260 -830 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd3 1 690 -1120 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd4 1 -30 240 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd5 1 380 130 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd6 1 810 -160 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <SPfile X60 5 -460 320 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_42_um/TL_42_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X50 5 -580 -640 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_42_um/TL_42_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
 </Components>
 <Wires>
   <-810 -710 -810 -210 "" 0 0 0 "">
@@ -405,7 +408,49 @@
   <-930 -210 -870 -210 "" 0 0 0 "">
 </Wires>
 <Diagrams>
-  <Rect -2420 354 996 516 3 #c0c0c0 1 00 0 8e+10 2e+10 2.8e+11 0 -80 10 20 1 -1 0.2 1 315 0 225 1 0 0 "" "" "">
+  <Rect 424 1651 528 351 3 #c0c0c0 1 00 1 0 5e+10 3e+11 1 -1.00037 2 11.0063 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.delta_mag" #0000ff 0 3 0 0 0>
+	<"ngspice/ac.mu" #ff0000 0 3 0 0 0>
+	  <Mkr 1.8e+11 355 -333 3 0 0>
+  </Rect>
+  <Rect 1080 1812 465 242 3 #c0c0c0 1 00 1 -1 0.2 1 1 -1 0.5 1 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/sp1.ac.s11_db" #0000ff 0 3 0 0 0>
+	<"ngspice/ac.s21_db" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 1600 1815 441 245 3 #c0c0c0 1 00 1 0 5e+10 3e+11 1 -46.4202 10 4.12961 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/sp1.ac.s22_db" #0000ff 0 3 0 0 0>
+	<"ngspice/ac.s22_db" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 1080 1512 463 232 3 #c0c0c0 1 00 1 -1 0.2 1 1 -1 0.5 1 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.s11_db" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 1590 1518 439 238 3 #c0c0c0 1 00 1 -1 0.2 1 1 -1 0.5 1 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.s12_db" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect -330 1633 647 318 3 #c0c0c0 1 00 1 0 2e+10 3e+11 0 -5 10 100 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.kf" #0000ff 0 3 0 0 0>
+	  <Mkr 1.8e+11 380 -80 3 0 0>
+  </Rect>
+  <Rect 900 1198 948 438 3 #c0c0c0 1 00 1 0 2e+10 3e+11 0 -30 5 25 1 -1 0.2 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.s21_db" #ff00ff 0 3 0 0 0>
+	  <Mkr 1.8e+11 554 -509 3 0 0>
+  </Rect>
+  <Rect -2410 508 698 395 3 #c0c0c0 1 00 1 1e-10 2e-11 3.8e-10 1 1.35371e-06 1e-06 7.63922e-06 1 -1 0.2 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/tr1.tran.v(out)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect -2406 880 693 313 3 #c0c0c0 1 00 1 -1 0.2 1 1 -1 0.5 1 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/magnitude()" #0000ff 0 3 0 0 0>
+	  <Mkr 1.8e+11/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0 137 -347 3 0 0>
+  </Rect>
+  <Smith 1090 570 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.v(s_2_2)" #0000ff 0 3 0 0 0>
+	  <Mkr 1.8e+11 162 -161 3 0 0>
+  </Smith>
+  <Smith 1090 310 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.v(s_1_1)" #0000ff 0 3 0 0 0>
+	  <Mkr 1.8e+11 160 -165 3 0 0>
+  </Smith>
+  <Rect -250 1284 996 516 3 #c0c0c0 1 00 0 8e+10 2e+10 2.8e+11 0 -80 10 20 1 -1 0.2 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/ac.s11_db" #0000ff 0 3 0 0 0>
 	  <Mkr 1.8e+11 243 -245 3 0 0>
 	<"ngspice/ac.s12_db" #ff0000 0 3 0 0 0>
@@ -415,14 +460,17 @@
 	<"ngspice/ac.s21_db" #00ff00 0 3 0 0 0>
 	  <Mkr 1.8e+11 546 -509 3 0 0>
   </Rect>
-  <Rect -900 1013 647 318 3 #c0c0c0 1 00 1 0 2e+10 3e+11 0 -5 10 100 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
-	<"ngspice/ac.kf" #0000ff 0 3 0 0 0>
-	  <Mkr 1.8e+11 380 -80 3 0 0>
+  <Rect -1750 -810 240 160 3 #c0c0c0 1 00 1 -1 0.5 1 1 -1 1 1 1 -1 1 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.v(s_1_1)" #0000ff 0 3 0 0 0>
+	  <Mkr 1.8e+11 19 -219 5 0 0>
+	<"ngspice/ac.v(s_1_2)" #ff0000 0 3 0 0 0>
+	  <Mkr 1.8e+11 -5 67 5 0 0>
   </Rect>
-  <Rect -56 1051 528 351 3 #c0c0c0 1 00 1 0 5e+10 3e+11 1 -1.00037 2 11.0063 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
-	<"ngspice/ac.delta_mag" #0000ff 0 3 0 0 0>
-	<"ngspice/ac.mu" #ff0000 0 3 0 0 0>
-	  <Mkr 1.8e+11 355 -333 3 0 0>
+  <Rect -1460 -810 240 160 3 #c0c0c0 1 00 1 -1 0.5 1 1 -1 1 1 1 -1 1 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.v(s_2_1)" #0000ff 0 3 0 0 0>
+	  <Mkr 1.8e+11 17 -286 5 0 0>
+	<"ngspice/ac.v(s_2_2)" #ff0000 0 3 0 0 0>
+	  <Mkr 1.8e+11 -49 104 5 0 0>
   </Rect>
 </Diagrams>
 <Paintings>

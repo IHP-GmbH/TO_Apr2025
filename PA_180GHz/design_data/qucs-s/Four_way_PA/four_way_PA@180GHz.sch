@@ -1,11 +1,11 @@
 <Qucs Schematic 24.3.0>
 <Properties>
-  <View=-5460,-1748,5772,3180,0.177156,351,298>
+  <View=-9054,-3845,9577,3512,0.214359,1540,1002>
   <Grid=10,10,1>
-  <DataSet=four_way_PA_final.dat>
-  <DataDisplay=four_way_PA_final.dpl>
+  <DataSet=final_target_gain.dat>
+  <DataDisplay=final_target_gain.dpl>
   <OpenDisplay=0>
-  <Script=four_way_PA_final.m>
+  <Script=final_target_gain.m>
   <RunScript=0>
   <showFrame=0>
   <FrameText0=Title>
@@ -79,14 +79,10 @@
   <SPfile X75 5 500 -930 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X76 5 930 -1190 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <GND * 1 960 -1190 0 0 0 1>
-  <Lib rsil25 5 500 -820 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
-  <Lib rsil26 5 930 -1110 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "1.81u" 0 "1" 0>
-  <Lib rsil27 5 90 -710 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
   <Vdc V29 1 810 -480 18 -26 0 1 ".94 V" 1>
   <Lib rsil28 5 -30 -480 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11u" 0 "1" 1>
   <Lib rsil29 5 380 -560 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
   <Lib rsil30 5 810 -650 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
-  <Lib cap_rfcmim26 5 730 -780 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.3 u" 0 "4.9 u" 0>
   <SPfile X77 5 690 -700 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_20_um/TL_20_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X78 5 260 -580 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_20_um/TL_20_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <Vdc V30 1 280 -980 -26 18 0 0 "1.7V" 1>
@@ -140,14 +136,10 @@
   <SPfile X85 5 480 10 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X86 5 910 -250 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <GND * 1 940 -250 0 0 0 1>
-  <Lib rsil31 5 480 120 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
-  <Lib rsil32 5 910 -170 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "1.81u" 0 "1" 0>
-  <Lib rsil33 5 70 230 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
   <Vdc V35 1 790 460 18 -26 0 1 ".94 V" 1>
   <Lib rsil34 5 -50 460 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11u" 0 "1" 1>
   <Lib rsil35 5 360 380 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
   <Lib rsil36 5 790 290 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
-  <Lib cap_rfcmim32 5 710 160 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.3 u" 0 "4.9 u" 0>
   <SPfile X87 5 670 240 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_20_um/TL_20_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X88 5 240 360 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_20_um/TL_20_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <Vdc V36 1 260 -40 -26 18 0 0 "1.7V" 1>
@@ -201,14 +193,10 @@
   <SPfile X95 5 500 1010 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X96 5 930 750 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <GND * 1 960 750 0 0 0 1>
-  <Lib rsil37 5 500 1120 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
-  <Lib rsil38 5 930 830 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "1.81u" 0 "1" 0>
-  <Lib rsil39 5 90 1230 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
   <Vdc V41 1 810 1460 18 -26 0 1 ".94 V" 1>
   <Lib rsil40 5 -30 1460 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11u" 0 "1" 1>
   <Lib rsil41 5 380 1380 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
   <Lib rsil42 5 810 1290 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
-  <Lib cap_rfcmim38 5 730 1160 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.3 u" 0 "4.9 u" 0>
   <SPfile X97 5 690 1240 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_20_um/TL_20_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X98 5 260 1360 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_20_um/TL_20_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <Vdc V42 1 280 960 -26 18 0 0 "1.7V" 1>
@@ -262,43 +250,21 @@
   <SPfile X105 5 530 1950 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X106 5 960 1690 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_155_um/TL_155_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <GND * 1 990 1690 0 0 0 1>
-  <Lib rsil43 5 530 2060 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
-  <Lib rsil44 5 960 1770 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "1.81u" 0 "1" 0>
-  <Lib rsil45 5 120 2170 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "15u" 0 "8.1u" 0 "1" 0>
   <Vdc V47 1 840 2400 18 -26 0 1 ".94 V" 1>
   <Lib rsil46 5 0 2400 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11u" 0 "1" 1>
   <Lib rsil47 5 410 2320 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
   <Lib rsil48 5 840 2230 46 -52 0 0 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "rsil" 0 "2u" 0 "11 u" 0 "1" 0>
-  <Lib cap_rfcmim44 5 760 2100 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.3 u" 0 "4.9 u" 0>
   <SPfile X107 5 720 2180 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_20_um/TL_20_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X108 5 290 2300 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_20_um/TL_20_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <Vdc V48 1 310 1900 -26 18 0 0 "1.7V" 1>
   <SPfile X7 1 -480 0 -26 -89 0 0 "/home/rf/shafins_inductors/data/extended2x_pookie_mesh_1.5/extended2x_pookie_mesh_1.5.s3p" 1 "rectangular" 0 "linear" 0 "open" 0 "3" 0>
   <SPfile X28 1 -520 1770 -26 -89 0 0 "/home/rf/shafins_inductors/data/extended2x_pookie_mesh_1.5/extended2x_pookie_mesh_1.5.s3p" 1 "rectangular" 0 "linear" 0 "open" 0 "3" 0>
-  <SPfile X27 1 -900 290 -26 -89 0 0 "/home/rf/shafins_inductors/data/extended2x_pookie_mesh_1.5/extended2x_pookie_mesh_1.5.s3p" 1 "rectangular" 0 "linear" 0 "open" 0 "3" 0>
   <SPfile X8 1 1340 -510 -26 -89 1 2 "/home/rf/shafins_inductors/data/extended2x_pookie_mesh_1.5/extended2x_pookie_mesh_1.5.s3p" 1 "rectangular" 0 "linear" 0 "open" 0 "3" 0>
   <SPfile X29 1 1470 1720 -26 -89 1 2 "/home/rf/shafins_inductors/data/extended2x_pookie_mesh_1.5/extended2x_pookie_mesh_1.5.s3p" 1 "rectangular" 0 "linear" 0 "open" 0 "3" 0>
-  <SPfile X30 1 1820 260 -26 -89 1 2 "/home/rf/shafins_inductors/data/extended2x_pookie_mesh_1.5/extended2x_pookie_mesh_1.5.s3p" 1 "rectangular" 0 "linear" 0 "open" 0 "3" 0>
-  <Lib cap_rfcmim48 5 -100 2340 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.2 u" 0 "4.4 u" 0>
-  <Lib cap_rfcmim42 5 -130 1400 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.2 u" 0 "4.4 u" 0>
-  <Lib cap_rfcmim36 5 -150 400 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.2 u" 0 "4.4 u" 0>
-  <Lib cap_rfcmim30 5 -130 -540 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "4.2 u" 0 "4.4 u" 0>
   <GND * 1 1160 2070 0 0 0 1>
   <GND * 1 1130 1130 0 0 0 1>
   <GND * 1 1110 130 0 0 0 1>
   <GND * 1 1130 -810 0 0 0 1>
-  <SPfile X110 5 1130 2070 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_64_um/TL_64_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X100 5 1100 1130 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_64_um/TL_64_um.s2p" 1 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X90 5 1080 130 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_64_um/TL_64_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X80 5 1100 -810 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_64_um/TL_64_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X109 5 -150 2420 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_42_um/TL_42_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X99 5 -180 1480 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_42_um/TL_42_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X89 5 -200 480 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_42_um/TL_42_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <SPfile X79 5 -180 -460 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_42_um/TL_42_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
-  <Lib cap_rfcmim29 5 990 -1050 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7.8 u" 0>
-  <Lib cap_rfcmim35 5 970 -110 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7.8 u" 0>
-  <Lib cap_rfcmim41 5 990 890 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7.8 u" 0>
-  <Lib cap_rfcmim47 5 1020 1830 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7.8 u" 0>
   <Lib cap_rfcmim27 5 150 -660 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "13.4 u" 0>
   <Lib cap_rfcmim33 5 130 280 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "13.4 u" 0>
   <Lib cap_rfcmim39 5 150 1280 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "13.4 u" 0>
@@ -307,10 +273,44 @@
   <Lib cap_rfcmim34 5 300 280 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3.1 u" 0 "6.7 u" 0>
   <Lib cap_rfcmim40 5 320 1280 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3.1 u" 0 "6.7 u" 0>
   <Lib cap_rfcmim46 5 350 2220 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3.1 u" 0 "6.7 u" 0>
-  <Lib cap_rfcmim25 5 590 -780 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "9.7 u" 0>
-  <Lib cap_rfcmim31 5 570 160 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "9.7 u" 0>
-  <Lib cap_rfcmim37 5 590 1160 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "9.7 u" 0>
-  <Lib cap_rfcmim43 5 620 2100 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "9.7 u" 0>
+  <SPfile X27 1 -900 290 -26 -89 0 0 "/home/rf/shafins_inductors/data/outer_pookie_mesh_1.5/outer_pookie_mesh_1.5.s3p" 1 "rectangular" 0 "linear" 0 "open" 0 "3" 0>
+  <SPfile X30 1 1820 260 -26 -89 1 2 "/home/rf/shafins_inductors/data/outer_pookie_mesh_1.5/outer_pookie_mesh_1.5.s3p" 1 "rectangular" 0 "linear" 0 "open" 0 "3" 0>
+  <Lib rppd1 1 250 -540 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd2 1 660 -650 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd3 1 1090 -940 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd4 1 230 400 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd5 1 640 290 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd6 1 1070 0 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd7 1 250 1400 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd8 1 660 1290 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd9 1 1090 1000 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd10 1 280 2340 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd11 1 690 2230 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib rppd12 1 1120 1940 -110 -196 0 0 "/home/rf/QucsWorkspace/user_lib/IHP_PDK_basic_components" 0 "rppd" 0 "35u" 1 "0.5u" 1 "1" 1>
+  <Lib cap_rfcmim37 5 590 1160 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "10.5 u" 0>
+  <Lib cap_rfcmim38 5 730 1160 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7.1 u" 0>
+  <Lib cap_rfcmim51 5 620 2100 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "10.5 u" 0>
+  <Lib cap_rfcmim52 5 570 160 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "10.5 u" 0>
+  <Lib cap_rfcmim53 5 590 -780 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "10.5 u" 0>
+  <Lib cap_rfcmim54 5 760 2100 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7.1 u" 0>
+  <Lib cap_rfcmim55 5 710 160 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7.1 u" 0>
+  <Lib cap_rfcmim56 5 730 -780 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7.1 u" 0>
+  <Lib cap_rfcmim50 5 -130 -540 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7 u" 0>
+  <Lib cap_rfcmim49 5 -150 400 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7 u" 0>
+  <Lib cap_rfcmim42 5 -130 1400 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7 u" 0>
+  <Lib cap_rfcmim48 5 -100 2340 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "7 u" 0>
+  <Lib cap_rfcmim29 5 990 -1050 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "9 u" 0>
+  <Lib cap_rfcmim41 5 990 890 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "9 u" 0>
+  <Lib cap_rfcmim47 5 1020 1830 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "9 u" 0>
+  <Lib cap_rfcmim35 5 970 -110 -16 -107 0 1 "/home/rf/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/qucs/user_lib/IHP_PDK_basic_components" 0 "cap_rfcmim" 0 "3 u" 0 "9 u" 0>
+  <SPfile X79 5 -180 -460 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_46_um/TL_46_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X89 5 -200 480 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_46_um/TL_46_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X99 5 -180 1480 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_46_um/TL_46_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X109 5 -150 2420 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_46_um/TL_46_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X80 5 1100 -810 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_72_um/TL_72_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X100 5 1100 1130 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_72_um/TL_72_um.s2p" 1 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X90 5 1080 130 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_72_um/TL_72_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X110 5 1130 2070 -18 -26 0 1 "/home/rf/shafins_TL/data/TL_72_um/TL_72_um.s2p" 0 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
 </Components>
 <Wires>
   <-1140 440 -1140 490 "" 0 0 0 "">
@@ -537,11 +537,9 @@
   <600 -320 660 -320 "" 0 0 0 "">
   <720 -320 760 -320 "" 0 0 0 "">
   <760 -320 850 -320 "" 0 0 0 "">
-  <480 40 480 80 "" 0 0 0 "">
   <850 -320 910 -320 "" 0 0 0 "">
   <910 -320 910 -280 "" 0 0 0 "">
   <910 -220 910 -210 "" 0 0 0 "">
-  <480 160 480 170 "" 0 0 0 "">
   <480 170 480 240 "" 0 0 0 "">
   <70 270 70 290 "" 0 0 0 "">
   <70 160 70 190 "" 0 0 0 "">
@@ -646,13 +644,11 @@
   <620 680 680 680 "" 0 0 0 "">
   <740 680 780 680 "" 0 0 0 "">
   <780 680 870 680 "" 0 0 0 "">
-  <500 1040 500 1080 "" 0 0 0 "">
   <870 680 930 680 "" 0 0 0 "">
   <930 680 930 720 "" 0 0 0 "">
   <930 780 930 790 "" 0 0 0 "">
   <930 870 930 900 "" 0 0 0 "">
   <610 1170 690 1170 "" 0 0 0 "">
-  <500 1160 500 1170 "" 0 0 0 "">
   <500 1170 500 1240 "" 0 0 0 "">
   <500 1170 580 1170 "" 0 0 0 "">
   <90 1270 90 1290 "" 0 0 0 "">
@@ -762,8 +758,6 @@
   <960 1810 960 1840 "" 0 0 0 "">
   <530 2100 530 2110 "" 0 0 0 "">
   <530 2110 530 2180 "" 0 0 0 "">
-  <120 2210 120 2230 "" 0 0 0 "">
-  <120 2100 120 2130 "" 0 0 0 "">
   <-150 2350 -150 2390 "" 0 0 0 "">
   <-150 2450 -150 2510 "" 0 0 0 "">
   <-80 2350 0 2350 "" 0 0 0 "">
@@ -783,6 +777,12 @@
   <480 170 560 170 "" 0 0 0 "">
   <640 2110 720 2110 "" 0 0 0 "">
   <530 2110 610 2110 "" 0 0 0 "">
+  <480 160 480 170 "" 0 0 0 "">
+  <480 40 480 80 "" 0 0 0 "">
+  <500 1160 500 1170 "" 0 0 0 "">
+  <500 1040 500 1080 "" 0 0 0 "">
+  <120 2210 120 2230 "" 0 0 0 "">
+  <120 2100 120 2130 "" 0 0 0 "">
 </Wires>
 <Diagrams>
   <Rect -1796 1121 528 351 3 #c0c0c0 1 00 1 0 5e+10 3e+11 1 -1.00037 2 11.0063 1 -1 0.5 1 315 0 225 1 0 0 "" "" "">
