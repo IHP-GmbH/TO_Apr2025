@@ -93,7 +93,18 @@ Large Signal Analysis (Unit Cell)
 ----------------------------------------------
 
 As Qucs-S does not support full large-signal harmonic balance simulations with multiple instances and EM elements, the large-signal analysis was carried out only for the **single unit cell** to estimate **Gain Compression and Psat**.
+To estimate output power, a **transient simulation** of the unit cell was performed, followed by a **Fourier transformation** of the output waveform. This allowed extraction of the **fundamental frequency component (180 GHz)** and its corresponding magnitude, which was then used to calculate the output power in dBm.
 
+.. image:: _static/transient_run.PNG
+    :align: center
+    :width: 800
+    :height: 400
+
+.. image:: _static/Fourier_Transformed.PNG
+    :align: center
+    :width: 800
+    :height: 400
+    
 .. image:: _static/Gain_vs_Pin.png
     :align: center
     :width: 1000
