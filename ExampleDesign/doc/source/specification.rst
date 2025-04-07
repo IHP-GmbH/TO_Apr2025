@@ -17,7 +17,7 @@ To characterize circuits at both conventional and cryogenic temperatures, a chip
 .. image:: _static/schematicOSC.png
     :align: center
     :alt: Schematic Oscilator
-    :width: 500
+    :width: 600
 
 
 Chip Pinout
