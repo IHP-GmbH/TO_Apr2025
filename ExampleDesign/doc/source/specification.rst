@@ -16,7 +16,7 @@ To characterize circuits at both conventional and cryogenic temperatures, a chip
 
 .. image:: _static/schematicOSC.png
     :align: center
-    :alt: Chip Pinout
+    :alt: Chip Layout
     :width: 800
 
 
