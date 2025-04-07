@@ -5,7 +5,7 @@ master_doc = 'index'
 
 # -- Project information
 
-project = 'DC to 40 GHz Transimpedance Amplifier with less then 10 pA/sqrt(Hz) Input Reffered Current Noise'
+project = 'DC to 97 GHz Transimpedance Amplifier'
 copyright = '2024, IHP Open PDK'
 author = 'Rupok Das'
 
