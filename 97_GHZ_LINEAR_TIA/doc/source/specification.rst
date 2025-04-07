@@ -18,7 +18,7 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
    * - Average Input Referred Current Noise Density
      - 17 pA/√Hz
    * - Power Consumption
-     - 80 mW
+     - 82 mW
      
 
 .. list-table:: **DC Voltages**
@@ -102,38 +102,3 @@ A Low-Noise Single Ended TIA With 40-GHz Bandwidth
   :width: 800
 
 **Layout Size: 634 µm × 1044 µm**
-
-.. list-table:: **State-of-art comparison:**
-   :widths: 100 100 100 100 100 100
-   :header-rows: 1
-
-   * - Reference
-     - Process
-     - BW (GHz)
-     - Z\ :sub:`T` (dBΩ)
-     - Noise (pA/√Hz)
-     - Power (mW)
-   * - `[1] <https://ieeexplore.ieee.org/abstract/document/8194885>`_
-     - 130 nm BiCMOS
-     - 75
-     - 54
-     - 10.9
-     - 95
-   * - `[2] <https://ieeexplore.ieee.org/abstract/document/10659112>`_
-     - 130 nm SiGe BiCMOS
-     - 42
-     - 74
-     - 12.5
-     - 238
-   * - `[3] <https://ieeexplore.ieee.org/abstract/document/10665896>`_
-     - 90 nm SiGe BiCMOS
-     - 40
-     - 75
-     - 15.1
-     - 264
-   * - This Work
-     - 130 nm SiGe BiCMOS
-     - 97
-     - 55
-     - **17.3**
-     - 80
