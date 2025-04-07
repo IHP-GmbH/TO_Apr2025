@@ -6,10 +6,32 @@ Understanding the operation of electronic circuits applied in low-temperature en
 To characterize circuits at both conventional and cryogenic temperatures, a chip was developed to test the behavior of the designs proposed below.
 
 -	Mixer Up-Converter with Cross-Coupled Oscillator
+
+.. image:: _static/schematicMIX.png
+    :align: center
+    :alt: Chip Pinout
+    :width: 800
+
 -	Cross-Coupled Oscillator
+
+.. image:: _static/schematicOSC.png
+    :align: center
+    :alt: Chip Pinout
+    :width: 800
+
 
 Chip Pinout
 ###########
+
+.. image:: _static/chip_pinout.png
+    :align: center
+    :alt: Chip Pinout
+    :width: 800
+
+.. image:: _static/chip_view.PNG
+    :align: center
+    :alt: Chip Pinout
+    :width: 800
 
 Mixer Up-Converter with Cross-Coupled Oscillator:
 
