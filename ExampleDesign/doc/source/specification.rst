@@ -9,14 +9,14 @@ To characterize circuits at both conventional and cryogenic temperatures, a chip
 
 .. image:: _static/schematicMIX.png
     :align: center
-    :alt: Chip Pinout
+    :alt: Schematic Mixer Up-converter
     :width: 800
 
 -	Cross-Coupled Oscillator
 
 .. image:: _static/schematicOSC.png
     :align: center
-    :alt: Chip Layout
+    :alt: Schematic Oscilator
     :width: 800
 
 
@@ -30,7 +30,7 @@ Chip Pinout
 
 .. image:: _static/chip_layout.PNG
     :align: center
-    :alt: Chip Pinout
+    :alt: Chip Layout
     :width: 800
 
 Mixer Up-Converter with Cross-Coupled Oscillator:
