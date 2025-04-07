@@ -1,0 +1,57 @@
+
+21. Printing statistics.
+
+=== ascon_top ===
+
+   Number of wires:              10138
+   Number of wire bits:          10138
+   Number of public wires:        1379
+   Number of public wire bits:    1379
+   Number of ports:                  5
+   Number of port bits:              5
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8764
+     sg13g2_IOPadIOVdd               2
+     sg13g2_IOPadIOVss               2
+     sg13g2_IOPadIn                  4
+     sg13g2_IOPadOut4mA              1
+     sg13g2_IOPadVdd                 2
+     sg13g2_IOPadVss                 2
+     sg13g2_a21o_1                  37
+     sg13g2_a21oi_1                612
+     sg13g2_a221oi_1                 7
+     sg13g2_a22oi_1                216
+     sg13g2_and2_1                 116
+     sg13g2_and3_1                  56
+     sg13g2_and4_1                   4
+     sg13g2_buf_1                  777
+     sg13g2_buf_2                  192
+     sg13g2_buf_4                   38
+     sg13g2_buf_8                    1
+     sg13g2_dfrbp_1               1378
+     sg13g2_inv_1                  197
+     sg13g2_mux2_1                 471
+     sg13g2_mux4_1                  74
+     sg13g2_nand2_1               1061
+     sg13g2_nand2b_1               213
+     sg13g2_nand2b_2                 1
+     sg13g2_nand3_1                676
+     sg13g2_nand3b_1                 7
+     sg13g2_nand4_1                  8
+     sg13g2_nor2_1                 298
+     sg13g2_nor2b_1                168
+     sg13g2_nor3_1                  93
+     sg13g2_nor3_2                   1
+     sg13g2_nor4_1                  12
+     sg13g2_o21ai_1                885
+     sg13g2_or2_1                   17
+     sg13g2_or3_1                    4
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                919
+     sg13g2_xor2_1                 211
+
+   Chip area for module '\ascon_top': 328165.272000
+     of which used for sequential elements: 65006.323200 (19.81%)
+
