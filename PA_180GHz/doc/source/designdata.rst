@@ -100,11 +100,15 @@ To estimate output power, a **transient simulation** of the unit cell was perfor
     :width: 800
     :height: 400
 
+The transient analysis consisted of sufficient amount of cycles in observation for proper fourier transformation.
+
 .. image:: _static/Fourier_Transformed.PNG
     :align: center
     :width: 800
     :height: 400
-    
+
+In the fourier transformation multiple harmonics were observed, only the first one being accountable for output power.
+
 .. image:: _static/Gain_vs_Pin.png
     :align: center
     :width: 1000
