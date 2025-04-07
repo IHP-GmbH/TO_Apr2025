@@ -44,9 +44,9 @@ Mixer Up-Converter with Cross-Coupled Oscillator:
 
 Cross-Coupled Oscillator:
 
--	LOP and LON: Differential output pair
--	VDC: Power supply terminal
--	IDC: Bias current terminal
+-	OSCP and OSCN: Differential output pair
+-	VCC: Power supply terminal
+-	ICC: Bias current terminal
 - GND: Ground terminal
 
 
