@@ -10,6 +10,9 @@ The design was carried out with a focus on efficiency and performance, and inclu
 ## VCO's Inverter
 ![VCO inverter](images/inv_VCO.png)
 
+## VCO's Layout
+![VCO Layoyt](images/layout.png)
+
 | **Parameter**                   | **Value**               |
 |---------------------------------|-------------------------|
 | **Frequency Range**             | 2.64 GHz                |
