@@ -1,5 +1,4 @@
-v {xschem version=3.4.5 file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -95,4 +94,4 @@ C {launcher.sym} 430 -635 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/output_file.raw ac"
 }
-C {/home/pedersen/projects/IHP-AnalogAcademy/modules/module_1_bandgap_reference/part_1_OTA/schematic/two_stage_OTA.sym} 310 -550 0 0 {name=x1}
+C {two_stage_OTA.sym} 310 -550 0 0 {name=x1}

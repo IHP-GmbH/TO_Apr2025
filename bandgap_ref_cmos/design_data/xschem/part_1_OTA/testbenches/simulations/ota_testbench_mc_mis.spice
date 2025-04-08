@@ -1,0 +1,64 @@
+** sch_path: /home/pedersen/projects/tapeouts/TO_Apr2025/bandgap_ref_cmos/design_data/xschem/part_1_OTA/testbenches/ota_testbench_mc_mis.sch
+**.subckt ota_testbench_mc_mis vout
+*.iopin vout
+V1 vp GND DC 0.6 AC 1 0
+VDD vdd GND DC 1.2
+I0 net1 GND 80u
+Cload vout GND 500f m=1
+x1 vdd net1 vp vout vout GND two_stage_OTA
+**** begin user architecture code
+
+.lib cornerCAP.lib cap_typ
+.lib cornerMOSlv.lib mos_tt_mismatch
+
+
+
+.control
+  let run = 1
+  let mc_runs = 100
+  set curplot = new
+  set scratch = $curplot
+  dowhile run <= mc_runs
+    reset
+    dc temp 0 70 5
+    set run = $&run
+    set dc = $curplot
+    setplot $scratch
+    let off{$run} = {$dc}.v(vout)
+    let mytemp{$run} = "{$dc}.temp-sweep"
+    setplot $dc
+    let run = run + 1
+  end
+  set nolegend
+  plot {$scratch}.allv vs {$scratch}.mytemp1
+  write ota_testbench_mc_mis.raw {$scratch}.allv {$scratch}.mytemp1
+.endc
+
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  two_stage_OTA.sym # of pins=6
+** sym_path: /home/pedersen/projects/tapeouts/TO_Apr2025/bandgap_ref_cmos/design_data/xschem/part_1_OTA/two_stage_OTA.sym
+** sch_path: /home/pedersen/projects/tapeouts/TO_Apr2025/bandgap_ref_cmos/design_data/xschem/part_1_OTA/two_stage_OTA.sch
+.subckt two_stage_OTA vdd iout v+ v- vout vss
+*.iopin v-
+*.iopin v+
+*.iopin vss
+*.iopin vdd
+*.iopin iout
+*.iopin vout
+XM4 vss net1 net3 vss sg13_lv_nmos w=720n l=9.75u ng=1 m=1
+XM3 vss net1 net1 vss sg13_lv_nmos w=720n l=9.75u ng=1 m=1
+XM1 net1 v- net2 vdd sg13_lv_pmos w=3.64u l=3.7u ng=1 m=2
+XM2 net3 v+ net2 vdd sg13_lv_pmos w=3.64u l=3.7u ng=1 m=2
+XM5 net2 iout vdd vdd sg13_lv_pmos w=5.3u l=1.95u ng=1 m=1
+XM7 vout iout vdd vdd sg13_lv_pmos w=75u l=2.08u ng=8 m=1
+XM6 vss net3 vout vss sg13_lv_nmos w=28.8u l=9.75u ng=4 m=1
+XM9 iout iout vdd vdd sg13_lv_pmos w=75u l=2.08u ng=8 m=1
+XC2 net3 vout cap_cmim w=22.295e-6 l=22.295e-6 m=1
+.ends
+
+.GLOBAL GND
+.end
