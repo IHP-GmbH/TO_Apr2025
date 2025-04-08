@@ -4,24 +4,11 @@ Validation of the LNA for GPS
 DRC
 ***
 
-Three AFil.g2 errors remain, but they are unaddressed errors.Therefore, they are not addressed. 
+All Green.
 
-AFil.g2
-=======
-
-This is a density error including out-of-frame. 
-
-.. image:: _static/DRC_AFil_g2_1.png
+.. image:: _static/DRC_OK.png
     :align: center
-    :alt: DRC_AFil_g2_1
-    :width: 800
-.. image:: _static/DRC_AFil_g2_2.png
-    :align: center
-    :alt: DRC_AFil_g2_2
-    :width: 800
-.. image:: _static/DRC_AFil_g2_3.png
-    :align: center
-    :alt: DRC_AFil_g2_3
+    :alt: DRC_OK
     :width: 800
 
 
