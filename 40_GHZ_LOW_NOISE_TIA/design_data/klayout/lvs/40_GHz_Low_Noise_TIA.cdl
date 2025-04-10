@@ -1,4 +1,4 @@
-.SUBCKT TOP
+.SUBCKT FDM_QNC_00_LN_TIA
 
 Cc1 \vcc1 \gnd cap_cmim w=30u l=60u A=1800p P=180u m=2
 Cc2 \vcc2 \gnd cap_cmim w=30u l=60u A=1800p P=180u m=2

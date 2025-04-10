@@ -1,6 +1,6 @@
 * Qucs 25.1.0  C:/Users/rupok_nsl/QucsWorkspace/Final_prj/new_design_netlist.sch
 
-.SUBCKT TOP
+.SUBCKT FMD_QNC_01_LIN_TIA
 
 
 CDC3 \VCC1 \GND cap_cmim w=20u l=100u A=2000p P=240u m=1

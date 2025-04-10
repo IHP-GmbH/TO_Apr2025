@@ -1,0 +1,48 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 10/04/2025 17:25
+
+.SUBCKT FMD_QNC_01_LIN_TIA \$57647.VB2 \$57645.VB1 \$57686.VB2
+C$1 \$I1 \$1 cap_cmim w=60u l=60u A=3600p P=240u m=2
+C$3 \$I133764 \$1 cap_cmim w=60u l=60u A=3600p P=240u m=2
+R$5 \$I135635 \$1 rsil w=18u l=30u ps=0 b=0 m=1
+R$6 \$I1 \$I133767 rppd w=20.6u l=2.1u ps=0 b=0 m=1
+Q$7 \$I133767 \$57647.VB2 \$I135634 \$1 npn13G2 AE=0.063p PE=1.94u AB=25.605p
++ PB=23.02u AC=25.589984p PC=23.01u NE=4 m=4
+R$11 \$I133763 \$1 rhigh w=8u l=8.2u ps=0 b=0 m=1
+Q$12 \$I135634 \$I133766 \$I135635 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p
++ PB=45.22u AC=63.429884p PC=45.21u NE=10 m=10
+Q$22 \$I135636 \$I133762 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=63.456p
++ PB=45.22u AC=63.429884p PC=45.21u NE=10 m=10
+R$32 \$I133765 \$I133764 rppd w=8.5u l=2u ps=0 b=0 m=1
+R$33 \$1 \$I133762 rhigh w=4u l=9.9u ps=0 b=0 m=1
+R$34 \$I133762 \$I135640 rppd w=4u l=13.3u ps=0 b=0 m=1
+C$35 \$I133764 \$1 cap_cmim w=20u l=100u A=2000p P=240u m=1
+R$36 \$1 \$I133766 rppd w=4u l=2.9u ps=0 b=0 m=1
+Q$37 \$I133765 \$57645.VB1 \$I135636 \$1 npn13G2 AE=0.063p PE=1.94u AB=12.988p
++ PB=15.62u AC=12.976684p PC=15.61u NE=2 m=2
+Q$39 \$I133764 \$I133764 \$I135641 \$1 npn13G2 AE=0.063p PE=1.94u AB=12.988p
++ PB=15.62u AC=12.976684p PC=15.61u NE=2 m=2
+Q$41 \$I1 \$I133765 \$I133763 \$1 npn13G2 AE=0.063p PE=1.94u AB=31.9135p
++ PB=26.72u AC=31.896634p PC=26.71u NE=5 m=5
+Q$46 \$I135641 \$I133763 \$I133766 \$1 npn13G2 AE=0.063p PE=1.94u AB=31.9135p
++ PB=26.72u AC=31.896634p PC=26.71u NE=5 m=5
+R$51 \$57647.VB2 \$I1 rhigh w=3u l=1.94u ps=0 b=0 m=1
+R$52 \$57645.VB1 \$I133764 rhigh w=3u l=2.94u ps=0 b=0 m=1
+C$53 \$57647.VB2 \$1 cap_cmim w=30u l=30u A=900p P=120u m=1
+C$54 \$57645.VB1 \$1 cap_cmim w=30u l=30u A=900p P=120u m=1
+R$55 \$57686.VB2 \$I135643 rhigh w=3u l=2u ps=0 b=0 m=1
+R$56 \$57647.VB2 \$I135645 rhigh w=3u l=2u ps=0 b=0 m=1
+R$57 \$I135644 \$57686.VB2 rhigh w=3u l=2u ps=0 b=0 m=1
+R$58 \$57645.VB1 \$I135649 rhigh w=3u l=2u ps=0 b=0 m=1
+R$59 \$I135651 \$I135652 rhigh w=3u l=2u ps=0 b=0 m=1
+R$60 \$I135650 \$I135651 rhigh w=3u l=2u ps=0 b=0 m=1
+Q$61 \$I133763 \$I133763 \$I135640 \$1 npn13G2 AE=0.063p PE=1.94u AB=6.6795p
++ PB=11.92u AC=6.670034p PC=11.91u NE=1 m=1
+Q$62 \$57647.VB2 \$I135645 \$I135644 \$1 npn13G2 AE=0.063p PE=1.94u AB=6.6795p
++ PB=11.92u AC=6.670034p PC=11.91u NE=1 m=1
+Q$63 \$57686.VB2 \$I135643 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=6.6795p
++ PB=11.92u AC=6.670034p PC=11.91u NE=1 m=1
+Q$64 \$I135651 \$I135652 \$1 \$1 npn13G2 AE=0.063p PE=1.94u AB=6.6795p
++ PB=11.92u AC=6.670034p PC=11.91u NE=1 m=1
+Q$65 \$57645.VB1 \$I135649 \$I135650 \$1 npn13G2 AE=0.063p PE=1.94u AB=6.6795p
++ PB=11.92u AC=6.670034p PC=11.91u NE=1 m=1
+.ENDS FMD_QNC_01_LIN_TIA
