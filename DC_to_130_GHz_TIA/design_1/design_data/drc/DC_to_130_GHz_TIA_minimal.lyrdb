@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
- <description>design rules: sg13g2_minimal | layout cell: TOP</description>
- <original-file>C:\Users\nsl\Desktop\TO_Apr2025\DC_to_130_GHz_TIA\design_data\gds\FMD_QNC_DC_to_130_GHz_TIA_Design.gds</original-file>
- <generator>drc: script='C:/Users/nsl/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc\\sg13g2_minimal.lydrc'</generator>
- <top-cell>TOP</top-cell>
+ <description>design rules: sg13g2_minimal | layout cell: FMD_QNC_03a_TIA_1</description>
+ <original-file>/home/rf/ikram_eye/FMD_QNC_03a_DC_to_130_GHz_TIA_Design.gds</original-file>
+ <generator>drc: script='/home/rf/ikram_eye/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc/sg13g2_minimal.lydrc'</generator>
+ <top-cell>FMD_QNC_03a_TIA_1</top-cell>
  <tags>
+  <tag>
+   <name>waived</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>red</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>green</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>blue</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>yellow</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>important</name>
+   <description/>
+  </tag>
  </tags>
  <categories>
   <category>
@@ -20,26 +44,14 @@
    </categories>
   </category>
   <category>
-   <name>AFil.g</name>
-   <description>Min. global Activ density [%] = 35.00</description>
+   <name>AFil.g/g1</name>
+   <description>Global Activ density [%] = 35.00 .. 55.00</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>AFil.g1</name>
-   <description>Max. global Activ density [%] = 55.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>AFil.g2</name>
-   <description>Min. Activ coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>AFil.g3</name>
-   <description>Max. Activ coverage ratio for any 800 x 800 µm² chip area [%] = 65.00</description>
+   <name>AFil.g2/g3</name>
+   <description>Activ coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 65.00</description>
    <categories>
    </categories>
   </category>
@@ -98,14 +110,8 @@
    </categories>
   </category>
   <category>
-   <name>M1.j</name>
-   <description>Min. global Metal1 density [%] = 35.0</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M1.k</name>
-   <description>Max. global Metal1 density [%] = 60.0</description>
+   <name>M1.j/k</name>
+   <description>Global Metal1 density [%] = 35.0 .. 60.0</description>
    <categories>
    </categories>
   </category>
@@ -122,14 +128,8 @@
    </categories>
   </category>
   <category>
-   <name>M2.j</name>
-   <description>Min. global Metal2 density [%] = 35.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M2.k</name>
-   <description>Max. global Metal2 density [%] = 60.00</description>
+   <name>M2.j/k</name>
+   <description>Global Metal2 density [%] = 35.00 .. 60.00</description>
    <categories>
    </categories>
   </category>
@@ -146,14 +146,8 @@
    </categories>
   </category>
   <category>
-   <name>M3.j</name>
-   <description>Min. global Metal3 density [%] = 35.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M3.k</name>
-   <description>Max. global Metal3 density [%] = 60.00</description>
+   <name>M3.j/k</name>
+   <description>Global Metal3 density [%] = 35.00 .. 60.00</description>
    <categories>
    </categories>
   </category>
@@ -170,14 +164,8 @@
    </categories>
   </category>
   <category>
-   <name>M4.j</name>
-   <description>Min. global Metal4 density [%] = 35.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M4.k</name>
-   <description>Max. global Metal4 density [%] = 60.00</description>
+   <name>M4.j/k</name>
+   <description>Global Metal4 density [%] = 35.00 .. 60.00</description>
    <categories>
    </categories>
   </category>
@@ -194,74 +182,38 @@
    </categories>
   </category>
   <category>
-   <name>M5.j</name>
-   <description>Min. global Metal5 density [%] = 35.00</description>
+   <name>M5.j/k</name>
+   <description>Global Metal5 density [%] = 35.00 .. 60.00</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>M5.k</name>
-   <description>Max. global Metal5 density [%] = 60.00</description>
+   <name>M1Fil.h/k</name>
+   <description>Metal1 and Metal1:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>M1Fil.h</name>
-   <description>Min. Metal1 and Metal1:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
+   <name>M2Fil.h/k</name>
+   <description>Metal2 and Metal2:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>M1Fil.k</name>
-   <description>Max. Metal1 and Metal1:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <name>M3Fil.h/k</name>
+   <description>Metal3 and Metal3:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>M2Fil.h</name>
-   <description>Min. Metal2 and Metal2:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
+   <name>M4Fil.h/k</name>
+   <description>Metal4 and Metal4:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>M2Fil.k</name>
-   <description>Max. Metal2 and Metal2:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M3Fil.h</name>
-   <description>Min. Metal3 and Metal3:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M3Fil.k</name>
-   <description>Max. Metal3 and Metal3:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M4Fil.h</name>
-   <description>Min. Metal4 and Metal4:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M4Fil.k</name>
-   <description>Max. Metal4 and Metal4:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M5Fil.h</name>
-   <description>Min. Metal5 and Metal5:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M5Fil.k</name>
-   <description>Max. Metal5 and Metal5:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <name>M5Fil.h/k</name>
+   <description>Metal5 and Metal5:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
@@ -338,14 +290,8 @@
    </categories>
   </category>
   <category>
-   <name>TM1.c</name>
-   <description>Min. global TopMetal1 density [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>TM1.d</name>
-   <description>Max. global TopMetal1 density [%] = 70.00</description>
+   <name>TM1.c/d</name>
+   <description>Global TopMetal1 density [%] = 25.00 .. 70.00</description>
    <categories>
    </categories>
   </category>
@@ -374,14 +320,8 @@
    </categories>
   </category>
   <category>
-   <name>TM2.c</name>
-   <description>Min. global TopMetal2 density [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>TM2.d</name>
-   <description>Max. global TopMetal2 density [%] = 70.00</description>
+   <name>TM2.c/d</name>
+   <description>Global TopMetal2 density [%] = 25.00 .. 70.00</description>
    <categories>
    </categories>
   </category>
@@ -556,7 +496,7 @@
  </categories>
  <cells>
   <cell>
-   <name>TOP</name>
+   <name>FMD_QNC_03a_TIA_1</name>
    <variant/>
    <layout-name/>
    <references>

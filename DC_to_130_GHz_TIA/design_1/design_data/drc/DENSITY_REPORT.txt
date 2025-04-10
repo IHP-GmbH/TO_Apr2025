@@ -3,29 +3,30 @@ Layer areas and percetages
 
 Total Area = 684000.0um^2
 
-Activ Area = 255779.935um^2
-Activ %    = 37.395% Min = 35 Max = 55
+Activ Area = 266682.73199999996um^2
+Activ %    = 38.989% Min = 35 Max = 55
 
-GatPoly Area = 104750.73um^2
-GatPoly %    = 15.314% Min = 15
+GatPoly Area = 118781.73um^2
+GatPoly %    = 17.366% Min = 15
 
-Metal1 Area = 397827.75399999996um^2
-Metal1 %    = 58.162% Min = 35 Max = 60
+Metal1 Area = 397963.796um^2
+Metal1 %    = 58.182% Min = 35 Max = 60
 
-Metal2 Area = 343219.527um^2
-Metal2 %    = 50.178% Min = 35 Max = 60
+Metal2 Area = 295763.985um^2
+Metal2 %    = 43.24% Min = 35 Max = 60
 
-Metal3 Area = 343219.573um^2
-Metal3 %    = 50.178% Min = 35 Max = 60
+Metal3 Area = 295764.032um^2
+Metal3 %    = 43.24% Min = 35 Max = 60
 
-Metal4 Area = 343219.573um^2
-Metal4 %    = 50.178% Min = 35 Max = 60
+Metal4 Area = 295764.032um^2
+Metal4 %    = 43.24% Min = 35 Max = 60
 
-Metal5 Area = 345206.775um^2
-Metal5 %    = 50.469% Min = 35 Max = 60
+Metal5 Area = 296290.868um^2
+Metal5 %    = 43.317% Min = 35 Max = 60
 
-TopMetal1 Area = 341537.449um^2
-TopMetal1 %    = 49.932% Min = 25 Max = 70
+TopMetal1 Area = 213515.603um^2
+TopMetal1 %    = 31.216% Min = 25 Max = 70
 
-TopMetal2 Area = 367948.621um^2
-TopMetal2 %    = 53.794% Min = 25 Max = 70
+TopMetal2 Area = 230149.002um^2
+TopMetal2 %    = 33.648% Min = 25 Max = 70
+

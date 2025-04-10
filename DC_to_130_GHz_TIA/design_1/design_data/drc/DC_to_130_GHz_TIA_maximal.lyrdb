@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
- <description>design rules: sg13g2_maximal | layout cell: TOP</description>
- <original-file>C:\Users\nsl\Desktop\DC-130 GHz TIA\DC_to_130_TIA_Design_Final.gds</original-file>
+ <description>design rules: sg13g2_maximal | layout cell: FMD_QNC_03a_TIA_1</description>
+ <original-file>C:\Users\nsl\Desktop\FMD_QNC_03a_DC_to_130_GHz_TIA_Design.gds</original-file>
  <generator>drc: script='C:/Users/nsl/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc\\sg13g2_maximal.lydrc'</generator>
- <top-cell>TOP</top-cell>
+ <top-cell>FMD_QNC_03a_TIA_1</top-cell>
  <tags>
-  <tag>
-   <name>waived</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>red</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>green</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>blue</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>yellow</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>important</name>
-   <description/>
-  </tag>
  </tags>
  <categories>
   <category>
@@ -99,7 +75,7 @@
   </category>
   <category>
    <name>PWB.c</name>
-   <description>Min. PWell:block space to unrelated NWell = 0.62</description>
+   <description>Min. PWell:block space to NWell = 0.62</description>
    <categories>
    </categories>
   </category>
@@ -182,26 +158,14 @@
    </categories>
   </category>
   <category>
-   <name>AFil.g</name>
-   <description>Min. global Activ density [%] = 35.00</description>
+   <name>AFil.g/g1</name>
+   <description>Global Activ density [%] = 35.00 .. 55.00</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>AFil.g1</name>
-   <description>Max. global Activ density [%] = 55.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>AFil.g2</name>
-   <description>Min. Activ coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>AFil.g3</name>
-   <description>Max. Activ coverage ratio for any 800 x 800 µm² chip area [%] = 65.00</description>
+   <name>AFil.g2/g3</name>
+   <description>Activ coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 65.00</description>
    <categories>
    </categories>
   </category>
@@ -381,7 +345,7 @@
   </category>
   <category>
    <name>pSD.b</name>
-   <description>Min. pSD space or notch (Note 1) = 0.31</description>
+   <description>Min. pSD space or notch (pSD regions separated by less than this value will be merged.) = 0.31</description>
    <categories>
    </categories>
   </category>
@@ -405,19 +369,19 @@
   </category>
   <category>
    <name>pSD.e</name>
-   <description>Min. pSD overlap of Activ at one position when forming abutted substrate tie (Note 2) = 0.30</description>
+   <description>Min. pSD overlap of Activ at one position when forming abutted substrate tie (These rules are for abutted ties: An electrical connection from P+Activ to NWell tie (or N+ Activ to P-sub tie) is made through the source/drain silicide. For a good electrical connection rule pSD.g is important together with rule pSD.e or pSD.f (see Fig. 5.10).) = 0.30</description>
    <categories>
    </categories>
   </category>
   <category>
    <name>pSD.f</name>
-   <description>Min. Activ extension over pSD at one position when forming abutted NWell tie (Note 2) = 0.30</description>
+   <description>Min. Activ extension over pSD at one position when forming abutted NWell tie (These rules are for abutted ties: An electrical connection from P+Activ to NWell tie (or N+ Activ to P-sub tie) is made through the source/drain silicide. For a good electrical connection rule pSD.g is important together with rule pSD.e or pSD.f (see Fig. 5.10).) = 0.30</description>
    <categories>
    </categories>
   </category>
   <category>
    <name>pSD.g</name>
-   <description>Min. N+Activ or P+Activ area (µm²) when forming abutted tie (Note 2) = 0.09</description>
+   <description>Min. N+Activ or P+Activ area (µm²) when forming abutted tie (These rules are for abutted ties: An electrical connection from P+Activ to NWell tie (or N+ Activ to P-sub tie) is made through the source/drain silicide. For a good electrical connection rule pSD.g is important together with rule pSD.e or pSD.f (see Fig. 5.10).) = 0.09</description>
    <categories>
    </categories>
   </category>
@@ -483,13 +447,13 @@
   </category>
   <category>
    <name>nSDB.c</name>
-   <description>Min. nSD:block space to unrelated pSD = 0.31</description>
+   <description>Min. nSD:block space to pSD = 0.31</description>
    <categories>
    </categories>
   </category>
   <category>
    <name>nSDB.e</name>
-   <description>Min. nSD:block space to Cont (Note 2) = 0.00</description>
+   <description>Min. nSD:block space to Cont (nSD:block and Cont do not overlap.) = 0.00</description>
    <categories>
    </categories>
   </category>
@@ -555,7 +519,7 @@
   </category>
   <category>
    <name>Cnt.b1</name>
-   <description>Min. Cont space in a contact array of more than 4 rows and more then 4 columns (Note 1) = 0.20</description>
+   <description>Min. Cont space in a contact array of more than 4 rows and more then 4 columns (Cnt.b1 is only required in one direction. The distance of the other direction must be at least Cnt.b.) = 0.20</description>
    <categories>
    </categories>
   </category>
@@ -711,7 +675,7 @@
   </category>
   <category>
    <name>M1.c1</name>
-   <description>Min. Metal1 endcap enclosure of Cont (Note 1) = 0.05</description>
+   <description>Min. Metal1 endcap enclosure of Cont (For contacts at Metal1 corners at least one side must be treated as an endcap and for the other sides rule M1.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -722,14 +686,8 @@
    </categories>
   </category>
   <category>
-   <name>M1.j</name>
-   <description>Min. global Metal1 density [%] = 35.0</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M1.k</name>
-   <description>Max. global Metal1 density [%] = 60.0</description>
+   <name>M1.j/k</name>
+   <description>Global Metal1 density [%] = 35.0 .. 60.0</description>
    <categories>
    </categories>
   </category>
@@ -753,7 +711,7 @@
   </category>
   <category>
    <name>M2.c1</name>
-   <description>Min. Metal2 endcap enclosure of Via1 (Note 1) = 0.05</description>
+   <description>Min. Metal2 endcap enclosure of Via1 (For vias at Metal2 corners at least one side must be treated as an endcap and for the other sides rule M2.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -764,14 +722,8 @@
    </categories>
   </category>
   <category>
-   <name>M2.j</name>
-   <description>Min. global Metal2 density [%] = 35.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M2.k</name>
-   <description>Max. global Metal2 density [%] = 60.00</description>
+   <name>M2.j/k</name>
+   <description>Global Metal2 density [%] = 35.00 .. 60.00</description>
    <categories>
    </categories>
   </category>
@@ -795,7 +747,7 @@
   </category>
   <category>
    <name>M3.c1</name>
-   <description>Min. Metal3 endcap enclosure of Via2 (Note 1) = 0.05</description>
+   <description>Min. Metal3 endcap enclosure of Via2 (For vias at Metal3 corners at least one side must be treated as an endcap and for the other sides rule M3.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -806,14 +758,8 @@
    </categories>
   </category>
   <category>
-   <name>M3.j</name>
-   <description>Min. global Metal3 density [%] = 35.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M3.k</name>
-   <description>Max. global Metal3 density [%] = 60.00</description>
+   <name>M3.j/k</name>
+   <description>Global Metal3 density [%] = 35.00 .. 60.00</description>
    <categories>
    </categories>
   </category>
@@ -837,7 +783,7 @@
   </category>
   <category>
    <name>M4.c1</name>
-   <description>Min. Metal4 endcap enclosure of Via3 (Note 1) = 0.05</description>
+   <description>Min. Metal4 endcap enclosure of Via3 (For vias at Metal4 corners at least one side must be treated as an endcap and for the other sides rule M4.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -848,14 +794,8 @@
    </categories>
   </category>
   <category>
-   <name>M4.j</name>
-   <description>Min. global Metal4 density [%] = 35.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M4.k</name>
-   <description>Max. global Metal4 density [%] = 60.00</description>
+   <name>M4.j/k</name>
+   <description>Global Metal4 density [%] = 35.00 .. 60.00</description>
    <categories>
    </categories>
   </category>
@@ -879,7 +819,7 @@
   </category>
   <category>
    <name>M5.c1</name>
-   <description>Min. Metal5 endcap enclosure of Via4 (Note 1) = 0.05</description>
+   <description>Min. Metal5 endcap enclosure of Via4 (For vias at Metal5 corners at least one side must be treated as an endcap and for the other sides rule M5.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -890,14 +830,8 @@
    </categories>
   </category>
   <category>
-   <name>M5.j</name>
-   <description>Min. global Metal5 density [%] = 35.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M5.k</name>
-   <description>Max. global Metal5 density [%] = 60.00</description>
+   <name>M5.j/k</name>
+   <description>Global Metal5 density [%] = 35.00 .. 60.00</description>
    <categories>
    </categories>
   </category>
@@ -926,14 +860,8 @@
    </categories>
   </category>
   <category>
-   <name>M1Fil.h</name>
-   <description>Min. Metal1 and Metal1:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M1Fil.k</name>
-   <description>Max. Metal1 and Metal1:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <name>M1Fil.h/k</name>
+   <description>Metal1 and Metal1:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
@@ -962,14 +890,8 @@
    </categories>
   </category>
   <category>
-   <name>M2Fil.h</name>
-   <description>Min. Metal2 and Metal2:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M2Fil.k</name>
-   <description>Max. Metal2 and Metal2:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <name>M2Fil.h/k</name>
+   <description>Metal2 and Metal2:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
@@ -998,14 +920,8 @@
    </categories>
   </category>
   <category>
-   <name>M3Fil.h</name>
-   <description>Min. Metal3 and Metal3:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M3Fil.k</name>
-   <description>Max. Metal3 and Metal3:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <name>M3Fil.h/k</name>
+   <description>Metal3 and Metal3:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
@@ -1034,14 +950,8 @@
    </categories>
   </category>
   <category>
-   <name>M4Fil.h</name>
-   <description>Min. Metal4 and Metal4:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M4Fil.k</name>
-   <description>Max. Metal4 and Metal4:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <name>M4Fil.h/k</name>
+   <description>Metal4 and Metal4:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
@@ -1070,14 +980,8 @@
    </categories>
   </category>
   <category>
-   <name>M5Fil.h</name>
-   <description>Min. Metal5 and Metal5:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M5Fil.k</name>
-   <description>Max. Metal5 and Metal5:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <name>M5Fil.h/k</name>
+   <description>Metal5 and Metal5:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00 .. 75.00</description>
    <categories>
    </categories>
   </category>
@@ -1095,13 +999,13 @@
   </category>
   <category>
    <name>V1.b1</name>
-   <description>Min. Via1 space in an array of more than 3 rows and more then 3 columns (Note 1) = 0.29</description>
+   <description>Min. Via1 space in an array of more than 3 rows and more then 3 columns (V1.b1 is only required in one direction. The distance of the other direction must be at least V1.b.) = 0.29</description>
    <categories>
    </categories>
   </category>
   <category>
    <name>V1.c1</name>
-   <description>Min. Metal1 endcap enclosure of Via1 (Note 2) = 0.05</description>
+   <description>Min. Metal1 endcap enclosure of Via1 (For Via1 at Metal1 corners at least one side must be treated as an endcap and for the other sides rule V1.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -1119,13 +1023,13 @@
   </category>
   <category>
    <name>V2.b1</name>
-   <description>Min. Via2 space in an array of more than 3 rows and more then 3 columns (Note 1) = 0.29</description>
+   <description>Min. Via2 space in an array of more than 3 rows and more then 3 columns (V2.b1 is only required in one direction. The distance of the other direction must be at least V2.b.) = 0.29</description>
    <categories>
    </categories>
   </category>
   <category>
    <name>V2.c1</name>
-   <description>Min. Metal2 endcap enclosure of Via2 (Note 2) = 0.05</description>
+   <description>Min. Metal2 endcap enclosure of Via2 (For Via2 at Metal2 corners at least one side must be treated as an endcap and for the other sides rule V2.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -1143,13 +1047,13 @@
   </category>
   <category>
    <name>V3.b1</name>
-   <description>Min. Via3 space in an array of more than 3 rows and more then 3 columns (Note 1) = 0.29</description>
+   <description>Min. Via3 space in an array of more than 3 rows and more then 3 columns (V3.b1 is only required in one direction. The distance of the other direction must be at least V3.b.) = 0.29</description>
    <categories>
    </categories>
   </category>
   <category>
    <name>V3.c1</name>
-   <description>Min. Metal3 endcap enclosure of Via3 (Note 2) = 0.05</description>
+   <description>Min. Metal3 endcap enclosure of Via3 (For Via3 at Metal3 corners at least one side must be treated as an endcap and for the other sides rule V3.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -1167,13 +1071,13 @@
   </category>
   <category>
    <name>V4.b1</name>
-   <description>Min. Via4 space in an array of more than 3 rows and more then 3 columns (Note 1) = 0.29</description>
+   <description>Min. Via4 space in an array of more than 3 rows and more then 3 columns (V4.b1 is only required in one direction. The distance of the other direction must be at least V4.b.) = 0.29</description>
    <categories>
    </categories>
   </category>
   <category>
    <name>V4.c1</name>
-   <description>Min. Metal4 endcap enclosure of Via4 (Note 2) = 0.05</description>
+   <description>Min. Metal4 endcap enclosure of Via4 (For Via4 at Metal4 corners at least one side must be treated as an endcap and for the other sides rule V4.c can be applied.) = 0.05</description>
    <categories>
    </categories>
   </category>
@@ -1202,14 +1106,8 @@
    </categories>
   </category>
   <category>
-   <name>TM1.c</name>
-   <description>Min. global TopMetal1 density [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>TM1.d</name>
-   <description>Max. global TopMetal1 density [%] = 70.00</description>
+   <name>TM1.c/d</name>
+   <description>Global TopMetal1 density [%] = 25.00 .. 70.00</description>
    <categories>
    </categories>
   </category>
@@ -1262,14 +1160,8 @@
    </categories>
   </category>
   <category>
-   <name>TM2.c</name>
-   <description>Min. global TopMetal2 density [%] = 25.00</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>TM2.d</name>
-   <description>Max. global TopMetal2 density [%] = 70.00</description>
+   <name>TM2.c/d</name>
+   <description>Global TopMetal2 density [%] = 25.00 .. 70.00</description>
    <categories>
    </categories>
   </category>
@@ -1473,7 +1365,7 @@
   </category>
   <category>
    <name>Rhi.b</name>
-   <description>pSD and nSD are identical (Note 1)</description>
+   <description>pSD and nSD are identical (nSD:drawing is only permitted within Rhigh resistors. Apart from that, nSD is generated automatically (see section 4.2).)</description>
    <categories>
    </categories>
   </category>
@@ -1503,7 +1395,7 @@
   </category>
   <category>
    <name>nmosi.b</name>
-   <description>Min. nBuLay enclosure of Iso-PWell-Activ (Note 1) = 1.24</description>
+   <description>Min. nBuLay enclosure of Iso-PWell-Activ (Iso-PWell-Activ = Activ AND nBuLay AND PWell) = 1.24</description>
    <categories>
    </categories>
   </category>
@@ -1515,7 +1407,7 @@
   </category>
   <category>
    <name>nmosi.d</name>
-   <description>Min. NWell-nBuLay width forming an unbroken ring around any Iso-PWell-Activ (Note 2) = 0.62</description>
+   <description>Min. NWell-nBuLay width forming an unbroken ring around any Iso-PWell-Activ (NWell-nBuLay = NWell AND nBuLay) = 0.62</description>
    <categories>
    </categories>
   </category>
@@ -1575,7 +1467,7 @@
   </category>
   <category>
    <name>Pad.dR</name>
-   <description>Min. recommended Pad to EdgeSeal space (Note 1) = 25.00</description>
+   <description>Min. recommended Pad to EdgeSeal space (Distance of Pad opening to EdgeSeal strongly depends on bonding procedure. For flip chip bonding via solder bumps (see section 6.9.1) or copper pillars (see section 6.9.2) or manual bonding a bigger distance may be required. We strongly recommend 25 µm distance for wedge-wedge wire bonding.) = 25.00</description>
    <categories>
    </categories>
   </category>
@@ -1593,13 +1485,13 @@
   </category>
   <category>
    <name>Pad.jR</name>
-   <description>No devices under Pad allowed (Note 2)</description>
+   <description>No devices under Pad allowed (Components under pads can be damaged by mechanical stress.)</description>
    <categories>
    </categories>
   </category>
   <category>
    <name>Pad.kR</name>
-   <description>TopVia2 under Pad not allowed (Note 3)</description>
+   <description>TopVia2 under Pad not allowed (TopVia2 may be damaged during packaging process, we recommend not to use them below Passiv.)</description>
    <categories>
    </categories>
   </category>
@@ -2800,7 +2692,7 @@
  </categories>
  <cells>
   <cell>
-   <name>TOP</name>
+   <name>FMD_QNC_03a_TIA_1</name>
    <variant/>
    <layout-name/>
    <references>
@@ -2808,5 +2700,17 @@
   </cell>
  </cells>
  <items>
+  <item>
+   <tags/>
+   <category>'TM2.c/d'</category>
+   <cell>FMD_QNC_03a_TIA_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (62.215,-53.855;62.215,846.145;822.215,846.145;822.215,-53.855)</value>
+   </values>
+  </item>
  </items>
 </report-database>
