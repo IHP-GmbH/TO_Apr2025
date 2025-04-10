@@ -27,6 +27,6 @@ R3 OSCP VCC rppd w=4.35e-6 l=1.5e-6 m=1 b=0
 C4 VCC OSCN cap_cmim w=19.1e-6 l=10.7e-6 m=1
 R4 OSCN VCC rppd w=4.35e-6 l=1.5e-6 m=1 b=0
 **L1 VDC LON GND inductor2 w=10.0e-6 s=10.0e-6 d=222.0e-6 nr_r=2
-**L1 VDC LOP GND inductor2 w=10.0e-6 s=10.0e-6 d=222.0e-6 nr_r=2
+**L2 VDC LOP GND inductor2 w=10.0e-6 s=10.0e-6 d=222.0e-6 nr_r=2
 .ends
 .end
