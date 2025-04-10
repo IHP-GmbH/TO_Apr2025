@@ -504,5 +504,29 @@
   </cell>
  </cells>
  <items>
+  <item>
+   <tags/>
+   <category>'M1Fil.h/k'</category>
+   <cell>FMD_QNC_03a_TIA_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (62.215,746.145;62.215,1546.145;862.215,1546.145;862.215,746.145)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1Fil.h/k'</category>
+   <cell>FMD_QNC_03a_TIA_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (462.215,746.145;462.215,1546.145;1262.215,1546.145;1262.215,746.145)</value>
+   </values>
+  </item>
  </items>
 </report-database>
