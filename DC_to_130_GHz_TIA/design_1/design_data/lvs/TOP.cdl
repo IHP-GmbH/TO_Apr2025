@@ -1,0 +1,26 @@
+* Qucs 25.1.0  C:/Users/nsl/QucsWorkspace/ikram_prj/lvs_check_copy1.sch
+
+.SUBCKT IHP_PDK_nonlinear_components_npn13G2  gnd c b e bn Nx=1  
+X1 c b e bn npn13G2 Nx={Nx} 
+.ENDS
+  
+
+.SUBCKT IHP_PDK_basic_components_cap_cmim  gnd P1 P2  l=7.0u w=7.0u
+X1 P1 P2 cap_cmim l={l} w={w}
+.ENDS
+  
+
+.SUBCKT IHP_PDK_basic_components_rppd  gnd P1 P2 w=1.0e-6 l=0.5e-6 m=1
+X1 P1 P2 rppd w={w} l={l} m={m}
+.ENDS
+  
+.GLOBAL 0:G
+Xnpn13G1 0  _net0 INPUT VEE VEE IHP_PDK_nonlinear_components_npn13G2 Nx=5
+Xnpn13G2 0  OUTPUT _net0 VEE VEE IHP_PDK_nonlinear_components_npn13G2 Nx=4
+Xcap_cmim1 0  VCC2V VEE IHP_PDK_basic_components_cap_cmim l=30U w=30U
+
+Xcap_cmim2 0  VCC2V VEE IHP_PDK_basic_components_cap_cmim l=30U w=30U
+Xrppd2 0  VCC2V OUTPUT IHP_PDK_basic_components_rppd w=11.5U l=2U m=1
+Xrppd1 0  VCC2V _net0 IHP_PDK_basic_components_rppd w=15U l=4U m=1
+Xrppd3 0  INPUT _net0 IHP_PDK_basic_components_rppd w=29U l=6.3U m=1
+.END

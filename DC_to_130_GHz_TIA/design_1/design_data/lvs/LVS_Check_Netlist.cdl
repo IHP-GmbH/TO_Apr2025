@@ -1,0 +1,22 @@
+*Modified Qucs-s netlist for KLAYOUT LVS check
+
+.SUBCKT TOP
+
+Rbulk VEE VEE ptap1 A=3.6504p P=18.72u
+
+Rq2 OUTPUT VCC2V1 rppd w=11.5u l=2u ps=0 b=0 m=1
+
+Rq1 VCC2V \connection rppd w=15u l=4u ps=0 b=0 m=1
+
+Rrf INPUT \connection rppd w=29u l=6.3u ps=0 b=0 m=1
+
+Qq1 \connection INPUT VEE VEE npn13G2 AE=0.063p PE=1.94u AB=31.9135p PB=26.72u
++ AC=31.896634p PC=26.71u NE=5 m=5
+
+Qq2 OUTPUT \connection VEE VEE npn13G2 AE=0.063p PE=1.94u AB=25.605p PB=23.02u
++ AC=25.589984p PC=23.01u NE=4 m=4
+
+C19 VCC2V VEE cap_cmim w=30u l=30u A=900p P=120u m=1
+
+C20 VCC2V1 VEE cap_cmim w=30u l=30u A=900p P=120u m=1
+.ENDS TOP
