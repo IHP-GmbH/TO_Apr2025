@@ -1,0 +1,236 @@
+
+==========================================================================
+floorplan final report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+floorplan final report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+floorplan final report_worst_slack
+--------------------------------------------------------------------------
+worst slack 14.94
+
+==========================================================================
+floorplan final report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: reset_n_phy (input port clocked by clk_25mhz)
+Endpoint: ascon_top_inst.state_machine.squeeze_counter[2]$_DFFE_PN0P_
+          (removal check against rising-edge clock clk_25mhz)
+Path Group: asynchronous
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 ^ input external delay
+     2    5.20    0.00    0.00    2.00 ^ reset_n_phy (in)
+                                         reset_n_phy (net)
+                  0.00    0.00    2.00 ^ u_pad_reset_n_phy/pad (sg13g2_IOPadIn)
+    12    0.07    0.13    0.12    2.12 ^ u_pad_reset_n_phy/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.rst_n (net)
+                  0.00    0.00    2.12 ^ ascon_top_inst.state_machine.squeeze_counter[2]$_DFFE_PN0P_/RESET_B (sg13g2_dfrbp_1)
+                                  2.12   data arrival time
+
+                  0.25    0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.15    0.15   clock uncertainty
+                          0.00    0.15   clock reconvergence pessimism
+                                  0.15 ^ ascon_top_inst.state_machine.squeeze_counter[2]$_DFFE_PN0P_/CLK (sg13g2_dfrbp_1)
+                         -0.06    0.09   library removal time
+                                  0.09   data required time
+-----------------------------------------------------------------------------
+                                  0.09   data required time
+                                 -2.12   data arrival time
+-----------------------------------------------------------------------------
+                                  2.03   slack (MET)
+
+
+Startpoint: uart_rx_inst.r_Rx_Data_R$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_25mhz)
+Endpoint: uart_rx_inst.r_Rx_Data$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_25mhz)
+Path Group: clk_25mhz
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.25    0.00    0.00 ^ uart_rx_inst.r_Rx_Data_R$_DFF_P_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.02    0.27    0.27 v uart_rx_inst.r_Rx_Data_R$_DFF_P_/Q (sg13g2_dfrbp_1)
+                                         uart_rx_inst.r_Rx_Data_R (net)
+                  0.02    0.00    0.27 v uart_rx_inst.r_Rx_Data$_DFF_P_/D (sg13g2_dfrbp_1)
+                                  0.27   data arrival time
+
+                  0.25    0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.15    0.15   clock uncertainty
+                          0.00    0.15   clock reconvergence pessimism
+                                  0.15 ^ uart_rx_inst.r_Rx_Data$_DFF_P_/CLK (sg13g2_dfrbp_1)
+                          0.02    0.17   library hold time
+                                  0.17   data required time
+-----------------------------------------------------------------------------
+                                  0.17   data required time
+                                 -0.27   data arrival time
+-----------------------------------------------------------------------------
+                                  0.10   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: reset_n_phy (input port clocked by clk_25mhz)
+Endpoint: ascon_top_inst.msg_start_prev$_DFF_PN0_
+          (recovery check against rising-edge clock clk_25mhz)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 ^ input external delay
+     2    5.24    0.00    0.00    2.00 ^ reset_n_phy (in)
+                                         reset_n_phy (net)
+                  0.00    0.00    2.00 ^ u_pad_reset_n_phy/pad (sg13g2_IOPadIn)
+    12    0.07    0.13    0.12    2.12 ^ u_pad_reset_n_phy/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.rst_n (net)
+                  0.07    0.00    2.12 ^ ascon_top_inst.msg_start_prev$_DFF_PN0_/RESET_B (sg13g2_dfrbp_1)
+                                  2.12   data arrival time
+
+                  0.25   20.83   20.83   clock clk_25mhz (rise edge)
+                          0.00   20.83   clock network delay (ideal)
+                         -0.15   20.68   clock uncertainty
+                          0.00   20.68   clock reconvergence pessimism
+                                 20.68 ^ ascon_top_inst.msg_start_prev$_DFF_PN0_/CLK (sg13g2_dfrbp_1)
+                         -0.10   20.58   library recovery time
+                                 20.58   data required time
+-----------------------------------------------------------------------------
+                                 20.58   data required time
+                                 -2.12   data arrival time
+-----------------------------------------------------------------------------
+                                 18.46   slack (MET)
+
+
+Startpoint: uart_tx_inst.o_Tx_Serial$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_25mhz)
+Endpoint: tx_phy (output port clocked by clk_25mhz)
+Path Group: clk_25mhz
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.25    0.00    0.00 ^ uart_tx_inst.o_Tx_Serial$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     4    0.05    0.21    0.41    0.41 ^ uart_tx_inst.o_Tx_Serial$_DFFE_PP_/Q (sg13g2_dfrbp_1)
+                                         core_tx_phy (net)
+                  0.28    0.00    0.41 ^ u_pad_tx_phy/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    4.68    3.33    3.74 ^ u_pad_tx_phy/pad (sg13g2_IOPadOut4mA)
+                                         tx_phy (net)
+                  3.51    0.00    3.74 ^ tx_phy (out)
+                                  3.74   data arrival time
+
+                  0.25   20.83   20.83   clock clk_25mhz (rise edge)
+                          0.00   20.83   clock network delay (ideal)
+                         -0.15   20.68   clock uncertainty
+                          0.00   20.68   clock reconvergence pessimism
+                         -2.00   18.68   output external delay
+                                 18.68   data required time
+-----------------------------------------------------------------------------
+                                 18.68   data required time
+                                 -3.74   data arrival time
+-----------------------------------------------------------------------------
+                                 14.94   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: reset_n_phy (input port clocked by clk_25mhz)
+Endpoint: ascon_top_inst.msg_start_prev$_DFF_PN0_
+          (recovery check against rising-edge clock clk_25mhz)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 ^ input external delay
+     2    5.24    0.00    0.00    2.00 ^ reset_n_phy (in)
+                                         reset_n_phy (net)
+                  0.00    0.00    2.00 ^ u_pad_reset_n_phy/pad (sg13g2_IOPadIn)
+    12    0.07    0.13    0.12    2.12 ^ u_pad_reset_n_phy/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.rst_n (net)
+                  0.07    0.00    2.12 ^ ascon_top_inst.msg_start_prev$_DFF_PN0_/RESET_B (sg13g2_dfrbp_1)
+                                  2.12   data arrival time
+
+                  0.25   20.83   20.83   clock clk_25mhz (rise edge)
+                          0.00   20.83   clock network delay (ideal)
+                         -0.15   20.68   clock uncertainty
+                          0.00   20.68   clock reconvergence pessimism
+                                 20.68 ^ ascon_top_inst.msg_start_prev$_DFF_PN0_/CLK (sg13g2_dfrbp_1)
+                         -0.10   20.58   library recovery time
+                                 20.58   data required time
+-----------------------------------------------------------------------------
+                                 20.58   data required time
+                                 -2.12   data arrival time
+-----------------------------------------------------------------------------
+                                 18.46   slack (MET)
+
+
+Startpoint: uart_tx_inst.o_Tx_Serial$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_25mhz)
+Endpoint: tx_phy (output port clocked by clk_25mhz)
+Path Group: clk_25mhz
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.25    0.00    0.00 ^ uart_tx_inst.o_Tx_Serial$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     4    0.05    0.21    0.41    0.41 ^ uart_tx_inst.o_Tx_Serial$_DFFE_PP_/Q (sg13g2_dfrbp_1)
+                                         core_tx_phy (net)
+                  0.28    0.00    0.41 ^ u_pad_tx_phy/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    4.68    3.33    3.74 ^ u_pad_tx_phy/pad (sg13g2_IOPadOut4mA)
+                                         tx_phy (net)
+                  3.51    0.00    3.74 ^ tx_phy (out)
+                                  3.74   data arrival time
+
+                  0.25   20.83   20.83   clock clk_25mhz (rise edge)
+                          0.00   20.83   clock network delay (ideal)
+                         -0.15   20.68   clock uncertainty
+                          0.00   20.68   clock reconvergence pessimism
+                         -2.00   18.68   output external delay
+                                 18.68   data required time
+-----------------------------------------------------------------------------
+                                 18.68   data required time
+                                 -3.74   data arrival time
+-----------------------------------------------------------------------------
+                                 14.94   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             2.33e-03   1.21e-04   6.51e-07   2.46e-03  26.1%
+Combinational          3.97e-03   2.97e-03   9.64e-07   6.94e-03  73.8%
+Clock                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    4.64e-07   1.41e-05   1.10e-08   1.46e-05   0.2%
+----------------------------------------------------------------
+Total                  6.30e-03   3.11e-03   1.63e-06   9.42e-03 100.0%
+                          67.0%      33.0%       0.0%

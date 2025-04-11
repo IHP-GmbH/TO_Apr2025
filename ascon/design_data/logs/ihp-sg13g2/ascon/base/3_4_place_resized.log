@@ -1,0 +1,23 @@
+OpenROAD v2.0-18853-gac67d5a11 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+Perform port buffering...
+Perform buffer insertion and gate resizing...
+repair_design -match_cell_footprint
+[INFO RSZ-0058] Using max wire length 23868um.
+Repair tie lo fanout...
+Repair tie hi fanout...
+[INFO RSZ-0042] Inserted 1367 tie sg13g2_tiehi instances.
+Floating nets: 
+[WARNING RSZ-0095] found 8 floating pins.
+Report metrics stage 3, resizer...
+
+==========================================================================
+resizer report_design_area
+--------------------------------------------------------------------------
+Design area 154015 u^2 39% utilization.
+Instance count before 9405, after 10771
+Pin count before 32506, after 33872
+Elapsed time: 0:04.71[h:]min:sec. CPU time: user 4.78 sys 0.11 (103%). Peak memory: 404244KB.

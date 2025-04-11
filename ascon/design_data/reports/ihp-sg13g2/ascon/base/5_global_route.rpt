@@ -1,0 +1,594 @@
+
+==========================================================================
+global route report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+global route report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+global route report_worst_slack
+--------------------------------------------------------------------------
+worst slack 13.89
+
+==========================================================================
+global route report_clock_skew
+--------------------------------------------------------------------------
+Clock clk_25mhz
+   1.09 source latency ascon_top_inst.ascon_permutation.s1[32]$_DFFE_PP_/CLK ^
+  -0.90 target latency ascon_top_inst.ascon_permutation.state_out[260]$_SDFFCE_PP0P_/CLK ^
+   0.15 clock uncertainty
+   0.00 CRPR
+--------------
+   0.33 setup skew
+
+
+==========================================================================
+global route report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: reset_n_phy (input port clocked by clk_25mhz)
+Endpoint: ascon_top_inst.state_machine.current_state[2]$_DFFE_PN0P_
+          (removal check against rising-edge clock clk_25mhz)
+Path Group: asynchronous
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.00    2.00 ^ input external delay
+     2    5.20    0.00    0.00    2.00 ^ reset_n_phy (in)
+                                         reset_n_phy (net)
+                  0.00    0.00    2.00 ^ u_pad_reset_n_phy/pad (sg13g2_IOPadIn)
+     2    0.07    0.13    0.12    2.12 ^ u_pad_reset_n_phy/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.rst_n (net)
+                  0.10    0.00    2.12 ^ fanout2083/A (sg13g2_buf_1)
+     4    0.03    0.11    0.16    2.28 ^ fanout2083/X (sg13g2_buf_1)
+                                         net2083 (net)
+                  0.11    0.00    2.28 ^ ascon_top_inst.state_machine.current_state[2]$_DFFE_PN0P_/RESET_B (sg13g2_dfrbp_1)
+                                  2.28   data arrival time
+
+                          0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.05    0.09    0.00    0.00 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.ascon_permutation.clk (net)
+                  0.07    0.00    0.00 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+    16    0.30    0.61    0.50    0.50 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.61    0.00    0.51 ^ clkbuf_4_9_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     2    0.01    0.06    0.25    0.76 ^ clkbuf_4_9_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_4_9_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.06    0.00    0.76 ^ clkbuf_5_19__f_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+     7    0.06    0.12    0.16    0.92 ^ clkbuf_5_19__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_5_19__leaf_ascon_top_inst.ascon_permutation.clk (net)
+                  0.12    0.00    0.92 ^ clkbuf_leaf_188_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     8    0.03    0.05    0.15    1.07 ^ clkbuf_leaf_188_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_leaf_188_ascon_top_inst.ascon_permutation.clk (net)
+                  0.05    0.00    1.07 ^ ascon_top_inst.state_machine.current_state[2]$_DFFE_PN0P_/CLK (sg13g2_dfrbp_1)
+                          0.15    1.22   clock uncertainty
+                          0.00    1.22   clock reconvergence pessimism
+                         -0.12    1.10   library removal time
+                                  1.10   data required time
+-----------------------------------------------------------------------------
+                                  1.10   data required time
+                                 -2.28   data arrival time
+-----------------------------------------------------------------------------
+                                  1.18   slack (MET)
+
+
+Startpoint: uart_rx_inst.r_Rx_Data_R$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_25mhz)
+Endpoint: uart_rx_inst.r_Rx_Data$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_25mhz)
+Path Group: clk_25mhz
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.05    0.09    0.00    0.00 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.ascon_permutation.clk (net)
+                  0.07    0.00    0.00 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+    16    0.30    0.61    0.50    0.50 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.61    0.00    0.51 ^ clkbuf_4_10_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     2    0.01    0.06    0.25    0.76 ^ clkbuf_4_10_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_4_10_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.06    0.00    0.76 ^ clkbuf_5_20__f_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+     7    0.05    0.10    0.15    0.91 ^ clkbuf_5_20__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_5_20__leaf_ascon_top_inst.ascon_permutation.clk (net)
+                  0.10    0.00    0.91 ^ clkbuf_leaf_162_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     3    0.03    0.05    0.14    1.05 ^ clkbuf_leaf_162_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_leaf_162_ascon_top_inst.ascon_permutation.clk (net)
+                  0.05    0.00    1.05 ^ uart_rx_inst.r_Rx_Data_R$_DFF_P_/CLK (sg13g2_dfrbp_1)
+     1    0.01    0.03    0.22    1.27 v uart_rx_inst.r_Rx_Data_R$_DFF_P_/Q (sg13g2_dfrbp_1)
+                                         uart_rx_inst.r_Rx_Data_R (net)
+                  0.03    0.00    1.27 v uart_rx_inst.r_Rx_Data$_DFF_P_/D (sg13g2_dfrbp_1)
+                                  1.27   data arrival time
+
+                          0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.05    0.09    0.00    0.00 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.ascon_permutation.clk (net)
+                  0.07    0.00    0.00 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+    16    0.30    0.61    0.50    0.50 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.61    0.00    0.51 ^ clkbuf_4_8_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     2    0.01    0.06    0.25    0.76 ^ clkbuf_4_8_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_4_8_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.06    0.00    0.76 ^ clkbuf_5_16__f_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+     7    0.05    0.11    0.15    0.91 ^ clkbuf_5_16__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_5_16__leaf_ascon_top_inst.ascon_permutation.clk (net)
+                  0.11    0.00    0.91 ^ clkbuf_leaf_176_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     8    0.03    0.05    0.14    1.05 ^ clkbuf_leaf_176_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_leaf_176_ascon_top_inst.ascon_permutation.clk (net)
+                  0.05    0.00    1.05 ^ uart_rx_inst.r_Rx_Data$_DFF_P_/CLK (sg13g2_dfrbp_1)
+                          0.15    1.20   clock uncertainty
+                          0.00    1.20   clock reconvergence pessimism
+                         -0.03    1.17   library hold time
+                                  1.17   data required time
+-----------------------------------------------------------------------------
+                                  1.17   data required time
+                                 -1.27   data arrival time
+-----------------------------------------------------------------------------
+                                  0.09   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: reset_n_phy (input port clocked by clk_25mhz)
+Endpoint: ascon_top_inst.msg_start_prev$_DFF_PN0_
+          (recovery check against rising-edge clock clk_25mhz)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.00    2.00 ^ input external delay
+     2    5.24    0.00    0.00    2.00 ^ reset_n_phy (in)
+                                         reset_n_phy (net)
+                  0.00    0.00    2.00 ^ u_pad_reset_n_phy/pad (sg13g2_IOPadIn)
+     2    0.07    0.13    0.12    2.12 ^ u_pad_reset_n_phy/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.rst_n (net)
+                  0.10    0.00    2.12 ^ fanout2082/A (sg13g2_buf_1)
+     8    0.08    0.32    0.30    2.42 ^ fanout2082/X (sg13g2_buf_1)
+                                         net2082 (net)
+                  0.32    0.00    2.43 ^ ascon_top_inst.msg_start_prev$_DFF_PN0_/RESET_B (sg13g2_dfrbp_1)
+                                  2.43   data arrival time
+
+                         20.83   20.83   clock clk_25mhz (rise edge)
+                          0.00   20.83   clock source latency
+     1    0.05    0.09    0.00   20.83 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.ascon_permutation.clk (net)
+                  0.07    0.00   20.83 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+    16    0.30    0.61    0.50   21.34 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.61    0.00   21.34 ^ clkbuf_4_8_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     2    0.01    0.06    0.25   21.60 ^ clkbuf_4_8_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_4_8_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.06    0.00   21.60 ^ clkbuf_5_17__f_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+     7    0.05    0.10    0.14   21.74 ^ clkbuf_5_17__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_5_17__leaf_ascon_top_inst.ascon_permutation.clk (net)
+                  0.10    0.00   21.74 ^ clkbuf_leaf_174_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     7    0.03    0.05    0.14   21.87 ^ clkbuf_leaf_174_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_leaf_174_ascon_top_inst.ascon_permutation.clk (net)
+                  0.05    0.00   21.87 ^ ascon_top_inst.msg_start_prev$_DFF_PN0_/CLK (sg13g2_dfrbp_1)
+                         -0.15   21.72   clock uncertainty
+                          0.00   21.72   clock reconvergence pessimism
+                         -0.21   21.52   library recovery time
+                                 21.52   data required time
+-----------------------------------------------------------------------------
+                                 21.52   data required time
+                                 -2.43   data arrival time
+-----------------------------------------------------------------------------
+                                 19.09   slack (MET)
+
+
+Startpoint: uart_tx_inst.o_Tx_Serial$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_25mhz)
+Endpoint: tx_phy (output port clocked by clk_25mhz)
+Path Group: clk_25mhz
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.05    0.09    0.00    0.00 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.ascon_permutation.clk (net)
+                  0.07    0.00    0.00 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+    16    0.30    0.61    0.50    0.50 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.61    0.00    0.51 ^ clkbuf_4_10_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     2    0.01    0.06    0.25    0.76 ^ clkbuf_4_10_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_4_10_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.06    0.00    0.76 ^ clkbuf_5_21__f_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+     7    0.05    0.10    0.14    0.91 ^ clkbuf_5_21__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_5_21__leaf_ascon_top_inst.ascon_permutation.clk (net)
+                  0.10    0.00    0.91 ^ clkbuf_leaf_160_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     8    0.03    0.05    0.14    1.05 ^ clkbuf_leaf_160_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_leaf_160_ascon_top_inst.ascon_permutation.clk (net)
+                  0.05    0.00    1.05 ^ uart_tx_inst.o_Tx_Serial$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     4    0.07    0.27    0.38    1.43 ^ uart_tx_inst.o_Tx_Serial$_DFFE_PP_/Q (sg13g2_dfrbp_1)
+                                         core_tx_phy (net)
+                  0.36    0.00    1.43 ^ u_pad_tx_phy/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    4.68    3.37    4.80 ^ u_pad_tx_phy/pad (sg13g2_IOPadOut4mA)
+                                         tx_phy (net)
+                  3.51    0.00    4.80 ^ tx_phy (out)
+                                  4.80   data arrival time
+
+                         20.83   20.83   clock clk_25mhz (rise edge)
+                          0.00   20.83   clock network delay (propagated)
+                         -0.15   20.68   clock uncertainty
+                          0.00   20.68   clock reconvergence pessimism
+                         -2.00   18.68   output external delay
+                                 18.68   data required time
+-----------------------------------------------------------------------------
+                                 18.68   data required time
+                                 -4.80   data arrival time
+-----------------------------------------------------------------------------
+                                 13.89   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: reset_n_phy (input port clocked by clk_25mhz)
+Endpoint: ascon_top_inst.msg_start_prev$_DFF_PN0_
+          (recovery check against rising-edge clock clk_25mhz)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.00    2.00 ^ input external delay
+     2    5.24    0.00    0.00    2.00 ^ reset_n_phy (in)
+                                         reset_n_phy (net)
+                  0.00    0.00    2.00 ^ u_pad_reset_n_phy/pad (sg13g2_IOPadIn)
+     2    0.07    0.13    0.12    2.12 ^ u_pad_reset_n_phy/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.rst_n (net)
+                  0.10    0.00    2.12 ^ fanout2082/A (sg13g2_buf_1)
+     8    0.08    0.32    0.30    2.42 ^ fanout2082/X (sg13g2_buf_1)
+                                         net2082 (net)
+                  0.32    0.00    2.43 ^ ascon_top_inst.msg_start_prev$_DFF_PN0_/RESET_B (sg13g2_dfrbp_1)
+                                  2.43   data arrival time
+
+                         20.83   20.83   clock clk_25mhz (rise edge)
+                          0.00   20.83   clock source latency
+     1    0.05    0.09    0.00   20.83 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.ascon_permutation.clk (net)
+                  0.07    0.00   20.83 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+    16    0.30    0.61    0.50   21.34 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.61    0.00   21.34 ^ clkbuf_4_8_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     2    0.01    0.06    0.25   21.60 ^ clkbuf_4_8_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_4_8_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.06    0.00   21.60 ^ clkbuf_5_17__f_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+     7    0.05    0.10    0.14   21.74 ^ clkbuf_5_17__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_5_17__leaf_ascon_top_inst.ascon_permutation.clk (net)
+                  0.10    0.00   21.74 ^ clkbuf_leaf_174_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     7    0.03    0.05    0.14   21.87 ^ clkbuf_leaf_174_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_leaf_174_ascon_top_inst.ascon_permutation.clk (net)
+                  0.05    0.00   21.87 ^ ascon_top_inst.msg_start_prev$_DFF_PN0_/CLK (sg13g2_dfrbp_1)
+                         -0.15   21.72   clock uncertainty
+                          0.00   21.72   clock reconvergence pessimism
+                         -0.21   21.52   library recovery time
+                                 21.52   data required time
+-----------------------------------------------------------------------------
+                                 21.52   data required time
+                                 -2.43   data arrival time
+-----------------------------------------------------------------------------
+                                 19.09   slack (MET)
+
+
+Startpoint: uart_tx_inst.o_Tx_Serial$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_25mhz)
+Endpoint: tx_phy (output port clocked by clk_25mhz)
+Path Group: clk_25mhz
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_25mhz (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.05    0.09    0.00    0.00 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+                                         ascon_top_inst.ascon_permutation.clk (net)
+                  0.07    0.00    0.00 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+    16    0.30    0.61    0.50    0.50 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.61    0.00    0.51 ^ clkbuf_4_10_0_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     2    0.01    0.06    0.25    0.76 ^ clkbuf_4_10_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_4_10_0_ascon_top_inst.ascon_permutation.clk (net)
+                  0.06    0.00    0.76 ^ clkbuf_5_21__f_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_2)
+     7    0.05    0.10    0.14    0.91 ^ clkbuf_5_21__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+                                         clknet_5_21__leaf_ascon_top_inst.ascon_permutation.clk (net)
+                  0.10    0.00    0.91 ^ clkbuf_leaf_160_ascon_top_inst.ascon_permutation.clk/A (sg13g2_buf_4)
+     8    0.03    0.05    0.14    1.05 ^ clkbuf_leaf_160_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+                                         clknet_leaf_160_ascon_top_inst.ascon_permutation.clk (net)
+                  0.05    0.00    1.05 ^ uart_tx_inst.o_Tx_Serial$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     4    0.07    0.27    0.38    1.43 ^ uart_tx_inst.o_Tx_Serial$_DFFE_PP_/Q (sg13g2_dfrbp_1)
+                                         core_tx_phy (net)
+                  0.36    0.00    1.43 ^ u_pad_tx_phy/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    4.68    3.37    4.80 ^ u_pad_tx_phy/pad (sg13g2_IOPadOut4mA)
+                                         tx_phy (net)
+                  3.51    0.00    4.80 ^ tx_phy (out)
+                                  4.80   data arrival time
+
+                         20.83   20.83   clock clk_25mhz (rise edge)
+                          0.00   20.83   clock network delay (propagated)
+                         -0.15   20.68   clock uncertainty
+                          0.00   20.68   clock reconvergence pessimism
+                         -2.00   18.68   output external delay
+                                 18.68   data required time
+-----------------------------------------------------------------------------
+                                 18.68   data required time
+                                 -4.80   data arrival time
+-----------------------------------------------------------------------------
+                                 13.89   slack (MET)
+
+
+
+==========================================================================
+global route report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+u_pad_tx_phy/pad                        1.20    4.68   -3.48 (VIOLATED)
+tx_phy                                  1.20    3.51   -2.31 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+_10953_/X                                 8    102    -94 (VIOLATED)
+_13072_/X                                 8     84    -76 (VIOLATED)
+_13112_/X                                 8     64    -56 (VIOLATED)
+_14672_/X                                 8     63    -55 (VIOLATED)
+_11366_/X                                 8     59    -51 (VIOLATED)
+_09860_/X                                 8     56    -48 (VIOLATED)
+_09049_/X                                 8     54    -46 (VIOLATED)
+_14728_/X                                 8     52    -44 (VIOLATED)
+_13085_/X                                 8     40    -32 (VIOLATED)
+_09673_/X                                 8     36    -28 (VIOLATED)
+_09336_/X                                 8     33    -25 (VIOLATED)
+_13296_/X                                 8     31    -23 (VIOLATED)
+fanout1691/X                              8     25    -17 (VIOLATED)
+_09933_/X                                 8     24    -16 (VIOLATED)
+_14644_/X                                 8     21    -13 (VIOLATED)
+clkbuf_0_ascon_top_inst.ascon_permutation.clk/X      8     16     -8 (VIOLATED)
+_10869_/Y                                 8     12     -4 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+u_pad_tx_phy/pad                        1.11    5.00   -3.89 (VIOLATED)
+
+
+==========================================================================
+global route max_slew_check_slack
+--------------------------------------------------------------------------
+-3.4838173389434814
+
+==========================================================================
+global route max_slew_check_limit
+--------------------------------------------------------------------------
+1.2000000476837158
+
+==========================================================================
+global route max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-2.9032
+
+==========================================================================
+global route max_fanout_check_slack
+--------------------------------------------------------------------------
+-94.0
+
+==========================================================================
+global route max_fanout_check_limit
+--------------------------------------------------------------------------
+8.0
+
+==========================================================================
+global route max_fanout_check_slack_limit
+--------------------------------------------------------------------------
+-11.7500
+
+==========================================================================
+global route max_capacitance_check_slack
+--------------------------------------------------------------------------
+-3.888540029525757
+
+==========================================================================
+global route max_capacitance_check_limit
+--------------------------------------------------------------------------
+1.1114599704742432
+
+==========================================================================
+global route max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-3.4986
+
+==========================================================================
+global route max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 2
+
+==========================================================================
+global route max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 17
+
+==========================================================================
+global route max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 1
+
+==========================================================================
+global route setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+global route hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+global route report_checks -path_delay max reg to reg
+--------------------------------------------------------------------------
+Startpoint: ascon_top_inst.ascon_permutation.round[3]$_DFFE_PN_
+            (rising edge-triggered flip-flop clocked by clk_25mhz)
+Endpoint: ascon_top_inst.ascon_permutation.state_out[15]$_SDFFCE_PP0P_
+          (rising edge-triggered flip-flop clocked by clk_25mhz)
+Path Group: clk_25mhz
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_25mhz (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+   0.50    0.50 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+   0.26    0.76 ^ clkbuf_4_14_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+   0.16    0.92 ^ clkbuf_5_28__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+   0.15    1.06 ^ clkbuf_leaf_129_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+   0.00    1.06 ^ ascon_top_inst.ascon_permutation.round[3]$_DFFE_PN_/CLK (sg13g2_dfrbp_1)
+   0.22    1.28 ^ ascon_top_inst.ascon_permutation.round[3]$_DFFE_PN_/Q (sg13g2_dfrbp_1)
+   0.11    1.39 ^ _08912_/X (sg13g2_buf_1)
+   0.16    1.55 ^ _08913_/Y (sg13g2_nor2b_1)
+   0.12    1.66 v _08963_/Y (sg13g2_nand3_1)
+   0.12    1.79 v _08964_/X (sg13g2_buf_1)
+   0.10    1.89 ^ _13070_/Y (sg13g2_o21ai_1)
+   0.13    2.02 ^ _13071_/X (sg13g2_buf_1)
+   0.48    2.50 ^ _13072_/X (sg13g2_buf_1)
+   0.64    3.15 ^ _13112_/X (sg13g2_buf_1)
+   0.21    3.36 ^ _13113_/X (sg13g2_buf_1)
+   0.30    3.66 ^ fanout1591/X (sg13g2_buf_1)
+   0.25    3.91 v _13226_/Y (sg13g2_nand3_1)
+   0.08    3.98 ^ _13227_/Y (sg13g2_o21ai_1)
+   0.00    3.98 ^ ascon_top_inst.ascon_permutation.state_out[15]$_SDFFCE_PP0P_/D (sg13g2_dfrbp_1)
+           3.98   data arrival time
+
+  20.83   20.83   clock clk_25mhz (rise edge)
+   0.00   20.83   clock source latency
+   0.00   20.83 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+   0.50   21.34 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+   0.27   21.60 ^ clkbuf_4_13_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+   0.16   21.76 ^ clkbuf_5_26__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+   0.14   21.91 ^ clkbuf_leaf_100_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+   0.00   21.91 ^ ascon_top_inst.ascon_permutation.state_out[15]$_SDFFCE_PP0P_/CLK (sg13g2_dfrbp_1)
+  -0.15   21.76   clock uncertainty
+   0.00   21.76   clock reconvergence pessimism
+  -0.14   21.62   library setup time
+          21.62   data required time
+---------------------------------------------------------
+          21.62   data required time
+          -3.98   data arrival time
+---------------------------------------------------------
+          17.64   slack (MET)
+
+
+
+==========================================================================
+global route report_checks -path_delay min reg to reg
+--------------------------------------------------------------------------
+Startpoint: uart_rx_inst.r_Rx_Data_R$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_25mhz)
+Endpoint: uart_rx_inst.r_Rx_Data$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_25mhz)
+Path Group: clk_25mhz
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_25mhz (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+   0.50    0.50 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+   0.26    0.76 ^ clkbuf_4_10_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+   0.15    0.91 ^ clkbuf_5_20__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+   0.14    1.05 ^ clkbuf_leaf_162_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+   0.00    1.05 ^ uart_rx_inst.r_Rx_Data_R$_DFF_P_/CLK (sg13g2_dfrbp_1)
+   0.22    1.27 v uart_rx_inst.r_Rx_Data_R$_DFF_P_/Q (sg13g2_dfrbp_1)
+   0.00    1.27 v uart_rx_inst.r_Rx_Data$_DFF_P_/D (sg13g2_dfrbp_1)
+           1.27   data arrival time
+
+   0.00    0.00   clock clk_25mhz (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ u_pad_io_clk/p2c (sg13g2_IOPadIn)
+   0.50    0.50 ^ clkbuf_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+   0.26    0.76 ^ clkbuf_4_8_0_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+   0.15    0.91 ^ clkbuf_5_16__f_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_2)
+   0.14    1.05 ^ clkbuf_leaf_176_ascon_top_inst.ascon_permutation.clk/X (sg13g2_buf_4)
+   0.00    1.05 ^ uart_rx_inst.r_Rx_Data$_DFF_P_/CLK (sg13g2_dfrbp_1)
+   0.15    1.20   clock uncertainty
+   0.00    1.20   clock reconvergence pessimism
+  -0.03    1.17   library hold time
+           1.17   data required time
+---------------------------------------------------------
+           1.17   data required time
+          -1.27   data arrival time
+---------------------------------------------------------
+           0.09   slack (MET)
+
+
+
+==========================================================================
+global route critical path target clock latency max path
+--------------------------------------------------------------------------
+1.0412
+
+==========================================================================
+global route critical path target clock latency min path
+--------------------------------------------------------------------------
+1.0679
+
+==========================================================================
+global route critical path source clock latency min path
+--------------------------------------------------------------------------
+0.0000
+
+==========================================================================
+global route critical path delay
+--------------------------------------------------------------------------
+4.7977
+
+==========================================================================
+global route critical path slack
+--------------------------------------------------------------------------
+13.8856
+
+==========================================================================
+global route slack div critical path delay
+--------------------------------------------------------------------------
+289.422015
+
+==========================================================================
+global route report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             2.39e-03   1.72e-04   6.51e-07   2.56e-03  21.0%
+Combinational          4.03e-03   5.53e-03   1.08e-06   9.56e-03  78.4%
+Clock                  3.45e-05   3.00e-05   1.43e-07   6.47e-05   0.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    5.28e-07   7.29e-07   1.10e-08   1.27e-06   0.0%
+----------------------------------------------------------------
+Total                  6.46e-03   5.73e-03   1.88e-06   1.22e-02 100.0%
+                          53.0%      47.0%       0.0%

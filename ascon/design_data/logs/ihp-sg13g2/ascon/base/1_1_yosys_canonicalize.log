@@ -1,0 +1,38 @@
+1. Executing Verilog-2005 frontend: ./designs/src/ascon/ascon_permutation.sv
+2. Executing Verilog-2005 frontend: ./designs/src/ascon/ascon_state_machine.sv
+3. Executing Verilog-2005 frontend: ./designs/src/ascon/ascon_state_machine_top.sv
+4. Executing Verilog-2005 frontend: ./designs/src/ascon/ascon_tb.sv
+5. Executing Verilog-2005 frontend: ./designs/src/ascon/ascon_top.sv
+6. Executing Verilog-2005 frontend: ./designs/src/ascon/uart.sv
+7. Executing Liberty frontend: ./objects/ihp-sg13g2/ascon/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+8. Executing Liberty frontend: ./objects/ihp-sg13g2/ascon/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+9. Executing Liberty frontend: ./objects/ihp-sg13g2/ascon/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+10. Executing Liberty frontend: ./objects/ihp-sg13g2/ascon/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+11. Executing Verilog-2005 frontend: /home/levin/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/ihp-sg13g2/ascon/base/clock_period.txt
+12. Executing HIERARCHY pass (managing design hierarchy).
+13. Executing AST frontend in derive mode using pre-parsed AST for module `\ascon_top'.
+13.1. Analyzing design hierarchy..
+13.2. Executing AST frontend in derive mode using pre-parsed AST for module `\ascon_statmachine_top'.
+13.3. Executing AST frontend in derive mode using pre-parsed AST for module `\uart_rx'.
+13.4. Executing AST frontend in derive mode using pre-parsed AST for module `\uart_tx'.
+13.5. Analyzing design hierarchy..
+13.6. Executing AST frontend in derive mode using pre-parsed AST for module `\ascon_permutation'.
+Warning: Replacing memory \T with list of registers. See ./designs/src/ascon/ascon_permutation.sv:59, ./designs/src/ascon/ascon_permutation.sv:54
+13.7. Executing AST frontend in derive mode using pre-parsed AST for module `\ascon_state_machine'.
+13.8. Analyzing design hierarchy..
+13.9. Analyzing design hierarchy..
+14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Warning: Ignoring module ascon_permutation because it contains processes (run 'proc' command first).
+Warning: Ignoring module uart_tx because it contains processes (run 'proc' command first).
+Warning: Ignoring module uart_rx because it contains processes (run 'proc' command first).
+Warning: Ignoring module ascon_statmachine_top because it contains processes (run 'proc' command first).
+Warning: Ignoring module ascon_top because it contains processes (run 'proc' command first).
+Warning: Ignoring module ascon_state_machine because it contains processes (run 'proc' command first).
+15. Executing RTLIL backend.
+Warnings: 7 unique messages, 7 total
+End of script. Logfile hash: a62c07e055, CPU: user 0.11s system 0.01s, MEM: 17.80 MB peak
+Yosys 0.49 (git sha1 427b5a251, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 48% 6x read_liberty (0 sec), 29% 1x hierarchy (0 sec), ...
+Elapsed time: 0:00.18[h:]min:sec. CPU time: user 0.18 sys 0.01 (103%). Peak memory: 19876KB.

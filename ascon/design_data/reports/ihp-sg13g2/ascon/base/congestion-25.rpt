@@ -1,0 +1,3232 @@
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 669.6000) - (288.0000, 676.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (151.2000, 619.2000) - (158.4000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[169\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 626.4000) - (309.6000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net708
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (878.4000, 712.8000) - (885.6000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 691.2000) - (244.8000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1644 net:net1645
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 648.0000) - (302.4000, 655.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 640.8000) - (273.6000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01496_ net:_06866_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (835.2000, 914.4000) - (842.4000, 921.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00547_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 777.6000) - (302.4000, 784.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 626.4000) - (244.8000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 820.8000) - (316.8000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (144.0000, 619.2000) - (151.2000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 604.8000) - (244.8000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1645
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 741.6000) - (295.2000, 748.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04242_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 482.4000) - (309.6000, 489.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05924_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 669.6000) - (309.6000, 676.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04077_ net:ascon_top_inst.ascon_permutation.state_out\[156\] net:net1646
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 748.8000) - (316.8000, 756.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 619.2000) - (252.0000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01139_ net:net979 net:clknet_leaf_40_ascon_top_inst.ascon_permutation.clk net:clknet_5_10__leaf_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:4 overflow:4
+	bbox = (309.6000, 705.6000) - (316.8000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (201.6000, 691.2000) - (208.8000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[175\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 576.0000) - (309.6000, 583.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00567_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 583.2000) - (309.6000, 590.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00548_ net:net1645 net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 741.6000) - (302.4000, 748.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04242_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 590.4000) - (295.2000, 597.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 820.8000) - (273.6000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 813.6000) - (309.6000, 820.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04114_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 856.8000) - (309.6000, 864.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (194.4000, 684.0000) - (201.6000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (194.4000, 619.2000) - (201.6000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01480_ net:_06815_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (698.4000, 885.6000) - (705.6000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 691.2000) - (273.6000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 720.0000) - (252.0000, 727.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 640.8000) - (266.4000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_ net:_05823_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 727.2000) - (295.2000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (187.2000, 691.2000) - (194.4000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06872_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (849.6000, 914.4000) - (856.8000, 921.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06877_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (864.0000, 907.2000) - (871.2000, 914.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01155_ net:_04266_ net:net1705 net:clknet_5_2__leaf_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:4 overflow:4
+	bbox = (309.6000, 590.4000) - (316.8000, 597.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 828.0000) - (288.0000, 835.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (208.8000, 691.2000) - (216.0000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 633.6000) - (288.0000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01149_ net:_07123_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 612.0000) - (309.6000, 619.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01146_ net:_07112_ net:net1956
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 648.0000) - (316.8000, 655.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04085_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 849.6000) - (316.8000, 856.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06866_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (828.0000, 892.8000) - (835.2000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 684.0000) - (230.4000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 777.6000) - (273.6000, 784.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 511.2000) - (259.2000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00550_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 720.0000) - (309.6000, 727.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00549_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 734.4000) - (302.4000, 741.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 532.8000) - (288.0000, 540.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 432.0000) - (316.8000, 439.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1326
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (727.2000, 892.8000) - (734.4000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (151.2000, 633.6000) - (158.4000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04130_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 828.0000) - (316.8000, 835.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06866_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (813.6000, 921.6000) - (820.8000, 928.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04130_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 828.0000) - (302.4000, 835.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 684.0000) - (244.8000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01886_ net:_06881_ net:_06885_
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (849.6000, 885.6000) - (856.8000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 691.2000) - (223.2000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00555_ net:_04147_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 684.0000) - (302.4000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 532.8000) - (295.2000, 540.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_ net:_05831_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 655.2000) - (295.2000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 424.8000) - (295.2000, 432.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 568.8000) - (266.4000, 576.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06817_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (705.6000, 885.6000) - (712.8000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_ net:net1645
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 648.0000) - (288.0000, 655.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 511.2000) - (230.4000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 511.2000) - (244.8000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06872_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (864.0000, 892.8000) - (871.2000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 691.2000) - (252.0000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06866_ net:_06877_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (842.4000, 892.8000) - (849.6000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00550_ net:_04114_ net:net1706
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 720.0000) - (302.4000, 727.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00552_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 712.8000) - (309.6000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04085_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 748.8000) - (302.4000, 756.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01496_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (828.0000, 914.4000) - (835.2000, 921.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (180.0000, 684.0000) - (187.2000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07089_ net:net1670 net:net1821 net:clknet_5_10__leaf_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:4 overflow:4
+	bbox = (309.6000, 734.4000) - (316.8000, 741.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 619.2000) - (295.2000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 820.8000) - (237.6000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 619.2000) - (230.4000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_13_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 648.0000) - (309.6000, 655.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 856.8000) - (295.2000, 864.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 864.0000) - (316.8000, 871.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01150_ net:net1706 net:net1955 net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:4 overflow:4
+	bbox = (302.4000, 619.2000) - (309.6000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (158.4000, 633.6000) - (165.6000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00554_ net:_05916_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 698.4000) - (302.4000, 705.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 648.0000) - (266.4000, 655.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 626.4000) - (295.2000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00565_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 597.6000) - (302.4000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_ net:_04225_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (273.6000, 619.2000) - (280.8000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06882_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (842.4000, 885.6000) - (849.6000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 482.4000) - (302.4000, 489.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04217_ net:_06959_ net:_07125_
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 619.2000) - (316.8000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 705.6000) - (230.4000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (136.8000, 684.0000) - (144.0000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 835.2000) - (259.2000, 842.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 878.4000) - (288.0000, 885.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06866_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (820.8000, 921.6000) - (828.0000, 928.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (172.8000, 640.8000) - (180.0000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (151.2000, 684.0000) - (158.4000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 684.0000) - (273.6000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00568_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 576.0000) - (302.4000, 583.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 835.2000) - (280.8000, 842.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1668 net:net989 net:net992
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 612.0000) - (316.8000, 619.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 705.6000) - (266.4000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (727.2000, 900.0000) - (734.4000, 907.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 712.8000) - (259.2000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 626.4000) - (252.0000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 712.8000) - (266.4000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_5_23__leaf_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (878.4000, 756.0000) - (885.6000, 763.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 532.8000) - (302.4000, 540.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1645
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 561.6000) - (295.2000, 568.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_ net:_04225_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (259.2000, 619.2000) - (266.4000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 835.2000) - (252.0000, 842.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 532.8000) - (280.8000, 540.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 576.0000) - (273.6000, 583.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07114_ net:ascon_top_inst.ascon_permutation.state_in\[168\] net:net1755
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 640.8000) - (316.8000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05823_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 770.4000) - (295.2000, 777.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 691.2000) - (230.4000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06810_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (691.2000, 892.8000) - (698.4000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (165.6000, 705.6000) - (172.8000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 619.2000) - (223.2000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 705.6000) - (259.2000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_ net:net1645
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 597.6000) - (295.2000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 424.8000) - (302.4000, 432.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06872_ net:_06877_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (835.2000, 892.8000) - (842.4000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04114_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 856.8000) - (316.8000, 864.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 626.4000) - (237.6000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_ net:_05823_ net:_05916_
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 727.2000) - (302.4000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 835.2000) - (273.6000, 842.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1754 net:net997
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 554.4000) - (316.8000, 561.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (187.2000, 684.0000) - (194.4000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 820.8000) - (266.4000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05823_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 792.0000) - (302.4000, 799.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_ net:net1716
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 684.0000) - (295.2000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04242_ net:net1644
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 590.4000) - (288.0000, 597.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 626.4000) - (223.2000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 691.2000) - (266.4000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00569_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 590.4000) - (302.4000, 597.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04130_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 748.8000) - (280.8000, 756.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07084_ net:_07085_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 756.0000) - (316.8000, 763.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 511.2000) - (273.6000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 460.8000) - (316.8000, 468.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04274_ net:net1644
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 532.8000) - (316.8000, 540.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_ net:_04180_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 662.4000) - (288.0000, 669.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04130_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 792.0000) - (288.0000, 799.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:uart_rx_inst.r_Clock_Count\[5\] net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (712.8000, 907.2000) - (720.0000, 914.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00558_ net:_04172_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 662.4000) - (302.4000, 669.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 662.4000) - (273.6000, 669.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 511.2000) - (288.0000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 835.2000) - (288.0000, 842.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (180.0000, 640.8000) - (187.2000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 655.2000) - (273.6000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06872_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (856.8000, 914.4000) - (864.0000, 921.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05922_ net:ascon_top_inst.ascon_permutation.state_out\[167\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 655.2000) - (309.6000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 871.2000) - (295.2000, 878.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 705.6000) - (252.0000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00567_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 583.2000) - (302.4000, 590.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04290_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 518.4000) - (309.6000, 525.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (172.8000, 705.6000) - (180.0000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (194.4000, 691.2000) - (201.6000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (165.6000, 684.0000) - (172.8000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_ net:net988
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (266.4000, 712.8000) - (273.6000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (180.0000, 691.2000) - (187.2000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1706
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 756.0000) - (302.4000, 763.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04242_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 518.4000) - (295.2000, 525.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 489.6000) - (288.0000, 496.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_ net:_04225_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (252.0000, 619.2000) - (259.2000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (180.0000, 626.4000) - (187.2000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 640.8000) - (288.0000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00569_ net:net1668 net:clknet_leaf_9_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (302.4000, 590.4000) - (309.6000, 597.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 727.2000) - (237.6000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00560_ net:_04208_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 633.6000) - (302.4000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00557_ net:clknet_leaf_39_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 676.8000) - (309.6000, 684.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04114_ net:net988
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 820.8000) - (302.4000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (194.4000, 705.6000) - (201.6000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00570_ net:net1645 net:net1955
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 568.8000) - (302.4000, 576.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01148_ net:_04164_ net:clknet_5_8__leaf_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 676.8000) - (316.8000, 684.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 741.6000) - (309.6000, 748.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:uart_rx_inst.r_Clock_Count\[5\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (720.0000, 907.2000) - (727.2000, 914.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 626.4000) - (230.4000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1644
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 547.2000) - (295.2000, 554.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (180.0000, 705.6000) - (187.2000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (194.4000, 640.8000) - (201.6000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00553_ net:_04130_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 705.6000) - (302.4000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00547_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 748.8000) - (295.2000, 756.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06879_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (835.2000, 885.6000) - (842.4000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 604.8000) - (223.2000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_ net:_04180_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (273.6000, 662.4000) - (280.8000, 669.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07110_ net:clknet_leaf_14_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 662.4000) - (316.8000, 669.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1668 net:net1818
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 561.6000) - (316.8000, 568.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04114_ net:net988
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 820.8000) - (295.2000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07101_ net:_07102_ net:net1956
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 698.4000) - (316.8000, 705.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 684.0000) - (280.8000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_ net:net988
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (273.6000, 705.6000) - (280.8000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00566_ net:_04242_ net:net1645
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 604.8000) - (302.4000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (180.0000, 619.2000) - (187.2000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (187.2000, 626.4000) - (194.4000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 489.6000) - (280.8000, 496.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 705.6000) - (237.6000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 727.2000) - (280.8000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (158.4000, 684.0000) - (165.6000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00559_ net:_04180_ net:_05831_
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 655.2000) - (302.4000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04242_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 482.4000) - (316.8000, 489.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[158\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 734.4000) - (309.6000, 741.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[159\] net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 727.2000) - (309.6000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00553_ net:ascon_top_inst.ascon_permutation.state_out\[161\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 705.6000) - (309.6000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 424.8000) - (288.0000, 432.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (172.8000, 684.0000) - (180.0000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 662.4000) - (295.2000, 669.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05823_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 806.4000) - (309.6000, 813.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 878.4000) - (309.6000, 885.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1706 net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 619.2000) - (302.4000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_ net:net1645
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 705.6000) - (288.0000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_44_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 777.6000) - (309.6000, 784.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (187.2000, 640.8000) - (194.4000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 871.2000) - (309.6000, 878.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 626.4000) - (259.2000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 691.2000) - (237.6000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 662.4000) - (266.4000, 669.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (201.6000, 626.4000) - (208.8000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00557_ net:net1716 net:net988
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 676.8000) - (302.4000, 684.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 712.8000) - (288.0000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 871.2000) - (316.8000, 878.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06866_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (828.0000, 921.6000) - (835.2000, 928.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 511.2000) - (266.4000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 684.0000) - (223.2000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 640.8000) - (252.0000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_ net:_04225_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (266.4000, 619.2000) - (273.6000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 885.6000) - (316.8000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (144.0000, 633.6000) - (151.2000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (187.2000, 705.6000) - (194.4000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00561_ net:_00564_ net:_04225_
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 626.4000) - (302.4000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 820.8000) - (244.8000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04234_ net:_07137_ net:ascon_top_inst.ascon_permutation.state_out\[172\]
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 597.6000) - (316.8000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (165.6000, 640.8000) - (172.8000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 705.6000) - (244.8000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1706 net:clknet_leaf_44_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 756.0000) - (309.6000, 763.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 777.6000) - (259.2000, 784.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06815_ net:clknet_leaf_93_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (691.2000, 885.6000) - (698.4000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01886_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (856.8000, 885.6000) - (864.0000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00558_ net:ascon_top_inst.ascon_permutation.state_out\[166\] net:clknet_leaf_14_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (302.4000, 662.4000) - (309.6000, 669.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01478_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (712.8000, 885.6000) - (720.0000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04085_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 849.6000) - (302.4000, 856.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 720.0000) - (266.4000, 727.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_ net:net1706
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 669.6000) - (302.4000, 676.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06877_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (849.6000, 907.2000) - (856.8000, 914.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 856.8000) - (288.0000, 864.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 770.4000) - (280.8000, 777.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07134_ net:net1819 net:clknet_leaf_9_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 576.0000) - (316.8000, 583.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (172.8000, 619.2000) - (180.0000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 619.2000) - (244.8000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 640.8000) - (259.2000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 554.4000) - (273.6000, 561.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1644 net:net1645
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 648.0000) - (295.2000, 655.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04130_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 828.0000) - (309.6000, 835.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 554.4000) - (280.8000, 561.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 705.6000) - (273.6000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04242_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 554.4000) - (288.0000, 561.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_8_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 525.6000) - (316.8000, 532.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05933_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 554.4000) - (309.6000, 561.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04085_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 849.6000) - (309.6000, 856.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01153_ net:_04250_ net:_07133_
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 583.2000) - (316.8000, 590.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 691.2000) - (302.4000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (151.2000, 691.2000) - (158.4000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (165.6000, 633.6000) - (172.8000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1955
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 496.8000) - (309.6000, 504.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 684.0000) - (259.2000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_ net:net1645
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (273.6000, 633.6000) - (280.8000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 669.6000) - (295.2000, 676.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00554_ net:ascon_top_inst.ascon_permutation.state_out\[162\] net:clknet_leaf_40_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (302.4000, 698.4000) - (309.6000, 705.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 432.0000) - (302.4000, 439.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (172.8000, 626.4000) - (180.0000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 784.8000) - (280.8000, 792.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 640.8000) - (244.8000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1645
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 554.4000) - (302.4000, 561.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (158.4000, 640.8000) - (165.6000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_ net:_05831_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (273.6000, 640.8000) - (280.8000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 489.6000) - (295.2000, 496.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07090_ net:net1957
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 720.0000) - (316.8000, 727.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1645
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 741.6000) - (288.0000, 748.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_ net:net988
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 691.2000) - (288.0000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 684.0000) - (288.0000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (201.6000, 640.8000) - (208.8000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04130_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 705.6000) - (295.2000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04258_ net:ascon_top_inst.ascon_permutation.state_out\[177\] net:net1955 net:clknet_leaf_8_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:4 overflow:4
+	bbox = (302.4000, 568.8000) - (309.6000, 576.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (136.8000, 633.6000) - (144.0000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[173\]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 604.8000) - (309.6000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (201.6000, 684.0000) - (208.8000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_93_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (684.0000, 885.6000) - (691.2000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 633.6000) - (295.2000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 720.0000) - (259.2000, 727.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04290_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 518.4000) - (316.8000, 525.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1669 net:net1820 net:clknet_leaf_13_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 655.2000) - (316.8000, 662.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (158.4000, 691.2000) - (165.6000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (194.4000, 626.4000) - (201.6000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 878.4000) - (316.8000, 885.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 640.8000) - (237.6000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01147_ net:_07115_ net:_07118_ net:ascon_top_inst.ascon_permutation.state_out\[168\]
+	comment: capacity:0 usage:4 overflow:4
+	bbox = (309.6000, 633.6000) - (316.8000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 820.8000) - (230.4000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 540.0000) - (280.8000, 547.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 820.8000) - (309.6000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04258_ net:_07138_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 568.8000) - (316.8000, 576.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 424.8000) - (309.6000, 432.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07124_ net:_07130_ net:clknet_leaf_10_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 604.8000) - (316.8000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04130_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 792.0000) - (280.8000, 799.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05918_ net:net1646 net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (302.4000, 748.8000) - (309.6000, 756.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07106_ net:net1644 net:net1956
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 669.6000) - (316.8000, 676.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 511.2000) - (237.6000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_ net:net988
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 691.2000) - (295.2000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1326
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (720.0000, 892.8000) - (727.2000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_ net:net1644 net:net1955
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (295.2000, 612.0000) - (302.4000, 619.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (237.6000, 727.2000) - (244.8000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1644 net:net1955
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 547.2000) - (309.6000, 554.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (151.2000, 640.8000) - (158.4000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_ net:net1645
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (273.6000, 597.6000) - (280.8000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 885.6000) - (309.6000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 820.8000) - (280.8000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (165.6000, 691.2000) - (172.8000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 511.2000) - (252.0000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 460.8000) - (309.6000, 468.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 712.8000) - (295.2000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 619.2000) - (288.0000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04274_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 532.8000) - (309.6000, 540.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 871.2000) - (302.4000, 878.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 604.8000) - (266.4000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00565_ net:clknet_leaf_10_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 597.6000) - (309.6000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 633.6000) - (273.6000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06877_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (856.8000, 907.2000) - (864.0000, 914.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00552_ net:_04122_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 712.8000) - (302.4000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07096_ net:net1820 net:clknet_leaf_39_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (302.4000, 691.2000) - (309.6000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (144.0000, 691.2000) - (151.2000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (208.8000, 626.4000) - (216.0000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1645
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 561.6000) - (288.0000, 568.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 856.8000) - (280.8000, 864.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 640.8000) - (223.2000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07095_ net:_07099_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 712.8000) - (316.8000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_01135_ net:_07086_ net:_07087_ net:net975
+	comment: capacity:0 usage:4 overflow:4
+	bbox = (309.6000, 741.6000) - (316.8000, 748.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 604.8000) - (252.0000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00571_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 561.6000) - (302.4000, 568.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06959_ net:net1669 net:net1820 net:clknet_leaf_39_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:4 overflow:4
+	bbox = (309.6000, 691.2000) - (316.8000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (208.8000, 640.8000) - (216.0000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05823_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 813.6000) - (316.8000, 820.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 684.0000) - (266.4000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05922_ net:ascon_top_inst.ascon_permutation.state_out\[168\]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (302.4000, 640.8000) - (309.6000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (208.8000, 619.2000) - (216.0000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (144.0000, 705.6000) - (151.2000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 856.8000) - (302.4000, 864.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 691.2000) - (280.8000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 432.0000) - (295.2000, 439.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06866_ net:_06872_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (842.4000, 907.2000) - (849.6000, 914.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00547_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 777.6000) - (295.2000, 784.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 720.0000) - (273.6000, 727.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 604.8000) - (237.6000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04130_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 828.0000) - (295.2000, 835.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 727.2000) - (230.4000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1957 net:clknet_leaf_44_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 777.6000) - (316.8000, 784.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (136.8000, 705.6000) - (144.0000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 684.0000) - (252.0000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06872_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (835.2000, 907.2000) - (842.4000, 914.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 878.4000) - (302.4000, 885.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_ net:_04130_ net:_05823_
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (280.8000, 727.2000) - (288.0000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07141_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 540.0000) - (316.8000, 547.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net901
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (878.4000, 727.2000) - (885.6000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_ net:net1955
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 496.8000) - (316.8000, 504.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (136.8000, 691.2000) - (144.0000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:uart_tx_inst.r_Clock_Count\[1\] net:net1349
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (828.0000, 885.6000) - (835.2000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 604.8000) - (280.8000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (208.8000, 684.0000) - (216.0000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1955
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 496.8000) - (302.4000, 504.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 640.8000) - (295.2000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05923_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 684.0000) - (309.6000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (151.2000, 705.6000) - (158.4000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00547_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 792.0000) - (316.8000, 799.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1644
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 612.0000) - (295.2000, 619.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07100_ net:_07104_ net:_07108_
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 684.0000) - (316.8000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 626.4000) - (288.0000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 568.8000) - (273.6000, 576.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 604.8000) - (230.4000, 612.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04114_ net:net1706
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (288.0000, 720.0000) - (295.2000, 727.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 504.0000) - (309.6000, 511.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (172.8000, 691.2000) - (180.0000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 712.8000) - (280.8000, 720.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 684.0000) - (237.6000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 835.2000) - (266.4000, 842.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07091_ net:_07092_
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 727.2000) - (316.8000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 727.2000) - (252.0000, 734.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (158.4000, 619.2000) - (165.6000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (201.6000, 619.2000) - (208.8000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 770.4000) - (273.6000, 777.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1706
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 756.0000) - (295.2000, 763.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05823_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 770.4000) - (288.0000, 777.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 777.6000) - (252.0000, 784.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (144.0000, 684.0000) - (151.2000, 691.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 669.6000) - (280.8000, 676.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (136.8000, 640.8000) - (144.0000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 820.8000) - (288.0000, 828.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 835.2000) - (295.2000, 842.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 691.2000) - (259.2000, 698.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (288.0000, 878.4000) - (295.2000, 885.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (720.0000, 900.0000) - (727.2000, 907.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06810_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (705.6000, 892.8000) - (712.8000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 705.6000) - (223.2000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (136.8000, 619.2000) - (144.0000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (230.4000, 619.2000) - (237.6000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1670 net:net1821 net:net973
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (309.6000, 763.2000) - (316.8000, 770.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04106_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 864.0000) - (309.6000, 871.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 432.0000) - (309.6000, 439.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_06810_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (698.4000, 892.8000) - (705.6000, 900.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (158.4000, 705.6000) - (165.6000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (144.0000, 640.8000) - (151.2000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04200_ net:net1706
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 640.8000) - (302.4000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 885.6000) - (302.4000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (201.6000, 705.6000) - (208.8000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 460.8000) - (302.4000, 468.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 777.6000) - (266.4000, 784.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07126_ net:net990
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (309.6000, 626.4000) - (316.8000, 633.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_ net:net1645
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (280.8000, 597.6000) - (288.0000, 604.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (165.6000, 619.2000) - (172.8000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (187.2000, 619.2000) - (194.4000, 626.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (208.8000, 705.6000) - (216.0000, 712.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1644
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (280.8000, 547.2000) - (288.0000, 554.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 511.2000) - (223.2000, 518.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04242_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 504.0000) - (302.4000, 511.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:net1644 net:net1955
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (295.2000, 547.2000) - (302.4000, 554.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_00547_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 792.0000) - (309.6000, 799.2000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_05928_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (302.4000, 633.6000) - (309.6000, 640.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 640.8000) - (230.4000, 648.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:clknet_leaf_101_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (820.8000, 885.6000) - (828.0000, 892.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_07122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (309.6000, 424.8000) - (316.8000, 432.0000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (273.6000, 511.2000) - (280.8000, 518.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 648.0000) - (273.6000, 655.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 1029.6000) - (468.0000, 1036.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 936.0000) - (468.0000, 943.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:net1955
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 590.4000) - (302.4000, 597.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00552_ net:_05916_ net:net1706
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (295.2000, 712.8000) - (302.4000, 720.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 482.4000) - (302.4000, 489.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (136.8000, 619.2000) - (144.0000, 626.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 936.0000) - (374.4000, 943.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 748.8000) - (273.6000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1668 net:net1819 net:clknet_leaf_9_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 576.0000) - (316.8000, 583.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 792.0000) - (230.4000, 799.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:uart_rx_inst.r_Clock_Count\[5\] net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (712.8000, 892.8000) - (720.0000, 900.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 691.2000) - (266.4000, 698.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 705.6000) - (266.4000, 712.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05916_ net:ascon_top_inst.ascon_permutation.state_out\[159\]
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 720.0000) - (309.6000, 727.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1670 net:net1821 net:net1957
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 756.0000) - (316.8000, 763.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 950.4000) - (460.8000, 957.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 237.6000) - (338.4000, 244.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 201.6000) - (338.4000, 208.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 568.8000) - (223.2000, 576.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 201.6000) - (331.2000, 208.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 741.6000) - (252.0000, 748.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05922_ net:ascon_top_inst.ascon_permutation.state_out\[168\] net:net1669
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 633.6000) - (316.8000, 640.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 511.2000) - (223.2000, 518.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04114_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 799.2000) - (295.2000, 806.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 187.2000) - (338.4000, 194.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04085_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 763.2000) - (302.4000, 770.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1706 net:net1716 net:net988
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (295.2000, 676.8000) - (302.4000, 684.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 727.2000) - (252.0000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 763.2000) - (273.6000, 770.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 172.8000) - (331.2000, 180.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:net1644 net:net1645
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (280.8000, 568.8000) - (288.0000, 576.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 734.4000) - (273.6000, 741.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_ net:net988
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 705.6000) - (280.8000, 712.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 554.4000) - (223.2000, 561.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01496_ net:_06866_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (828.0000, 900.0000) - (835.2000, 907.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_ net:_04290_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 518.4000) - (309.6000, 525.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 568.8000) - (266.4000, 576.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 216.0000) - (345.6000, 223.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04130_ net:_05823_ net:net1645
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (280.8000, 734.4000) - (288.0000, 741.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 763.2000) - (252.0000, 770.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 964.8000) - (460.8000, 972.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1706 net:net402
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 712.8000) - (309.6000, 720.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 172.8000) - (338.4000, 180.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 1036.8000) - (460.8000, 1044.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 734.4000) - (252.0000, 741.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04085_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 756.0000) - (302.4000, 763.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 648.0000) - (295.2000, 655.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 950.4000) - (374.4000, 957.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 799.2000) - (266.4000, 806.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 208.8000) - (345.6000, 216.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00547_ net:_04114_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 756.0000) - (295.2000, 763.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 756.0000) - (266.4000, 763.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04114_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 806.4000) - (295.2000, 813.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05922_ net:_07115_ net:ascon_top_inst.ascon_permutation.state_out\[169\]
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 626.4000) - (316.8000, 633.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06872_ net:_06877_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (871.2000, 885.6000) - (878.4000, 892.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 741.6000) - (230.4000, 748.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 194.4000) - (331.2000, 201.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07141_ net:net1644 net:net1955 net:clknet_leaf_8_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (309.6000, 547.2000) - (316.8000, 554.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 223.2000) - (345.6000, 230.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 1051.2000) - (374.4000, 1058.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1668 net:clknet_leaf_10_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 597.6000) - (309.6000, 604.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06866_ net:_06872_ net:_06877_
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (835.2000, 885.6000) - (842.4000, 892.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 928.8000) - (468.0000, 936.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 964.8000) - (468.0000, 972.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 784.8000) - (230.4000, 792.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:net1645 net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 597.6000) - (280.8000, 604.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04274_ net:_04290_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 540.0000) - (309.6000, 547.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04274_ net:net1644
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 554.4000) - (309.6000, 561.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 748.8000) - (230.4000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 583.2000) - (223.2000, 590.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04274_ net:_04290_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 532.8000) - (309.6000, 540.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 259.2000) - (331.2000, 266.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04130_ net:_05823_ net:net1645
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (280.8000, 727.2000) - (288.0000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 921.6000) - (460.8000, 928.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06810_ net:uart_rx_inst.r_Clock_Count\[5\] net:net1327 net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (712.8000, 885.6000) - (720.0000, 892.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01496_ net:_06866_ net:_06872_ net:_06877_
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (842.4000, 885.6000) - (849.6000, 892.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04106_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 727.2000) - (309.6000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 561.6000) - (273.6000, 568.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 763.2000) - (266.4000, 770.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 576.0000) - (266.4000, 583.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01141_ net:_07105_ net:ascon_top_inst.ascon_permutation.state_out\[163\] net:net981
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (309.6000, 684.0000) - (316.8000, 691.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 828.0000) - (252.0000, 835.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 1044.0000) - (468.0000, 1051.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_ net:_04155_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 820.8000) - (288.0000, 828.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 223.2000) - (331.2000, 230.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04274_ net:_04290_ net:net1644
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 547.2000) - (309.6000, 554.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_ net:net988
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 799.2000) - (288.0000, 806.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1955 net:net413
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 612.0000) - (309.6000, 619.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 972.0000) - (460.8000, 979.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1645 net:net1955
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 561.6000) - (302.4000, 568.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 1029.6000) - (460.8000, 1036.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 684.0000) - (266.4000, 691.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:core_rx_phy net:net1339
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (612.0000, 878.4000) - (619.2000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 496.8000) - (295.2000, 504.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 993.6000) - (374.4000, 1000.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1669 net:net1820 net:clknet_leaf_40_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 698.4000) - (316.8000, 705.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_ net:_07122_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 554.4000) - (280.8000, 561.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net708 net:net901
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (885.6000, 727.2000) - (892.8000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 734.4000) - (266.4000, 741.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06875_ net:_06878_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (842.4000, 878.4000) - (849.6000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 792.0000) - (266.4000, 799.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 993.6000) - (460.8000, 1000.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01495_ net:_06870_ net:_06873_
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (835.2000, 878.4000) - (842.4000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 266.4000) - (338.4000, 273.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04106_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 763.2000) - (280.8000, 770.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 676.8000) - (266.4000, 684.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05917_ net:net1645 net:net1706 net:clknet_leaf_39_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (302.4000, 669.6000) - (309.6000, 676.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 784.8000) - (266.4000, 792.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 1036.8000) - (374.4000, 1044.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 712.8000) - (259.2000, 720.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1706 net:net988
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 684.0000) - (302.4000, 691.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 216.0000) - (331.2000, 223.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_ net:net988
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 806.4000) - (288.0000, 813.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 554.4000) - (273.6000, 561.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00564_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 619.2000) - (302.4000, 626.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 813.6000) - (266.4000, 820.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06866_ net:_06877_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (849.6000, 900.0000) - (856.8000, 907.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 597.6000) - (266.4000, 604.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07090_ net:net1957 net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 720.0000) - (316.8000, 727.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04114_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 792.0000) - (295.2000, 799.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01145_ net:_07113_ net:ascon_top_inst.ascon_permutation.state_out\[167\] net:net1669 net:clknet_leaf_13_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:5 overflow:4
+	bbox = (309.6000, 648.0000) - (316.8000, 655.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 266.4000) - (331.2000, 273.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 158.4000) - (338.4000, 165.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 720.0000) - (266.4000, 727.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 180.0000) - (345.6000, 187.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 504.0000) - (295.2000, 511.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 216.0000) - (338.4000, 223.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 698.4000) - (295.2000, 705.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00547_ net:_04114_ net:net1706
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (288.0000, 748.8000) - (295.2000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07096_ net:net1669 net:net1820
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 691.2000) - (316.8000, 698.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 158.4000) - (345.6000, 165.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:net1955
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 511.2000) - (302.4000, 518.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07141_ net:net1644 net:clknet_leaf_8_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 540.0000) - (316.8000, 547.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:_07122_ net:net1645 net:net1955
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (295.2000, 597.6000) - (302.4000, 604.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04085_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 748.8000) - (302.4000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 525.6000) - (223.2000, 532.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04114_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 727.2000) - (295.2000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07111_ net:ascon_top_inst.ascon_permutation.state_out\[166\] net:net1669 net:net1820
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (309.6000, 655.2000) - (316.8000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 180.0000) - (331.2000, 187.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 727.2000) - (230.4000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 626.4000) - (266.4000, 633.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (172.8000, 626.4000) - (180.0000, 633.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05823_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 799.2000) - (309.6000, 806.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1645 net:net1646 net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 734.4000) - (309.6000, 741.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 1008.0000) - (460.8000, 1015.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 669.6000) - (266.4000, 676.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 230.4000) - (331.2000, 237.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[161\] net:net1669 net:net1820
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 705.6000) - (316.8000, 712.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 230.4000) - (338.4000, 237.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 748.8000) - (266.4000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_ net:_07122_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 532.8000) - (288.0000, 540.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 986.4000) - (374.4000, 993.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 993.6000) - (468.0000, 1000.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 741.6000) - (273.6000, 748.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1670 net:net1821 net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 734.4000) - (316.8000, 741.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:net1644 net:net1645
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (280.8000, 576.0000) - (288.0000, 583.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05930_ net:ascon_top_inst.ascon_permutation.state_out\[173\]
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 604.8000) - (309.6000, 612.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00559_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 648.0000) - (302.4000, 655.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 626.4000) - (280.8000, 633.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07142_ net:ascon_top_inst.ascon_permutation.state_out\[178\] net:clknet_leaf_8_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 554.4000) - (316.8000, 561.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05917_ net:net407 net:clknet_leaf_39_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 676.8000) - (309.6000, 684.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04106_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 770.4000) - (280.8000, 777.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04085_ net:_05823_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 777.6000) - (302.4000, 784.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 979.2000) - (374.4000, 986.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 597.6000) - (223.2000, 604.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 144.0000) - (331.2000, 151.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 928.8000) - (460.8000, 936.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 720.0000) - (259.2000, 727.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01150_ net:net1706 net:net414
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 619.2000) - (309.6000, 626.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 986.4000) - (468.0000, 993.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07122_ net:net1955
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 604.8000) - (302.4000, 612.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 720.0000) - (252.0000, 727.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00547_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 784.8000) - (309.6000, 792.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[176\] net:net1668 net:net1705 net:net1819
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (309.6000, 590.4000) - (316.8000, 597.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01853_ net:_06813_ net:_06816_
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (712.8000, 878.4000) - (720.0000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_ net:net988
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 792.0000) - (288.0000, 799.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 604.8000) - (273.6000, 612.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 208.8000) - (338.4000, 216.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01496_ net:_06866_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (828.0000, 892.8000) - (835.2000, 900.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04085_ net:_04155_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 835.2000) - (302.4000, 842.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 748.8000) - (252.0000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 943.2000) - (460.8000, 950.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 590.4000) - (266.4000, 597.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 1022.4000) - (460.8000, 1029.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1645 net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 662.4000) - (309.6000, 669.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06881_ net:_06885_ net:net1351
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (856.8000, 878.4000) - (864.0000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 957.6000) - (374.4000, 964.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 662.4000) - (266.4000, 669.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 568.8000) - (273.6000, 576.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 1022.4000) - (468.0000, 1029.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 540.0000) - (223.2000, 547.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 741.6000) - (266.4000, 748.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 144.0000) - (338.4000, 151.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 612.0000) - (280.8000, 619.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05928_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 626.4000) - (309.6000, 633.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1326 net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (734.4000, 878.4000) - (741.6000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 799.2000) - (230.4000, 806.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00547_ net:_04114_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 763.2000) - (295.2000, 770.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 165.6000) - (331.2000, 172.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 244.8000) - (331.2000, 252.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04114_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 741.6000) - (295.2000, 748.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06810_ net:_06815_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (691.2000, 878.4000) - (698.4000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 727.2000) - (273.6000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04106_ net:_04130_ net:net988
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 777.6000) - (280.8000, 784.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 612.0000) - (259.2000, 619.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 561.6000) - (223.2000, 568.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04085_ net:_04155_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 842.4000) - (302.4000, 849.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 208.8000) - (331.2000, 216.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:_07122_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 583.2000) - (280.8000, 590.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 518.4000) - (295.2000, 525.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net397 net:clknet_leaf_44_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 748.8000) - (309.6000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 583.2000) - (266.4000, 590.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 1015.2000) - (374.4000, 1022.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 230.4000) - (345.6000, 237.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 1029.6000) - (374.4000, 1036.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:net1644 net:net1645
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (280.8000, 561.6000) - (288.0000, 568.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 165.6000) - (345.6000, 172.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 806.4000) - (230.4000, 813.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 957.6000) - (460.8000, 964.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 194.4000) - (338.4000, 201.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 1008.0000) - (374.4000, 1015.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[177\] net:net1644 net:clknet_leaf_8_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 561.6000) - (309.6000, 568.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1669 net:clknet_leaf_13_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (309.6000, 640.8000) - (316.8000, 648.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07091_ net:ascon_top_inst.ascon_permutation.state_out\[159\] net:net976
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 727.2000) - (316.8000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 698.4000) - (266.4000, 705.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 943.2000) - (468.0000, 950.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net405 net:clknet_leaf_39_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 684.0000) - (309.6000, 691.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 684.0000) - (295.2000, 691.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 237.6000) - (345.6000, 244.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 957.6000) - (468.0000, 964.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1669 net:net1820 net:net1956
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 662.4000) - (316.8000, 669.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_ net:net988
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 813.6000) - (288.0000, 820.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 770.4000) - (252.0000, 777.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04106_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 784.8000) - (280.8000, 792.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 950.4000) - (468.0000, 957.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 1044.0000) - (460.8000, 1051.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00561_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 626.4000) - (302.4000, 633.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1339 net:clknet_5_26__leaf_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (619.2000, 878.4000) - (626.4000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04106_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 756.0000) - (280.8000, 763.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 770.4000) - (230.4000, 777.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04114_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 734.4000) - (295.2000, 741.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_ net:_04208_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 547.2000) - (280.8000, 554.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 532.8000) - (223.2000, 540.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 151.2000) - (345.6000, 158.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07124_ net:net1819 net:clknet_leaf_10_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 597.6000) - (316.8000, 604.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07120_ net:net1819
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (309.6000, 604.8000) - (316.8000, 612.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 576.0000) - (223.2000, 583.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1706 net:net403 net:clknet_leaf_40_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 705.6000) - (309.6000, 712.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 604.8000) - (280.8000, 612.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 201.6000) - (345.6000, 208.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 734.4000) - (230.4000, 741.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05916_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 698.4000) - (302.4000, 705.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 633.6000) - (266.4000, 640.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 244.8000) - (345.6000, 252.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 151.2000) - (338.4000, 158.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 489.6000) - (295.2000, 496.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (136.8000, 626.4000) - (144.0000, 633.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1326 net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (734.4000, 885.6000) - (741.6000, 892.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 763.2000) - (230.4000, 770.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01134_ net:ascon_top_inst.ascon_permutation.state_out\[157\] net:net1957
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 741.6000) - (316.8000, 748.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00560_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 633.6000) - (302.4000, 640.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 979.2000) - (468.0000, 986.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 777.6000) - (266.4000, 784.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1668 net:net1955
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (309.6000, 568.8000) - (316.8000, 576.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 928.8000) - (374.4000, 936.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1668 net:net1705 net:net1819 net:clknet_leaf_9_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (309.6000, 583.2000) - (316.8000, 590.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 626.4000) - (273.6000, 633.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 619.2000) - (273.6000, 626.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04114_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 813.6000) - (295.2000, 820.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:_07122_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 590.4000) - (280.8000, 597.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05922_ net:net1645 net:net409
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 648.0000) - (309.6000, 655.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 244.8000) - (338.4000, 252.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 820.8000) - (252.0000, 828.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 194.4000) - (345.6000, 201.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01138_ net:ascon_top_inst.ascon_permutation.state_out\[160\] net:net1957
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 712.8000) - (316.8000, 720.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00547_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 777.6000) - (309.6000, 784.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:uart_rx_inst.r_Clock_Count\[5\] net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (712.8000, 900.0000) - (720.0000, 907.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 158.4000) - (331.2000, 165.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 720.0000) - (273.6000, 727.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 986.4000) - (460.8000, 993.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 806.4000) - (266.4000, 813.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (252.0000, 604.8000) - (259.2000, 612.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 619.2000) - (280.8000, 626.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 172.8000) - (345.6000, 180.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 921.6000) - (468.0000, 928.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (295.2000, 878.4000) - (302.4000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 727.2000) - (266.4000, 734.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 813.6000) - (230.4000, 820.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 756.0000) - (230.4000, 763.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 921.6000) - (374.4000, 928.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 223.2000) - (338.4000, 230.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00548_ net:net1645 net:net1646 net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (302.4000, 741.6000) - (309.6000, 748.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 187.2000) - (331.2000, 194.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 259.2000) - (338.4000, 266.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:net1644 net:net1645
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (280.8000, 583.2000) - (288.0000, 590.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05916_ net:net1706
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 705.6000) - (302.4000, 712.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07122_ net:net1644
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 547.2000) - (288.0000, 554.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 640.8000) - (266.4000, 648.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00547_ net:_04114_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 770.4000) - (295.2000, 777.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1326 net:clknet_leaf_94_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (720.0000, 885.6000) - (727.2000, 892.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 712.8000) - (273.6000, 720.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 252.0000) - (331.2000, 259.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 1015.2000) - (460.8000, 1022.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 619.2000) - (288.0000, 626.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_ net:_07122_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 561.6000) - (280.8000, 568.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 979.2000) - (460.8000, 986.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04122_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (223.2000, 777.6000) - (230.4000, 784.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 165.6000) - (338.4000, 172.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 1036.8000) - (468.0000, 1044.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 943.2000) - (374.4000, 950.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_ net:_04290_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 525.6000) - (309.6000, 532.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 964.8000) - (374.4000, 972.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 1000.8000) - (468.0000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 655.2000) - (295.2000, 662.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04106_ net:_04130_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 748.8000) - (280.8000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 259.2000) - (345.6000, 266.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 972.0000) - (374.4000, 979.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 518.4000) - (223.2000, 525.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1706 net:net1957
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (309.6000, 748.8000) - (316.8000, 756.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 640.8000) - (288.0000, 648.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 187.2000) - (345.6000, 194.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 266.4000) - (345.6000, 273.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_ net:_04208_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 540.0000) - (280.8000, 547.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 1022.4000) - (374.4000, 1029.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1645 net:net1955
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 554.4000) - (302.4000, 561.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 1000.8000) - (374.4000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 1000.8000) - (460.8000, 1008.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 712.8000) - (266.4000, 720.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 590.4000) - (223.2000, 597.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:ascon_top_inst.ascon_permutation.state_out\[177\] net:net1668 net:clknet_leaf_8_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 561.6000) - (316.8000, 568.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 237.6000) - (331.2000, 244.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04225_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (216.0000, 547.2000) - (223.2000, 554.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05922_ net:net1645 net:clknet_leaf_13_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 640.8000) - (309.6000, 648.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07122_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 568.8000) - (280.8000, 576.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 972.0000) - (468.0000, 979.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04180_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (324.0000, 151.2000) - (331.2000, 158.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04200_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 612.0000) - (273.6000, 619.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06872_ net:_06877_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (871.2000, 878.4000) - (878.4000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 252.0000) - (345.6000, 259.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00550_ net:_05916_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 720.0000) - (302.4000, 727.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1644 net:net1669 net:net1820
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 669.6000) - (316.8000, 676.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01496_ net:_06866_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (828.0000, 907.2000) - (835.2000, 914.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07120_ net:ascon_top_inst.ascon_permutation.state_out\[171\] net:net1819 net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (309.6000, 619.2000) - (316.8000, 626.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04085_ net:_05823_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 784.8000) - (302.4000, 792.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04130_ net:_05823_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 741.6000) - (288.0000, 748.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06866_ net:_06877_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (849.6000, 885.6000) - (856.8000, 892.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:net1955
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (295.2000, 504.0000) - (302.4000, 511.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07120_ net:ascon_top_inst.ascon_permutation.state_out\[170\] net:net1819 net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:4 overflow:3
+	bbox = (309.6000, 612.0000) - (316.8000, 619.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1716
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (453.6000, 936.0000) - (460.8000, 943.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_01496_ net:_06866_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (842.4000, 907.2000) - (849.6000, 914.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04085_ net:_05823_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (295.2000, 770.4000) - (302.4000, 777.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04114_ net:_04130_ net:net1706
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (288.0000, 720.0000) - (295.2000, 727.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 1015.2000) - (468.0000, 1022.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05831_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (460.8000, 1008.0000) - (468.0000, 1015.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net1644 net:clknet_leaf_8_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (309.6000, 532.8000) - (316.8000, 540.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (266.4000, 756.0000) - (273.6000, 763.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (273.6000, 532.8000) - (280.8000, 540.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04208_ net:_07122_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (273.6000, 576.0000) - (280.8000, 583.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_07109_ net:net1644 net:clknet_leaf_39_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (309.6000, 676.8000) - (316.8000, 684.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:clknet_leaf_12_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 525.6000) - (295.2000, 532.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04258_ net:net1644 net:net1645
+	comment: capacity:1 usage:3 overflow:2
+	bbox = (302.4000, 568.8000) - (309.6000, 576.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net988
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (244.8000, 756.0000) - (252.0000, 763.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net404 net:clknet_leaf_40_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 698.4000) - (309.6000, 705.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_05823_ net:clknet_leaf_43_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 792.0000) - (309.6000, 799.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04242_ net:net1644
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 554.4000) - (288.0000, 561.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_06866_ net:_06877_
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (849.6000, 892.8000) - (856.8000, 900.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 180.0000) - (338.4000, 187.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (367.2000, 1044.0000) - (374.4000, 1051.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04172_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (331.2000, 252.0000) - (338.4000, 259.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (316.8000, 878.4000) - (324.0000, 885.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04147_ net:net1645
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (288.0000, 691.2000) - (295.2000, 698.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_00563_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (338.4000, 144.0000) - (345.6000, 151.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04138_
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (259.2000, 770.4000) - (266.4000, 777.6000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_04155_ net:net988
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (280.8000, 784.8000) - (288.0000, 792.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net417 net:clknet_leaf_9_ascon_top_inst.ascon_permutation.clk
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (302.4000, 583.2000) - (309.6000, 590.4000) on Layer -

@@ -1,0 +1,45 @@
+OpenROAD v2.0-18853-gac67d5a11 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+[INFO ODB-0227] LEF file: /home/levin/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_tech.lef, created 19 layers, 300 vias
+[INFO ODB-0227] LEF file: /home/levin/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_stdcell.lef, created 78 library cells
+[INFO ODB-0227] LEF file: /home/levin/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_io.lef, created 22 library cells
+[INFO ODB-0227] LEF file: /home/levin/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/bondpad_70x70.lef, created 1 library cells
+[WARNING STA-0347] current_design for other than top cell not supported.
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+number instances in verilog is 8764
+[WARNING IFP-0028] Core area lower left (400.000, 400.000) snapped to (400.320, 400.680).
+[INFO IFP-0001] Added 166 rows of 1311 site CoreSite.
+[INFO PAD-0041] Placed 3 pads in IO_EAST.
+[INFO PAD-0041] Placed 3 pads in IO_WEST.
+[INFO PAD-0041] Placed 4 pads in IO_NORTH.
+[INFO PAD-0041] Placed 3 pads in IO_SOUTH.
+[INFO PAD-0116] Creating terminal for clk_25mhz on TopMetal2 at (70.000um, 898.000um) - (140.000um, 968.000um)
+[INFO PAD-0116] Creating terminal for msg_last_phy on TopMetal2 at (1290.000um, 680.000um) - (1360.000um, 750.000um)
+[INFO PAD-0116] Creating terminal for reset_n_phy on TopMetal2 at (1290.000um, 898.000um) - (1360.000um, 968.000um)
+[INFO PAD-0116] Creating terminal for rx_phy on TopMetal2 at (898.000um, 70.000um) - (968.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for tx_phy on TopMetal2 at (1290.000um, 463.000um) - (1360.000um, 533.000um)
+repair_timing -verbose -setup_margin 0 -repair_tns 100 -match_cell_footprint
+[WARNING RSZ-0021] no estimated parasitics. Using wire load models.
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0033] No hold violations found.
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1uA
+ power 1pW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 140973 u^2 36% utilization.
+Elapsed time: 0:02.79[h:]min:sec. CPU time: user 2.90 sys 0.01 (104%). Peak memory: 146476KB.

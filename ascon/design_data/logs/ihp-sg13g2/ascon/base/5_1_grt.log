@@ -1,0 +1,123 @@
+OpenROAD v2.0-18853-gac67d5a11 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+global_route -congestion_report_file ./reports/ihp-sg13g2/ascon/base/congestion.rpt -congestion_iterations 30 -congestion_report_iter_step 5 -verbose
+[INFO GRT-0020] Min routing layer: Metal2
+[INFO GRT-0021] Max routing layer: Metal5
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer Metal1  Track-Pitch = 0.4800  line-2-Via Pitch: 0.3650
+[INFO GRT-0088] Layer Metal2  Track-Pitch = 0.4200  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal3  Track-Pitch = 0.4800  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal4  Track-Pitch = 0.4200  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal5  Track-Pitch = 3.4800  line-2-Via Pitch: 0.4100
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 550
+[INFO GRT-0019] Found 268 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 17
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+Metal1     Vertical            0             0          0.00%
+Metal2     Horizontal     668448        385196          42.37%
+Metal3     Vertical       589842        332404          43.65%
+Metal4     Horizontal     668448        389198          41.78%
+Metal5     Vertical        78606         24229          69.18%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 53842
+[INFO GRT-0198] Via related Steiner nodes: 1213
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 67961
+[INFO GRT-0112] Final usage 3D: 259627
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+Metal1               0             0            0.00%             0 /  0 /  0
+Metal2          385196         28574            7.42%             0 /  0 /  0
+Metal3          332404         26947            8.11%             0 /  0 /  0
+Metal4          389198           123            0.03%             0 /  0 /  0
+Metal5           24229           100            0.41%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total          1131027         55744            4.93%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 572875 um
+[INFO GRT-0014] Routed nets: 11043
+Perform buffer insertion and gate resizing...
+repair_design
+[INFO RSZ-0058] Using max wire length 23868um.
+global_route -start_incremental
+detailed_placement
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          363493.1 u
+legalized HPWL         363493.1 u
+delta HPWL                    0 %
+
+global_route -end_incremental -congestion_report_file ./reports/ihp-sg13g2/ascon/base/congestion_post_repair_design.rpt
+Repair setup and hold violations...
+repair_timing -verbose -setup_margin 0 -hold_margin 0 -repair_tns 100
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0033] No hold violations found.
+global_route -start_incremental
+detailed_placement
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          363493.1 u
+legalized HPWL         363493.1 u
+delta HPWL                    0 %
+
+global_route -end_incremental -congestion_report_file ./reports/ihp-sg13g2/ascon/base/congestion_post_repair_timing.rpt
+global_route -start_incremental
+recover_power
+global_route -end_incremental -congestion_report_file ./reports/ihp-sg13g2/ascon/base/congestion_post_recover_power.rpt
+Repair antennas...
+[INFO GRT-0012] Found 31 antenna violations.
+[INFO GRT-0302] Inserted 53 jumpers for 30 nets.
+[INFO GRT-0012] Found 15 antenna violations.
+[INFO GRT-0015] Inserted 236 diodes.
+[INFO GRT-0012] Found 17 antenna violations.
+[INFO GRT-0302] Inserted 22 jumpers for 13 nets.
+[INFO GRT-0012] Found 13 antenna violations.
+[INFO GRT-0015] Inserted 170 diodes.
+[INFO GRT-0012] Found 9 antenna violations.
+[INFO GRT-0302] Inserted 8 jumpers for 5 nets.
+[INFO GRT-0012] Found 9 antenna violations.
+[INFO GRT-0015] Inserted 104 diodes.
+[INFO GRT-0012] Found 7 antenna violations.
+[INFO GRT-0302] Inserted 7 jumpers for 4 nets.
+[INFO GRT-0012] Found 6 antenna violations.
+[INFO GRT-0015] Inserted 73 diodes.
+[INFO GRT-0012] Found 6 antenna violations.
+[INFO GRT-0302] Inserted 7 jumpers for 3 nets.
+[INFO GRT-0012] Found 5 antenna violations.
+[INFO GRT-0015] Inserted 64 diodes.
+[INFO ANT-0002] Found 7 net violations.
+[INFO ANT-0001] Found 9 pin violations.
+Estimate parasitics...
+Report metrics stage 5, global route...
+
+==========================================================================
+global route report_design_area
+--------------------------------------------------------------------------
+Design area 163370 u^2 41% utilization.
+[INFO FLW-0007] clock clk_25mhz period 20.833300
+[INFO FLW-0008] Clock clk_25mhz period 6.600
+[INFO FLW-0009] Clock clk_25mhz slack 13.886
+[INFO FLW-0011] Path endpoint path count 3424
+Elapsed time: 0:13.85[h:]min:sec. CPU time: user 42.22 sys 0.36 (307%). Peak memory: 584588KB.
