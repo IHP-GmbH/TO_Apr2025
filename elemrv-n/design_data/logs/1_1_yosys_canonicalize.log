@@ -1,0 +1,236 @@
+1. Executing Verilog-2005 frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/zibal/AESMasked.v
+2. Executing Verilog-2005 frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/zibal/SG13G2Top.v
+3. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+4. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+5. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/RM_IHPSG13_1P_512x32_c2_bm_bist_typ_1p20V_25C.lib
+6. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/RM_IHPSG13_1P_1024x8_c2_bm_bist_typ_1p20V_25C.lib
+7. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+8. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+9. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/RM_IHPSG13_1P_512x32_c2_bm_bist_typ_1p20V_25C.lib
+10. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/RM_IHPSG13_1P_1024x8_c2_bm_bist_typ_1p20V_25C.lib
+11. Executing Verilog-2005 frontend: /home/daniel/work/aesc/ElemRV/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//results/ihp-sg13g2/SG13G2Top/base/clock_period.txt
+Setting clock period to 50000
+12. Executing HIERARCHY pass (managing design hierarchy).
+13. Executing AST frontend in derive mode using pre-parsed AST for module `\SG13G2Top'.
+13.1. Analyzing design hierarchy..
+13.2. Executing AST frontend in derive mode using pre-parsed AST for module `\ElemRV'.
+13.3. Analyzing design hierarchy..
+13.4. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Router'.
+13.5. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Decoder'.
+13.6. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Pinmux'.
+13.7. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3AesMaskedAccelerator'.
+13.8. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Uart_1'.
+13.9. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Uart'.
+13.10. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3SpiController'.
+13.11. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Pwm'.
+13.12. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Pio'.
+13.13. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3I2cController_1'.
+13.14. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3I2cController'.
+13.15. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Gpio'.
+13.16. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3ClockController'.
+13.17. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3ResetController'.
+13.18. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3MachineTimer'.
+13.19. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3Plic'.
+13.20. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4SharedArbiter_2'.
+13.21. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4ReadOnlyArbiter'.
+13.22. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4SharedArbiter_1'.
+13.23. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4SharedArbiter'.
+13.24. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4SharedDecoder'.
+13.25. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4ReadOnlyDecoder'.
+13.26. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4SharedToApb3Bridge'.
+13.27. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4ReadOnlySpiXipController'.
+13.28. Executing AST frontend in derive mode using pre-parsed AST for module `\Phy'.
+13.29. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4SharedHyperBus'.
+13.30. Executing AST frontend in derive mode using pre-parsed AST for module `\OnePort1024x8'.
+13.31. Executing AST frontend in derive mode using pre-parsed AST for module `\SystemDebugger'.
+13.32. Executing AST frontend in derive mode using pre-parsed AST for module `\JtagBridge'.
+13.33. Executing AST frontend in derive mode using pre-parsed AST for module `\VexRiscv'.
+13.34. Executing AST frontend in derive mode using pre-parsed AST for module `\ClockControllerCtrl'.
+13.35. Executing AST frontend in derive mode using pre-parsed AST for module `\ResetControllerCtrl'.
+13.36. Analyzing design hierarchy..
+13.37. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifoLowLatency_3'.
+13.38. Executing AST frontend in derive mode using pre-parsed AST for module `\FlowCCUnsafeByToggle'.
+13.39. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_15'.
+13.40. Executing AST frontend in derive mode using pre-parsed AST for module `\Apb3HyperBus'.
+13.41. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_14'.
+13.42. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_13'.
+13.43. Executing AST frontend in derive mode using pre-parsed AST for module `\BufferCC_4'.
+13.44. Executing AST frontend in derive mode using pre-parsed AST for module `\BufferCC'.
+13.45. Executing AST frontend in derive mode using pre-parsed AST for module `\IpIdentificationCtrl_9'.
+13.46. Executing AST frontend in derive mode using pre-parsed AST for module `\SpiXipControllerCtrl'.
+13.47. Executing AST frontend in derive mode using pre-parsed AST for module `\SpiControllerCtrl_1'.
+13.48. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4ReadOnlyErrorSlave'.
+13.49. Executing AST frontend in derive mode using pre-parsed AST for module `\Axi4SharedErrorSlave'.
+13.50. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifoLowLatency_2'.
+13.51. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamArbiter_3'.
+13.52. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamArbiter_2'.
+13.53. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamArbiter_1'.
+13.54. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamArbiter'.
+13.55. Executing AST frontend in derive mode using pre-parsed AST for module `\MachineTimerCtrl'.
+13.56. Executing AST frontend in derive mode using pre-parsed AST for module `\InterruptCtrl_5'.
+13.57. Executing AST frontend in derive mode using pre-parsed AST for module `\IpIdentificationCtrl_8'.
+13.58. Executing AST frontend in derive mode using pre-parsed AST for module `\GpioCtrl'.
+13.59. Executing AST frontend in derive mode using pre-parsed AST for module `\InterruptCtrl_4'.
+13.60. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_12'.
+13.61. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_11'.
+13.62. Executing AST frontend in derive mode using pre-parsed AST for module `\IpIdentificationCtrl_7'.
+13.63. Executing AST frontend in derive mode using pre-parsed AST for module `\I2cControllerCtrl_1'.
+13.64. Executing AST frontend in derive mode using pre-parsed AST for module `\InterruptCtrl_3'.
+13.65. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_10'.
+13.66. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_9'.
+13.67. Executing AST frontend in derive mode using pre-parsed AST for module `\I2cControllerCtrl'.
+13.68. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_8'.
+13.69. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_7'.
+13.70. Executing AST frontend in derive mode using pre-parsed AST for module `\IpIdentificationCtrl_5'.
+13.71. Executing AST frontend in derive mode using pre-parsed AST for module `\PioCtrl'.
+13.72. Executing AST frontend in derive mode using pre-parsed AST for module `\IpIdentificationCtrl_4'.
+13.73. Executing AST frontend in derive mode using pre-parsed AST for module `\PwmCtrl'.
+13.74. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_21'.
+13.75. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_5'.
+13.76. Executing AST frontend in derive mode using pre-parsed AST for module `\SpiControllerCtrl'.
+13.77. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_3'.
+13.78. Executing AST frontend in derive mode using pre-parsed AST for module `\IpIdentificationCtrl_2'.
+13.79. Executing AST frontend in derive mode using pre-parsed AST for module `\UartCtrl_1'.
+13.80. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_1'.
+13.81. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_16'.
+13.82. Executing AST frontend in derive mode using pre-parsed AST for module `\IpIdentificationCtrl'.
+13.83. Executing AST frontend in derive mode using pre-parsed AST for module `\AesMaskedAcceleratorCtrl'.
+13.84. Executing AST frontend in derive mode using pre-parsed AST for module `\PinmuxCtrl'.
+13.85. Analyzing design hierarchy..
+13.86. Executing AST frontend in derive mode using pre-parsed AST for module `\AES_Masked'.
+13.87. Executing AST frontend in derive mode using pre-parsed AST for module `\UartCtrlRx_1'.
+13.88. Executing AST frontend in derive mode using pre-parsed AST for module `\UartCtrlTx_1'.
+13.89. Executing AST frontend in derive mode using pre-parsed AST for module `\ClockDivider_4'.
+13.90. Executing AST frontend in derive mode using pre-parsed AST for module `\ClockDivider_7'.
+13.91. Executing AST frontend in derive mode using pre-parsed AST for module `\BufferCC_2'.
+13.92. Executing AST frontend in derive mode using pre-parsed AST for module `\BufferCC_3'.
+13.93. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_20'.
+13.94. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_23'.
+13.95. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_22'.
+13.96. Executing AST frontend in derive mode using pre-parsed AST for module `\HyperBusCtrl'.
+13.97. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_24'.
+13.98. Analyzing design hierarchy..
+13.99. Executing AST frontend in derive mode using pre-parsed AST for module `\StreamFifo_25'.
+13.100. Executing AST frontend in derive mode using pre-parsed AST for module `\BufferCC_6'.
+13.101. Executing AST frontend in derive mode using pre-parsed AST for module `\MixColumns'.
+13.102. Executing AST frontend in derive mode using pre-parsed AST for module `\SBoxMasked'.
+13.103. Executing AST frontend in derive mode using pre-parsed AST for module `\AddRoundKey'.
+13.104. Analyzing design hierarchy..
+13.105. Executing AST frontend in derive mode using pre-parsed AST for module `\G256Inv2Shares5Stages'.
+13.106. Executing AST frontend in derive mode using pre-parsed AST for module `\NewBasis'.
+13.107. Analyzing design hierarchy..
+13.108. Executing AST frontend in derive mode using pre-parsed AST for module `\G16SqSc'.
+13.109. Executing AST frontend in derive mode using pre-parsed AST for module `\G16Inv2SharesDep'.
+13.110. Executing AST frontend in derive mode using pre-parsed AST for module `\G16Mul2SharesIndepMul'.
+13.111. Executing AST frontend in derive mode using pre-parsed AST for module `\G16Mul2SharesDepMul'.
+13.112. Analyzing design hierarchy..
+13.113. Executing AST frontend in derive mode using pre-parsed AST for module `\G16Mul'.
+13.114. Executing AST frontend in derive mode using pre-parsed AST for module `\G4Sq'.
+13.115. Executing AST frontend in derive mode using pre-parsed AST for module `\G4ScaleN'.
+13.116. Executing AST frontend in derive mode using pre-parsed AST for module `\G4Mul2SharesDepMul'.
+13.117. Executing AST frontend in derive mode using pre-parsed AST for module `\G4ScaleN2'.
+13.118. Analyzing design hierarchy..
+13.119. Executing AST frontend in derive mode using pre-parsed AST for module `\G4Mul'.
+13.120. Analyzing design hierarchy..
+13.121. Analyzing design hierarchy..
+14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Warning: Ignoring module G4Mul2SharesDepMul because it contains processes (run 'proc' command first).
+Warning: Ignoring module G16Mul2SharesDepMul because it contains processes (run 'proc' command first).
+Warning: Ignoring module G16Mul2SharesIndepMul because it contains processes (run 'proc' command first).
+Warning: Ignoring module G16Inv2SharesDep because it contains processes (run 'proc' command first).
+Warning: Ignoring module NewBasis because it contains processes (run 'proc' command first).
+Warning: Ignoring module G256Inv2Shares5Stages because it contains processes (run 'proc' command first).
+Warning: Ignoring module MixColumns because it contains processes (run 'proc' command first).
+Warning: Ignoring module BufferCC_6 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_25 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_24 because it contains processes (run 'proc' command first).
+Warning: Ignoring module HyperBusCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_22 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_23 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_20 because it contains processes (run 'proc' command first).
+Warning: Ignoring module BufferCC_3 because it contains processes (run 'proc' command first).
+Warning: Ignoring module BufferCC_2 because it contains processes (run 'proc' command first).
+Warning: Ignoring module ClockDivider_7 because it contains processes (run 'proc' command first).
+Warning: Ignoring module ClockDivider_4 because it contains processes (run 'proc' command first).
+Warning: Ignoring module UartCtrlTx_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module UartCtrlRx_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module AES_Masked because it contains processes (run 'proc' command first).
+Warning: Ignoring module PinmuxCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module AesMaskedAcceleratorCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_16 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_3 because it contains processes (run 'proc' command first).
+Warning: Ignoring module SpiControllerCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_5 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_21 because it contains processes (run 'proc' command first).
+Warning: Ignoring module PwmCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module PioCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_7 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_8 because it contains processes (run 'proc' command first).
+Warning: Ignoring module I2cControllerCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_9 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_10 because it contains processes (run 'proc' command first).
+Warning: Ignoring module InterruptCtrl_3 because it contains processes (run 'proc' command first).
+Warning: Ignoring module I2cControllerCtrl_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_11 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_12 because it contains processes (run 'proc' command first).
+Warning: Ignoring module InterruptCtrl_4 because it contains processes (run 'proc' command first).
+Warning: Ignoring module GpioCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module InterruptCtrl_5 because it contains processes (run 'proc' command first).
+Warning: Ignoring module MachineTimerCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamArbiter because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamArbiter_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamArbiter_2 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamArbiter_3 because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4SharedErrorSlave because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4ReadOnlyErrorSlave because it contains processes (run 'proc' command first).
+Warning: Ignoring module SpiControllerCtrl_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module SpiXipControllerCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module BufferCC because it contains processes (run 'proc' command first).
+Warning: Ignoring module BufferCC_4 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_13 because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_14 because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3HyperBus because it contains processes (run 'proc' command first).
+Warning: Ignoring module StreamFifo_15 because it contains processes (run 'proc' command first).
+Warning: Ignoring module FlowCCUnsafeByToggle because it contains processes (run 'proc' command first).
+Warning: Ignoring module ResetControllerCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module VexRiscv because it contains processes (run 'proc' command first).
+Warning: Ignoring module JtagBridge because it contains processes (run 'proc' command first).
+Warning: Ignoring module SystemDebugger because it contains processes (run 'proc' command first).
+Warning: Ignoring module OnePort1024x8 because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4SharedHyperBus because it contains processes (run 'proc' command first).
+Warning: Ignoring module Phy because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4ReadOnlySpiXipController because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4SharedToApb3Bridge because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4ReadOnlyDecoder because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4SharedDecoder because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4SharedArbiter because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4SharedArbiter_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4ReadOnlyArbiter because it contains processes (run 'proc' command first).
+Warning: Ignoring module Axi4SharedArbiter_2 because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Plic because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3MachineTimer because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3ResetController because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3ClockController because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Gpio because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3I2cController because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3I2cController_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Pio because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Pwm because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3SpiController because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Uart because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Uart_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3AesMaskedAccelerator because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Pinmux because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Decoder because it contains processes (run 'proc' command first).
+Warning: Ignoring module Apb3Router because it contains processes (run 'proc' command first).
+Warning: Ignoring module ElemRV because it contains processes (run 'proc' command first).
+Warning: Ignoring module SG13G2Top because it contains processes (run 'proc' command first).
+15. Executing RTLIL backend.
+Warnings: 92 unique messages, 92 total
+End of script. Logfile hash: cf5c16707c, CPU: user 0.63s system 0.02s, MEM: 105.75 MB peak
+Yosys 0.48 (git sha1 aaa534749, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 59% 1x hierarchy (0 sec), 22% 5x read_verilog (0 sec), ...
+Elapsed time: 0:00.74[h:]min:sec. CPU time: user 0.71 sys 0.02 (100%). Peak memory: 110108KB.

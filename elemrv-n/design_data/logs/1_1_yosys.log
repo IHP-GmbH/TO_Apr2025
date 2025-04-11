@@ -1,0 +1,323 @@
+1. Executing RTLIL frontend.
+2. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+3. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+4. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/RM_IHPSG13_1P_512x32_c2_bm_bist_typ_1p20V_25C.lib
+5. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/RM_IHPSG13_1P_1024x8_c2_bm_bist_typ_1p20V_25C.lib
+6. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+7. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+8. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/RM_IHPSG13_1P_512x32_c2_bm_bist_typ_1p20V_25C.lib
+9. Executing Liberty frontend: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/RM_IHPSG13_1P_1024x8_c2_bm_bist_typ_1p20V_25C.lib
+10. Executing Verilog-2005 frontend: /home/daniel/work/aesc/ElemRV/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//results/ihp-sg13g2/SG13G2Top/base/clock_period.txt
+Setting clock period to 50000
+11. Executing HIERARCHY pass (managing design hierarchy).
+11.1. Analyzing design hierarchy..
+11.2. Analyzing design hierarchy..
+12. Executing SYNTH pass.
+12.1. Executing HIERARCHY pass (managing design hierarchy).
+12.1.1. Analyzing design hierarchy..
+12.1.2. Analyzing design hierarchy..
+12.2. Executing PROC pass (convert processes to netlists).
+12.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+12.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+12.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+12.2.4. Executing PROC_INIT pass (extract init attributes).
+12.2.5. Executing PROC_ARST pass (detect async resets in processes).
+12.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+12.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+12.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+12.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+12.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+12.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+12.2.12. Executing OPT_EXPR pass (perform const folding).
+12.3. Executing FLATTEN pass (flatten design).
+12.4. Executing OPT_EXPR pass (perform const folding).
+12.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.6. Executing CHECK pass (checking for obvious problems).
+12.7. Executing OPT pass (performing simple optimizations).
+12.7.1. Executing OPT_EXPR pass (perform const folding).
+12.7.2. Executing OPT_MERGE pass (detect identical cells).
+12.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.7.5. Executing OPT_MERGE pass (detect identical cells).
+12.7.6. Executing OPT_DFF pass (perform DFF optimizations).
+12.7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.7.8. Executing OPT_EXPR pass (perform const folding).
+12.7.9. Rerunning OPT passes. (Maybe there is more to do..)
+12.7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.7.12. Executing OPT_MERGE pass (detect identical cells).
+12.7.13. Executing OPT_DFF pass (perform DFF optimizations).
+12.7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.7.15. Executing OPT_EXPR pass (perform const folding).
+12.7.16. Rerunning OPT passes. (Maybe there is more to do..)
+12.7.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.7.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.7.19. Executing OPT_MERGE pass (detect identical cells).
+12.7.20. Executing OPT_DFF pass (perform DFF optimizations).
+12.7.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.7.22. Executing OPT_EXPR pass (perform const folding).
+12.7.23. Rerunning OPT passes. (Maybe there is more to do..)
+12.7.24. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.7.25. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.7.26. Executing OPT_MERGE pass (detect identical cells).
+12.7.27. Executing OPT_DFF pass (perform DFF optimizations).
+12.7.28. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.7.29. Executing OPT_EXPR pass (perform const folding).
+12.7.30. Rerunning OPT passes. (Maybe there is more to do..)
+12.7.31. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.7.32. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.7.33. Executing OPT_MERGE pass (detect identical cells).
+12.7.34. Executing OPT_DFF pass (perform DFF optimizations).
+12.7.35. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.7.36. Executing OPT_EXPR pass (perform const folding).
+12.7.37. Finished OPT passes. (There is nothing left to do.)
+12.8. Executing FSM pass (extract and optimize FSM).
+12.8.1. Executing FSM_DETECT pass (finding FSMs in design).
+12.8.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+12.8.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+12.8.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.8.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+12.8.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+12.8.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+12.8.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+12.9. Executing OPT pass (performing simple optimizations).
+12.9.1. Executing OPT_EXPR pass (perform const folding).
+12.9.2. Executing OPT_MERGE pass (detect identical cells).
+12.9.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.9.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.9.5. Executing OPT_MERGE pass (detect identical cells).
+12.9.6. Executing OPT_DFF pass (perform DFF optimizations).
+12.9.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.9.8. Executing OPT_EXPR pass (perform const folding).
+12.9.9. Rerunning OPT passes. (Maybe there is more to do..)
+12.9.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.9.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.9.12. Executing OPT_MERGE pass (detect identical cells).
+12.9.13. Executing OPT_DFF pass (perform DFF optimizations).
+12.9.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.9.15. Executing OPT_EXPR pass (perform const folding).
+12.9.16. Rerunning OPT passes. (Maybe there is more to do..)
+12.9.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.9.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.9.19. Executing OPT_MERGE pass (detect identical cells).
+12.9.20. Executing OPT_DFF pass (perform DFF optimizations).
+12.9.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.9.22. Executing OPT_EXPR pass (perform const folding).
+12.9.23. Finished OPT passes. (There is nothing left to do.)
+12.10. Executing WREDUCE pass (reducing word size of cells).
+12.11. Executing PEEPOPT pass (run peephole optimizers).
+12.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.13. Executing ALUMACC pass (create $alu and $macc cells).
+12.14. Executing SHARE pass (SAT-based resource sharing).
+12.15. Executing OPT pass (performing simple optimizations).
+12.15.1. Executing OPT_EXPR pass (perform const folding).
+12.15.2. Executing OPT_MERGE pass (detect identical cells).
+12.15.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.15.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.15.5. Executing OPT_MERGE pass (detect identical cells).
+12.15.6. Executing OPT_DFF pass (perform DFF optimizations).
+12.15.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.15.8. Executing OPT_EXPR pass (perform const folding).
+12.15.9. Rerunning OPT passes. (Maybe there is more to do..)
+12.15.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.15.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.15.12. Executing OPT_MERGE pass (detect identical cells).
+12.15.13. Executing OPT_DFF pass (perform DFF optimizations).
+12.15.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.15.15. Executing OPT_EXPR pass (perform const folding).
+12.15.16. Rerunning OPT passes. (Maybe there is more to do..)
+12.15.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+12.15.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+12.15.19. Executing OPT_MERGE pass (detect identical cells).
+12.15.20. Executing OPT_DFF pass (perform DFF optimizations).
+12.15.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.15.22. Executing OPT_EXPR pass (perform const folding).
+12.15.23. Finished OPT passes. (There is nothing left to do.)
+12.16. Executing MEMORY pass.
+12.16.1. Executing OPT_MEM pass (optimize memories).
+12.16.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+12.16.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+12.16.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+12.16.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+12.16.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.16.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+12.16.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+12.16.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.16.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+12.17. Executing OPT_CLEAN pass (remove unused cells and wires).
+13. Executing SYNTH pass.
+13.1. Executing OPT pass (performing simple optimizations).
+13.1.1. Executing OPT_EXPR pass (perform const folding).
+13.1.2. Executing OPT_MERGE pass (detect identical cells).
+13.1.3. Executing OPT_DFF pass (perform DFF optimizations).
+13.1.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.1.5. Rerunning OPT passes. (Removed registers in this run.)
+13.1.6. Executing OPT_EXPR pass (perform const folding).
+13.1.7. Executing OPT_MERGE pass (detect identical cells).
+13.1.8. Executing OPT_DFF pass (perform DFF optimizations).
+13.1.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.1.10. Rerunning OPT passes. (Removed registers in this run.)
+13.1.11. Executing OPT_EXPR pass (perform const folding).
+13.1.12. Executing OPT_MERGE pass (detect identical cells).
+13.1.13. Executing OPT_DFF pass (perform DFF optimizations).
+13.1.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.1.15. Finished fast OPT passes.
+13.2. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+13.3. Executing OPT pass (performing simple optimizations).
+13.3.1. Executing OPT_EXPR pass (perform const folding).
+13.3.2. Executing OPT_MERGE pass (detect identical cells).
+13.3.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.3.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+13.3.5. Executing OPT_MERGE pass (detect identical cells).
+13.3.6. Executing OPT_SHARE pass.
+13.3.7. Executing OPT_DFF pass (perform DFF optimizations).
+13.3.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.3.9. Executing OPT_EXPR pass (perform const folding).
+13.3.10. Rerunning OPT passes. (Maybe there is more to do..)
+13.3.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.3.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+13.3.13. Executing OPT_MERGE pass (detect identical cells).
+13.3.14. Executing OPT_SHARE pass.
+13.3.15. Executing OPT_DFF pass (perform DFF optimizations).
+13.3.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.3.17. Executing OPT_EXPR pass (perform const folding).
+13.3.18. Rerunning OPT passes. (Maybe there is more to do..)
+13.3.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.3.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+13.3.21. Executing OPT_MERGE pass (detect identical cells).
+13.3.22. Executing OPT_SHARE pass.
+13.3.23. Executing OPT_DFF pass (perform DFF optimizations).
+13.3.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.3.25. Executing OPT_EXPR pass (perform const folding).
+13.3.26. Rerunning OPT passes. (Maybe there is more to do..)
+13.3.27. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.3.28. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+13.3.29. Executing OPT_MERGE pass (detect identical cells).
+13.3.30. Executing OPT_SHARE pass.
+13.3.31. Executing OPT_DFF pass (perform DFF optimizations).
+13.3.32. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.3.33. Executing OPT_EXPR pass (perform const folding).
+13.3.34. Rerunning OPT passes. (Maybe there is more to do..)
+13.3.35. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.3.36. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+13.3.37. Executing OPT_MERGE pass (detect identical cells).
+13.3.38. Executing OPT_SHARE pass.
+13.3.39. Executing OPT_DFF pass (perform DFF optimizations).
+13.3.40. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.3.41. Executing OPT_EXPR pass (perform const folding).
+13.3.42. Rerunning OPT passes. (Maybe there is more to do..)
+13.3.43. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.3.44. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+13.3.45. Executing OPT_MERGE pass (detect identical cells).
+13.3.46. Executing OPT_SHARE pass.
+13.3.47. Executing OPT_DFF pass (perform DFF optimizations).
+13.3.48. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.3.49. Executing OPT_EXPR pass (perform const folding).
+13.3.50. Finished OPT passes. (There is nothing left to do.)
+13.4. Executing TECHMAP pass (map to technology primitives).
+13.4.1. Executing Verilog-2005 frontend: /opt/elements/tools/yosys/bin/../share/yosys/techmap.v
+13.4.2. Executing Verilog-2005 frontend: /home/daniel/work/aesc/ElemRV/tools/OpenROAD-flow-scripts/flow/platforms/common/lcu_kogge_stone.v
+13.4.3. Continuing TECHMAP pass.
+13.4.49. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.4.50. Executing OPT_EXPR pass (perform const folding).
+13.4.70. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.4.71. Executing OPT_EXPR pass (perform const folding).
+13.4.97. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.4.98. Executing OPT_EXPR pass (perform const folding).
+13.4.186. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.4.187. Executing OPT_EXPR pass (perform const folding).
+13.4.224. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.4.225. Executing OPT_EXPR pass (perform const folding).
+13.4.237. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+13.4.238. Executing OPT_EXPR pass (perform const folding).
+13.5. Executing OPT pass (performing simple optimizations).
+13.5.1. Executing OPT_EXPR pass (perform const folding).
+13.5.2. Executing OPT_MERGE pass (detect identical cells).
+13.5.3. Executing OPT_DFF pass (perform DFF optimizations).
+13.5.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.5.5. Finished fast OPT passes.
+13.6. Executing ABC pass (technology mapping using ABC).
+13.6.1. Extracting gate netlist of module `\BufferCC' to `<abc-temp-dir>/input.blif'..
+13.6.2. Extracting gate netlist of module `\BufferCC_2' to `<abc-temp-dir>/input.blif'..
+13.6.3. Extracting gate netlist of module `\BufferCC_3' to `<abc-temp-dir>/input.blif'..
+13.6.4. Extracting gate netlist of module `\BufferCC_4' to `<abc-temp-dir>/input.blif'..
+13.6.5. Extracting gate netlist of module `\BufferCC_6' to `<abc-temp-dir>/input.blif'..
+13.6.6. Extracting gate netlist of module `\SG13G2Top' to `<abc-temp-dir>/input.blif'..
+13.7. Executing OPT pass (performing simple optimizations).
+13.7.1. Executing OPT_EXPR pass (perform const folding).
+13.7.2. Executing OPT_MERGE pass (detect identical cells).
+13.7.3. Executing OPT_DFF pass (perform DFF optimizations).
+13.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+13.7.5. Finished fast OPT passes.
+13.8. Executing HIERARCHY pass (managing design hierarchy).
+13.8.1. Analyzing design hierarchy..
+13.8.2. Analyzing design hierarchy..
+13.9. Printing statistics.
+13.10. Executing CHECK pass (checking for obvious problems).
+14. Executing OPT pass (performing simple optimizations).
+14.1. Executing OPT_EXPR pass (perform const folding).
+14.2. Executing OPT_MERGE pass (detect identical cells).
+14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+14.5. Executing OPT_MERGE pass (detect identical cells).
+14.6. Executing OPT_DFF pass (perform DFF optimizations).
+14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+14.8. Executing OPT_EXPR pass (perform const folding).
+14.9. Rerunning OPT passes. (Maybe there is more to do..)
+14.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+14.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+14.12. Executing OPT_MERGE pass (detect identical cells).
+14.13. Executing OPT_DFF pass (perform DFF optimizations).
+14.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+14.15. Executing OPT_EXPR pass (perform const folding).
+14.16. Finished OPT passes. (There is nothing left to do.)
+15. Executing TECHMAP pass (map to technology primitives).
+15.1. Executing Verilog-2005 frontend: /home/daniel/work/aesc/ElemRV/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/cells_latch.v
+15.2. Continuing TECHMAP pass.
+16. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+16.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+17. Executing OPT pass (performing simple optimizations).
+17.1. Executing OPT_EXPR pass (perform const folding).
+17.2. Executing OPT_MERGE pass (detect identical cells).
+17.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+17.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+17.5. Executing OPT_MERGE pass (detect identical cells).
+17.6. Executing OPT_DFF pass (perform DFF optimizations).
+17.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+17.8. Executing OPT_EXPR pass (perform const folding).
+17.9. Rerunning OPT passes. (Maybe there is more to do..)
+17.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+17.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+17.12. Executing OPT_MERGE pass (detect identical cells).
+17.13. Executing OPT_DFF pass (perform DFF optimizations).
+17.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+17.15. Executing OPT_EXPR pass (perform const folding).
+17.16. Finished OPT passes. (There is nothing left to do.)
+abc -script /home/daniel/work/aesc/ElemRV/tools/OpenROAD-flow-scripts/flow/scripts/abc_speed.script -liberty /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib -constr /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/abc.constr -dont_use sg13g2_lgcp_1 -dont_use sg13g2_sighold -dont_use sg13g2_slgcp_1 -dont_use sg13g2_dfrbp_2 -D 50000
+18. Executing ABC pass (technology mapping using ABC).
+18.1. Extracting gate netlist of module `\BufferCC' to `<abc-temp-dir>/input.blif'..
+18.2. Extracting gate netlist of module `\BufferCC_2' to `<abc-temp-dir>/input.blif'..
+18.3. Extracting gate netlist of module `\BufferCC_3' to `<abc-temp-dir>/input.blif'..
+18.4. Extracting gate netlist of module `\BufferCC_4' to `<abc-temp-dir>/input.blif'..
+18.5. Extracting gate netlist of module `\BufferCC_6' to `<abc-temp-dir>/input.blif'..
+18.5.1. Executing ABC.
+18.5.2. Re-integrating ABC results.
+18.6. Extracting gate netlist of module `\SG13G2Top' to `<abc-temp-dir>/input.blif'..
+18.6.1. Executing ABC.
+18.6.2. Re-integrating ABC results.
+Took 73 seconds: abc -script /home/daniel/work/aesc/ElemRV/tools/OpenROAD-flow-scripts/flow/scripts/abc_speed.script -liberty /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib -constr /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/abc.constr -dont_use sg13g2_lgcp_1 -dont_use sg13g2_sighold -dont_use sg13g2_slgcp_1 -dont_use sg13g2_dfrbp_2 -D 50000
+19. Executing SETUNDEF pass (replace undef values with defined constants).
+20. Executing SPLITNETS pass (splitting up multi-bit signals).
+21. Executing OPT_CLEAN pass (remove unused cells and wires).
+22. Executing HILOMAP pass (mapping to constant drivers).
+23. Executing INSBUF pass (insert buffer cells for connected wires).
+24. Executing CHECK pass (checking for obvious problems).
+25. Printing statistics.
+26. Executing Verilog backend.
+exec cp /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/zibal/SG13G2Top.sdc /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/orfs//results/ihp-sg13g2/SG13G2Top/base/1_synth.sdc
+End of script. Logfile hash: 1b962b1aed, CPU: user 30.71s system 0.13s, MEM: 395.79 MB peak
+Yosys 0.48 (git sha1 aaa534749, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 71% 2x abc (74 sec), 8% 54x opt_clean (8 sec), ...
+Elapsed time: 1:44.46[h:]min:sec. CPU time: user 104.15 sys 0.30 (99%). Peak memory: 405768KB.

@@ -1,0 +1,9 @@
+OpenROAD v2.0-18663-g4a7c6dd8f 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 16 thread(s).
+source /home/daniel/work/aesc/ElemRV/build//ElemRV/SG13G2/zibal/SG13G2Top.macro.tcl
+[INFO MPL-0035] Macro soc.system_onChipCtrl.engine_ram placed. Bounding box (444.960um, 448.650um), (591.840um, 785.110um). Orientation MX
+[INFO MPL-0035] Macro soc.peripherals_aesCtrl.ctrl.ram placed. Bounding box (936.480um, 448.870um), (1353.120um, 640.210um). Orientation MX
+Elapsed time: 0:00.92[h:]min:sec. CPU time: user 0.78 sys 0.14 (100%). Peak memory: 295120KB.
