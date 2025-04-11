@@ -1,0 +1,46 @@
+v {xschem version=3.4.5 file_version=1.2
+* Copyright 2023 IHP PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+
+G {}
+K {type=inductor
+format="@spiceprefix@name @pinlist @model w=@w s=@s d=@d nr_r=@nr_r"
+template="name=L1
+model=simple_inductor
+w=5e-6
+s=2.1e-6
+d=114-6
+nr_r=1
+spiceprefix=L"
+drc="ind_drc @name @symname @model @w @s @d @nr_r"
+}
+V {}
+S {}
+E {}
+L 4 7.5 -26.25 7.5 -21.25 {}
+L 4 5 -23.75 10 -23.75 {}
+L 4 0 22.5 0 30 {}
+L 4 0 -30 0 -22.5 {}
+B 5 -2.5 -32.5 2.5 -27.5 {name=LA dir=inout}
+B 5 -2.5 27.5 2.5 32.5 {name=LB dir=inout}
+B 5 22.5 -2.5 17.5 2.5 {name=sub dir=inout}
+A 4 0 15 7.5 90 180 {}
+A 4 0 0 7.5 90 180 {}
+A 4 0 -15 7.5 90 180 {}
+T {LA} -10 -27.5 0 1 0.15 0.15 {layer=7}
+T {LB} -10 17.5 0 1 0.15 0.15 {layer=7}
+T {sub} 27.5 0 0 1 0.15 0.15 {layer=7}
+T {@name} 15 -33.75 0 0 0.2 0.2 {}
+T {@w} 15 -18.75 0 0 0.2 0.2 {}

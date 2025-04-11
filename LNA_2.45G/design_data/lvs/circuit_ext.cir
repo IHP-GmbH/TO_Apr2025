@@ -1,0 +1,35 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 04/04/2025 07:56
+
+.SUBCKT TOP LB|VSS LA|VDD V_POL VIN VOUT LA|in_dc_block mos_sd LB|tank_out
++ LA|cm_source LB|common_mode diode_pol
+M$1 LB|VSS LB|VSS LB|VSS LB|VSS sg13_lv_nmos L=0.13u W=180u AS=36p AD=36p
++ PS=264u PD=264u
+M$61 mos_sd LA|VDD LB|tank_out LB|VSS sg13_lv_nmos L=0.13u W=45u AS=8.7p
++ AD=8.7p PS=63.4u PD=63.4u
+M$116 LA|cm_source LB|common_mode mos_sd LB|VSS sg13_lv_nmos L=0.13u W=45u
++ AS=8.7p AD=8.7p PS=63.4u PD=63.4u
+M$191 diode_pol diode_pol LB|VSS LB|VSS sg13_lv_nmos L=0.13u W=5u AS=1.1p
++ AD=1.1p PS=8.2u PD=8.2u
+R$276 V_POL diode_pol rppd w=10u l=21.3u ps=0 b=0 m=1
+R$277 LB|common_mode diode_pol rhigh w=10u l=36.62u ps=0 b=0 m=1
+C$278 LA|VDD LB|VSS cap_cmim w=57.74u l=57.74u A=3333.9076p P=230.96u m=11
+C$279 LA|VDD LB|VSS cap_cmim w=57.74u l=30u A=1732.2p P=175.48u m=2
+C$284 LA|VDD LB|VSS cap_cmim w=30u l=57.74u A=1732.2p P=175.48u m=2
+C$285 LA|VDD LB|VSS cap_cmim w=30u l=80u A=2400p P=220u m=1
+C$286 LA|in_dc_block VIN cap_cmim w=57.74u l=57.74u A=3333.9076p P=230.96u m=2
+C$287 VOUT LB|VSS cap_cmim w=44.72u l=44.72u A=1999.8784p P=178.88u m=1
+C$292 LA|cm_source LB|common_mode cap_cmim w=20.53u l=20.53u A=421.4809p
++ P=82.12u m=1
+C$296 VOUT LB|tank_out cap_cmim w=29.44u l=29.44u A=866.7136p P=117.76u m=1
+C$298 LA|VDD LB|VSS cap_cmim w=57.74u l=35u A=2020.9p P=185.48u m=1
+D$300 LB|VSS LA|VDD V_POL diodevdd_2kv m=1
+D$301 LB|VSS LA|VDD VIN diodevdd_2kv m=1
+D$302 LB|VSS LA|VDD VOUT diodevdd_2kv m=1
+D$303 LA|VDD LB|VSS V_POL diodevss_2kv m=1
+D$304 LA|VDD LB|VSS VOUT diodevss_2kv m=1
+D$305 LA|VDD LB|VSS VIN diodevss_2kv m=1
+L$306 LA|in_dc_block LB|common_mode LB|VSS simple_inductor w=4.6u s=4.094u
++ d=167.67u nr_r=1
+L$307 LA|cm_source LB|VSS LB|VSS simple_inductor w=5u s=2.097u d=113.2u nr_r=1
+L$308 LB|tank_out LA|VDD LB|VSS simple_inductor w=4.3u s=3.995u d=176.26u nr_r=1
+.ENDS TOP
