@@ -1,0 +1,25 @@
+1. Executing Verilog-2005 frontend: /home/daniel/OpenROAD-flow-scripts/flow/designs/src/6502_cpu/6502_top.v
+2. Executing Verilog-2005 frontend: /home/daniel/OpenROAD-flow-scripts/flow/designs/src/6502_cpu/include.v
+3. Executing Verilog-2005 frontend: /home/daniel/OpenROAD-flow-scripts/flow/designs/src/6502_cpu/cpu.v
+4. Executing Liberty frontend: ./objects/ihp-sg13g2/6502_cpu/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+5. Executing Liberty frontend: ./objects/ihp-sg13g2/6502_cpu/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+6. Executing Liberty frontend: ./objects/ihp-sg13g2/6502_cpu/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+7. Executing Liberty frontend: ./objects/ihp-sg13g2/6502_cpu/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+8. Executing Verilog-2005 frontend: /home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/ihp-sg13g2/6502_cpu/base/clock_period.txt
+Setting clock period to 10000
+9. Executing HIERARCHY pass (managing design hierarchy).
+10. Executing AST frontend in derive mode using pre-parsed AST for module `\cpu_top'.
+10.1. Analyzing design hierarchy..
+10.2. Executing AST frontend in derive mode using pre-parsed AST for module `\CPU'.
+10.3. Analyzing design hierarchy..
+10.4. Analyzing design hierarchy..
+11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Warning: Ignoring module CPU because it contains processes (run 'proc' command first).
+12. Executing RTLIL backend.
+Warnings: 1 unique messages, 1 total
+End of script. Logfile hash: 90731bba40, CPU: user 0.15s system 0.03s, MEM: 20.00 MB peak
+Yosys 0.50 (git sha1 b5170e139, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 37% 6x read_liberty (0 sec), 37% 1x hierarchy (0 sec), ...
+Elapsed time: 0:00.35[h:]min:sec. CPU time: user 0.24 sys 0.05 (84%). Peak memory: 21504KB.

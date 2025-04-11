@@ -1,0 +1,35 @@
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+Warning: Box.destroy: already destroyed!
+[INFO] Reporting cells prior to loading DEF ...
+[INFO] Reading DEF ...
+[INFO] Clearing cells...
+[INFO] Merging GDS/OAS files...
+	/home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/gds/sg13g2_stdcell.gds
+	/home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/gds/sg13g2_io.gds
+	/home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/gds/bondpad_70x70.gds
+[INFO] Copying toplevel cell 'cpu_top'
+[INFO] Checking for missing cell from GDS/OAS...
+[INFO] All LEF cells have matching GDS/OAS cells
+[INFO] Checking for orphan cell in the final layout...
+[INFO] No orphan cells
+[INFO] Reading seal GDS/OAS file...
+	./designs/ihp-sg13g2/6502_cpu/sealring.gds
+[INFO] Merging 'sealring_top' as child of 'cpu_top'
+[INFO] Writing out GDS/OAS './results/ihp-sg13g2/6502_cpu/base/6_1_merged.gds'
+Elapsed time: 0:02.64[h:]min:sec. CPU time: user 2.23 sys 0.24 (93%). Peak memory: 518052KB.

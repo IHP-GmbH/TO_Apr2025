@@ -1,0 +1,67 @@
+OpenROAD v2.0-19149-g9ef9c213c 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+[INFO ODB-0227] LEF file: /home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_tech.lef, created 19 layers, 300 vias
+[INFO ODB-0227] LEF file: /home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_stdcell.lef, created 78 library cells
+[INFO ODB-0227] LEF file: /home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_io.lef, created 22 library cells
+[INFO ODB-0227] LEF file: /home/daniel/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/bondpad_70x70.lef, created 1 library cells
+[WARNING STA-0347] current_design for other than top cell not supported.
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+number instances in verilog is 3622
+[WARNING IFP-0028] Core area lower left (400.000, 400.000) snapped to (400.320, 400.680).
+[INFO IFP-0001] Added 20 rows of 2436 site CoreSite.
+[INFO PAD-0041] Placed 16 pads in IO_NORTH.
+[INFO PAD-0041] Placed 2 pads in IO_EAST.
+[INFO PAD-0041] Placed 15 pads in IO_SOUTH.
+[INFO PAD-0041] Placed 2 pads in IO_WEST.
+[INFO PAD-0116] Creating terminal for addr_0 on TopMetal2 at (509.000um, 70.000um) - (579.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for addr_1 on TopMetal2 at (411.000um, 740.000um) - (481.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_10 on TopMetal2 at (1157.000um, 740.000um) - (1227.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_11 on TopMetal2 at (1240.000um, 740.000um) - (1310.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_12 on TopMetal2 at (1323.000um, 740.000um) - (1393.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_13 on TopMetal2 at (1406.000um, 740.000um) - (1476.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_14 on TopMetal2 at (1489.000um, 740.000um) - (1559.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_15 on TopMetal2 at (421.000um, 70.000um) - (491.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for addr_2 on TopMetal2 at (494.000um, 740.000um) - (564.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_3 on TopMetal2 at (577.000um, 740.000um) - (647.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_4 on TopMetal2 at (660.000um, 740.000um) - (730.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_5 on TopMetal2 at (743.000um, 740.000um) - (813.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_6 on TopMetal2 at (826.000um, 740.000um) - (896.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_7 on TopMetal2 at (909.000um, 740.000um) - (979.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_8 on TopMetal2 at (991.000um, 740.000um) - (1061.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for addr_9 on TopMetal2 at (1074.000um, 740.000um) - (1144.000um, 810.000um)
+[INFO PAD-0116] Creating terminal for clk on TopMetal2 at (1391.000um, 70.000um) - (1461.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for data_0 on TopMetal2 at (598.000um, 70.000um) - (668.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for data_1 on TopMetal2 at (686.000um, 70.000um) - (756.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for data_2 on TopMetal2 at (774.000um, 70.000um) - (844.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for data_3 on TopMetal2 at (862.000um, 70.000um) - (932.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for data_4 on TopMetal2 at (950.000um, 70.000um) - (1020.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for data_5 on TopMetal2 at (1038.000um, 70.000um) - (1108.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for data_6 on TopMetal2 at (1126.000um, 70.000um) - (1196.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for data_7 on TopMetal2 at (1214.000um, 70.000um) - (1284.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for reset_n on TopMetal2 at (1303.000um, 70.000um) - (1373.000um, 140.000um)
+[INFO PAD-0116] Creating terminal for RW on TopMetal2 at (1479.000um, 70.000um) - (1549.000um, 140.000um)
+repair_timing -verbose -setup_margin 0 -repair_tns 100 -match_cell_footprint
+[WARNING RSZ-0021] no estimated parasitics. Using wire load models.
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0033] No hold violations found.
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1uA
+ power 1pW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 38306 u^2 43% utilization.
+Elapsed time: 0:01.39[h:]min:sec. CPU time: user 1.25 sys 0.08 (95%). Peak memory: 122836KB.

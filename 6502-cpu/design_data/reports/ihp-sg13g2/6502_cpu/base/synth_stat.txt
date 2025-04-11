@@ -1,0 +1,67 @@
+
+21. Printing statistics.
+
+=== cpu_top ===
+
+   Number of wires:               3732
+   Number of wire bits:           3732
+   Number of public wires:         145
+   Number of public wire bits:     145
+   Number of ports:                 27
+   Number of port bits:             27
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3622
+     sg13g2_IOPadIOVdd               2
+     sg13g2_IOPadIOVss               2
+     sg13g2_IOPadIn                  2
+     sg13g2_IOPadInOut4mA            8
+     sg13g2_IOPadOut4mA             17
+     sg13g2_IOPadVdd                 2
+     sg13g2_IOPadVss                 2
+     sg13g2_a21o_1                  62
+     sg13g2_a21oi_1                276
+     sg13g2_a21oi_2                  4
+     sg13g2_a221oi_1               166
+     sg13g2_a22oi_1                164
+     sg13g2_and2_1                  56
+     sg13g2_and3_1                  12
+     sg13g2_and4_1                  13
+     sg13g2_buf_1                  434
+     sg13g2_buf_16                   1
+     sg13g2_buf_2                   44
+     sg13g2_buf_4                   14
+     sg13g2_buf_8                   11
+     sg13g2_dfrbp_1                108
+     sg13g2_inv_1                  113
+     sg13g2_inv_2                    3
+     sg13g2_inv_4                    1
+     sg13g2_inv_8                    1
+     sg13g2_mux2_1                  48
+     sg13g2_mux4_1                   1
+     sg13g2_nand2_1                325
+     sg13g2_nand2_2                  2
+     sg13g2_nand2b_1                69
+     sg13g2_nand3_1                142
+     sg13g2_nand3b_1                18
+     sg13g2_nand4_1                 49
+     sg13g2_nor2_1                 414
+     sg13g2_nor2_2                   4
+     sg13g2_nor2b_1                 54
+     sg13g2_nor2b_2                  1
+     sg13g2_nor3_1                 138
+     sg13g2_nor3_2                   2
+     sg13g2_nor4_1                  67
+     sg13g2_nor4_2                   4
+     sg13g2_o21ai_1                438
+     sg13g2_or2_1                   41
+     sg13g2_or3_1                   15
+     sg13g2_or4_1                   13
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                202
+     sg13g2_xor2_1                  56
+
+   Chip area for module '\cpu_top': 542299.413600
+     of which used for sequential elements: 5094.835200 (0.94%)
+
