@@ -1,0 +1,32 @@
+** sch_path: /home/Joerdson/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/Mixer5GHz.sch
+.subckt Mixer5GHz RFN RFP VDC IFP IFN GND IDC OSCN OSCP VCC ICC GND
+M6 RFN LON net2 GND sg13_lv_nmos w=60.0u l=0.13u ng=10 m=1
+RL2 RFN VDC rppd w=4.50e-6 l=3.20e-6 m=1 b=0
+RL1 RFP VDC rppd w=4.50e-6 l=3.20e-6 m=1 b=0
+M8 RFN LOP net3 GND sg13_lv_nmos w=60.0u l=0.13u ng=10 m=1
+M7 RFP LON net3 GND sg13_lv_nmos w=60.0u l=0.13u ng=10 m=1
+M5 RFP LOP net2 GND sg13_lv_nmos w=60.0u l=0.13u ng=10 m=1
+M4 net3 IFN net1 GND sg13_lv_nmos w=90.0u l=0.13u ng=15 m=1
+M3 net2 IFP net1 GND sg13_lv_nmos w=90.0u l=0.13u ng=15 m=1
+M2 IDC IDC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=20 m=1
+M1 net1 IDC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=20 m=1
+M11 LOP LON net4 GND sg13_lv_nmos w=90.0u l=0.13u ng=15 m=1
+M12 LON LOP net4 GND sg13_lv_nmos w=90.0u l=0.13u ng=15 m=1
+M9 IDC IDC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=20 m=1
+M10 net4 IDC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=20 m=1
+C1 VDC LOP cap_cmim w=11.745e-6 l=9.445e-6 m=1
+R1 LOP VDC rppd w=4.4e-6 l=1.5e-6 m=1 b=0
+C2 VDC LON cap_cmim w=11.745e-6 l=9.445e-6 m=1
+R2 LON VDC rppd w=4.4e-6 l=1.5e-6 m=1 b=0
+M13 OSCP OSCN net5 GND sg13_lv_nmos w=90.0u l=0.13u ng=15 m=1
+M14 OSCN OSCP net5 GND sg13_lv_nmos w=90.0u l=0.13u ng=15 m=1
+M15 ICC ICC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=20 m=1
+M16 net5 ICC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=20 m=1
+C3 VCC OSCP cap_cmim w=19.1e-6 l=10.7e-6 m=1
+R3 OSCP VCC rppd w=4.35e-6 l=1.5e-6 m=1 b=0
+C4 VCC OSCN cap_cmim w=19.1e-6 l=10.7e-6 m=1
+R4 OSCN VCC rppd w=4.35e-6 l=1.5e-6 m=1 b=0
+**L1 VDC LON GND inductor2 w=10.0e-6 s=10.0e-6 d=222.0e-6 nr_r=2
+**L2 VDC LOP GND inductor2 w=10.0e-6 s=10.0e-6 d=222.0e-6 nr_r=2
+.ends
+.end
