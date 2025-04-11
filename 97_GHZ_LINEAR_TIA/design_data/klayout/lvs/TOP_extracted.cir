@@ -1,0 +1,48 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 08:37
+
+.SUBCKT TOP
+Q$1 VB2$1 \$9930 GND GND npn13G2 AE=0.063p PE=1.94u AB=6.6795p PB=11.92u
++ AC=6.670034p PC=11.91u NE=1 m=1
+Q$2 RFOUT VB2 \$9982 GND npn13G2 AE=0.063p PE=1.94u AB=25.605p PB=23.02u
++ AC=25.589984p PC=23.01u NE=4 m=4
+Q$6 VB2 \$10042 \$9991 GND npn13G2 AE=0.063p PE=1.94u AB=6.6795p PB=11.92u
++ AC=6.670034p PC=11.91u NE=1 m=1
+Q$7 \$10041 RFIN GND GND npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=10 m=10
+Q$17 \$10161 \$10161 \$10108 GND npn13G2 AE=0.063p PE=1.94u AB=6.6795p
++ PB=11.92u AC=6.670034p PC=11.91u NE=1 m=1
+Q$18 \$9982 \$10162 \$10163 GND npn13G2 AE=0.063p PE=1.94u AB=63.456p PB=45.22u
++ AC=63.429884p PC=45.21u NE=10 m=10
+Q$28 VCC2 \$10225 \$10161 GND npn13G2 AE=0.063p PE=1.94u AB=31.9135p PB=26.72u
++ AC=31.896634p PC=26.71u NE=5 m=5
+Q$33 \$10225 VB1 \$10041 GND npn13G2 AE=0.063p PE=1.94u AB=12.988p PB=15.62u
++ AC=12.976684p PC=15.61u NE=2 m=2
+Q$35 \$10287 \$10161 \$10162 GND npn13G2 AE=0.063p PE=1.94u AB=31.9135p
++ PB=26.72u AC=31.896634p PC=26.71u NE=5 m=5
+Q$40 VCC1 VCC1 \$10287 GND npn13G2 AE=0.063p PE=1.94u AB=12.988p PB=15.62u
++ AC=12.976684p PC=15.61u NE=2 m=2
+Q$42 VB1 \$10510 \$10519 GND npn13G2 AE=0.063p PE=1.94u AB=6.6795p PB=11.92u
++ AC=6.670034p PC=11.91u NE=1 m=1
+Q$43 \$10597 \$10598 GND GND npn13G2 AE=0.063p PE=1.94u AB=6.6795p PB=11.92u
++ AC=6.670034p PC=11.91u NE=1 m=1
+R$44 \$10163 GND rsil w=18u l=30u ps=0 b=0 m=1
+R$45 VCC2 RFOUT rppd w=20.6u l=2.1u ps=0 b=0 m=1
+R$46 RFIN \$10108 rppd w=4u l=13.3u ps=0 b=0 m=1
+R$47 GND \$10162 rppd w=4u l=2.9u ps=0 b=0 m=1
+R$48 \$10225 VCC1 rppd w=8.5u l=2u ps=0 b=0 m=1
+R$49 GND RFIN rhigh w=4u l=9.9u ps=0 b=0 m=1
+R$50 \$9930 VB2$1 rhigh w=3u l=2u ps=0 b=0 m=1
+R$51 VB2$1 \$9991 rhigh w=3u l=2u ps=0 b=0 m=1
+R$52 VCC2 VB2 rhigh w=3u l=1.94u ps=0 b=0 m=1
+R$53 \$10042 VB2 rhigh w=3u l=2u ps=0 b=0 m=1
+R$54 GND \$10161 rhigh w=8u l=8.2u ps=0 b=0 m=1
+R$55 VCC1 VB1 rhigh w=3u l=2.94u ps=0 b=0 m=1
+R$56 \$10510 VB1 rhigh w=3u l=2u ps=0 b=0 m=1
+R$57 \$10519 \$10597 rhigh w=3u l=2u ps=0 b=0 m=1
+R$58 \$10598 \$10597 rhigh w=3u l=2u ps=0 b=0 m=1
+C$59 VCC2 GND cap_cmim w=60u l=60u A=3600p P=240u m=2
+C$60 VB2 GND cap_cmim w=30u l=30u A=900p P=120u m=1
+C$62 VB1 GND cap_cmim w=30u l=30u A=900p P=120u m=1
+C$63 VCC1 GND cap_cmim w=20u l=100u A=2000p P=240u m=1
+C$64 VCC1 GND cap_cmim w=60u l=60u A=3600p P=240u m=2
+.ENDS TOP
