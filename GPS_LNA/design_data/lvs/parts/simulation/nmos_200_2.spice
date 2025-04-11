@@ -1,0 +1,7 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/lvs/parts/nmos_200_2.sch
+.subckt nmos_200_2 IBIAS_IN VSS OUT VBIAS_IN VDD
+*.PININFO IBIAS_IN:B VSS:B OUT:B VBIAS_IN:B VDD:B
+M2 net1 VBIAS_IN IBIAS_IN VSS rfnmos l=0.36u w=200.0u ng=200
+M1 OUT VDD net1 VSS rfnmos l=0.36u w=200.0u ng=200
+.ends
+.end

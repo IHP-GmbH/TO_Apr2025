@@ -1,0 +1,71 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/xschem/lna_tb_xyce_rf_npn_pad.sch
+**.subckt lna_tb_xyce_rf_npn_pad
+VDD VDD GND 1.5
+vin vin GND dc 1.5 ac 1
+XR2 net6 net1 rppd w=0.5e-6 l=3.6e-6 m=1 b=0
+XR1 net1 VDD rppd w=0.5e-6 l=1.8e-6 m=1 b=0
+XR3 net5 vin rsil w=0.5e-6 l=2.4e-6 m=1 b=0
+L1 VDD vout 26.83n
+L2 net3 GND 2.36n
+L3 net6 net4 39n
+XC1 net5 net6 GND cap_rfcmim w=60.0e-6 l=55.0e-6 wfeed=5.0e-6
+XC2 net5 net6 GND cap_rfcmim w=60.0e-6 l=55.0e-6 wfeed=5.0e-6
+XM3 net1 net1 GND GND sg13_lv_nmos w=10.0u l=0.36u ng=5 m=1 rfmode=1
+XX1 VDD bondpad size=100u shape=0 padtype=0
+XX3 vout bondpad size=100u shape=0 padtype=0
+XX4 GND bondpad size=100u shape=0 padtype=0
+XD1 VDD VDD GND diodevdd_2kv
+XD4 VDD VDD GND diodevss_2kv
+XX2 vin bondpad size=100u shape=0 padtype=0
+XQ1 vout VDD net2 GND npn13G2 Nx=10
+XQ2 net2 net4 net3 GND npn13G2 Nx=10
+XQ3 vout VDD net2 GND npn13G2 Nx=10
+XQ4 net2 net4 net3 GND npn13G2 Nx=10
+XQ5 vout VDD net2 GND npn13G2 Nx=10
+XQ6 net2 net4 net3 GND npn13G2 Nx=10
+XQ7 vout VDD net2 GND npn13G2 Nx=10
+XQ8 net2 net4 net3 GND npn13G2 Nx=10
+XD2 VDD vin GND diodevdd_2kv
+XD3 VDD vin GND diodevss_2kv
+XD5 VDD vout GND diodevdd_2kv
+XD6 VDD vout GND diodevss_2kv
+XD7 VDD GND GND diodevdd_2kv
+XD8 VDD GND GND diodevss_2kv
+XQ9 vout VDD net2 GND npn13G2 Nx=10
+XQ10 net2 net4 net3 GND npn13G2 Nx=10
+XQ11 vout VDD net2 GND npn13G2 Nx=10
+XQ12 net2 net4 net3 GND npn13G2 Nx=10
+XX6 net3 bondpad size=100u shape=0 padtype=0
+XD11 VDD net3 GND diodevdd_2kv
+XD12 VDD net3 GND diodevss_2kv
+XX7 net4 bondpad size=100u shape=0 padtype=0
+XD13 VDD net4 GND diodevdd_2kv
+XD14 VDD net4 GND diodevss_2kv
+XX8 net6 bondpad size=100u shape=0 padtype=0
+XD15 VDD net6 GND diodevdd_2kv
+XD16 VDD net6 GND diodevss_2kv
+**** begin user architecture code
+
+.lib /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/cornerHBT.lib hbt_typ
+.lib /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/cornerMOSlv.lib mos_tt
+.lib /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/resistors.lib res_typ
+.lib /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/cornerCAP.lib cap_typ
+.include /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/sg13g2_bondpad.lib
+.include /home/noritsuna/pdk/IHP-Open-PDK/ihp-sg13g2/libs.tech/xyce/models/sg13g2_esd.lib
+
+
+
+*.control
+.OPTIONS OUTPUT PRINTHEADER=false PRINTFOOTER=false
+.preprocess replaceground true
+.option temp=27
+
+.ac dec 1001 800meg 3000meg
+.print ac format=raw file=lna_tb_xyce_rf_npn_pad.raw V(Vout)
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.GLOBAL VDD
+.end

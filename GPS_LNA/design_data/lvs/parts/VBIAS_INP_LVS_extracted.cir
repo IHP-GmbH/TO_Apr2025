@@ -1,0 +1,9 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 05:36
+
+.SUBCKT VBIAS_INP_LVS
+C$1 \$4 \$3 \$1 rfcmim w=60u l=55u A=3300p P=230u m=1 wfeed=5u
+M$2 \$8 \$8 \$1 \$1 rfnmos L=0.36u W=10u AS=2.055p AD=2.055p PS=15.11u PD=15.11u
+R$12 \$4 \$11 rsil w=0.5u l=2.4u ps=0 b=0 m=1
+R$13 \$3 \$8 rppd w=0.5u l=3.6u ps=0 b=0 m=1
+R$14 \$8 \$5 rppd w=0.5u l=1.8u ps=0 b=0 m=1
+.ENDS VBIAS_INP_LVS

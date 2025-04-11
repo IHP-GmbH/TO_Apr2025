@@ -1,0 +1,6 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 05:21
+
+.SUBCKT nmos_200
+M$1 \$3 \$I1 \$2 \$1 rfnmos L=0.36u W=200u AS=120.565p AD=120.565p PS=442.13u
++ PD=442.13u
+.ENDS nmos_200

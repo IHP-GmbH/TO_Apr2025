@@ -1,0 +1,36 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 05/04/2025 05:28
+
+.SUBCKT PAD_DIODE
+X$1 \$1 \$3 via_stack$5
+X$2 \$1 \$1 via_stack$5
+X$3 \$1 \$3 \$6 diodevdd_2kv
+X$4 \$1 \$6 via_stack$3
+X$5 \$1 \$6 via_stack$3
+X$6 \$1 \$3 \$6 diodevss_2kv
+X$7 \$1 \$6 bondpad
+X$8 \$1 \$6 via_stack
+X$9 \$1 \$6 via_stack$1
+.ENDS PAD_DIODE
+
+.SUBCKT via_stack$5 \$1 \$2
+.ENDS via_stack$5
+
+.SUBCKT via_stack$3 \$1 \$2
+.ENDS via_stack$3
+
+.SUBCKT diodevss_2kv \$1 \$2 \$4
+D$1 \$2 \$1 \$4 diodevss_2kv m=1
+.ENDS diodevss_2kv
+
+.SUBCKT diodevdd_2kv \$1 \$2 \$5
+D$1 \$1 \$2 \$5 diodevdd_2kv m=1
+.ENDS diodevdd_2kv
+
+.SUBCKT via_stack$1 \$1 \$2
+.ENDS via_stack$1
+
+.SUBCKT via_stack \$1 \$2
+.ENDS via_stack
+
+.SUBCKT bondpad \$1 \$2
+.ENDS bondpad

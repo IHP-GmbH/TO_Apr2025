@@ -1,0 +1,8 @@
+** sch_path: /home/noritsuna/LNA/202504/submit/lvs/parts/pad_diode.sch
+.subckt pad_diode VDD VSS SIG
+*.PININFO VDD:B VSS:B SIG:B
+X1 SIG bondpad
+D1 VDD SIG VSS diodevdd_2kv
+D4 VDD SIG VSS diodevss_2kv
+.ends
+.end

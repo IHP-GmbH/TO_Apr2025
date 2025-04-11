@@ -1,0 +1,43 @@
+** sch_path: /home/noritsuna/LNA/202504/lna_npn_pad_lvs.sch
+.subckt lna_npn_pad_lvs VDD IN OUT VSS VBAIS_IN VBIAS_OUT IBIAS_IN
+*.PININFO VDD:B IN:I OUT:O VSS:B VBAIS_IN:B VBIAS_OUT:B IBIAS_IN:B
+R2 VBIAS_OUT net1 rppd w=0.5e-6 l=3.6e-6 m=1 b=0
+R1 net1 VDD rppd w=0.5e-6 l=1.8e-6 m=1 b=0
+R3 net3 IN rsil w=0.5e-6 l=2.4e-6 m=1 b=0
+C1 net3 VBIAS_OUT VSS rfcmim w=60.0e-6 l=55.0e-6 wfeed=5.0e-6
+M3 net1 net1 VSS VSS rfnmos l=0.36u w=10.0u ng=5
+X1 VDD bondpad
+X3 OUT bondpad
+X4 VSS bondpad
+D1 VDD VDD VSS diodevdd_2kv
+D4 VDD VDD VSS diodevss_2kv
+X2 IN bondpad
+Q1 OUT VDD net2 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q2 net2 VBAIS_IN IBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q3 OUT VDD net2 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q4 net2 VBAIS_IN IBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q5 OUT VDD net2 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q6 net2 VBAIS_IN IBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q7 OUT VDD net2 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q8 net2 VBAIS_IN IBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+D2 VDD IN VSS diodevdd_2kv
+D3 VDD IN VSS diodevss_2kv
+D5 VDD OUT VSS diodevdd_2kv
+D6 VDD OUT VSS diodevss_2kv
+D7 VDD VSS VSS diodevdd_2kv
+D8 VDD VSS VSS diodevss_2kv
+Q9 OUT VDD net2 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q10 net2 VBAIS_IN IBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+Q11 OUT VDD net2 VSS npn13G2 le=900e-9 we=70.0n m=10
+Q12 net2 VBAIS_IN IBIAS_IN VSS npn13G2 le=900e-9 we=70.0n m=10
+X6 IBIAS_IN bondpad
+D11 VDD IBIAS_IN VSS diodevdd_2kv
+D12 VDD IBIAS_IN VSS diodevss_2kv
+X7 VBAIS_IN bondpad
+D13 VDD VBAIS_IN VSS diodevdd_2kv
+D14 VDD VBAIS_IN VSS diodevss_2kv
+X8 VBIAS_OUT bondpad
+D15 VDD VBIAS_OUT VSS diodevdd_2kv
+D16 VDD VBIAS_OUT VSS diodevss_2kv
+.ends
+.end
