@@ -1,0 +1,151 @@
+
+==========================================================================
+global place report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+global place report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+global place report_worst_slack
+--------------------------------------------------------------------------
+worst slack 6.69
+
+==========================================================================
+global place report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: system_expander.link_regAddr[0]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: system_expander.link_regAddr[0]$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.25    0.00    0.00 ^ system_expander.link_regAddr[0]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.04    0.24    0.24 v system_expander.link_regAddr[0]$_DFFE_PP_/Q_N (sg13g2_dfrbp_1)
+                                         _0026_ (net)
+                  0.04    0.00    0.24 v _1242_/A (sg13g2_nand2_1)
+     1    0.00    0.03    0.03    0.27 ^ _1242_/Y (sg13g2_nand2_1)
+                                         _0570_ (net)
+                  0.03    0.00    0.27 ^ _1243_/B1 (sg13g2_o21ai_1)
+     1    0.00    0.03    0.04    0.31 v _1243_/Y (sg13g2_o21ai_1)
+                                         _0184_ (net)
+                  0.03    0.00    0.31 v system_expander.link_regAddr[0]$_DFFE_PP_/D (sg13g2_dfrbp_1)
+                                  0.31   data arrival time
+
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.15    0.15   clock uncertainty
+                          0.00    0.15   clock reconvergence pessimism
+                                  0.15 ^ system_expander.link_regAddr[0]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+                          0.01    0.16   library hold time
+                                  0.16   data required time
+-----------------------------------------------------------------------------
+                                  0.16   data required time
+                                 -0.31   data arrival time
+-----------------------------------------------------------------------------
+                                  0.15   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: io_i2c_sda_PAD (input port clocked by clk_core)
+Endpoint: system_expander.i2cCtrl.io_i2c_sda_read_buffercc/buffers_0$_SDFF_PN1_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          8.00    8.00 v input external delay
+     2    5.20    4.53    2.23   10.23 v io_i2c_sda_PAD (inout)
+                                         io_i2c_sda_PAD (net)
+                  4.53    0.00   10.23 v sg13g2_IOPad_io_i2c_sda/pad (sg13g2_IOPadInOut4mA)
+     1    0.01    0.13    2.77   13.01 v sg13g2_IOPad_io_i2c_sda/p2c (sg13g2_IOPadInOut4mA)
+                                         sg13g2_IOPad_io_i2c_sda_p2c (net)
+                  0.10    0.00   13.01 v system_expander.i2cCtrl.io_i2c_sda_read_buffercc/_5_/A_N (sg13g2_nand2b_1)
+     1    0.00    0.03    0.10   13.11 v system_expander.i2cCtrl.io_i2c_sda_read_buffercc/_5_/Y (sg13g2_nand2b_1)
+                                         system_expander.i2cCtrl.io_i2c_sda_read_buffercc/_0_ (net)
+                  0.03    0.00   13.11 v system_expander.i2cCtrl.io_i2c_sda_read_buffercc/buffers_0$_SDFF_PN1_/D (sg13g2_dfrbp_1)
+                                 13.11   data arrival time
+
+                  0.25   20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                                 19.85 ^ system_expander.i2cCtrl.io_i2c_sda_read_buffercc/buffers_0$_SDFF_PN1_/CLK (sg13g2_dfrbp_1)
+                         -0.06   19.79   library setup time
+                                 19.79   data required time
+-----------------------------------------------------------------------------
+                                 19.79   data required time
+                                -13.11   data arrival time
+-----------------------------------------------------------------------------
+                                  6.69   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: io_i2c_sda_PAD (input port clocked by clk_core)
+Endpoint: system_expander.i2cCtrl.io_i2c_sda_read_buffercc/buffers_0$_SDFF_PN1_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          8.00    8.00 v input external delay
+     2    5.20    4.53    2.23   10.23 v io_i2c_sda_PAD (inout)
+                                         io_i2c_sda_PAD (net)
+                  4.53    0.00   10.23 v sg13g2_IOPad_io_i2c_sda/pad (sg13g2_IOPadInOut4mA)
+     1    0.01    0.13    2.77   13.01 v sg13g2_IOPad_io_i2c_sda/p2c (sg13g2_IOPadInOut4mA)
+                                         sg13g2_IOPad_io_i2c_sda_p2c (net)
+                  0.10    0.00   13.01 v system_expander.i2cCtrl.io_i2c_sda_read_buffercc/_5_/A_N (sg13g2_nand2b_1)
+     1    0.00    0.03    0.10   13.11 v system_expander.i2cCtrl.io_i2c_sda_read_buffercc/_5_/Y (sg13g2_nand2b_1)
+                                         system_expander.i2cCtrl.io_i2c_sda_read_buffercc/_0_ (net)
+                  0.03    0.00   13.11 v system_expander.i2cCtrl.io_i2c_sda_read_buffercc/buffers_0$_SDFF_PN1_/D (sg13g2_dfrbp_1)
+                                 13.11   data arrival time
+
+                  0.25   20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                                 19.85 ^ system_expander.i2cCtrl.io_i2c_sda_read_buffercc/buffers_0$_SDFF_PN1_/CLK (sg13g2_dfrbp_1)
+                         -0.06   19.79   library setup time
+                                 19.79   data required time
+-----------------------------------------------------------------------------
+                                 19.79   data required time
+                                -13.11   data arrival time
+-----------------------------------------------------------------------------
+                                  6.69   slack (MET)
+
+
+
+==========================================================================
+global place report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.06e-04   8.32e-06   9.50e-08   1.14e-04  61.5%
+Combinational          3.72e-05   3.09e-05   1.09e-07   6.83e-05  36.9%
+Clock                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    6.79e-07   2.25e-06   2.80e-08   2.96e-06   1.6%
+----------------------------------------------------------------
+Total                  1.43e-04   4.15e-05   2.32e-07   1.85e-04 100.0%
+                          77.5%      22.4%       0.1%

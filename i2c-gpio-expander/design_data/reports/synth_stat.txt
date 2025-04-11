@@ -1,0 +1,167 @@
+
+21. Printing statistics.
+
+=== BufferCC ===
+
+   Number of wires:                 13
+   Number of wire bits:             27
+   Number of public wires:           4
+   Number of public wire bits:      18
+   Number of ports:                  4
+   Number of port bits:             18
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     sg13g2_dfrbp_1                  8
+     sg13g2_tiehi                    1
+
+   Chip area for module '\BufferCC': 384.652800
+     of which used for sequential elements: 377.395200 (98.11%)
+
+=== BufferCC_1 ===
+
+   Number of wires:                 10
+   Number of wire bits:             10
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of ports:                  4
+   Number of port bits:              4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     sg13g2_dfrbp_1                  2
+     sg13g2_nand2b_1                 2
+     sg13g2_tiehi                    1
+
+   Chip area for module '\BufferCC_1': 119.750400
+     of which used for sequential elements: 94.348800 (78.79%)
+
+=== SG13G2Top ===
+
+   Number of wires:               1315
+   Number of wire bits:           1315
+   Number of public wires:         230
+   Number of public wire bits:     230
+   Number of ports:                 16
+   Number of port bits:             16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1105
+     BufferCC                        1
+     BufferCC_1                      2
+     sg13g2_IOPadIn                  5
+     sg13g2_IOPadInOut16mA           8
+     sg13g2_IOPadInOut4mA            2
+     sg13g2_IOPadOut4mA              1
+     sg13g2_a21o_1                  10
+     sg13g2_a21oi_1                123
+     sg13g2_a21oi_2                  9
+     sg13g2_a221oi_1                21
+     sg13g2_a22oi_1                 22
+     sg13g2_and2_1                  50
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                   5
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                   5
+     sg13g2_buf_1                   64
+     sg13g2_buf_2                   24
+     sg13g2_buf_4                    3
+     sg13g2_buf_8                    2
+     sg13g2_dfrbp_1                188
+     sg13g2_inv_1                   36
+     sg13g2_mux2_1                  29
+     sg13g2_mux4_1                   8
+     sg13g2_nand2_1                 86
+     sg13g2_nand2_2                  9
+     sg13g2_nand2b_1                62
+     sg13g2_nand3_1                 46
+     sg13g2_nand3b_1                 6
+     sg13g2_nand4_1                 17
+     sg13g2_nor2_1                  78
+     sg13g2_nor2_2                   3
+     sg13g2_nor2b_1                 16
+     sg13g2_nor3_1                  16
+     sg13g2_nor3_2                   2
+     sg13g2_nor4_1                   7
+     sg13g2_nor4_2                   4
+     sg13g2_o21ai_1                 97
+     sg13g2_or2_1                    9
+     sg13g2_or3_1                    4
+     sg13g2_or4_1                    8
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                  6
+     sg13g2_xor2_1                   7
+
+   Area for cell type \BufferCC is unknown!
+   Area for cell type \BufferCC_1 is unknown!
+
+   Chip area for module '\SG13G2Top': 247978.890000
+     of which used for sequential elements: 8868.787200 (3.58%)
+
+=== design hierarchy ===
+
+   SG13G2Top                         1
+     BufferCC                        1
+     BufferCC_1                      2
+
+   Number of wires:               1348
+   Number of wire bits:           1362
+   Number of public wires:         244
+   Number of public wire bits:     258
+   Number of ports:                 28
+   Number of port bits:             42
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1121
+     sg13g2_IOPadIn                  5
+     sg13g2_IOPadInOut16mA           8
+     sg13g2_IOPadInOut4mA            2
+     sg13g2_IOPadOut4mA              1
+     sg13g2_a21o_1                  10
+     sg13g2_a21oi_1                123
+     sg13g2_a21oi_2                  9
+     sg13g2_a221oi_1                21
+     sg13g2_a22oi_1                 22
+     sg13g2_and2_1                  50
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                   5
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                   5
+     sg13g2_buf_1                   64
+     sg13g2_buf_2                   24
+     sg13g2_buf_4                    3
+     sg13g2_buf_8                    2
+     sg13g2_dfrbp_1                200
+     sg13g2_inv_1                   36
+     sg13g2_mux2_1                  29
+     sg13g2_mux4_1                   8
+     sg13g2_nand2_1                 86
+     sg13g2_nand2_2                  9
+     sg13g2_nand2b_1                66
+     sg13g2_nand3_1                 46
+     sg13g2_nand3b_1                 6
+     sg13g2_nand4_1                 17
+     sg13g2_nor2_1                  78
+     sg13g2_nor2_2                   3
+     sg13g2_nor2b_1                 16
+     sg13g2_nor3_1                  16
+     sg13g2_nor3_2                   2
+     sg13g2_nor4_1                   7
+     sg13g2_nor4_2                   4
+     sg13g2_o21ai_1                 97
+     sg13g2_or2_1                    9
+     sg13g2_or3_1                    4
+     sg13g2_or4_1                    8
+     sg13g2_tiehi                    4
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                  6
+     sg13g2_xor2_1                   7
+
+   Chip area for top module '\SG13G2Top': 248603.043600
+     of which used for sequential elements: 94.348800 (0.04%)
+

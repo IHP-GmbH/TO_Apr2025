@@ -1,0 +1,36 @@
+1. Executing Verilog-2005 frontend: /home/daniel/work/aesc/i2c-gpio-expander/build//I2cGpioExpander/SG13G2/zibal/SG13G2Top.v
+2. Executing Liberty frontend: /home/daniel/work/aesc/i2c-gpio-expander/build//I2cGpioExpander/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+3. Executing Liberty frontend: /home/daniel/work/aesc/i2c-gpio-expander/build//I2cGpioExpander/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+4. Executing Liberty frontend: /home/daniel/work/aesc/i2c-gpio-expander/build//I2cGpioExpander/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+5. Executing Liberty frontend: /home/daniel/work/aesc/i2c-gpio-expander/build//I2cGpioExpander/SG13G2/orfs//objects/ihp-sg13g2/SG13G2Top/base/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib
+6. Executing Verilog-2005 frontend: /home/daniel/work/aesc/i2c-gpio-expander/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/cells_clkgate.v
+Using ABC speed script.
+Extracting clock period from SDC file: /home/daniel/work/aesc/i2c-gpio-expander/build//I2cGpioExpander/SG13G2/orfs//results/ihp-sg13g2/SG13G2Top/base/clock_period.txt
+Setting clock period to 20000
+7. Executing HIERARCHY pass (managing design hierarchy).
+8. Executing AST frontend in derive mode using pre-parsed AST for module `\SG13G2Top'.
+8.1. Analyzing design hierarchy..
+8.2. Executing AST frontend in derive mode using pre-parsed AST for module `\I2cGpioExpander'.
+8.3. Analyzing design hierarchy..
+8.4. Executing AST frontend in derive mode using pre-parsed AST for module `\InterruptCtrl'.
+8.5. Executing AST frontend in derive mode using pre-parsed AST for module `\GpioCtrl'.
+8.6. Executing AST frontend in derive mode using pre-parsed AST for module `\I2cDeviceCtrl'.
+8.7. Analyzing design hierarchy..
+8.8. Executing AST frontend in derive mode using pre-parsed AST for module `\BufferCC_1'.
+8.9. Executing AST frontend in derive mode using pre-parsed AST for module `\BufferCC'.
+8.10. Analyzing design hierarchy..
+8.11. Analyzing design hierarchy..
+9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Warning: Ignoring module BufferCC_1 because it contains processes (run 'proc' command first).
+Warning: Ignoring module I2cDeviceCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module GpioCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module InterruptCtrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module I2cGpioExpander because it contains processes (run 'proc' command first).
+Warning: Ignoring module SG13G2Top because it contains processes (run 'proc' command first).
+Warning: Ignoring module BufferCC because it contains processes (run 'proc' command first).
+10. Executing RTLIL backend.
+Warnings: 7 unique messages, 7 total
+End of script. Logfile hash: 4a22121662, CPU: user 0.06s system 0.00s, MEM: 17.97 MB peak
+Yosys 0.48 (git sha1 aaa534749, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 60% 6x read_liberty (0 sec), 19% 1x hierarchy (0 sec), ...
+Elapsed time: 0:00.13[h:]min:sec. CPU time: user 0.12 sys 0.00 (93%). Peak memory: 19768KB.

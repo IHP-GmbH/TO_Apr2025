@@ -1,0 +1,489 @@
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack 6.77
+
+==========================================================================
+finish report_clock_skew
+--------------------------------------------------------------------------
+Clock clk_core
+   0.76 source latency system_expander.link_regAddr[1]$_DFFE_PP_/CLK ^
+  -0.72 target latency system_expander.link_regAddr[4]$_DFFE_PP_/CLK ^
+   0.15 clock uncertainty
+   0.00 CRPR
+--------------
+   0.19 setup skew
+
+
+==========================================================================
+finish report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: system_expander.link_regAddr[0]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: system_expander.link_regAddr[0]$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.04    0.09    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.06    0.00    0.00 ^ clkbuf_0_clock/A (sg13g2_buf_1)
+    16    0.12    0.47    0.39    0.39 ^ clkbuf_0_clock/X (sg13g2_buf_1)
+                                         clknet_0_clock (net)
+                  0.47    0.00    0.40 ^ clkbuf_4_12_0_clock/A (sg13g2_buf_2)
+     2    0.01    0.05    0.19    0.59 ^ clkbuf_4_12_0_clock/X (sg13g2_buf_2)
+                                         clknet_4_12_0_clock (net)
+                  0.05    0.00    0.59 ^ clkbuf_5_24__f_clock/A (sg13g2_buf_1)
+     7    0.04    0.16    0.17    0.76 ^ clkbuf_5_24__f_clock/X (sg13g2_buf_1)
+                                         clknet_5_24__leaf_clock (net)
+                  0.16    0.00    0.76 ^ system_expander.link_regAddr[0]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.04    0.22    0.98 v system_expander.link_regAddr[0]$_DFFE_PP_/Q_N (sg13g2_dfrbp_1)
+                                         _0026_ (net)
+                  0.04    0.00    0.98 v _1242_/A (sg13g2_nand2_1)
+     1    0.00    0.03    0.04    1.01 ^ _1242_/Y (sg13g2_nand2_1)
+                                         _0570_ (net)
+                  0.03    0.00    1.01 ^ _1243_/B1 (sg13g2_o21ai_1)
+     1    0.00    0.03    0.04    1.06 v _1243_/Y (sg13g2_o21ai_1)
+                                         _0184_ (net)
+                  0.03    0.00    1.06 v system_expander.link_regAddr[0]$_DFFE_PP_/D (sg13g2_dfrbp_1)
+                                  1.06   data arrival time
+
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.04    0.09    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.06    0.00    0.00 ^ clkbuf_0_clock/A (sg13g2_buf_1)
+    16    0.12    0.47    0.39    0.39 ^ clkbuf_0_clock/X (sg13g2_buf_1)
+                                         clknet_0_clock (net)
+                  0.47    0.00    0.40 ^ clkbuf_4_12_0_clock/A (sg13g2_buf_2)
+     2    0.01    0.05    0.19    0.59 ^ clkbuf_4_12_0_clock/X (sg13g2_buf_2)
+                                         clknet_4_12_0_clock (net)
+                  0.05    0.00    0.59 ^ clkbuf_5_24__f_clock/A (sg13g2_buf_1)
+     7    0.04    0.16    0.17    0.76 ^ clkbuf_5_24__f_clock/X (sg13g2_buf_1)
+                                         clknet_5_24__leaf_clock (net)
+                  0.16    0.00    0.76 ^ system_expander.link_regAddr[0]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+                          0.15    0.91   clock uncertainty
+                          0.00    0.91   clock reconvergence pessimism
+                         -0.01    0.90   library hold time
+                                  0.90   data required time
+-----------------------------------------------------------------------------
+                                  0.90   data required time
+                                 -1.06   data arrival time
+-----------------------------------------------------------------------------
+                                  0.16   slack (MET)
+
+
+
+==========================================================================
+finish report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: system_expander.irq_low_masks[2]$_SDFFE_PN0P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: io_i2c_interrupt_PAD (output port clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.04    0.09    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.06    0.00    0.00 ^ clkbuf_0_clock/A (sg13g2_buf_1)
+    16    0.12    0.47    0.39    0.39 ^ clkbuf_0_clock/X (sg13g2_buf_1)
+                                         clknet_0_clock (net)
+                  0.47    0.01    0.40 ^ clkbuf_4_14_0_clock/A (sg13g2_buf_2)
+     2    0.01    0.05    0.19    0.59 ^ clkbuf_4_14_0_clock/X (sg13g2_buf_2)
+                                         clknet_4_14_0_clock (net)
+                  0.05    0.00    0.59 ^ clkbuf_5_28__f_clock/A (sg13g2_buf_1)
+     7    0.04    0.15    0.16    0.76 ^ clkbuf_5_28__f_clock/X (sg13g2_buf_1)
+                                         clknet_5_28__leaf_clock (net)
+                  0.15    0.00    0.76 ^ system_expander.irq_low_masks[2]$_SDFFE_PN0P_/CLK (sg13g2_dfrbp_1)
+     3    0.02    0.08    0.30    1.06 ^ system_expander.irq_low_masks[2]$_SDFFE_PN0P_/Q (sg13g2_dfrbp_1)
+                                         system_expander.irq_low_ctrl.io_masks[2] (net)
+                  0.08    0.00    1.06 ^ _1864_/A (sg13g2_and2_1)
+     2    0.01    0.04    0.11    1.17 ^ _1864_/X (sg13g2_and2_1)
+                                         _0332_ (net)
+                  0.04    0.00    1.17 ^ _1977_/B (sg13g2_nor2_1)
+     1    0.01    0.04    0.04    1.21 v _1977_/Y (sg13g2_nor2_1)
+                                         _0438_ (net)
+                  0.04    0.00    1.21 v _1979_/C (sg13g2_nand4_1)
+     1    0.01    0.08    0.08    1.29 ^ _1979_/Y (sg13g2_nand4_1)
+                                         _0440_ (net)
+                  0.08    0.00    1.29 ^ _1980_/D (sg13g2_or4_1)
+     1    0.09    0.38    0.33    1.62 ^ _1980_/X (sg13g2_or4_1)
+                                         sg13g2_IOPad_io_i2c_interrupt_c2p (net)
+                  0.51    0.02    1.64 ^ sg13g2_IOPad_io_i2c_interrupt/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    4.68    3.44    5.08 ^ sg13g2_IOPad_io_i2c_interrupt/pad (sg13g2_IOPadOut4mA)
+                                         io_i2c_interrupt_PAD (net)
+                  3.51    0.00    5.08 ^ io_i2c_interrupt_PAD (inout)
+                                  5.08   data arrival time
+
+                         20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (propagated)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                         -8.00   11.85   output external delay
+                                 11.85   data required time
+-----------------------------------------------------------------------------
+                                 11.85   data required time
+                                 -5.08   data arrival time
+-----------------------------------------------------------------------------
+                                  6.77   slack (MET)
+
+
+
+==========================================================================
+finish report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: system_expander.irq_low_masks[2]$_SDFFE_PN0P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: io_i2c_interrupt_PAD (output port clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.04    0.09    0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+                                         clock (net)
+                  0.06    0.00    0.00 ^ clkbuf_0_clock/A (sg13g2_buf_1)
+    16    0.12    0.47    0.39    0.39 ^ clkbuf_0_clock/X (sg13g2_buf_1)
+                                         clknet_0_clock (net)
+                  0.47    0.01    0.40 ^ clkbuf_4_14_0_clock/A (sg13g2_buf_2)
+     2    0.01    0.05    0.19    0.59 ^ clkbuf_4_14_0_clock/X (sg13g2_buf_2)
+                                         clknet_4_14_0_clock (net)
+                  0.05    0.00    0.59 ^ clkbuf_5_28__f_clock/A (sg13g2_buf_1)
+     7    0.04    0.15    0.16    0.76 ^ clkbuf_5_28__f_clock/X (sg13g2_buf_1)
+                                         clknet_5_28__leaf_clock (net)
+                  0.15    0.00    0.76 ^ system_expander.irq_low_masks[2]$_SDFFE_PN0P_/CLK (sg13g2_dfrbp_1)
+     3    0.02    0.08    0.30    1.06 ^ system_expander.irq_low_masks[2]$_SDFFE_PN0P_/Q (sg13g2_dfrbp_1)
+                                         system_expander.irq_low_ctrl.io_masks[2] (net)
+                  0.08    0.00    1.06 ^ _1864_/A (sg13g2_and2_1)
+     2    0.01    0.04    0.11    1.17 ^ _1864_/X (sg13g2_and2_1)
+                                         _0332_ (net)
+                  0.04    0.00    1.17 ^ _1977_/B (sg13g2_nor2_1)
+     1    0.01    0.04    0.04    1.21 v _1977_/Y (sg13g2_nor2_1)
+                                         _0438_ (net)
+                  0.04    0.00    1.21 v _1979_/C (sg13g2_nand4_1)
+     1    0.01    0.08    0.08    1.29 ^ _1979_/Y (sg13g2_nand4_1)
+                                         _0440_ (net)
+                  0.08    0.00    1.29 ^ _1980_/D (sg13g2_or4_1)
+     1    0.09    0.38    0.33    1.62 ^ _1980_/X (sg13g2_or4_1)
+                                         sg13g2_IOPad_io_i2c_interrupt_c2p (net)
+                  0.51    0.02    1.64 ^ sg13g2_IOPad_io_i2c_interrupt/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    4.68    3.44    5.08 ^ sg13g2_IOPad_io_i2c_interrupt/pad (sg13g2_IOPadOut4mA)
+                                         io_i2c_interrupt_PAD (net)
+                  3.51    0.00    5.08 ^ io_i2c_interrupt_PAD (inout)
+                                  5.08   data arrival time
+
+                         20.00   20.00   clock clk_core (rise edge)
+                          0.00   20.00   clock network delay (propagated)
+                         -0.15   19.85   clock uncertainty
+                          0.00   19.85   clock reconvergence pessimism
+                         -8.00   11.85   output external delay
+                                 11.85   data required time
+-----------------------------------------------------------------------------
+                                 11.85   data required time
+                                 -5.08   data arrival time
+-----------------------------------------------------------------------------
+                                  6.77   slack (MET)
+
+
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+io_i2c_scl_PAD                          1.20    4.92   -3.72 (VIOLATED)
+io_i2c_sda_PAD                          1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_i2c_scl/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_i2c_sda/pad             1.20    4.92   -3.72 (VIOLATED)
+sg13g2_IOPad_io_i2c_interrupt/pad       1.20    4.68   -3.48 (VIOLATED)
+io_i2c_interrupt_PAD                    1.20    4.68   -3.48 (VIOLATED)
+IO_BOND_sg13g2_IOPad_io_i2c_scl/pad     3.00    3.69   -0.69 (VIOLATED)
+sg13g2_IOPad_io_gpio_5/pad              1.20    1.44   -0.24 (VIOLATED)
+sg13g2_IOPad_io_gpio_6/pad              1.20    1.43   -0.23 (VIOLATED)
+sg13g2_IOPad_io_gpio_4/pad              1.20    1.43   -0.23 (VIOLATED)
+sg13g2_IOPad_io_gpio_3/pad              1.20    1.43   -0.23 (VIOLATED)
+sg13g2_IOPad_io_gpio_0/pad              1.20    1.43   -0.23 (VIOLATED)
+sg13g2_IOPad_io_gpio_1/pad              1.20    1.43   -0.23 (VIOLATED)
+sg13g2_IOPad_io_gpio_2/pad              1.20    1.43   -0.23 (VIOLATED)
+sg13g2_IOPad_io_gpio_7/pad              1.20    1.43   -0.23 (VIOLATED)
+io_gpio_0_PAD                           1.20    1.43   -0.23 (VIOLATED)
+io_gpio_1_PAD                           1.20    1.43   -0.23 (VIOLATED)
+io_gpio_2_PAD                           1.20    1.43   -0.23 (VIOLATED)
+io_gpio_3_PAD                           1.20    1.43   -0.23 (VIOLATED)
+io_gpio_4_PAD                           1.20    1.43   -0.23 (VIOLATED)
+io_gpio_5_PAD                           1.20    1.43   -0.23 (VIOLATED)
+io_gpio_6_PAD                           1.20    1.43   -0.23 (VIOLATED)
+io_gpio_7_PAD                           1.20    1.43   -0.23 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+clkbuf_0_clock/X                          8     16     -8 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+io_gpio_0_PAD                           0.50    5.28   -4.78 (VIOLATED)
+io_gpio_1_PAD                           0.50    5.28   -4.78 (VIOLATED)
+io_gpio_2_PAD                           0.50    5.28   -4.78 (VIOLATED)
+io_gpio_3_PAD                           0.50    5.28   -4.78 (VIOLATED)
+io_gpio_4_PAD                           0.50    5.28   -4.78 (VIOLATED)
+io_gpio_5_PAD                           0.50    5.28   -4.78 (VIOLATED)
+io_gpio_6_PAD                           0.50    5.28   -4.78 (VIOLATED)
+io_gpio_7_PAD                           0.50    5.28   -4.78 (VIOLATED)
+sg13g2_IOPad_io_gpio_0/pad              0.50    5.28   -4.78 (VIOLATED)
+sg13g2_IOPad_io_gpio_1/pad              0.50    5.28   -4.78 (VIOLATED)
+sg13g2_IOPad_io_gpio_2/pad              0.50    5.28   -4.78 (VIOLATED)
+sg13g2_IOPad_io_gpio_3/pad              0.50    5.28   -4.78 (VIOLATED)
+sg13g2_IOPad_io_gpio_4/pad              0.50    5.28   -4.78 (VIOLATED)
+sg13g2_IOPad_io_gpio_5/pad              0.50    5.28   -4.78 (VIOLATED)
+sg13g2_IOPad_io_gpio_6/pad              0.50    5.28   -4.78 (VIOLATED)
+sg13g2_IOPad_io_gpio_7/pad              0.50    5.28   -4.78 (VIOLATED)
+io_address_0_PAD                        0.50    5.24   -4.74 (VIOLATED)
+io_address_1_PAD                        0.50    5.24   -4.74 (VIOLATED)
+io_address_2_PAD                        0.50    5.24   -4.74 (VIOLATED)
+io_clock_PAD                            0.50    5.24   -4.74 (VIOLATED)
+io_reset_PAD                            0.50    5.24   -4.74 (VIOLATED)
+io_i2c_scl_PAD                          0.50    5.21   -4.71 (VIOLATED)
+io_i2c_sda_PAD                          0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_i2c_scl/pad             0.50    5.21   -4.71 (VIOLATED)
+sg13g2_IOPad_io_i2c_sda/pad             0.50    5.21   -4.71 (VIOLATED)
+io_i2c_interrupt_PAD                    0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPad_io_i2c_interrupt/pad       0.50    5.00   -4.50 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-3.717238664627075
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+1.2000000476837158
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-3.0977
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+-8.0
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+8.0
+
+==========================================================================
+finish max_fanout_check_slack_limit
+--------------------------------------------------------------------------
+-1.0000
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-4.784241676330566
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.5
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-9.5685
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 23
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 1
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 27
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+finish report_checks -path_delay max reg to reg
+--------------------------------------------------------------------------
+Startpoint: system_expander.link_regAddr[4]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: system_expander.irq_low_masks[1]$_SDFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.39    0.39 ^ clkbuf_0_clock/X (sg13g2_buf_1)
+   0.20    0.59 ^ clkbuf_4_13_0_clock/X (sg13g2_buf_2)
+   0.13    0.72 ^ clkbuf_5_27__f_clock/X (sg13g2_buf_1)
+   0.00    0.72 ^ system_expander.link_regAddr[4]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+   0.25    0.97 v system_expander.link_regAddr[4]$_DFFE_PP_/Q (sg13g2_dfrbp_1)
+   0.08    1.05 v _1276_/X (sg13g2_buf_8)
+   0.53    1.57 ^ _1368_/Y (sg13g2_nor4_1)
+   0.18    1.75 v _1604_/Y (sg13g2_nand3_1)
+   0.13    1.88 v _1605_/X (sg13g2_buf_1)
+   0.17    2.05 v fanout195/X (sg13g2_buf_1)
+   0.55    2.60 ^ _1707_/Y (sg13g2_nor4_1)
+   0.22    2.82 ^ _1708_/X (sg13g2_buf_1)
+   0.19    3.01 ^ fanout183/X (sg13g2_buf_1)
+   0.10    3.11 v _1713_/Y (sg13g2_nand2_1)
+   0.09    3.20 ^ _1714_/Y (sg13g2_a21oi_1)
+   0.00    3.20 ^ system_expander.irq_low_masks[1]$_SDFFE_PN0P_/D (sg13g2_dfrbp_1)
+           3.20   data arrival time
+
+  20.00   20.00   clock clk_core (rise edge)
+   0.00   20.00   clock source latency
+   0.00   20.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.39   20.39 ^ clkbuf_0_clock/X (sg13g2_buf_1)
+   0.20   20.59 ^ clkbuf_4_10_0_clock/X (sg13g2_buf_2)
+   0.15   20.74 ^ clkbuf_5_20__f_clock/X (sg13g2_buf_1)
+   0.00   20.74 ^ system_expander.irq_low_masks[1]$_SDFFE_PN0P_/CLK (sg13g2_dfrbp_1)
+  -0.15   20.59   clock uncertainty
+   0.00   20.59   clock reconvergence pessimism
+  -0.11   20.48   library setup time
+          20.48   data required time
+---------------------------------------------------------
+          20.48   data required time
+          -3.20   data arrival time
+---------------------------------------------------------
+          17.28   slack (MET)
+
+
+
+==========================================================================
+finish report_checks -path_delay min reg to reg
+--------------------------------------------------------------------------
+Startpoint: system_expander.link_regAddr[0]$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: system_expander.link_regAddr[0]$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.39    0.39 ^ clkbuf_0_clock/X (sg13g2_buf_1)
+   0.20    0.59 ^ clkbuf_4_12_0_clock/X (sg13g2_buf_2)
+   0.17    0.76 ^ clkbuf_5_24__f_clock/X (sg13g2_buf_1)
+   0.00    0.76 ^ system_expander.link_regAddr[0]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+   0.22    0.98 v system_expander.link_regAddr[0]$_DFFE_PP_/Q_N (sg13g2_dfrbp_1)
+   0.04    1.01 ^ _1242_/Y (sg13g2_nand2_1)
+   0.04    1.06 v _1243_/Y (sg13g2_o21ai_1)
+   0.00    1.06 v system_expander.link_regAddr[0]$_DFFE_PP_/D (sg13g2_dfrbp_1)
+           1.06   data arrival time
+
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPad_io_clock/p2c (sg13g2_IOPadIn)
+   0.39    0.39 ^ clkbuf_0_clock/X (sg13g2_buf_1)
+   0.20    0.59 ^ clkbuf_4_12_0_clock/X (sg13g2_buf_2)
+   0.17    0.76 ^ clkbuf_5_24__f_clock/X (sg13g2_buf_1)
+   0.00    0.76 ^ system_expander.link_regAddr[0]$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+   0.15    0.91   clock uncertainty
+   0.00    0.91   clock reconvergence pessimism
+  -0.01    0.90   library hold time
+           0.90   data required time
+---------------------------------------------------------
+           0.90   data required time
+          -1.06   data arrival time
+---------------------------------------------------------
+           0.16   slack (MET)
+
+
+
+==========================================================================
+finish critical path target clock latency max path
+--------------------------------------------------------------------------
+0.7231
+
+==========================================================================
+finish critical path target clock latency min path
+--------------------------------------------------------------------------
+0.7360
+
+==========================================================================
+finish critical path source clock latency min path
+--------------------------------------------------------------------------
+0.0000
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+5.0780
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+6.7720
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+133.359590
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.08e-04   1.08e-05   9.50e-08   1.18e-04  56.7%
+Combinational          3.73e-05   4.45e-05   1.20e-07   8.19e-05  39.2%
+Clock                  1.88e-06   4.32e-06   1.19e-06   7.39e-06   3.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    6.86e-07   6.06e-07   2.80e-08   1.32e-06   0.6%
+----------------------------------------------------------------
+Total                  1.47e-04   6.02e-05   1.43e-06   2.09e-04 100.0%
+                          70.5%      28.8%       0.7%
