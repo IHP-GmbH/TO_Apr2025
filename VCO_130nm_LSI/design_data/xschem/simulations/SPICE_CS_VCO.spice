@@ -1,0 +1,66 @@
+** sch_path: /foss/designs/CS_VCO.sch
+**.subckt CS_VCO VDD VSS V1FB Vin V2FB
+*.iopin VDD
+*.iopin VSS
+*.opin V1FB
+*.ipin Vin
+*.opin V2FB
+x1 VDD Vp net3 net1 net2 net4 Vn VSS vcocelltb
+x3 VDD Vp net12 net4 net3 net13 Vn VSS vcocelltb
+XM2 Vn Vn VSS VSS sg13_lv_nmos w=10.0u l=0.13u ng=2 m=1 rfmode=1
+XM3 Vn Vp VDD VDD sg13_lv_pmos W=10.0u L=0.13u ng=2 m=1 rfmode=1
+XM4 Vp Vp VDD VDD sg13_lv_pmos W=10.0u L=0.13u ng=2 m=1 rfmode=1
+x4 VDD Vp net2 net5 net6 net1 Vn VSS vcocelltb
+XVIP V1FB bondpad size=60u shape=0 padtype=0
+XX8 VDD bondpad size=60u shape=0 padtype=0
+XVCTRL Vin bondpad size=60u shape=0 padtype=0
+XM1 Vp Vin VSS VSS sg13_lv_nmos w=10.0u l=0.13u ng=2 m=1 rfmode=1
+XM8 net9 net7 VSS VSS sg13_lv_nmos w=3.2u l=0.13u ng=2 m=1 rfmode=1
+XM9 net9 net7 VDD VDD sg13_lv_pmos W=6.4u L=0.13u ng=2 m=1 rfmode=1
+XM11 VSS net8 net14 VSS sg13_lv_nmos w=1.6u l=0.13u ng=1 m=1 rfmode=1
+XM12 net14 net8 VDD VDD sg13_lv_pmos W=3.2u L=0.13u ng=1 m=1 rfmode=1
+XM23 V1FB net9 VSS VSS sg13_lv_nmos w=3.2u l=0.13u ng=6 m=1 rfmode=1
+XM24 V1FB net9 VDD VDD sg13_lv_pmos W=6.4u L=0.13u ng=6 m=1 rfmode=1
+x2 VDD Vp net10 net13 net12 net11 Vn VSS vcocelltb
+x6 VDD Vp net5 net11 net10 net6 Vn VSS vcocelltb
+XM5 VSS net5 net8 VSS sg13_lv_nmos w=0.4u l=0.13u ng=1 m=1 rfmode=1
+XM6 net8 net5 VDD VDD sg13_lv_pmos W=0.80u L=0.13u ng=1 m=1 rfmode=1
+XM7 VSS net14 net7 VSS sg13_lv_nmos w=3.2u l=0.13u ng=1 m=1 rfmode=1
+XM10 net7 net14 VDD VDD sg13_lv_pmos W=6.4u L=0.13u ng=1 m=1 rfmode=1
+XGND VSS bondpad size=60u shape=0 padtype=0
+XGND1 VSS bondpad size=60u shape=0 padtype=0
+XVIN V2FB bondpad size=60u shape=0 padtype=0
+XM13 net18 net15 VSS VSS sg13_lv_nmos w=3.2u l=0.13u ng=2 m=1 rfmode=1
+XM14 net18 net15 VDD VDD sg13_lv_pmos W=6.4u L=0.13u ng=2 m=1 rfmode=1
+XM15 net16 net17 net20 net16 sg13_lv_nmos w=1.6u l=0.13u ng=1 m=1 rfmode=1
+XM16 net20 net17 VDD VDD sg13_lv_pmos W=3.2u L=0.13u ng=1 m=1 rfmode=1
+XM17 V2FB net18 VSS VSS sg13_lv_nmos w=3.2u l=0.13u ng=6 m=1 rfmode=1
+XM18 V2FB net18 VDD VDD sg13_lv_pmos W=6.4u L=0.13u ng=6 m=1 rfmode=1
+XM19 net19 net6 net17 net19 sg13_lv_nmos w=0.4u l=0.13u ng=1 m=1 rfmode=1
+XM20 net17 net6 VDD VDD sg13_lv_pmos W=0.80u L=0.13u ng=1 m=1 rfmode=1
+XM21 VSS net20 net15 VSS sg13_lv_nmos w=3.2u l=0.13u ng=1 m=1 rfmode=1
+XM22 net15 net20 VDD VDD sg13_lv_pmos W=6.4u L=0.13u ng=1 m=1 rfmode=1
+XGND2 net19 bondpad size=60u shape=0 padtype=0
+XGND3 net16 bondpad size=60u shape=0 padtype=0
+**** begin user architecture code
+
+.include diodes.lib
+.include sg13g2_bondpad.lib
+.lib /foss/pdks/ihp-sg13g2/libs.tech/ngspice/models/cornerRES.lib res_typ_stat
+.lib cornerMOSlv.lib mos_ff
+.lib /foss/pdks/ihp-sg13g2/libs.tech/ngspice/models/cornerCAP.lib cap_wcs
+
+
+
+.param temp=127
+.control
+save all
+tran 50p 100n
+write tran_VCO.raw
+.endc
+
+
+**** end user architecture code
+**.ends
+
+
