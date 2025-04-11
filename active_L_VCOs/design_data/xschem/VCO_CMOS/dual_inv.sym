@@ -1,0 +1,30 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname nw=@nw nl=@nl pw=@pw pl=@pl"
+template="name=x1 symname=diffamp nw=1u nl=1u pw=2u pl=1u" 
+}
+V {}
+S {}
+E {}
+L 4 30 -20 80 -20 {}
+L 4 30 20 80 20 {}
+L 4 -0 -80 -0 -30 {}
+L 4 0 30 0 80 {}
+B 5 -2.5 -82.5 2.5 -77.5 {name=VDD dir=inout}
+B 5 77.5 -22.5 82.5 -17.5 {name=out_p dir=inout}
+B 5 77.5 17.5 82.5 22.5 {name=out_n dir=inout}
+B 5 -82.5 -22.5 -77.5 -17.5 {name=in_n dir=inout}
+B 5 -82.5 17.5 -77.5 22.5 {name=in_p dir=inout}
+B 5 -2.5 77.5 2.5 82.5 {name=VSS dir=inout}
+P 4 5 -80 -60 -80 -60 -80 60 80 0 -80 -60 {}
+T {@symname} -41 -6 0 0 0.3 0.3 {}
+T {@name} -35 -22 0 0 0.2 0.2 {}
+T {VDD} 25 -64 0 1 0.2 0.2 {}
+T {out_p} 75 -34 0 1 0.2 0.2 {}
+T {out_n} 75 6 0 1 0.2 0.2 {}
+T {in_n} -75 -34 0 0 0.2 0.2 {}
+T {in_p} -75 6 0 0 0.2 0.2 {}
+T {VSS} 25 56 0 1 0.2 0.2 {}
+T {nmos: @nw\\/@nl} 32.5 45.5 0 0 0.2 0.2 {}
+T {pmos: @pw\\/@pl} 32.5 30.5 0 0 0.2 0.2 {}
