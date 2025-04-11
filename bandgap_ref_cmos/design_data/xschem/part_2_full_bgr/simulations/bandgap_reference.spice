@@ -1,0 +1,72 @@
+** sch_path: /home/pedersen/projects/tapeouts/TO_Apr2025/bandgap_ref_cmos/design_data/xschem/part_2_full_bgr/bandgap_reference.sch
+**.subckt bandgap_reference v+ v- Vo1 VBG
+*.iopin v+
+*.iopin v-
+*.iopin Vo1
+*.opin VBG
+XM8 GND v- net1 GND sg13_lv_nmos w=150n l=10u ng=1 m=1
+XM6 net1 net1 vdd vdd sg13_lv_pmos w=1u l=1u ng=1 m=1
+XM7 net2 net1 vdd vdd sg13_lv_pmos w=1u l=1u ng=1 m=1
+XM9 v- net2 vdd vdd sg13_lv_pmos w=200n l=4u ng=1 m=1
+I1 net3 GND 80u
+V1 vdd GND PULSE(0 1.2 0 1 0 1 2)
+XM1 GND v+ v- GND sg13_lv_nmos w=7.14u l=5u ng=4 m=1
+XM2 GND net4 net4 GND sg13_lv_nmos w=21u l=5u ng=8 m=1
+XM3 v- Vo1 vdd vdd sg13_lv_pmos w=15u l=5u ng=8 m=1
+XM4 v+ Vo1 vdd vdd sg13_lv_pmos w=15u l=5u ng=8 m=1
+XM5 VBG Vo1 vdd vdd sg13_lv_pmos w=16u l=5u ng=8 m=1
+XC3 VBG GND cap_cmim w=72.965e-6 l=72.965e-6 m=1
+XR3 net4 v+ rppd w=0.5e-6 l=194.345e-6 m=1 b=0
+XR1 GND v+ rppd w=0.6e-6 l=194.345e-6 m=1 b=0
+XR2 GND VBG rppd w=0.5e-6 l=192.395e-6 m=1 b=0
+XC1 net2 GND cap_cmim w=18.195e-6 l=18.195e-6 m=1
+x1 vdd net3 v+ v- Vo1 GND two_stage_OTA
+**** begin user architecture code
+
+
+.control
+.save all
+alter V1 dc 1.2
+op
+dc TEMP 100 -50 -5
+write bgr_temp.raw
+.endc
+
+.control
+.save all
+tran 1m 2
+write bandgap_transient.raw
+.endc
+
+
+
+.lib /home/pedersen/IHP-Open-PDK/ihp-sg13g2/libs.tech/ngspice/models/cornerCAP.lib cap_typ
+.lib /home/pedersen/IHP-Open-PDK/ihp-sg13g2/libs.tech/ngspice/models/cornerRES.lib res_typ
+.lib cornerMOSlv.lib mos_tt
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  two_stage_OTA.sym # of pins=6
+** sym_path: /home/pedersen/projects/tapeouts/TO_Apr2025/bandgap_ref_cmos/design_data/xschem/part_1_OTA/two_stage_OTA.sym
+** sch_path: /home/pedersen/projects/tapeouts/TO_Apr2025/bandgap_ref_cmos/design_data/xschem/part_1_OTA/two_stage_OTA.sch
+.subckt two_stage_OTA vdd iout v+ v- vout vss
+*.iopin v-
+*.iopin v+
+*.iopin vss
+*.iopin vdd
+*.iopin iout
+*.iopin vout
+XM4 vss net1 net3 vss sg13_lv_nmos w=720n l=9.75u ng=1 m=1
+XM3 vss net1 net1 vss sg13_lv_nmos w=720n l=9.75u ng=1 m=1
+XM1 net1 v- net2 vdd sg13_lv_pmos w=3.64u l=3.7u ng=1 m=2
+XM2 net3 v+ net2 vdd sg13_lv_pmos w=3.64u l=3.7u ng=1 m=2
+XM5 net2 iout vdd vdd sg13_lv_pmos w=5.3u l=1.95u ng=1 m=1
+XM7 vout iout vdd vdd sg13_lv_pmos w=75u l=2.08u ng=8 m=1
+XM6 vss net3 vout vss sg13_lv_nmos w=28.8u l=9.75u ng=4 m=1
+XM9 iout iout vdd vdd sg13_lv_pmos w=75u l=2.08u ng=8 m=1
+XC2 net3 vout cap_cmim w=22.295e-6 l=22.295e-6 m=1
+.ends
+
+.GLOBAL GND
+.end
