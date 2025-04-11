@@ -1,0 +1,111 @@
+* Qucs 25.1.0  /container/shared-folder/final_target_gain.sch
+
+.SUBCKT IHP_PDK_nonlinear_components_npn13G2  gnd c b e bn t Nx=1  
+.INCLUDE   ../../.qucs/IHP-Open-PDK-main/ihp-sg13g2/libs.tech/ngspice/models/sg13g2_hbt_mod.lib
+X1 c b e bn t  npn13G2 Nx={Nx} 
+.ENDS
+  
+.GLOBAL 0:G
+Xnpn13G25 0  _net0 _net1 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G26 0  _net0 _net1 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G27 0  _net2 _net3 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G28 0  _net2 _net3 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G29 0  _net4 _net5 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=10
+Xnpn13G30 0  _net4 _net5 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=10
+Xcap_rfcmim49 0  RFIN _net1 VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=6.3U
+Xcap_rfcmim50 0  _net0 VSS VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=13.4U
+Xcap_rfcmim51 0  VSS _net3 VSS IHP_PDK_basic_components_cap_rfcmim l=3.1U w=6.7U
+Xcap_rfcmim52 0  _net2 VSS VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=10.5U
+Xcap_rfcmim53 0  VSS _net5 VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=7.1U
+Xcap_rfcmim54 0  _net4 RFOUT VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=7.8U
+Xrppd1 0  VCC1 _net0 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xrppd2 0  VCC1 _net2 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xrppd3 0  VCC2 _net4 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xcap_cmim49 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim50 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim51 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim52 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim53 0  VCC2 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim54 0  VCC2 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xnpn13G31 0  _net6 _net7 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G32 0  _net6 _net7 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G33 0  _net8 _net9 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G34 0  _net8 _net9 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G35 0  _net10 _net11 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=10
+Xnpn13G36 0  _net10 _net11 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=10
+Xcap_rfcmim55 0  RFIN _net7 VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=6.3U
+Xcap_rfcmim56 0  _net6 VSS VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=13.4U
+Xcap_rfcmim57 0  VSS _net9 VSS IHP_PDK_basic_components_cap_rfcmim l=3.1U w=6.7U
+Xcap_rfcmim58 0  _net8 VSS VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=10.5U
+Xcap_rfcmim59 0  VSS _net11 VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=7.1U
+Xcap_rfcmim60 0  _net10 RFOUT VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=7.8U
+Xrppd4 0  VCC1 _net6 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xrppd5 0  VCC1 _net8 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xrppd6 0  VCC2 _net10 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xcap_cmim55 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim56 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim57 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim58 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim59 0  VCC2 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim60 0  VCC2 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xnpn13G37 0  _net12 _net13 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G38 0  _net12 _net13 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G39 0  _net14 _net15 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G40 0  _net14 _net15 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G41 0  _net16 _net17 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=10
+Xnpn13G42 0  _net16 _net17 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=10
+Xcap_rfcmim61 0  RFIN _net13 VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=6.3U
+Xcap_rfcmim62 0  _net12 VSS VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=13.4U
+Xcap_rfcmim63 0  VSS _net15 VSS IHP_PDK_basic_components_cap_rfcmim l=3.1U w=6.7U
+Xcap_rfcmim64 0  _net14 VSS VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=10.5U
+Xcap_rfcmim65 0  VSS _net17 VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=7.1U
+Xcap_rfcmim66 0  _net16 RFOUT VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=7.8U
+Xrppd7 0  VCC1 _net12 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xrppd8 0  VCC1 _net14 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xrppd9 0  VCC2 _net16 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xcap_cmim61 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim62 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim63 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim64 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim65 0  VCC2 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim66 0  VCC2 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xnpn13G43 0  _net18 _net19 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G44 0  _net18 _net19 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G45 0  _net20 _net21 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G46 0  _net20 _net21 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=8
+Xnpn13G47 0  _net22 _net23 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=10
+Xnpn13G48 0  _net22 _net23 VSS VSS IHP_PDK_nonlinear_components_npn13G2 Nx=10
+Xcap_rfcmim67 0  RFIN _net19 VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=6.3U
+Xcap_rfcmim68 0  _net18 VSS VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=13.4U
+Xcap_rfcmim69 0  VSS _net21 VSS IHP_PDK_basic_components_cap_rfcmim l=3.1U w=6.7U
+Xcap_rfcmim70 0  _net20 VSS VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=10.5U
+Xcap_rfcmim71 0  VSS _net23 VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=7.1U
+Xcap_rfcmim72 0  _net22 RFOUT VSS IHP_PDK_basic_components_cap_rfcmim l=3U w=7.8U
+Xrppd10 0  VCC1 _net18 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xrppd11 0  VCC1 _net20 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xrppd12 0  VCC2 _net22 IHP_PDK_basic_components_rppd w=35U l=0.5U m=1
+Xcap_cmim67 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim68 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim69 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim70 0  VCC1 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim71 0  VCC2 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xcap_cmim72 0  VCC2 VSS IHP_PDK_basic_components_cap_cmim l=15U w=30U
+Xrsil62 0  RFIN RFIN IHP_PDK_basic_components_rsil w=2.04U l=28U m=1
+Xrsil64 0  RFOUT RFOUT IHP_PDK_basic_components_rsil w=2.04U l=28U m=1
+Xrsil49 0  _net1 VBB1 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil65 0  _net3 VBB1 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil66 0  _net5 VBB2 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil67 0  _net11 VBB2 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil68 0  _net9 VBB1 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil69 0  _net7 VBB1 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil70 0  _net13 VBB1 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil71 0  _net15 VBB1 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil72 0  _net17 VBB2 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil73 0  _net19 VBB1 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil74 0  _net21 VBB1 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil75 0  _net23 VBB2 IHP_PDK_basic_components_rsil w=2U l=11U m=1
+Xrsil76 0  RFIN RFIN IHP_PDK_basic_components_rsil w=2.04U l=28U m=1
+Xrsil61 0  RFIN RFIN IHP_PDK_basic_components_rsil w=2.04U l=28U m=1
+Xrsil63 0  RFOUT RFOUT IHP_PDK_basic_components_rsil w=2.04U l=28U m=1
+Xrsil77 0  RFOUT RFOUT IHP_PDK_basic_components_rsil w=2.04U l=28U m=1
+.END
