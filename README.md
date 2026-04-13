@@ -1,111 +1,48 @@
-# TO_Apr2025
+## Sample request process
 
-This repository is dedicated to the submission of open-source designs based on the IHP 130nm BiCMOS Open Source PDK, specifically for the April 2025 edition of the IHP OpenMPW program. In the future, this repository will be integrated as a submodule within the `IHP-Open-DesignLib` repository.
+The April 2025 run is out of the fab, so you can now ask for samples.
 
-ReadTheDocs documentation for IHP-Open-DesignLib is [here](https://ihp-open-ip.readthedocs.io/en/latest/)
+### What you must do
 
-> [!IMPORTANT]  
-> Submission deadline is **Apr 7**.
+1. Sign the Hiring Agreement: [samples.rtf](drc/samples.rtf) (download it)
+2. Send the signed file by email to:
+   - **herman(at)ihp-microelectronics.com**
+   - **nkehder(at)ihp-microelectronics.com**
 
-## Physical design constraint
+### Required data in your email
 
-1. Please align with the layout design rules which can be found [here](https://github.com/IHP-GmbH/IHP-Open-PDK/blob/main/ihp-sg13g2/libs.doc/doc/SG13G2_os_layout_rules.pdf)
-2. The area granted to a community member is 2 mm^2 It includes the sealring.
-3. The sealring can be found among KLayout PyCells.
+Please include all contact details:
 
-## Submission process
+- **Name Last Name**
+- **Address**
+- **Phone number**
+- **Email**
 
-To submit for our OpenMPW run you have to have a valid github account. 
-Make a fork of this repository and then create a separate directory for your design next to the `ExampleDesign` (you can also make a copy and rename it). 
-Structure your data according to our recommendations, update the documentation and push your files to your fork, then make a pull request.
+### Packaging options and bonding plan
 
-> [!CAUTION]  
-> On each PR a github action will be triggered to run a minimal DRC precheck (rejection test). Please consider it and do not upload many `gds` files.
+- By default, we send **10 bare dies**.
+- If you need a packaged chip, we can offer **QFN** or **open QFN** with pin counts from **24 to 64**.
+- For bonding, we need a bonding plan.
+- Example bonding plan for a 64-pin QFN: [QFN64.svg](drc/QFN64.svg) (download it)
 
-Once you make a PR a github action will run a minimum set of DRC checks on each `gds` and `gds.zip` file. 
-If the test passes it means that your design is manufacturable at our pilot line not ensuring the reliability. 
-An example of a failure is shown on the following figure 
+Feel free to use this file and also copy and paste the image of your layout in the center, marking pin number 1.
 
-![drc fail](drc/failure.png)
-
-The detailed report can be downloaded from a link, which can be found at the end of the section `Details->Archive DRC Results` as show on the image:
-
-
-![drc report](drc/report.png)
-
-
-> [!TIP]  
-> To be sure that the design meets the minimum DRC requirements we strongly recommend to run it using klayout DRC as shown below:
->![drc klayout](drc/klayout_mindrc.png)
-
-
-> [!TIP]  
-> The DRC rejection test supports `gds` and `gds.zip` files. In a case of a large file (> 50 MB) you can split the `zip` file and upload multiple `zip` files. On linux you can perform it using the following command:
-
-```
-zip -s 50m -r file.gds.zip output_folder/
-```
-
-## Directory structure
-
-If you are a designer, we propose the following directory structure, which we and the community would appreciate you using. Please ensure that the design you submit is reproducible, meaning it should include all the information necessary to replicate the design.
-
-
-```text
-📁<design_name>
- ┣ 📁design_data
- ┃ ┗ 📁tool1/format1/step1
- ┃  ┗ data
- ┃ ┗ 📁tool2/format2/setp2
- ┃  ┗ data
- ┣ 📁doc
- ┃ ┣ 📜specification
- ┃ ┣ ...
- ┗ 📁val <- validation/verification >
- ```
-The first segmentation separates the `design data` from a `documentation` and `verification/validation data`.
-
-### Design data directory structure
-
-The `design data` should be structured using tool/format/step specific scheme.   
-
-Here you can find some examples:
-
-Example1
-```
-  📁design_data
-   ┗ 📁xschem
-   ┗ 📁ngspice
-   ┗ 📁klayout
-   ┗ 📁drc
-   ┗ 📁lvs
-   ┗ 📁gds
-```
-Example2
-```
-  📁design_data
-   ┗ 📁verilog
-   ┗ 📁sdc
-   ┗ 📁lef
-   ┗ 📁gds
-   ┗ 📁lib
-   ┗ 📁drc
-   ┗ 📁lvs
-   ┗ 📁reports
-   ┗ 📁log
-   ```
-### Documentation
-
-In the `doc` folder the designer should provide the documentation. The best option would be any markdown language compatible with `sphinx` and thus ReadTheDocs system. It would make it easy to create a central point for documentation in the `IHP-Open-DesignLib` repository. 
-We also provide a basic template for the documentation in the `ExampleDesign/doc` directory. To use it execute the following:
-```
-cd ExampleDesign
-pip install -r requirements.txt
-make docs
-```
-Go to `source` directory to modify the `rst` files.
-
-### Verification/validation data
-
-Since one of the principal goals of the OpenMPW runs is a creation of a silicon proven designs we expect from the designers to measure and validate the submitted design and then open source measurements results.
-This directory at the moment of the submission is only a placeholder for future measurements data. A report from the measurements can be part of the documentation. 
+| Design name | Short one line description | Location directory |
+| --- | --- | --- |
+| 160GHz_LNA | Project directory present; description not yet extracted from in-repo docs. | `160GHz_LNA/` |
+| 40_GHZ_LOW_NOISE_TIA | Project directory present; description not yet extracted from in-repo docs. | `40_GHZ_LOW_NOISE_TIA/` |
+| 6502-cpu | Project directory present; description not yet extracted from in-repo docs. | `6502-cpu/` |
+| 97_GHZ_LINEAR_TIA | Project directory present; description not yet extracted from in-repo docs. | `97_GHZ_LINEAR_TIA/` |
+| DC_to_130_GHz_TIA | Project directory present; description not yet extracted from in-repo docs. | `DC_to_130_GHz_TIA/` |
+| GPS_LNA | Project directory present; description not yet extracted from in-repo docs. | `GPS_LNA/` |
+| Greyhound | Project directory present; description not yet extracted from in-repo docs. | `Greyhound/` |
+| Mixer5GHz | Project directory present; description not yet extracted from in-repo docs. | `Mixer5GHz/` |
+| PA_180GHz | Project directory present; description not yet extracted from in-repo docs. | `PA_180GHz/` |
+| TTIHP0p2 | Project directory present; description not yet extracted from in-repo docs. | `TTIHP0p2/` |
+| TTIHP25a | Project directory present; description not yet extracted from in-repo docs. | `TTIHP25a/` |
+| VCO_130nm_LSI | Project directory present; description not yet extracted from in-repo docs. | `VCO_130nm_LSI/` |
+| active_L_VCOs | Project directory present; description not yet extracted from in-repo docs. | `active_L_VCOs/` |
+| ascon | Project directory present; description not yet extracted from in-repo docs. | `ascon/` |
+| bandgap_ref_cmos | Project directory present; description not yet extracted from in-repo docs. | `bandgap_ref_cmos/` |
+| elemrv-n | Project directory present; description not yet extracted from in-repo docs. | `elemrv-n/` |
+| i2c-gpio-expander | 8-bit I2C GPIO expander design files for IHP SG13G2; part of TO_Apr2025 MPW run. | `i2c-gpio-expander/` |
