@@ -4,7 +4,7 @@ The April 2025 run is out of the fab, so you can now ask for samples.
 
 ### What you must do
 
-1. Sign the Hiring Agreement: [samples.rtf](drc/samples.rtf) (download it)
+1. Sign the Hiring Agreement: [samples.rtf](https://github.com/IHP-GmbH/TO_Sep2025/blob/main/drc/samples.rtf) (download i
 2. Send the signed file by email to:
    - **herman(at)ihp-microelectronics.com**
    - **nkehder(at)ihp-microelectronics.com**
